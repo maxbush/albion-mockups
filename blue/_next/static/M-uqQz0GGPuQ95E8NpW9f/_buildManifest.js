@@ -5,7 +5,7 @@ self.__BUILD_MANIFEST = {
     "fallback": []
   },
   "sortedPages": [
-    "/_app",
-    "/_error"
+    "/albion-mockups/blue/_app",
+    "/albion-mockups/blue/_error"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
