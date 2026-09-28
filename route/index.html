@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ALBION — Oxford · The route</title>
+<meta name="description" content="Independent education consultancy in Oxford for international families: one route from school preparation to the MBA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f3eee3;
+  --paper-2:#ece5d5;
+  --ink:#141f2c;
+  --ink-soft:#3d4b5d;
+  --line:#16293e;
+  --gold:#a9833c;
+  --gold-soft:#c8a24a;
+  --rule:rgba(20,31,44,.16);
+  --radius:4px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Hanken Grotesk",system-ui,sans-serif;
+  font-size:17px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--gold-soft);color:var(--ink)}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:0 clamp(20px,4vw,56px)}
+.plate{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--ink-soft);
+}
+.plate::before{content:"";width:9px;height:9px;border-radius:50%;border:2.5px solid var(--gold);flex:none}
+.plate--dark{color:rgba(243,238,227,.72)}
+
+/* ---------- masthead ---------- */
+.mast{
+  position:fixed;inset:0 0 auto;z-index:50;
+  background:rgba(243,238,227,.88);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--rule);
+}
+.mast .wrap{display:flex;align-items:center;gap:28px;height:64px}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.brand b{font-size:18px;font-weight:800;letter-spacing:.14em}
+.brand span{font-size:10px;letter-spacing:.3em;color:var(--ink-soft);text-transform:uppercase}
+.nav{display:flex;gap:22px;margin-left:auto;font-size:13px;font-weight:600;letter-spacing:.06em}
+.nav a{text-decoration:none;color:var(--ink-soft);padding:4px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--ink);border-color:var(--gold)}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  text-decoration:none;cursor:pointer;border:0;
+  padding:13px 22px;border-radius:var(--radius);
+  transition:transform .25s,box-shadow .25s,background .25s;
+}
+.btn--gold{background:var(--gold);color:#fdfaf2}
+.btn--gold:hover{background:#8f6e2c;transform:translateY(-1px);box-shadow:0 8px 20px rgba(20,31,44,.18)}
+.btn--ghost{border:1px solid rgba(243,238,227,.4);color:#f3eee3}
+.btn--ghost:hover{border-color:var(--gold-soft)}
+.btn--ink{border:1px solid var(--ink);color:var(--ink);background:transparent}
+.btn--ink:hover{background:var(--ink);color:var(--paper)}
+.mast .btn{padding:10px 18px;font-size:11px}
+.burger{display:none;margin-left:auto;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.hero__art{position:absolute;inset:0}
+.hero__art img{width:100%;height:100%;object-fit:cover;object-position:center 68%;opacity:.9}
+.hero__art::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(243,238,227,.35) 0%,rgba(243,238,227,0) 30%,rgba(243,238,227,.82) 78%,var(--paper) 100%);
+}
+.hero .wrap{position:relative;padding-top:120px;padding-bottom:clamp(48px,7vh,90px)}
+.hero__kick{max-width:640px}
+.hero h1{
+  font-size:clamp(2.9rem,1.6rem+5.4vw,6.2rem);
+  line-height:.98;font-weight:700;letter-spacing:-.02em;
+  max-width:14ch;margin:18px 0 22px;
+}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero__lede{max-width:52ch;color:var(--ink-soft);font-size:clamp(1rem,.95rem+.3vw,1.15rem)}
+.hero__cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.hero__meta{
+  display:flex;flex-wrap:wrap;gap:0;margin-top:44px;
+  border-top:1px solid var(--rule);
+}
+.hero__meta div{padding:18px 34px 0 0;margin-right:34px}
+.hero__meta b{display:block;font-size:28px;font-weight:800;letter-spacing:-.01em}
+.hero__meta span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* ---------- section scaffolding ---------- */
+section{padding:clamp(70px,9vw,130px) 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:clamp(34px,4.5vw,60px)}
+.sec-head h2{font-size:clamp(1.9rem,1.3rem+2.6vw,3.3rem);line-height:1.04;font-weight:700;letter-spacing:-.015em;max-width:22ch}
+.sec-head h2 em{font-style:normal;color:var(--gold)}
+.sec-head p{max-width:44ch;color:var(--ink-soft);font-size:.98rem}
+
+/* ---------- pull quote ---------- */
+.quote{border-left:3px solid var(--gold);padding:6px 0 6px clamp(22px,3vw,42px)}
+.quote p{
+  font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;
+  font-size:clamp(1.5rem,1.1rem+2.2vw,2.6rem);line-height:1.18;max-width:24ch;
+}
+.quote cite{display:block;margin-top:14px;font-style:normal;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)}
+.principle{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,80px);align-items:start}
+.principle__body p{color:var(--ink-soft);margin-bottom:16px}
+.principle__body p b{color:var(--ink);font-weight:600}
+
+/* ---------- the line map ---------- */
+.map-sec{background:var(--ink);color:var(--paper);position:relative}
+.map-sec .plate{color:rgba(243,238,227,.65)}
+.map-sec .sec-head h2{color:var(--paper)}
+.map-sec .sec-head p{color:rgba(243,238,227,.66)}
+.map-scroll{overflow-x:auto;padding-bottom:14px;scrollbar-width:thin}
+.map-svg{min-width:980px;width:100%;height:auto;display:block}
+.map-svg .rail{stroke:rgba(243,238,227,.2);stroke-width:6;fill:none}
+.map-svg .draw{stroke:var(--gold-soft);stroke-width:6;fill:none;stroke-linecap:round}
+.map-svg .st{stroke:rgba(243,238,227,.45);fill:#16293e;stroke-width:3;transition:fill .4s,stroke .4s,r .4s}
+.map-svg .st-core{fill:transparent;transition:fill .4s}
+.map-svg .st.on{stroke:var(--gold-soft);r:13}
+.map-svg .st.on+.st-core{fill:var(--gold-soft)}
+.map-svg text{fill:rgba(243,238,227,.85);font-family:"Hanken Grotesk";font-weight:700;font-size:15px;letter-spacing:.06em}
+.map-svg .t-sub{fill:rgba(243,238,227,.45);font-weight:500;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase}
+.map-svg .branch{stroke:rgba(243,238,227,.22);stroke-width:2;stroke-dasharray:1 6;stroke-linecap:round}
+.map-svg .num{fill:var(--gold-soft);font-weight:800;font-size:12px;letter-spacing:.18em}
+.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(243,238,227,.14);margin-top:36px}
+.stage{background:var(--ink);padding:26px 24px 30px;transition:background .4s}
+.stage.on{background:#1d3350}
+.stage h3{font-size:19px;font-weight:700;margin:14px 0 8px;line-height:1.2}
+.stage>p{font-size:.86rem;color:rgba(243,238,227,.6);margin-bottom:14px}
+.stage .dot{display:block;width:11px;height:11px;border-radius:50%;border:2.5px solid rgba(243,238,227,.4);transition:border-color .4s,background .4s}
+.stage.on .dot{background:var(--gold-soft);border-color:var(--gold-soft)}
+.stage ul{list-style:none}
+.stage li{font-size:.8rem;color:rgba(243,238,227,.55);padding:5px 0;border-top:1px dashed rgba(243,238,227,.14)}
+.stage li::before{content:"↳ ";color:var(--gold-soft)}
+.map-note{margin-top:26px;font-size:.85rem;color:rgba(243,238,227,.5);display:flex;align-items:center;gap:10px}
+
+/* ---------- tickets / how we work ---------- */
+.tickets{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ticket{
+  position:relative;background:var(--paper-2);border:1px solid var(--rule);
+  border-radius:var(--radius);padding:26px 22px 24px;
+  transition:transform .35s,box-shadow .35s;
+}
+.ticket::before,.ticket::after{
+  content:"";position:absolute;top:50%;width:18px;height:18px;border-radius:50%;
+  background:var(--paper);border:1px solid var(--rule);transform:translateY(-50%);
+}
+.ticket::before{left:-10px}
+.ticket::after{right:-10px}
+.ticket:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(20,31,44,.12)}
+.ticket .no{
+  font-size:11px;font-weight:800;letter-spacing:.24em;color:var(--gold);
+  border-bottom:1px dashed var(--rule);padding-bottom:10px;margin-bottom:14px;
+}
+.ticket h3{font-size:19px;font-weight:700;line-height:1.22;margin-bottom:9px}
+.ticket p{font-size:.88rem;color:var(--ink-soft)}
+
+/* ---------- commitments ---------- */
+.commit{background:var(--paper-2);border-top:3px solid var(--gold)}
+.commit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule)}
+.commit-cell{background:var(--paper-2);padding:clamp(26px,3vw,44px);display:grid;grid-template-columns:auto 1fr;gap:22px}
+.commit-cell .tag{
+  font-size:11px;font-weight:800;letter-spacing:.2em;color:var(--gold);
+  writing-mode:vertical-rl;transform:rotate(180deg);align-self:start;
+}
+.commit-cell h3{font-size:21px;font-weight:700;margin-bottom:8px}
+.commit-cell p{font-size:.92rem;color:var(--ink-soft)}
+
+/* ---------- directory / interchange board ---------- */
+.board{border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden}
+.board__head{
+  display:flex;align-items:center;gap:14px;padding:16px 24px;
+  background:var(--ink);color:var(--paper);
+  font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+}
+.board__head::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--gold-soft)}
+.board-cols{display:grid;grid-template-columns:repeat(3,1fr)}
+.board-col{padding:26px 24px 30px}
+.board-col+.board-col{border-left:1px dashed var(--rule)}
+.board-col h3{font-size:13px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+.board-col a{
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  text-decoration:none;font-size:.95rem;font-weight:600;
+  padding:10px 0;border-bottom:1px solid var(--rule);
+}
+.board-col a span{color:var(--ink-soft);transition:transform .2s}
+.board-col a:hover span{transform:translateX(4px);color:var(--gold)}
+
+/* ---------- destination board ---------- */
+.dest{background:var(--ink);color:var(--paper)}
+.dest .sec-head h2{color:var(--paper)}
+.dest .sec-head p{color:rgba(243,238,227,.6)}
+.deps{border:1px solid rgba(243,238,227,.2);border-radius:var(--radius);overflow:hidden}
+.deps__row{
+  display:grid;grid-template-columns:110px 1fr auto;align-items:center;gap:18px;
+  padding:15px 24px;border-bottom:1px solid rgba(243,238,227,.12);
+  background:linear-gradient(180deg,#182a3f,#142434);
+  transition:background .3s;
+}
+.deps__row:hover{background:#1d3551}
+.deps__row:last-child{border-bottom:0}
+.deps__row .r{overflow:hidden}
+.deps__cat{font-size:10.5px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-soft)}
+.deps__name{font-weight:700;font-size:1.05rem;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.deps__loc{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,238,227,.5)}
+.deps__sep{grid-column:1/-1;padding:10px 24px;font-size:10.5px;font-weight:800;letter-spacing:.26em;text-transform:uppercase;color:rgba(243,238,227,.45);background:#0f1c2a}
+
+/* ---------- people & figures ---------- */
+.people-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
+.person{border:1px solid var(--rule);border-radius:var(--radius);padding:22px 20px;background:var(--paper-2)}
+.person .ava{
+  width:52px;height:52px;border-radius:50%;border:1.5px solid var(--gold);
+  display:grid;place-items:center;font-weight:800;font-size:18px;color:var(--gold);margin-bottom:16px;
+}
+.person b{display:block;font-size:16px}
+.person span{display:block;font-size:.82rem;color:var(--ink-soft);margin-top:3px}
+.figs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+.fig{border-top:2px solid var(--gold);padding-top:16px}
+.fig b{font-size:clamp(2rem,1.4rem+2.4vw,3.2rem);font-weight:800;letter-spacing:-.02em}
+.fig span{display:block;font-size:.85rem;color:var(--ink-soft);margin-top:6px}
+.fig em{display:block;font-style:normal;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-top:8px}
+
+/* ---------- open day / notice ---------- */
+.notice{
+  display:grid;grid-template-columns:1fr auto;gap:clamp(24px,4vw,60px);align-items:center;
+  border:1.5px solid var(--ink);border-radius:var(--radius);
+  padding:clamp(28px,4vw,52px);position:relative;background:var(--paper);
+}
+.notice::before{
+  content:"NOTICE";position:absolute;top:-11px;left:28px;background:var(--paper);
+  padding:0 12px;font-size:11px;font-weight:800;letter-spacing:.3em;color:var(--gold);
+}
+.notice h2{font-size:clamp(1.7rem,1.2rem+2vw,2.7rem);line-height:1.06;font-weight:700;max-width:20ch}
+.notice .det{font-size:.9rem;color:var(--ink-soft);margin-top:14px;max-width:48ch}
+.notice dl{display:grid;grid-template-columns:auto auto;gap:8px 26px;margin-top:20px;font-size:.88rem}
+.notice dt{font-weight:700;letter-spacing:.06em}
+.notice dd{color:var(--ink-soft)}
+
+/* ---------- guides ---------- */
+.guides{display:grid;grid-template-columns:auto 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.book{
+  width:min(250px,60vw);aspect-ratio:.72;background:var(--ink);color:var(--paper);
+  border-radius:2px 6px 6px 2px;padding:22px 20px;display:flex;flex-direction:column;
+  box-shadow:10px 10px 0 var(--paper-2),10px 10px 0 1px var(--rule);
+  transform:rotate(-2.5deg);transition:transform .4s;
+}
+.book:hover{transform:rotate(0)}
+.book .vol{font-size:10px;font-weight:800;letter-spacing:.3em;color:var(--gold-soft)}
+.book h4{font-size:21px;font-weight:700;line-height:1.15;margin-top:12px}
+.book .free{margin-top:auto;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,238,227,.6);border-top:1px dashed rgba(243,238,227,.3);padding-top:12px}
+.guides ol{list-style:none;margin:22px 0 26px}
+.guides ol li{
+  display:flex;gap:16px;align-items:baseline;padding:12px 0;
+  border-bottom:1px solid var(--rule);font-size:.95rem;
+}
+.guides ol li i{font-style:normal;font-size:.75rem;font-weight:800;color:var(--gold);min-width:24px}
+.guides ol li em{font-style:italic;font-family:"Cormorant Garamond",serif;font-size:1.05em;color:var(--ink-soft)}
+form.gform{display:flex;gap:12px;max-width:480px}
+form.gform input{
+  flex:1;padding:13px 16px;border:1px solid var(--rule);border-radius:var(--radius);
+  background:#fbf8f0;font:inherit;font-size:.95rem;color:var(--ink);
+}
+form.gform input:focus{outline:2px solid var(--gold);outline-offset:1px}
+.gform-note{font-size:.8rem;color:var(--ink-soft);margin-top:10px}
+
+/* ---------- consultation ---------- */
+.consult{background:var(--ink);color:var(--paper)}
+.consult .plate{color:rgba(243,238,227,.6)}
+.consult .sec-head h2{color:var(--paper)}
+.consult .sec-head p{color:rgba(243,238,227,.6)}
+.consult-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(30px,5vw,72px)}
+.consult-info dl{display:grid;grid-template-columns:auto 1fr;gap:10px 24px;font-size:.92rem;margin-top:8px}
+.consult-info dt{font-weight:700;letter-spacing:.08em;color:var(--gold-soft);font-size:.78rem;text-transform:uppercase;padding-top:2px}
+.consult-info dd{color:rgba(243,238,227,.75)}
+.cform{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cform .full{grid-column:1/-1}
+.cform label{display:block;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:rgba(243,238,227,.55);margin-bottom:7px}
+.cform input,.cform select,.cform textarea{
+  width:100%;padding:13px 14px;border:1px solid rgba(243,238,227,.25);border-radius:var(--radius);
+  background:rgba(243,238,227,.06);color:var(--paper);font:inherit;font-size:.95rem;
+}
+.cform select{appearance:none}
+.cform input:focus,.cform select:focus,.cform textarea:focus{outline:2px solid var(--gold-soft);outline-offset:1px}
+.cform textarea{min-height:96px;resize:vertical}
+.cform .consent{display:flex;gap:10px;font-size:.8rem;color:rgba(243,238,227,.6);align-items:flex-start}
+.cform .consent input{width:auto;margin-top:3px}
+.cform .sent{display:none;padding:18px;border:1px dashed var(--gold-soft);border-radius:var(--radius);color:var(--gold-soft);font-size:.9rem}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--rule);padding:44px 0 36px;font-size:.85rem;color:var(--ink-soft)}
+.foot{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;align-items:flex-start}
+.foot nav{display:flex;gap:20px;flex-wrap:wrap}
+.foot nav a{text-decoration:none;font-weight:600}
+.foot nav a:hover{color:var(--gold)}
+.foot small{display:block;margin-top:18px;font-size:.72rem;letter-spacing:.1em}
+
+/* ---------- reveals ---------- */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.6,.2,1),transform .7s cubic-bezier(.2,.6,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv-l{transform:translateX(-30px)}
+.rv-d1{transition-delay:.08s}.rv-d2{transition-delay:.16s}.rv-d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+}
+
+@media (max-width:1020px){
+  .tickets{grid-template-columns:repeat(2,1fr)}
+  .people-grid{grid-template-columns:repeat(2,1fr)}
+  .stages{grid-template-columns:repeat(5,minmax(210px,1fr));overflow-x:auto}
+  .stage{min-width:210px}
+}
+@media (max-width:760px){
+  .nav{display:none}
+  .burger{display:block}
+  .nav.open{
+    display:flex;position:absolute;top:64px;left:0;right:0;flex-direction:column;
+    background:var(--paper);border-bottom:1px solid var(--rule);padding:18px 24px;gap:14px;
+  }
+  .principle,.consult-grid,.guides{grid-template-columns:1fr}
+  .commit-grid{grid-template-columns:1fr}
+  .commit-cell .tag{writing-mode:horizontal-tb;transform:none}
+  .board-cols{grid-template-columns:1fr}
+  .board-col+.board-col{border-left:0;border-top:1px dashed var(--rule)}
+  .cform{grid-template-columns:1fr}
+  .notice{grid-template-columns:1fr}
+  .figs{grid-template-columns:1fr 1fr}
+  .deps__row{grid-template-columns:1fr;gap:3px;padding:14px 20px}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <a class="brand" href="#top"><b>ALBION</b><span>Oxford</span></a>
+    <nav class="nav" id="nav">
+      <a href="#route">The route</a>
+      <a href="#method">How we work</a>
+      <a href="#commitments">Commitments</a>
+      <a href="#directory">Directory</a>
+      <a href="#openday">Open day</a>
+      <a href="#guides">Guides</a>
+    </nav>
+    <a class="btn btn--gold" href="#consult" style="margin-left:18px">Book a consultation</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__art"><img src="images/hero-quad.jpg" alt="" fetchpriority="high"></div>
+  <div class="wrap">
+    <span class="plate hero__kick rv">Independent education consultancy · Oxford</span>
+    <h1 class="rv rv-d1">The way to university begins <em>long before it</em></h1>
+    <p class="hero__lede rv rv-d2">We walk international families along the whole British route: school preparation, the British school, GCSE, A-Level or IB, university, master&#8217;s and MBA. One route and one team — instead of scattered applications.</p>
+    <div class="hero__cta rv rv-d3">
+      <a class="btn btn--gold" href="#consult">Book a consultation</a>
+      <a class="btn btn--ink" href="#route">See the route</a>
+    </div>
+    <div class="hero__meta rv rv-d3">
+      <div><b>20+</b><span>years of combined experience</span></div>
+      <div><b>240+</b><span>offers received</span></div>
+      <div><b>180+</b><span>families guided</span></div>
+      <div><b>5.0 ★</b><span>on Google</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRINCIPLE ============ -->
+<section id="principle">
+  <div class="wrap">
+    <div class="principle">
+      <blockquote class="quote rv">
+        <p>“We hold the whole road in mind — from the first test to the graduation gown.”</p>
+        <cite>The Albion principle</cite>
+      </blockquote>
+      <div class="principle__body rv rv-d1">
+        <p>In British education every decision opens or closes the next. The school decides which subjects are available at GCSE. The A-Level or IB subjects decide which university programmes become real. The university decides which master&#8217;s or MBA stays within reach.</p>
+        <p>So we plan the route as a whole and revise it at every stage — together with the family and the child. Applications filed one by one is not how this system works.</p>
+        <p><b>You can join at any stage</b> — we start with an academic assessment and with wherever your family stands today.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE LINE ============ -->
+<section class="map-sec" id="route">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="plate plate--dark">The Albion Line</span>
+        <h2 style="margin-top:16px">One trajectory — <em style="font-style:normal;color:var(--gold-soft)">from the first school to the MBA</em></h2>
+      </div>
+      <p>Each stop is a continuation of the last, not a separate project. We carry forward everything we learn about the child: strengths, pace, interests, results.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="map-scroll" id="mapScroll">
+      <svg class="map-svg" viewBox="0 0 1240 300" role="img" aria-label="Route map: five stages from school preparation to MBA">
+        <line class="rail" x1="60" y1="150" x2="1180" y2="150"/>
+        <line id="draw" class="draw" x1="60" y1="150" x2="1180" y2="150"/>
+        <!-- branch stub: Oxbridge -->
+        <line class="branch" x1="896" y1="150" x2="968" y2="104"/>
+        <line class="branch" x1="968" y1="104" x2="1040" y2="104"/>
+        <rect x="1044" y="96" width="88" height="17" rx="2" fill="none" stroke="rgba(243,238,227,.35)"/>
+        <text class="t-sub" x="1050" y="108">Oxbridge</text>
+        <!-- station ticks below: services -->
+        <g id="ticks"></g>
+        <!-- terminus markers -->
+        <text class="t-sub" x="64" y="176" text-anchor="start">start · assessment</text>
+        <text class="t-sub" x="1176" y="176" text-anchor="end">graduation</text>
+      </svg>
+    </div>
+    <p class="map-note"><span style="width:9px;height:9px;border-radius:50%;background:var(--gold-soft);display:inline-block"></span>You can join the line at any station — the assessment sets where.</p>
+
+    <div class="stages" id="stages">
+      <article class="stage" data-x="160">
+        <span class="dot"></span>
+        <h3>Preparing for school</h3>
+        <p>The first step into British education.</p>
+        <ul>
+          <li>Academic assessment</li>
+          <li>Entrance exams — 11+ / 13+ / 16+</li>
+          <li>Tutors</li>
+          <li>Summer schools</li>
+        </ul>
+      </article>
+      <article class="stage" data-x="420">
+        <span class="dot"></span>
+        <h3>The British school</h3>
+        <p>Day school or boarding — and life inside it.</p>
+        <ul>
+          <li>Day schools</li>
+          <li>Boarding schools</li>
+          <li>Guardianship</li>
+        </ul>
+      </article>
+      <article class="stage" data-x="640">
+        <span class="dot"></span>
+        <h3>GCSE, A-Level or IB</h3>
+        <p>The subjects that open the right doors.</p>
+        <ul>
+          <li>GCSE · A-Level · IB</li>
+          <li>Intensive courses</li>
+          <li>Home education</li>
+        </ul>
+      </article>
+      <article class="stage" data-x="896">
+        <span class="dot"></span>
+        <h3>University</h3>
+        <p>The UK, Europe, the USA — and Oxbridge.</p>
+        <ul>
+          <li>Universities UK · Oxbridge</li>
+          <li>Europe · USA</li>
+          <li>LNAT / TMUA / UCAT / IELTS</li>
+          <li>Personal Statement</li>
+        </ul>
+      </article>
+      <article class="stage" data-x="1120">
+        <span class="dot"></span>
+        <h3>Master&#8217;s, MBA and beyond</h3>
+        <p>When the first degree is not the finish.</p>
+        <ul>
+          <li>Master&#8217;s</li>
+          <li>Doctoral studies</li>
+          <li>Executive education — MBA &amp; EMBA</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHOD ============ -->
+<section id="method">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate">How we work</span>
+        <h2 style="margin-top:16px">Calmly, in order, for years ahead</h2>
+      </div>
+      <p>A decision about British education is taken for years ahead — and the cost of a wrong step is high. No haste, no off-the-shelf “packages”: a sequence of steps the family understands at every stage.</p>
+    </div>
+    <div class="tickets">
+      <article class="ticket rv">
+        <div class="no">STEP — 01</div>
+        <h3>Meeting &amp; academic assessment</h3>
+        <p>A conversation with the family and an assessment of the child&#8217;s current level: where they are, what comes easily, where they are drawn.</p>
+      </article>
+      <article class="ticket rv rv-d1">
+        <div class="no">STEP — 02</div>
+        <h3>The route map</h3>
+        <p>A written plan years ahead: the stages, the forks, the key exams and the fallback options. The map belongs to the family and is revised as the child grows.</p>
+      </article>
+      <article class="ticket rv rv-d2">
+        <div class="no">STEP — 03</div>
+        <h3>Walking it together</h3>
+        <p>Test preparation, tutors, documents, the Personal Statement, interviews — in one pair of hands and at one pace, with no handovers between contractors.</p>
+      </article>
+      <article class="ticket rv rv-d3">
+        <div class="no">STEP — 04</div>
+        <h3>Admission — and after</h3>
+        <p>We stay close after enrolment: settling in, guardianship, revising the route ahead of the next stage.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMITMENTS ============ -->
+<section class="commit" id="commitments" style="padding-top:clamp(60px,8vw,110px);padding-bottom:clamp(60px,8vw,110px)">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate">The Albion difference</span>
+        <h2 style="margin-top:16px">Four commitments we hold</h2>
+      </div>
+      <p>An English-speaking team inside the system — not an agency selling it from the outside. The things a large consultancy cannot copy.</p>
+    </div>
+    <div class="commit-grid">
+      <div class="commit-cell rv"><span class="tag">Oxford</span><div><h3>Oxford-based</h3><p>We live and work in Oxford, street by street, registrar by registrar. When a school needs seeing today — or a child needs someone nearby — it happens today.</p></div></div>
+      <div class="commit-cell rv rv-d1"><span class="tag">Independent</span><div><h3>Independent</h3><p>No commissions from schools and no network quotas: when we say a school fits, it is our opinion — not a placement.</p></div></div>
+      <div class="commit-cell rv"><span class="tag">Direct</span><div><h3>Direct</h3><p>You speak with the people who do the work — no sales desk, no consultant swap after signing. Questions travel without intermediaries.</p></div></div>
+      <div class="commit-cell rv rv-d1"><span class="tag">Confidential</span><div><h3>Confidential</h3><p>Family matters stay inside the room. Nothing about a child appears in our materials, our talks or our statistics without permission.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIRECTORY ============ -->
+<section id="directory">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate">Directory</span>
+        <h2 style="margin-top:16px">If you already know what you&#8217;re looking for</h2>
+      </div>
+      <p>Every ALBION discipline — from entrance exams to executive education. Each one is part of the same route.</p>
+    </div>
+    <div class="board rv">
+      <div class="board__head">All disciplines · change at any station</div>
+      <div class="board-cols">
+        <div class="board-col">
+          <h3>Admissions</h3>
+          <a href="#">Day schools <span>→</span></a>
+          <a href="#">Boarding schools <span>→</span></a>
+          <a href="#">Universities UK <span>→</span></a>
+          <a href="#">Universities Europe <span>→</span></a>
+          <a href="#">Universities USA <span>→</span></a>
+          <a href="#">Oxbridge <span>→</span></a>
+          <a href="#">Master&#8217;s <span>→</span></a>
+          <a href="#">Doctoral studies <span>→</span></a>
+        </div>
+        <div class="board-col">
+          <h3>Tuition</h3>
+          <a href="#">Entrance exams — 11+ / 13+ / 16+ <span>→</span></a>
+          <a href="#">University tests — LNAT / TMUA / UCAT / IELTS <span>→</span></a>
+          <a href="#">GCSE <span>→</span></a>
+          <a href="#">A-Level <span>→</span></a>
+          <a href="#">IB <span>→</span></a>
+          <a href="#">Home education <span>→</span></a>
+          <a href="#">Intensive courses <span>→</span></a>
+          <a href="#">Tutors <span>→</span></a>
+        </div>
+        <div class="board-col">
+          <h3>Services</h3>
+          <a href="#">Guardianship <span>→</span></a>
+          <a href="#">Academic assessment <span>→</span></a>
+          <a href="#">Career guidance <span>→</span></a>
+          <a href="#">Personal Statement <span>→</span></a>
+          <a href="#">Summer schools <span>→</span></a>
+          <a href="#">Executive education — MBA &amp; EMBA <span>→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section class="dest" id="destinations">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate plate--dark">Albion · Offers</span>
+        <h2 style="margin-top:16px">From Oxford to the world</h2>
+      </div>
+      <p>The universities and schools where Albion families study today. The list is in preparation — details to be confirmed.</p>
+    </div>
+    <div class="deps rv">
+      <div class="deps__sep">Universities</div>
+      <div class="deps__row"><span class="deps__cat">Oxford</span><span class="deps__name">Oxford</span><span class="deps__loc">United Kingdom</span></div>
+      <div class="deps__row"><span class="deps__cat">Cambridge</span><span class="deps__name">Cambridge</span><span class="deps__loc">United Kingdom</span></div>
+      <div class="deps__row"><span class="deps__cat">UCL</span><span class="deps__name">University College London</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">Imperial</span><span class="deps__name">Imperial College</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">LSE</span><span class="deps__name">London School of Economics</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">King&#8217;s</span><span class="deps__name">King&#8217;s College</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">Durham</span><span class="deps__name">Durham</span><span class="deps__loc">Durham</span></div>
+      <div class="deps__row"><span class="deps__cat">Bristol</span><span class="deps__name">Bristol</span><span class="deps__loc">Bristol</span></div>
+      <div class="deps__sep">Schools</div>
+      <div class="deps__row"><span class="deps__cat">Eton</span><span class="deps__name">Eton</span><span class="deps__loc">Windsor</span></div>
+      <div class="deps__row"><span class="deps__cat">Harrow</span><span class="deps__name">Harrow</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">Wycombe</span><span class="deps__name">Wycombe Abbey</span><span class="deps__loc">High Wycombe</span></div>
+      <div class="deps__row"><span class="deps__cat">Westminster</span><span class="deps__name">Westminster</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">St Paul&#8217;s</span><span class="deps__name">St Paul&#8217;s</span><span class="deps__loc">London</span></div>
+      <div class="deps__row"><span class="deps__cat">Sevenoaks</span><span class="deps__name">Sevenoaks</span><span class="deps__loc">Kent</span></div>
+      <div class="deps__row"><span class="deps__cat">CLC</span><span class="deps__name">Cheltenham Ladies&#8217;</span><span class="deps__loc">Cheltenham</span></div>
+      <div class="deps__row"><span class="deps__cat">Brighton</span><span class="deps__name">Brighton College</span><span class="deps__loc">Brighton</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEAM & FIGURES ============ -->
+<section id="team">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate">The team</span>
+        <h2 style="margin-top:16px">The people who walk the route</h2>
+      </div>
+      <p>School and university consultants, tutors and guardians work as one team: each knows what came before their stage and what comes after it.</p>
+    </div>
+    <div class="people-grid">
+      <div class="person rv"><div class="ava">A</div><b>Name</b><span>Role — details to be confirmed</span></div>
+      <div class="person rv rv-d1"><div class="ava">A</div><b>Name</b><span>Role — details to be confirmed</span></div>
+      <div class="person rv rv-d2"><div class="ava">A</div><b>Name</b><span>Role — details to be confirmed</span></div>
+      <div class="person rv rv-d3"><div class="ava">A</div><b>Name</b><span>Role — details to be confirmed</span></div>
+    </div>
+    <div class="figs">
+      <div class="fig rv"><b>TBC</b><span>Admissions across the route&#8217;s stages</span><em>figures in preparation</em></div>
+      <div class="fig rv rv-d1"><b>TBC</b><span>Families we walk with</span><em>figures in preparation</em></div>
+      <div class="fig rv rv-d2"><b>TBC</b><span>Words from a family who walked the route with us</span><em>testimonial to be confirmed</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPEN DAY ============ -->
+<section id="openday" style="padding-top:0">
+  <div class="wrap">
+    <div class="notice rv">
+      <div>
+        <span class="plate">Standing event · Open day</span>
+        <h2 style="margin-top:16px">Step into the quad — see the route from the inside</h2>
+        <p class="det">A meeting for parents: how British education works, how we build a route, and where your family should begin. Questions answered by the consultants in person.</p>
+        <dl>
+          <dt>Next date</dt><dd>TBC</dd>
+          <dt>Format &amp; venue</dt><dd>TBC</dd>
+          <dt>Duration</dt><dd>TBC</dd>
+          <dt>Attendance fee</dt><dd>TBC</dd>
+        </dl>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start">
+        <a class="btn btn--gold" href="#consult">Register for the open day</a>
+        <a class="btn btn--ink" href="#">See webinars &amp; meetings</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUIDES ============ -->
+<section id="guides" style="background:var(--paper-2)">
+  <div class="wrap">
+    <div class="guides">
+      <div class="book rv rv-l">
+        <span class="vol">ALBION · GUIDES · VOL. I</span>
+        <h4>A parent&#8217;s guide to British schools</h4>
+        <span class="free">PDF · free</span>
+      </div>
+      <div class="rv rv-d1">
+        <span class="plate">Resources for parents</span>
+        <h2 style="font-size:clamp(1.7rem,1.2rem+2vw,2.7rem);line-height:1.06;font-weight:700;margin:16px 0 0">Start with the parent&#8217;s guide</h2>
+        <ol>
+          <li><i>01</i><span>A parent&#8217;s guide to British schools — <em>this one</em></span></li>
+          <li><i>02</i><span>Entrance exams 11+/13+/16+ in 90 days</span></li>
+          <li><i>03</i><span>The admissions interview, decoded</span></li>
+        </ol>
+        <form class="gform" id="guideForm">
+          <input type="email" required placeholder="Email address" aria-label="Email address">
+          <button class="btn btn--gold" type="submit">Send me the guide</button>
+        </form>
+        <p class="gform-note">One email with the PDF. No sequence, no pressure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONSULT ============ -->
+<section class="consult" id="consult">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <span class="plate plate--dark">Consultation</span>
+        <h2 style="margin-top:16px">Let&#8217;s begin with a conversation</h2>
+      </div>
+      <p>Tell us where your child is now and where you are looking. We will reply and suggest a time for a first consultation.</p>
+    </div>
+    <div class="consult-grid">
+      <div class="consult-info rv">
+        <dl>
+          <dt>Email</dt><dd>TBC</dd>
+          <dt>Telephone</dt><dd>TBC</dd>
+          <dt>Office</dt><dd>Oxford, United Kingdom</dd>
+          <dt>Format &amp; fee</dt><dd>TBC</dd>
+        </dl>
+        <blockquote class="quote" style="margin-top:44px">
+          <p style="font-size:clamp(1.15rem,1rem+.8vw,1.5rem)">“One email with the PDF. No sequence, no pressure.”</p>
+        </blockquote>
+      </div>
+      <form class="cform rv rv-d1" id="consultForm">
+        <div><label for="cf-name">Your name</label><input id="cf-name" required></div>
+        <div><label for="cf-mail">Email</label><input id="cf-mail" type="email" required></div>
+        <div class="full"><label for="cf-phone">Phone or messenger — optional</label><input id="cf-phone"></div>
+        <div>
+          <label for="cf-stage">Route stage — optional</label>
+          <select id="cf-stage">
+            <option>Choose a stage</option><option>Preparing for school</option><option>The British school</option>
+            <option>GCSE, A-Level or IB</option><option>University</option><option>Master&#8217;s, MBA, doctorate</option><option>Not sure yet</option>
+          </select>
+        </div>
+        <div>
+          <label for="cf-dest">Destination — optional</label>
+          <select id="cf-dest">
+            <option>Choose a destination</option><option>United Kingdom</option><option>Oxbridge</option>
+            <option>Europe</option><option>USA</option><option>Undecided</option>
+          </select>
+        </div>
+        <div class="full"><label for="cf-msg">A few words about your situation — optional</label><textarea id="cf-msg"></textarea></div>
+        <label class="consent full"><input type="checkbox" required> I agree that ALBION may contact me about this enquiry and process the details provided. <a href="#" style="color:var(--gold-soft)">Privacy policy</a></label>
+        <div class="full"><button class="btn btn--gold" type="submit">Book a consultation</button></div>
+        <div class="sent full" id="sent">Received — we will reply and suggest a time for a first consultation.</div>
+        <p class="full" style="font-size:.72rem;color:rgba(243,238,227,.45)">Fields not marked optional are required.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div style="max-width:380px">
+        <a class="brand" href="#top" style="text-decoration:none"><b>ALBION</b><span>Oxford</span></a>
+        <p style="margin-top:12px">Independent education consultancy in Oxford for international families: one route from school preparation to the MBA.</p>
+      </div>
+      <nav>
+        <a href="#route">The route</a><a href="#method">How we work</a><a href="#directory">Directory</a>
+        <a href="#openday">Open day</a><a href="#guides">Guides</a><a href="#consult">Contact</a>
+      </nav>
+      <div>
+        <div style="font-weight:700;font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink)">Contact</div>
+        <p style="margin-top:8px">Email — TBC<br>Telephone — TBC<br>Oxford, United Kingdom</p>
+      </div>
+    </div>
+    <small>© ALBION · Privacy policy · Company details TBC</small>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- mobile nav ---- */
+  var burger = document.getElementById("burger"), nav = document.getElementById("nav");
+  burger.addEventListener("click", function(){ nav.classList.toggle("open"); });
+  nav.addEventListener("click", function(e){ if(e.target.tagName==="A") nav.classList.remove("open"); });
+
+  /* ---- build SVG stations from stage data ---- */
+  var NS="http://www.w3.org/2000/svg",
+      svg=document.querySelector(".map-svg"),
+      ticksG=document.getElementById("ticks"),
+      stageEls=[].slice.call(document.querySelectorAll(".stage")),
+      names=["Preparing","British school","GCSE · A-Level · IB","University","Master's · MBA"],
+      subs=["stage I","stage II","stage III","stage IV","stage V"];
+  stageEls.forEach(function(el,i){
+    var x=+el.dataset.x, g=document.createElementNS(NS,"g");
+    var num=document.createElementNS(NS,"text");
+    num.setAttribute("class","num");num.setAttribute("x",x);num.setAttribute("y",64);num.setAttribute("text-anchor","middle");
+    num.textContent="STATION "+subs[i].replace("stage ","").toUpperCase();
+    var t=document.createElementNS(NS,"text");
+    t.setAttribute("x",x);t.setAttribute("y",86);t.setAttribute("text-anchor","middle");t.textContent=names[i];
+    var c=document.createElementNS(NS,"circle");
+    c.setAttribute("class","st");c.setAttribute("cx",x);c.setAttribute("cy",150);c.setAttribute("r",13);
+    var c2=document.createElementNS(NS,"circle");
+    c2.setAttribute("class","st-core");c2.setAttribute("cx",x);c2.setAttribute("cy",150);c2.setAttribute("r",5);
+    g.appendChild(num);g.appendChild(t);g.appendChild(c);g.appendChild(c2);svg.appendChild(g);
+    el._station=c;
+    // service ticks under the line
+    var items=el.querySelectorAll("ul li"), n=Math.min(items.length,4);
+    for(var k=0;k<n;k++){
+      var tx=x-30+k*20;
+      var tl=document.createElementNS(NS,"line");
+      tl.setAttribute("class","branch");tl.setAttribute("x1",x);tl.setAttribute("y1",150);
+      tl.setAttribute("x2",tx);tl.setAttribute("y2",196);ticksG.appendChild(tl);
+    }
+  });
+
+  /* ---- scroll-driven line draw ---- */
+  var draw=document.getElementById("draw"), sec=document.getElementById("route"),
+      xs=stageEls.map(function(e){return +e.dataset.x}), L=1180-60;
+  draw.style.strokeDasharray=L;draw.style.strokeDashoffset=L;
+  function lineProgress(){
+    if(reduce) return 1;
+    var r=sec.getBoundingClientRect(), vh=innerHeight;
+    var p=(vh*0.82 - r.top)/(r.height + vh*0.1);
+    return Math.max(0,Math.min(1,p));
+  }
+  var ticking=false;
+  function onScroll(){
+    if(ticking) return; ticking=true;
+    requestAnimationFrame(function(){
+      var p=lineProgress(), reach=60+L*p;
+      draw.style.strokeDashoffset=L*(1-p);
+      stageEls.forEach(function(el,i){
+        var on=reach>=xs[i];
+        el.classList.toggle("on",on);
+        if(el._station) el._station.classList.toggle("on",on);
+      });
+      ticking=false;
+    });
+  }
+  addEventListener("scroll",onScroll,{passive:true});
+  addEventListener("resize",onScroll);
+  onScroll();
+
+  /* ---- reveals ---- */
+  var rv=document.querySelectorAll(".rv");
+  if(reduce || !("IntersectionObserver" in window)){
+    rv.forEach(function(e){e.classList.add("in")});
+  }else{
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target);} });
+    },{threshold:.12});
+    rv.forEach(function(e){io.observe(e)});
+  }
+
+  /* ---- demo forms ---- */
+  document.getElementById("guideForm").addEventListener("submit",function(e){
+    e.preventDefault(); this.innerHTML="<p style='color:var(--gold);font-weight:700'>Sent — the guide is on its way.</p>";
+  });
+  document.getElementById("consultForm").addEventListener("submit",function(e){
+    e.preventDefault(); document.getElementById("sent").style.display="block";
+    this.querySelector("button").disabled=true;
+  });
+})();
+</script>
+</body>
+</html>
