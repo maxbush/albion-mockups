@@ -35,7 +35,9 @@ export function useScrollScene(
 ) {
   const { smooth = 0.085, staticProgress } = options;
   const applyRef = useRef(apply);
-  applyRef.current = apply;
+  useEffect(() => {
+    applyRef.current = apply;
+  });
   const reduced = useReducedMotion();
 
   useEffect(() => {
