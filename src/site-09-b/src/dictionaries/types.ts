@@ -12,6 +12,7 @@ export interface Dictionary {
     navAria: string;
     mobileNavAria: string;
     cta: string;
+    ctaShort: string;
     openMenu: string;
     closeMenu: string;
     openSection: string;

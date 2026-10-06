@@ -191,8 +191,9 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
           </ul>
         </nav>
 
-        <Link href={ctaHref} className={`btn btn-brass ${styles.cta}`} onClick={closeAll}>
-          {t.cta}
+        <Link href={ctaHref} className={`btn btn-brass ${styles.cta}`} onClick={closeAll} aria-label={t.cta}>
+          <span className={styles.ctaLong}>{t.cta}</span>
+          <span className={styles.ctaShort}>{t.ctaShort}</span>
         </Link>
 
         <nav className={styles.lang} aria-label={t.langSwitch}>

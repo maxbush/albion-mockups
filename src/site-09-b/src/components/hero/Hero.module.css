@@ -536,6 +536,27 @@
   }
 }
 
+/* Short landscape screens (laptops with a toolbar, browser zoom): size the headline by height, widen the lead */
+@media (min-width: 1024px) and (max-height: 800px) and (orientation: landscape) {
+  .title {
+    font-size: clamp(2.2rem, 9.6vh, 5.2rem);
+  }
+  .lead {
+    grid-column: 2 / span 6;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .eyebrow {
+    margin-bottom: clamp(8px, 1.6vh, 16px);
+  }
+  .content {
+    padding-bottom: clamp(18px, 4vh, 44px);
+  }
+  .proofText {
+    font-size: 11px;
+  }
+}
+
 @media (orientation: portrait) {
   .quad {
     transform-origin: 50% 64%;

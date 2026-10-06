@@ -459,6 +459,7 @@ export const ru: Dictionary = {
     navAria: "Главное меню",
     mobileNavAria: "Меню",
     cta: "Записаться на консультацию",
+    ctaShort: "Консультация",
     openMenu: "Открыть меню",
     closeMenu: "Закрыть меню",
     openSection: "Открыть раздел",

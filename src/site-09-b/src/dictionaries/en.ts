@@ -459,6 +459,7 @@ export const en: Dictionary = {
     navAria: "Main menu",
     mobileNavAria: "Menu",
     cta: "Book a consultation",
+    ctaShort: "Consultation",
     openMenu: "Open menu",
     closeMenu: "Close menu",
     openSection: "Open",
