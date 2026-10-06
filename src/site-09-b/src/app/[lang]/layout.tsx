@@ -5,7 +5,6 @@ import HtmlLang from "@/components/HtmlLang";
 import SiteFooter from "@/components/layout/SiteFooter";
 import SiteHeader from "@/components/layout/SiteHeader";
 import WhatsAppFloat from "@/components/layout/WhatsAppFloat";
-import FontSwitcher from "@/components/ui/FontSwitcher";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n";
 
 export const dynamicParams = false;
@@ -49,7 +48,6 @@ export default async function LangLayout({
       <main id="main">{children}</main>
       <SiteFooter lang={lang} />
       <WhatsAppFloat ariaLabel={dict.whatsapp.aria} />
-      <FontSwitcher />
     </>
   );
 }

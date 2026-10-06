@@ -27,10 +27,7 @@ export default function OpenDay({ lang }: { lang: Locale }) {
 
         <div className="lg:col-span-6 lg:col-start-7">
           <div data-reveal>
-            <div className="flex flex-wrap items-center gap-4">
-              <p className="label">{t.label}</p>
-              <span className="badge">{t.badge}</span>
-            </div>
+            <p className="label">{t.label}</p>
             <h2
               id="openday-title"
               className="mt-7 font-display text-[clamp(2.2rem,1.2rem+3.2vw,4.4rem)] leading-[1.02] font-light tracking-[-0.01em]"
@@ -45,7 +42,7 @@ export default function OpenDay({ lang }: { lang: Locale }) {
           </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4" data-reveal>
-            <Link href={`${hrefFor(lang, "blog", "open-day")}#register`} className="btn btn-brass normal-case">
+            <Link href={`${hrefFor(lang, "consulting", "open-day")}#register`} className="btn btn-brass normal-case">
               {t.cta}
             </Link>
             <Link href={hrefFor(lang, "blog", "webinars")} className="link-hair link-hair-soft text-[15px]">
@@ -55,7 +52,7 @@ export default function OpenDay({ lang }: { lang: Locale }) {
 
           <p className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-[14px] text-cream/65" data-reveal>
             <span>{t.resources}</span>
-            <Link href={hrefFor(lang, "blog", "guides")} className="link-hair link-hair-soft text-cream/85">
+            <Link href={hrefFor(lang, "blog", "parents-guide")} className="link-hair link-hair-soft text-cream/85">
               {t.guides}
             </Link>
             <Link href={hrefFor(lang, "blog", "pricing")} className="link-hair link-hair-soft text-cream/85">

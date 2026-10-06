@@ -23,6 +23,7 @@ export default function TrustBar({ lang }: { lang: Locale }) {
               {stat.cap}
             </li>
           ))}
+          <li className="text-[13px] tracking-[0.05em] text-ink-2/80">{t.cert}</li>
         </ul>
         <p className="ml-auto flex items-center gap-2 text-[12px] italic text-ink-2/55">
           {t.note} <Tbc lang={lang} />

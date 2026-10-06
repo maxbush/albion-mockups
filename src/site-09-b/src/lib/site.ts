@@ -1,7 +1,28 @@
 import { getDictionary, type Locale } from "./i18n";
 
-export type SectionId = "about" | "admissions" | "learning" | "services" | "blog";
+export type SectionId = "about" | "consulting" | "adults" | "learning" | "camps" | "blog";
 export type StageId = "prep" | "school" | "exams" | "university" | "postgrad";
+
+/** Contact facts taken from the live albion-consult.com site. */
+export const CONTACT = {
+  email: "info@albionconsult.co.uk",
+  phone: "+44 1865 236391",
+  phoneHref: "tel:+441865236391",
+  address: "New Barclay House, 234 Botley Road, Oxford OX2 0HP",
+} as const;
+
+export const SOCIALS = [
+  { label: "Instagram", href: "https://www.instagram.com/albionconsult/" },
+  { label: "YouTube", href: "https://www.youtube.com/@ALBION_consult" },
+  { label: "Facebook", href: "https://www.facebook.com/albionconsult" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/albionconsult" },
+  { label: "Telegram", href: "https://t.me/albionedu" },
+] as const;
+
+export const REVIEW_LINKS = {
+  google: "https://www.google.com/maps/search/?api=1&query=ALBION+234+Botley+Road+Oxford",
+  trustpilot: "https://www.trustpilot.com/review/albion-consult.com",
+} as const;
 
 export interface NavItem {
   slug: string;

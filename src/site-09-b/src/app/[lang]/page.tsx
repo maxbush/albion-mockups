@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Hero from "@/components/hero/Hero";
+import Adults from "@/components/home/Adults";
 import Consultation from "@/components/home/Consultation";
 import Difference from "@/components/home/Difference";
 import Directory from "@/components/home/Directory";
@@ -27,6 +28,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <Manifesto lang={lang} />
       <RouteSection lang={lang} />
       <Method lang={lang} />
+      <Adults lang={lang} />
       <Difference lang={lang} />
       <Directory lang={lang} />
       <Offers lang={lang} />

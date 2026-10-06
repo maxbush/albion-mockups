@@ -23,11 +23,13 @@ export async function POST(request: Request) {
       .insert(enquiries)
       .values({
         kind: data.kind,
-        parentName: data.parentName,
-        email: data.email,
-        phone: data.phone || null,
+        audience: data.audience || null,
+        age: data.age || null,
         stage: data.stage || null,
-        destination: data.destination || null,
+        parentName: data.parentName,
+        channel: data.channel,
+        phone: data.phone || null,
+        email: data.email || null,
         message: data.message || null,
         consent: data.consent,
       })

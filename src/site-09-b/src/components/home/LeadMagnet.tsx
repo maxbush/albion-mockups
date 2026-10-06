@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 /** Lead magnet from the brief: a free guide in exchange for an email. */
@@ -7,15 +8,26 @@ export default function LeadMagnet({ lang }: { lang: Locale }) {
     <section aria-labelledby="guides-title" className="tone-light border-t border-ink-2/10 py-[clamp(80px,11vw,150px)]">
       <div className="container-x grid gap-14 lg:grid-cols-12 lg:gap-8">
         <div className="lg:col-span-5" data-reveal>
-          <figure className="mx-auto max-w-[340px] border border-ink-2/20 bg-[linear-gradient(160deg,#f7f3e8_0%,#efe9d6_100%)] px-8 py-10 shadow-[14px_14px_0_-4px_rgba(22,30,46,0.12)]">
-            <p className="text-[12px] font-semibold tracking-[0.14em] text-ink-2/75 uppercase">{t.cover.series}</p>
-            <p className="mt-10 font-display text-[clamp(1.9rem,1.5rem+1.2vw,2.6rem)] leading-[1.05] font-light text-ink-2">
-              {t.cover.title1} <em>{t.cover.titleEm}</em>
-            </p>
-            <p className="mt-8 flex items-center justify-between border-t border-ink-2/15 pt-5 text-[12px] tracking-[0.14em] text-ink-2/70 uppercase">
-              <span>{t.cover.pdf}</span>
-              <span>Albion</span>
-            </p>
+          <figure className="mx-auto max-w-[380px] border border-ink-2/20 bg-[linear-gradient(160deg,#f7f3e8_0%,#efe9d6_100%)] shadow-[14px_14px_0_-4px_rgba(22,30,46,0.12)]">
+            <Image
+              src="/images/route-school.jpg"
+              alt={t.cover.imgAlt}
+              width={1200}
+              height={900}
+              quality={70}
+              sizes="(min-width: 1024px) 380px, 90vw"
+              className="h-auto w-full border-b border-ink-2/15 mix-blend-multiply"
+            />
+            <div className="px-8 pt-7 pb-8">
+              <p className="text-[12px] font-semibold tracking-[0.14em] text-ink-2/75 uppercase">{t.cover.series}</p>
+              <p className="mt-6 font-display text-[clamp(1.9rem,1.5rem+1.2vw,2.5rem)] leading-[1.05] font-light text-ink-2">
+                {t.cover.title1} <em>{t.cover.titleEm}</em>
+              </p>
+              <p className="mt-7 flex items-center justify-between border-t border-ink-2/15 pt-5 text-[12px] tracking-[0.14em] text-ink-2/70 uppercase">
+                <span>{t.cover.pdf}</span>
+                <span>Albion</span>
+              </p>
+            </div>
           </figure>
         </div>
 

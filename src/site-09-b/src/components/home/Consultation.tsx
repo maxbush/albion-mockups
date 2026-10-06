@@ -21,13 +21,13 @@ export default function Consultation({ lang }: { lang: Locale }) {
           </div>
           <ContactList lang={lang} />
           <Image
-            src="/images/letter.jpg"
-            alt=""
-            width={1264}
-            height={912}
+            src="/images/consultation-scene.jpg"
+            alt={t.imgAlt}
+            width={1600}
+            height={900}
             quality={70}
-            sizes="(min-width: 1024px) 34vw, 90vw"
-            className="mt-12 hidden h-auto w-full max-w-[520px] mix-blend-multiply sm:block"
+            sizes="(min-width: 1024px) 38vw, 90vw"
+            className="mt-12 hidden h-auto w-full max-w-[560px] mix-blend-multiply sm:block"
           />
         </div>
 

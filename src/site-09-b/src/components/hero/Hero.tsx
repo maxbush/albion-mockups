@@ -468,7 +468,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
           <p className={styles.arrival} data-layer="arrival">
             <span className={styles.arrivalRule} aria-hidden="true" />
             <span className={styles.arrivalLine}>{dict.arrival}</span>
-            <span className={styles.arrivalSub}>{dict.arrivalSub}</span>
+            {dict.arrivalSub && <span className={styles.arrivalSub}>{dict.arrivalSub}</span>}
           </p>
         </div>
       </div>

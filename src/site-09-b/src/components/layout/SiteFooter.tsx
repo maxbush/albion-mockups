@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getDictionary, type Locale } from "@/lib/i18n";
-import { getNav, hrefFor } from "@/lib/site";
+import { CONTACT, SOCIALS, getNav, hrefFor } from "@/lib/site";
 import { Tbc } from "@/components/ui/Tbc";
 
 export default function SiteFooter({ lang }: { lang: Locale }) {
@@ -25,22 +25,43 @@ export default function SiteFooter({ lang }: { lang: Locale }) {
               {t.cta}
             </Link>
             <dl className="grid gap-3 text-[14px] text-cream/75">
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                 <dt className="min-w-[5.5rem] text-cream/60">{t.email}</dt>
                 <dd>
-                  <Tbc lang={lang} />
+                  <a href={`mailto:${CONTACT.email}`} className="link-hair link-hair-soft text-cream/90">
+                    {CONTACT.email}
+                  </a>
                 </dd>
               </div>
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                 <dt className="min-w-[5.5rem] text-cream/60">{t.tel}</dt>
                 <dd>
-                  <Tbc lang={lang} />
+                  <a href={CONTACT.phoneHref} className="link-hair link-hair-soft text-cream/90">
+                    {CONTACT.phone}
+                  </a>
                 </dd>
               </div>
-              <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                 <dt className="min-w-[5.5rem] text-cream/60">{t.office}</dt>
-                <dd className="flex flex-wrap items-center gap-2">
-                  {t.officeValue} <Tbc lang={lang} />
+                <dd className="max-w-[28ch]">{CONTACT.address}</dd>
+              </div>
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <dt className="min-w-[5.5rem] text-cream/60">{t.follow}</dt>
+                <dd>
+                  <ul className="flex flex-wrap gap-x-4 gap-y-2">
+                    {SOCIALS.map((social) => (
+                      <li key={social.label}>
+                        <a
+                          href={social.href}
+                          className="link-hair link-hair-soft text-cream/90"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {social.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </dd>
               </div>
             </dl>
@@ -57,7 +78,7 @@ export default function SiteFooter({ lang }: { lang: Locale }) {
               </li>
             ))}
             <li>
-              <Link href={hrefFor(lang, "blog", "open-day")} className="link-hair link-hair-soft text-cream/85">
+              <Link href={hrefFor(lang, "consulting", "open-day")} className="link-hair link-hair-soft text-cream/85">
                 {t.openDay}
               </Link>
             </li>

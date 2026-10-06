@@ -11,37 +11,6 @@
   --font-sans: var(--font-inter-tight), "Inter Tight", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* ── Font presets (data-font on <html>, switched by FontSwitcher) ── */
-html[data-font="b"] {
-  --font-display: var(--font-oranienbaum), "Oranienbaum", Georgia, serif;
-  --font-display-italic: var(--font-cormorant-italic), var(--font-display);
-  --font-sans: var(--font-manrope), "Manrope", "Segoe UI", Arial, sans-serif;
-}
-
-html[data-font="c"] {
-  --font-display: var(--font-spectral), "Spectral", Georgia, serif;
-  --font-display-italic: var(--font-spectral), var(--font-display);
-  --font-sans: var(--font-onest), "Onest", "Segoe UI", Arial, sans-serif;
-}
-
-html[data-font="d"] {
-  --font-display: var(--font-prata), "Prata", Georgia, serif;
-  --font-display-italic: var(--font-cormorant-italic), var(--font-display);
-  --font-sans: var(--font-jost), "Jost", Futura, "Trebuchet MS", sans-serif;
-}
-
-html[data-font="e"] {
-  --font-display: var(--font-tenor), "Tenor Sans", "Segoe UI", Arial, sans-serif;
-  --font-display-italic: var(--font-tenor), var(--font-display);
-  --font-sans: var(--font-onest), "Onest", "Segoe UI", Arial, sans-serif;
-}
-
-html[data-font="f"] {
-  --font-display: var(--font-jost), "Jost", Futura, "Trebuchet MS", sans-serif;
-  --font-display-italic: var(--font-jost), var(--font-display);
-  --font-sans: var(--font-manrope), "Manrope", "Segoe UI", Arial, sans-serif;
-}
-
 /* ───────────────────────── Base ───────────────────────── */
 @layer base {
   :root {
@@ -480,10 +449,58 @@ html[data-font="f"] {
   border-color: var(--brass);
 }
 
-/* The offers ledger rides up under the transparent scene pin so the
-   crest strips are already moving as the world scene dissolves. */
-@media (hover: hover) and (pointer: fine) {
-  .offers-ledger-lift {
-    margin-top: -34svh;
-  }
+
+/* ================= FORM CHOICE CHIPS (radio groups) ================= */
+
+fieldset.field {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+fieldset.field > legend {
+  padding: 0;
+  margin-bottom: 10px;
+}
+.choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.choice {
+  position: relative;
+  display: inline-flex;
+}
+.choice input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.choice span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  padding: 0 18px;
+  font: 500 15px/1 var(--font-sans);
+  color: var(--ink-2);
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(22, 30, 46, 0.26);
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+.choice:hover span {
+  border-color: var(--ink-2);
+}
+.choice input:checked + span {
+  color: var(--cream);
+  background: var(--ink-2);
+  border-color: var(--ink-2);
+}
+.choice input:focus-visible + span {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
 }

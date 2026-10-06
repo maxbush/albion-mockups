@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import EnquiryForm from "@/components/forms/EnquiryForm";
-import OpenDayDetails from "@/components/home/OpenDayDetails";
 import PageBand from "@/components/pages/PageBand";
 import { Tbc } from "@/components/ui/Tbc";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n";
@@ -87,9 +86,6 @@ function OpenDayPage({ lang, section, item }: { lang: Locale; section: NavSectio
                   </li>
                 ))}
               </ul>
-              <div className="mt-10">
-                <OpenDayDetails lang={lang} />
-              </div>
             </div>
           </div>
 
@@ -98,9 +94,7 @@ function OpenDayPage({ lang, section, item }: { lang: Locale; section: NavSectio
             <h2 className="mt-6 font-display text-[clamp(2rem,1.3rem+2vw,3.2rem)] leading-[1.05] font-light">
               {o.regTitle}
             </h2>
-            <p className="mt-5 flex flex-wrap items-center gap-2 text-[16px] leading-[1.7] text-ink-2/80">
-              {o.regLead} <Tbc lang={lang} />
-            </p>
+            <p className="mt-5 max-w-[48ch] text-[16px] leading-[1.7] text-ink-2/80">{o.regLead}</p>
             <div className="mt-8">
               <EnquiryForm lang={lang} kind="open_day" submitLabel={o.submit} />
             </div>
@@ -119,7 +113,7 @@ export default async function ItemPage({ params }: Props) {
   const item = section ? findItem(section, slug) : undefined;
   if (!section || !item) notFound();
 
-  if (section.id === "blog" && item.slug === "open-day") {
+  if (section.id === "consulting" && item.slug === "open-day") {
     return <OpenDayPage lang={lang} section={section} item={item} />;
   }
 

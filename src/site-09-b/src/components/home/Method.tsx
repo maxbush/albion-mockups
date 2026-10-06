@@ -18,10 +18,10 @@ export default function Method({ lang }: { lang: Locale }) {
             className="absolute inset-0 translate-x-3 translate-y-3 border border-brass/50 sm:translate-x-4 sm:translate-y-4"
           />
           <Image
-            src="/images/study.jpg"
+            src="/images/method-university.jpg"
             alt={t.imgAlt}
-            width={1200}
-            height={1600}
+            width={675}
+            height={900}
             quality={70}
             sizes="(min-width: 1024px) 36vw, (min-width: 560px) 520px, 92vw"
             className="h-auto w-full mix-blend-multiply"
@@ -65,7 +65,7 @@ export default function Method({ lang }: { lang: Locale }) {
             <a href="#consultation" className="btn btn-brass">
               {t.cta1}
             </a>
-            <Link href={hrefFor(lang, "services", "academic-assessment")} className="link-hair link-hair-soft text-[15px]">
+            <Link href={hrefFor(lang, "consulting", "academic-assessment")} className="link-hair link-hair-soft text-[15px]">
               {t.cta2}
             </Link>
           </div>

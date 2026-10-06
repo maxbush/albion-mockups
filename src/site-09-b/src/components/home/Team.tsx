@@ -6,18 +6,18 @@ import { getDictionary, type Locale } from "@/lib/i18n";
 import { hrefFor } from "@/lib/site";
 
 const leadership = [
-  { name: "Anfisa Bashkirova", src: "/images/team/anfisa-bashkirova.jpg" },
-  { name: "Altynay Yeshmatova", src: "/images/team/altynay-yeshmatova.jpg" },
-  { name: "William Knox", src: "/images/team/william-knox.jpg" },
-  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/vladimir-ivanov-krymskiy.jpg" },
-  { name: "Jonathan Mintram", src: "/images/team/jonathan-mintram.jpg" },
+  { name: "Anfisa Bashkirova", src: "/images/team/anfisa-bashkirova.webp" },
+  { name: "Altynay Yeshmatova", src: "/images/team/altynay-yeshmatova.webp" },
+  { name: "William Knox", src: "/images/team/william-knox.webp" },
+  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/vladimir-ivanov-krymskiy.webp" },
+  { name: "Jonathan Mintram", src: "/images/team/jonathan-mintram.webp" },
 ];
 
 const tutors = [
-  { name: "Adrian Fort", src: "/images/tutors/adrian-fort.jpg" },
-  { name: "Tom Yates", src: "/images/tutors/tom-yates.jpg" },
-  { name: "Stacey Johnson", src: "/images/tutors/stacey-johnson.jpg" },
-  { name: "Mollie-May Campbell", src: "/images/tutors/mollie-may-campbell.jpg" },
+  { name: "Adrian Fort", src: "/images/tutors/adrian-fort.webp" },
+  { name: "Tom Yates", src: "/images/tutors/tom-yates.webp" },
+  { name: "Stacey Johnson", src: "/images/tutors/stacey-johnson.webp" },
+  { name: "Mollie-May Campbell", src: "/images/tutors/mollie-may-campbell.webp" },
 ];
 
 function PersonCard({
@@ -33,7 +33,7 @@ function PersonCard({
 }) {
   return (
     <li className="group" data-reveal style={revealDelay(i * 70)}>
-      <div className="relative aspect-[3/4] overflow-hidden border border-cream/20 bg-ink/60">
+      <div className="relative aspect-[3/4] overflow-hidden bg-[radial-gradient(ellipse_at_50%_30%,#fcfaf5_0%,#f1ede2_74%)] shadow-[0_22px_50px_-28px_rgba(0,0,0,0.75)]">
         <Image
           src={person.src}
           alt={`${person.name} — ${person.role}`}

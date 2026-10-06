@@ -34,7 +34,7 @@ export interface Dictionary {
     arrival: string;
     arrivalSub: string;
   };
-  trust: { aria: string; onGoogle: string; stats: Array<{ n: string; cap: string }>; note: string };
+  trust: { aria: string; onGoogle: string; stats: Array<{ n: string; cap: string }>; cert: string; note: string };
   manifesto: { label: string; title: string; titleEm: string; p1: string; p2: string; p3: string };
   route: {
     label: string;
@@ -65,6 +65,7 @@ export interface Dictionary {
     items: Array<{ n: string; word: string; text: string }>;
   };
   directory: { label: string; title: string; titleEm: string; lead: string };
+  adults: { label: string; title: string; titleEm: string; lead: string; cta: string; imgAlt: string };
   offers: {
     label: string;
     title: string;
@@ -72,7 +73,6 @@ export interface Dictionary {
     lead: string;
     universities: string;
     schools: string;
-    world: { tags: string[]; stages: { label: string; sub: string }[] };
   };
   team: {
     label: string;
@@ -99,15 +99,17 @@ export interface Dictionary {
   schoolsStrip: { aria: string };
   testimonials: {
     label: string;
-    num: string;
     title: string;
     titleEm: string;
-    quotes: Array<{ text: string; by: string }>;
+    score: string;
+    scoreCap: string;
+    linkGoogle: string;
+    linkTrustpilot: string;
     note: string;
+    reviews: Array<{ text: string; by: string; source: string }>;
   };
   openDay: {
     label: string;
-    badge: string;
     title: string;
     titleEm: string;
     lead: string;
@@ -125,7 +127,7 @@ export interface Dictionary {
     title: string;
     titleEm: string;
     lead: string;
-    cover: { series: string; title1: string; titleEm: string; pdf: string };
+    cover: { series: string; title1: string; titleEm: string; pdf: string; imgAlt: string };
     guides: Array<{ n: string; title: string; note: string }>;
     listAria: string;
     formAria: string;
@@ -135,16 +137,25 @@ export interface Dictionary {
     fine: string;
   };
   nextStep: { label: string; title: string; titleEm: string; lead: string; cta: string; caption: string };
-  consultation: { label: string; title: string; titleEm: string; lead: string; submit: string };
-  contact: { rows: Array<{ term: string; value?: string }> };
+  consultation: { label: string; title: string; titleEm: string; lead: string; submit: string; imgAlt: string };
+  contact: { rows: Array<{ key: "email" | "phone" | "office" | "format"; term: string }> };
   form: {
-    name: string;
-    email: string;
-    phone: string;
+    step1: { kicker: string; title: string };
+    step2: { kicker: string; title: string };
+    audienceLegend: string;
+    audienceOptions: ReadonlyArray<{ value: string; label: string }>;
+    ageLegend: string;
+    ageOptions: string[];
     stage: string;
     chooseStage: string;
-    destination: string;
-    chooseDestination: string;
+    next: string;
+    back: string;
+    name: string;
+    channelLegend: string;
+    channelOptions: ReadonlyArray<{ value: string; label: string }>;
+    phone: string;
+    email: string;
+    optional: string;
     messageConsultation: string;
     messageOpenDay: string;
     company: string;
@@ -159,11 +170,14 @@ export interface Dictionary {
     another: string;
     errors: {
       form: string;
-      parentName: string;
-      email: string;
-      phone: string;
+      audience: string;
+      age: string;
       stage: string;
-      destination: string;
+      parentName: string;
+      channel: string;
+      phone: string;
+      email: string;
+      contact: string;
       consent: string;
     };
   };
@@ -207,7 +221,7 @@ export interface Dictionary {
     email: string;
     tel: string;
     office: string;
-    officeValue: string;
+    follow: string;
     navAria: string;
     openDay: string;
     contact: string;
