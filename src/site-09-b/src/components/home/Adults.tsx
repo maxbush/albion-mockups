@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { revealDelay } from "@/lib/css";
 import { getDictionary, type Locale } from "@/lib/i18n";
@@ -29,18 +28,6 @@ export default function Adults({ lang }: { lang: Locale }) {
           <a href="#consultation" className="btn btn-brass mt-9">
             {t.cta}
           </a>
-          <figure className="relative mt-14 hidden w-full max-w-[380px] lg:block">
-            <span aria-hidden="true" className="absolute inset-0 translate-x-3 translate-y-3 border border-brass/45" />
-            <Image
-              src="/images/adults-scene.jpg"
-              alt={t.imgAlt}
-              width={1200}
-              height={1600}
-              quality={70}
-              sizes="380px"
-              className="relative h-auto w-full"
-            />
-          </figure>
         </div>
 
         <ul className="border-t border-cream/15 lg:col-span-6 lg:col-start-7">

@@ -596,7 +596,6 @@ export const en: Dictionary = {
     titleEm: "for adults",
     lead: "A separate direction for people building a career: master's, doctoral study, MBA and management programmes at leading universities and business schools.",
     cta: "Discuss a programme",
-    imgAlt: "Watercolour: a man in a coat with a briefcase walking along a stone college cloister in warm evening light",
   },
 
   offers: {

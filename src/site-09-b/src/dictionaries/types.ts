@@ -65,7 +65,7 @@ export interface Dictionary {
     items: Array<{ n: string; word: string; text: string }>;
   };
   directory: { label: string; title: string; titleEm: string; lead: string };
-  adults: { label: string; title: string; titleEm: string; lead: string; cta: string; imgAlt: string };
+  adults: { label: string; title: string; titleEm: string; lead: string; cta: string };
   offers: {
     label: string;
     title: string;
