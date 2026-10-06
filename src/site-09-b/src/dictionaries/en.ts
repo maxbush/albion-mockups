@@ -550,7 +550,7 @@ export const en: Dictionary = {
     ],
     cta1: "Book a consultation",
     cta2: "Open Academic assessment",
-    imgAlt: "Watercolour: a student with a bicycle and a stack of books climbing the steps to an ivy-covered college entrance",
+    imgAlt: "Watercolour: a college cloister with arches, a sunlit quad and a single tree beyond",
     annot: "weeks 1–4",
   },
 

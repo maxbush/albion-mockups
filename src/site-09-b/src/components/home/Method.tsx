@@ -18,10 +18,10 @@ export default function Method({ lang }: { lang: Locale }) {
             className="absolute inset-0 translate-x-3 translate-y-3 border border-brass/50 sm:translate-x-4 sm:translate-y-4"
           />
           <Image
-            src="/images/method-university.jpg"
+            src="/images/method-cloister.jpg"
             alt={t.imgAlt}
-            width={675}
-            height={900}
+            width={738}
+            height={984}
             quality={70}
             sizes="(min-width: 1024px) 36vw, (min-width: 560px) 520px, 92vw"
             className="h-auto w-full mix-blend-multiply"
