@@ -1,0 +1,614 @@
+/* ── Hero: "first light over the quad" ───────────────────────────────────
+   One luminous dolly-in shot on a 230vh drive with a sticky 100svh stage.
+   The camera drifts through sunlit foliage into the quad: mist layers,
+   a breathing sun-glow, floating motes and birds. Everything ambient runs
+   on transform + opacity only and freezes when the hero leaves the viewport. */
+.hero {
+  position: relative;
+  height: 230svh;
+  background: var(--bg);
+}
+
+.stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: clip;
+}
+
+/* far layer: the quad, approaching slowly */
+.farEnter,
+.far {
+  position: absolute;
+  inset: 0;
+}
+
+.farEnter {
+  z-index: 1;
+  opacity: 0;
+  transform: scale(1.12);
+  transition:
+    opacity 1.6s var(--ease-enter),
+    transform 2.2s var(--ease-enter);
+}
+
+.isLive .farEnter {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.far {
+  will-change: transform;
+}
+
+.far img {
+  object-fit: cover;
+}
+
+/* near layer: sunlit foliage framing the edges, open luminous middle.
+   Multiply blend dissolves the watercolour paper into the quad. */
+.nearEnter {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  opacity: 0;
+  transform: scale(0.98);
+  transform-origin: 50% 46%;
+  transition:
+    opacity 1.5s var(--ease-enter) 0.25s,
+    transform 1.9s var(--ease-enter) 0.25s;
+}
+
+.isLive .nearEnter {
+  opacity: 1;
+  transform: none;
+}
+
+.near {
+  position: absolute;
+  inset: -7% -4%;
+  transform-origin: 50% 46%;
+  mix-blend-mode: multiply;
+  /* transparent → white works under both alpha and luminance masking */
+  -webkit-mask-image: radial-gradient(
+    ellipse 58% 62% at 50% 46%,
+    transparent 54%,
+    #fff 78%
+  );
+  mask-image: radial-gradient(
+    ellipse 58% 62% at 50% 46%,
+    transparent 54%,
+    #fff 78%
+  );
+  will-change: transform, opacity;
+}
+
+.near img {
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+/* light grade: keeps the sky luminous, anchors the copy zone.
+   Monochrome only — it keeps the paintings readable, not moody. */
+.veilEnter,
+.veil {
+  position: absolute;
+  inset: 0;
+}
+
+.veilEnter {
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 1.4s var(--ease-enter) 0.15s;
+}
+
+.isLive .veilEnter {
+  opacity: 1;
+}
+
+.veil {
+  background:
+    radial-gradient(
+      ellipse 120% 92% at 50% 42%,
+      transparent 55%,
+      rgb(15 21 34 / 0.34) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgb(15 21 34 / 0.34) 0%,
+      rgb(15 21 34 / 0.14) 38%,
+      rgb(15 21 34 / 0.52) 78%,
+      rgb(15 21 34 / 0.78) 100%
+    );
+  will-change: opacity;
+}
+
+/* ── ambient life: mist, sun-glow, motes, birds ─────────────────────────── */
+.ambient {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  overflow: clip;
+  pointer-events: none;
+}
+
+.mist {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(
+    closest-side,
+    rgb(246 243 235 / 0.55),
+    rgb(246 243 235 / 0) 72%
+  );
+}
+
+.mistA {
+  width: 64vw;
+  height: 24vh;
+  left: -12vw;
+  top: 24%;
+  opacity: 0.6;
+  animation: mistDriftA 32s ease-in-out infinite alternate;
+}
+
+.mistB {
+  width: 72vw;
+  height: 30vh;
+  right: -18vw;
+  top: 46%;
+  opacity: 0.5;
+  animation: mistDriftB 44s ease-in-out infinite alternate;
+}
+
+.mistC {
+  width: 52vw;
+  height: 22vh;
+  left: 22vw;
+  top: 58%;
+  opacity: 0.85;
+  will-change: transform, opacity;
+}
+
+@keyframes mistDriftA {
+  from {
+    transform: translate3d(-3vw, 0, 0);
+  }
+  to {
+    transform: translate3d(4vw, -1.5vh, 0);
+  }
+}
+
+@keyframes mistDriftB {
+  from {
+    transform: translate3d(4vw, 1vh, 0);
+  }
+  to {
+    transform: translate3d(-3vw, 0, 0);
+  }
+}
+
+.glowShift {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+
+.glowPulse {
+  position: absolute;
+  top: -8%;
+  right: 0;
+  width: 38vmax;
+  height: 38vmax;
+  background: radial-gradient(
+    closest-side,
+    rgb(255 238 205 / 0.6),
+    rgb(255 238 205 / 0) 70%
+  );
+  animation: glowPulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.9;
+    transform: scale(1.06);
+  }
+}
+
+.mote {
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(255 246 224 / 0.9);
+  box-shadow: 0 0 8px 2px rgb(255 240 200 / 0.55);
+  opacity: 0;
+  animation: moteFloat 10s linear infinite;
+}
+
+@keyframes moteFloat {
+  0% {
+    transform: translate3d(0, 10px, 0);
+    opacity: 0;
+  }
+  18% {
+    opacity: 0.9;
+  }
+  70% {
+    opacity: 0.55;
+  }
+  100% {
+    transform: translate3d(14px, -52px, 0);
+    opacity: 0;
+  }
+}
+
+.bird {
+  position: absolute;
+  color: rgb(35 44 71 / 0.75);
+  animation-name: birdFly;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bird svg {
+  display: block;
+  animation: birdBob 3.2s ease-in-out infinite alternate;
+}
+
+.bird1 {
+  top: 15%;
+  animation-duration: 52s;
+  animation-delay: -18s;
+}
+
+.bird1 svg {
+  width: 30px;
+  height: auto;
+}
+
+.bird2 {
+  top: 23%;
+  animation-duration: 71s;
+  animation-delay: -47s;
+}
+
+.bird2 svg {
+  width: 21px;
+  height: auto;
+}
+
+@keyframes birdFly {
+  from {
+    transform: translate3d(-6vw, 0, 0);
+  }
+  to {
+    transform: translate3d(106vw, -5vh, 0);
+  }
+}
+
+@keyframes birdBob {
+  from {
+    transform: translateY(-4px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+
+/* freeze ambient CSS when the hero is off-screen (toggled from IO) */
+.frozen .mote,
+.frozen .mistA,
+.frozen .mistB,
+.frozen .glowPulse,
+.frozen .bird,
+.frozen .bird svg {
+  animation-play-state: paused;
+}
+
+/* ── content ────────────────────────────────────────────────────────────── */
+.contentEnter {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  opacity: 0;
+  transition: opacity 1.1s var(--ease-enter) 0.45s;
+}
+
+.isLive .contentEnter {
+  opacity: 1;
+}
+
+/* staggered rise of copy lines, driven by the same .isLive flag */
+.rise {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 1s var(--ease-enter),
+    transform 1.2s var(--ease-enter);
+}
+
+.isLive .rise {
+  opacity: 1;
+  transform: none;
+}
+
+.content {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  align-items: flex-end;
+  will-change: transform, opacity;
+}
+
+.contentPad {
+  width: 100%;
+  padding-bottom: clamp(76px, 10vh, 112px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 30px;
+}
+
+.title {
+  font-size: clamp(50px, 8.4vw, 132px);
+  margin: 22px 0 20px;
+}
+
+.title span {
+  display: block;
+}
+
+:lang(ru) .title {
+  font-size: clamp(44px, 7.2vw, 108px);
+}
+
+.lede {
+  max-width: 54ch;
+  font-size: clamp(16px, 1.7vw, 19px);
+  line-height: 1.6;
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+/* proof strip: the one confirmed number + response promise */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 1px solid var(--hairline-dark);
+  padding-top: 20px;
+}
+
+.numeral {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 46px;
+  line-height: 1;
+  color: var(--brass);
+  flex: none;
+}
+
+.metaText {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ivory-mute);
+}
+
+.metaText strong {
+  display: block;
+  font-weight: 500;
+  color: var(--ivory);
+}
+
+/* arrival line: fades in as the dolly completes — you are inside */
+.arrivalWrap {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: grid;
+  place-items: center;
+  padding-inline: var(--gutter);
+  opacity: 0;
+  pointer-events: none;
+  will-change: opacity, transform;
+}
+
+.arrivalScrim {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 62% 46% at 50% 52%,
+    rgb(15 21 34 / 0.6) 0%,
+    rgb(15 21 34 / 0) 70%
+  );
+}
+
+.arrival {
+  position: relative;
+  max-width: 22ch;
+  font-size: clamp(32px, 4.6vw, 68px);
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* scroll cue */
+.cue {
+  position: absolute;
+  z-index: 7;
+  left: 50%;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transform: translateX(-50%);
+  will-change: opacity;
+}
+
+.cueLabel {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+  white-space: nowrap;
+}
+
+.cueLine {
+  position: relative;
+  width: 1px;
+  height: 40px;
+  background: rgb(166 174 194 / 0.35);
+  overflow: hidden;
+}
+
+.cueLine::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 12px;
+  background: var(--brass);
+  animation: cueDrop 2.3s var(--ease-out) infinite;
+}
+
+@keyframes cueDrop {
+  0% {
+    transform: translateY(-14px);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(44px);
+    opacity: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 56px;
+    align-items: end;
+  }
+
+  .meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    border-top: 0;
+    border-left: 1px solid var(--hairline-dark);
+    padding-top: 6px;
+    padding-left: 30px;
+  }
+
+  .numeral {
+    font-size: 72px;
+  }
+}
+
+/* short screens: keep the message inside the viewport */
+@media (max-height: 660px) {
+  .contentPad {
+    padding-bottom: 64px;
+  }
+
+  .title {
+    font-size: clamp(44px, 7vh, 64px);
+    margin: 14px 0 12px;
+  }
+
+  .lede {
+    font-size: 15.5px;
+  }
+
+  .ctaRow {
+    margin-top: 20px;
+  }
+
+  .cue {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    height: auto;
+  }
+
+  .stage {
+    position: relative;
+    height: auto;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: calc(var(--header-h) + 40px);
+  }
+
+  .contentEnter,
+  .content {
+    position: relative;
+    inset: auto;
+  }
+
+  .rise {
+    opacity: 1;
+    transform: none;
+  }
+
+  .ambient,
+  .arrivalWrap,
+  .cue {
+    display: none;
+  }
+}
+
+/* CTA dock: lives outside the departing copy so the buttons stay on touch */
+.ctaDock {
+  display: none;
+}
+
+/* Touch devices: single-screen hero, the arrival plays itself via JS */
+@media (pointer: coarse) {
+  .hero {
+    height: 100svh;
+  }
+  .cue {
+    display: none;
+  }
+  .ctaRow {
+    display: none;
+  }
+  .ctaDock {
+    position: absolute;
+    z-index: 7;
+    left: var(--gutter);
+    right: var(--gutter);
+    bottom: max(18px, env(safe-area-inset-bottom));
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    opacity: 0;
+    transition: opacity 0.9s var(--ease-enter) 1.1s;
+    /* keep the right lane clear for the fixed WhatsApp float */
+    padding-right: 64px;
+  }
+  .isLive .ctaDock {
+    opacity: 1;
+  }
+  /* lift the copy block so the meta strip clears the docked buttons */
+  .contentPad {
+    padding-bottom: clamp(170px, 22svh, 210px);
+  }
+}

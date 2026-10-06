@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALBION Consult — a letter to your family</title>
+<meta name="description" content="An Oxford-based educational consultancy for international families. School, university, and whatever lies beyond the last arch — walked together, one traveller at a time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#D8CFB9; --desk-2:#CEC4AA;
+  --paper:#FBF8EF; --paper-2:#F3EDDC; --paper-3:#E7DCC2;
+  --ink:#24406B; --ink-deep:#192F50; --ink-soft:#66748D;
+  --red:#B8402E; --red-deep:#8E3020;
+  --line:rgba(36,64,107,.30); --line-soft:rgba(36,64,107,.14);
+  --serif:'EB Garamond',Georgia,serif;
+  --sans:'IBM Plex Sans',system-ui,sans-serif;
+  --hand:'Caveat',cursive;
+  --col:min(1000px,86vw);
+  --margin:clamp(46px,7%,86px);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--serif);color:var(--ink);font-size:17px;line-height:1.65;
+  background:
+    radial-gradient(1100px 500px at 85% -8%,rgba(255,255,255,.25),transparent 60%),
+    linear-gradient(160deg,var(--desk) 0%,var(--desk-2) 100%);
+  background-attachment:fixed;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:rgba(184,64,46,.2)}
+
+/* ============ the letter on the desk ============ */
+.letter{
+  max-width:1180px;margin:clamp(20px,4vh,56px) auto clamp(40px,6vh,72px);
+  background:var(--paper);
+  box-shadow:0 1px 2px rgba(40,34,20,.10),0 18px 44px rgba(40,34,20,.16),0 60px 110px rgba(40,34,20,.12);
+  position:relative;
+}
+.letter::before{ /* airmail chevron along the top edge */
+  content:'';display:block;height:9px;
+  background:repeating-linear-gradient(45deg,
+    var(--ink) 0 13px,var(--paper) 13px 26px,
+    var(--red) 26px 39px,var(--paper) 39px 52px);
+}
+.margin-rule{ /* red margin line of the sheet */
+  position:absolute;top:0;bottom:0;left:var(--margin);width:1px;
+  background:rgba(184,64,46,.38);
+}
+.inner{position:relative;padding:0 clamp(22px,5vw,72px) 0 calc(var(--margin) + clamp(22px,4vw,56px))}
+
+/* ============ letterhead / nav ============ */
+.head{
+  position:sticky;top:0;z-index:60;background:var(--paper);
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 0 16px;border-bottom:1px solid var(--line-soft);
+}
+.brand{font-family:var(--serif);font-size:21px;font-weight:600;letter-spacing:.02em;color:var(--ink-deep)}
+.brand i{font-style:italic;font-weight:400;color:var(--red)}
+.nav{display:flex;align-items:center;gap:26px}
+.nav a{
+  font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-soft);transition:color .25s;
+}
+.nav a:hover{color:var(--red)}
+.nav .go{
+  color:var(--paper);background:var(--ink);padding:9px 18px;border-radius:99px;
+  border:1px solid var(--ink);
+}
+.nav .go:hover{background:var(--red);border-color:var(--red);color:var(--paper)}
+.menu-btn{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:8px;background:var(--paper);cursor:pointer;position:relative}
+.menu-btn span{position:absolute;left:11px;right:11px;height:2px;background:var(--ink);transition:transform .3s,opacity .3s}
+.menu-btn span:nth-child(1){top:16px}
+.menu-btn span:nth-child(2){top:25px}
+body.menu-open .menu-btn span:nth-child(1){transform:translateY(4.5px) rotate(45deg);background:var(--red)}
+body.menu-open .menu-btn span:nth-child(2){transform:translateY(-4.5px) rotate(-45deg);background:var(--red)}
+
+/* mobile sheet */
+.mmenu{
+  position:fixed;inset:0;z-index:70;background:var(--paper);
+  transform:translateY(-102%);visibility:hidden;
+  transition:transform .5s cubic-bezier(.7,.1,.2,1),visibility 0s .5s;
+  overflow-y:auto;padding:96px 8vw 60px;
+}
+body.menu-open .mmenu{transform:translateY(0);visibility:visible;transition-delay:0s}
+.mm-st{display:block;font-family:var(--serif);font-size:30px;padding:14px 0;border-bottom:1px solid var(--line-soft);color:var(--ink-deep)}
+.mm-st b{font-family:var(--sans);font-size:11px;font-weight:600;color:var(--red);letter-spacing:.15em;margin-right:14px;vertical-align:5px}
+.mmenu-tax{display:grid;grid-template-columns:1fr 1fr;gap:4px 28px;margin-top:34px}
+.mmenu-tax h6{grid-column:1/-1;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin:18px 0 4px}
+.mmenu-tax a{font-family:var(--sans);font-size:13.5px;color:var(--ink-soft);padding:6px 0}
+.mmenu-cta{display:block;margin-top:36px;text-align:center;background:var(--ink);color:var(--paper);border-radius:99px;padding:16px;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+
+/* ============ shared bits ============ */
+section{padding:clamp(64px,9vh,110px) 0;position:relative}
+.kick{
+  font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--red);display:flex;align-items:center;gap:14px;
+}
+.kick::before{content:'';width:34px;height:1px;background:var(--red)}
+h2{font-size:clamp(34px,4.4vw,58px);font-weight:500;line-height:1.08;letter-spacing:-.01em;color:var(--ink-deep);margin:18px 0 0}
+h2 em{font-style:italic;color:var(--red);font-weight:500}
+.lede{max-width:56ch;margin-top:20px;font-size:18px;color:var(--ink-soft)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.2,.7,.3,1),transform .9s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.18s}.d3{transition-delay:.28s}
+.marginal{
+  position:absolute;left:calc(14px - var(--margin));width:calc(var(--margin) - 20px);
+  font-family:var(--hand);font-size:19px;color:var(--red);opacity:.9;
+  transform:rotate(-4deg);text-align:left;line-height:1.25;
+}
+.btn{
+  display:inline-flex;align-items:center;gap:12px;
+  font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;border-radius:99px;padding:15px 28px;
+  transition:background .3s,color .3s,border-color .3s;cursor:pointer;
+}
+.btn-ink{background:var(--ink);color:var(--paper);border:1px solid var(--ink)}
+.btn-ink:hover{background:var(--red);border-color:var(--red)}
+.btn-line{border:1px solid var(--line);color:var(--ink)}
+.btn-line:hover{border-color:var(--red);color:var(--red)}
+
+/* ============ hero ============ */
+.hero{min-height:82vh;display:flex;flex-direction:column;justify-content:center;padding-top:56px}
+.postmark{
+  position:absolute;top:34px;right:clamp(18px,4vw,54px);width:118px;height:118px;
+  border:2px solid rgba(184,64,46,.55);border-radius:50%;
+  transform:rotate(11deg);display:flex;flex-direction:column;align-items:center;justify-content:center;
+  color:var(--red);
+}
+.postmark::before{content:'';position:absolute;inset:6px;border:1px solid rgba(184,64,46,.35);border-radius:50%}
+.postmark b{font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
+.postmark small{font-family:var(--hand);font-size:21px;margin-top:4px}
+.hero .dear{font-family:var(--hand);font-size:clamp(30px,3.4vw,44px);color:var(--ink-soft);transform:rotate(-1.5deg);display:inline-block}
+.hero h1{
+  font-size:clamp(46px,7vw,92px);font-weight:500;line-height:1.02;letter-spacing:-.015em;
+  color:var(--ink-deep);max-width:14ch;margin-top:10px;
+}
+.hero h1 em{font-style:italic;color:var(--red)}
+.hero .body{max-width:52ch;margin-top:28px;font-size:18.5px;color:var(--ink-soft)}
+.hero .sig{display:flex;align-items:baseline;gap:26px;margin-top:44px;flex-wrap:wrap}
+.hero .sig .who{font-family:var(--hand);font-size:30px;color:var(--ink-deep)}
+.hero .sig .who i{font-style:normal;color:var(--red)}
+.hero .cta-row{display:flex;gap:16px;margin-top:8px;flex-wrap:wrap}
+.hero .stamp-hint{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-top:38px;display:flex;align-items:center;gap:12px}
+.hero .stamp-hint::after{content:'';flex:1;height:1px;background:var(--line-soft)}
+
+/* ============ trust ============ */
+.trust{
+  display:flex;align-items:center;gap:26px;flex-wrap:wrap;
+  border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+  padding:26px 0;margin-top:8vh;
+}
+.trust .stars{font-size:15px;letter-spacing:4px;color:var(--red)}
+.trust .stars b{font-family:var(--sans);font-size:13px;font-weight:600;margin-left:10px;color:var(--ink-deep);letter-spacing:.04em}
+.trust .stars small{font-family:var(--sans);font-size:11px;color:var(--ink-soft);letter-spacing:.08em}
+.trust-sep{width:1px;height:34px;background:var(--line-soft)}
+.trust-figs{display:flex;gap:30px;flex-wrap:wrap}
+.trust-figs li{list-style:none;display:flex;align-items:baseline;gap:10px}
+.trust-figs b{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--ink-deep)}
+.trust-figs span{font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);max-width:14ch;line-height:1.5}
+.trust-note{font-family:var(--hand);font-size:19px;color:var(--red);margin-left:auto;transform:rotate(-2deg)}
+
+/* ============ gates ============ */
+.gate{display:grid;grid-template-columns:70px 1fr;gap:8px 30px;padding:52px 0;border-top:1px solid var(--line-soft)}
+.gate .num{
+  grid-row:1/3;font-family:var(--hand);font-size:46px;color:var(--red);
+  line-height:1;padding-top:4px;transform:rotate(-3deg);text-align:center;
+}
+.gate h3{font-size:clamp(26px,2.6vw,36px);font-weight:500;color:var(--ink-deep)}
+.gate h3 em{color:var(--red);font-style:italic}
+.gate p{grid-column:2;margin-top:12px;max-width:60ch;color:var(--ink-soft);font-size:17px}
+.gate ul{grid-column:2;margin-top:20px;list-style:none}
+.gate li{
+  font-family:var(--sans);font-size:13px;color:var(--ink);padding:11px 0;
+  border-top:1px solid var(--line-soft);display:flex;gap:16px;align-items:baseline;
+}
+.gate li b{font-size:10px;font-weight:600;letter-spacing:.2em;color:var(--red);min-width:24px}
+.gate li:last-child{border-bottom:1px solid var(--line-soft)}
+
+/* ============ postscript ============ */
+.ps{padding:14vh 0 12vh;text-align:center}
+.ps .hand{font-family:var(--hand);font-size:clamp(30px,3.6vw,46px);color:var(--ink);transform:rotate(-1.2deg);display:inline-block}
+.ps .hand i{color:var(--red)}
+.ps p{max-width:52ch;margin:22px auto 0;color:var(--ink-soft);font-size:17.5px;font-style:italic}
+.ps .pm{
+  margin:34px auto 0;width:92px;height:92px;border:1.5px solid rgba(36,64,107,.5);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-family:var(--hand);font-size:19px;color:var(--ink);transform:rotate(-8deg);
+}
+
+/* ============ postcards (offers) ============ */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:22px;margin-top:44px}
+.stamp{
+  background:var(--paper-2);padding:16px 16px 14px;position:relative;
+  outline:4px dashed rgba(36,64,107,.25);outline-offset:-9px;
+  transition:transform .35s cubic-bezier(.22,.8,.3,1),box-shadow .35s;
+}
+.stamp:hover{transform:translateY(-4px) rotate(-.6deg);box-shadow:0 14px 30px rgba(40,34,20,.14)}
+.stamp .pm{
+  position:absolute;top:6px;right:6px;width:44px;height:44px;border-radius:50%;
+  border:1.5px solid rgba(184,64,46,.55);transform:rotate(14deg);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-size:7.5px;font-weight:600;letter-spacing:.14em;color:var(--red);
+}
+.stamp i{
+  display:flex;align-items:center;justify-content:center;
+  width:52px;height:52px;margin-bottom:12px;
+  font-style:normal;font-family:var(--serif);font-size:30px;font-weight:600;color:var(--ink);
+  border:1.5px solid rgba(36,64,107,.4);border-radius:50% 50% 0 0/32% 32% 0 0;
+  background:var(--paper);
+}
+.stamp b{display:block;font-size:16.5px;font-weight:600;line-height:1.2;color:var(--ink-deep)}
+.stamp small{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.cards-tag{grid-column:1/-1;font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--red);border-bottom:1px solid var(--line);padding-bottom:10px;display:flex;gap:14px;align-items:center}
+.cards-tag::after{content:'';width:8px;height:8px;background:var(--red);transform:rotate(45deg)}
+.offers-note{margin-top:34px;font-family:var(--hand);font-size:21px;color:var(--red);transform:rotate(-1.4deg);display:inline-block}
+
+/* ============ pledge ============ */
+.pledge{border:1.5px solid var(--line);background:var(--paper-2);padding:clamp(30px,4vw,56px);position:relative}
+.pledge ol{list-style:none;counter-reset:pl}
+.pledge li{
+  counter-increment:pl;display:grid;grid-template-columns:56px 220px 1fr;gap:22px;
+  padding:24px 0;border-top:1px solid var(--line-soft);align-items:baseline;
+}
+.pledge li::before{
+  content:'— ' counter(pl,lower-roman);font-family:var(--hand);font-size:30px;color:var(--red);
+  transform:rotate(-2deg);display:block;
+}
+.pledge li h4{font-size:clamp(19px,1.9vw,24px);font-weight:500;color:var(--ink-deep)}
+.pledge li p{font-size:15.5px;color:var(--ink-soft);font-family:var(--sans);line-height:1.6}
+.seal{
+  position:absolute;right:clamp(20px,3vw,44px);bottom:-34px;width:96px;height:96px;
+  background:radial-gradient(circle at 38% 34%,#C24A36,var(--red) 46%,var(--red-deep) 100%);
+  border-radius:46% 54% 52% 48%/48% 52% 48% 52%;
+  transform:rotate(-8deg);box-shadow:0 10px 26px rgba(142,48,32,.4);
+  display:flex;align-items:center;justify-content:center;
+}
+.seal i{font-style:normal;font-family:var(--serif);font-size:40px;color:#F6E9DC;font-weight:600}
+.seal::before{content:'';position:absolute;inset:9px;border:1.5px solid rgba(246,233,220,.55);border-radius:inherit}
+
+/* ============ people ============ */
+.people{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px;margin-top:44px}
+.person{
+  border:1px solid var(--line-soft);background:var(--paper-2);
+  padding:22px 20px 20px;transition:transform .3s,box-shadow .3s;
+}
+.person:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(40,34,20,.12)}
+.person .ph{
+  width:100%;aspect-ratio:1/1.15;background:var(--paper-3);
+  border-radius:50% 50% 0 0/26% 26% 0 0;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  color:var(--ink-soft);
+}
+.person .ph i{font-family:var(--serif);font-style:italic;font-size:30px}
+.person .ph small{font-family:var(--sans);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase}
+.person h4{margin-top:18px;font-family:var(--hand);font-size:26px;color:var(--ink-deep);border-bottom:1px solid var(--line);padding-bottom:8px}
+.person p{margin-top:10px;font-family:var(--sans);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* ============ evidence ============ */
+.evidence{display:grid;grid-template-columns:auto 1fr;gap:60px;align-items:center;margin-top:44px}
+.evidence .big{
+  width:190px;height:190px;border:2.5px solid rgba(184,64,46,.6);border-radius:50%;
+  transform:rotate(-7deg);display:flex;flex-direction:column;align-items:center;justify-content:center;
+}
+.evidence .big::before{content:'';position:absolute;inset:8px;border:1px solid rgba(184,64,46,.35);border-radius:50%}
+.evidence .big b{font-family:var(--serif);font-size:64px;font-weight:600;color:var(--red);line-height:1}
+.evidence .big span{font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-top:8px}
+.evidence ul{list-style:none}
+.evidence li{display:flex;gap:24px;align-items:baseline;padding:20px 0;border-top:1px solid var(--line-soft)}
+.evidence li:last-child{border-bottom:1px solid var(--line-soft)}
+.evidence b{font-family:var(--serif);font-size:30px;font-weight:600;color:var(--ink-deep);min-width:64px}
+.evidence span{font-family:var(--sans);font-size:13.5px;color:var(--ink-soft)}
+
+/* ============ correspondence (journal) ============ */
+.posts{margin-top:40px}
+.posts a{
+  display:grid;grid-template-columns:70px 1fr auto;gap:26px;align-items:baseline;
+  padding:24px 0;border-top:1px solid var(--line-soft);transition:padding-left .3s;
+}
+.posts a:hover{padding-left:10px}
+.posts a:last-child{border-bottom:1px solid var(--line-soft)}
+.posts .iss{font-family:var(--hand);font-size:26px;color:var(--red)}
+.posts h4{font-size:clamp(18px,1.9vw,24px);font-weight:500;color:var(--ink-deep)}
+.posts small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px}
+.posts .arr{font-family:var(--serif);font-size:24px;color:var(--red);transition:transform .3s}
+.posts a:hover .arr{transform:translateX(6px)}
+
+/* ============ postings (events) ============ */
+.evt{display:grid;grid-template-columns:110px 1fr auto;gap:28px;align-items:center;padding:26px 0;border-top:1px solid var(--line-soft)}
+.evt:last-child{border-bottom:1px solid var(--line-soft)}
+.evt .when{font-family:var(--serif)}
+.evt .when b{font-size:30px;font-weight:600;color:var(--ink-deep);display:block;line-height:1}
+.evt .when small{font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft)}
+.evt h4{font-size:clamp(19px,2vw,25px);font-weight:500;color:var(--ink-deep)}
+.evt p{font-family:var(--sans);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px}
+.evt .reg{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--red);border-bottom:1px solid var(--red);padding-bottom:3px;white-space:nowrap}
+
+/* ============ envelope (lead magnet) ============ */
+.env{
+  margin-top:44px;position:relative;background:var(--paper-2);
+  border:1px solid var(--line);
+  display:grid;grid-template-columns:1fr 1fr;overflow:hidden;
+}
+.env::before{ /* airmail band across the card top */
+  content:'';position:absolute;top:0;left:0;right:0;height:8px;
+  background:repeating-linear-gradient(45deg,
+    var(--ink) 0 12px,var(--paper-2) 12px 24px,
+    var(--red) 24px 36px,var(--paper-2) 36px 48px);
+}
+.env .flap{
+  position:relative;padding:64px 44px 44px;
+  border-right:1px solid var(--line-soft);
+  display:flex;flex-direction:column;justify-content:center;
+}
+.env .flap::after{ /* postmark ring on the flap corner */
+  content:'ALBION';position:absolute;top:14px;right:16px;width:52px;height:52px;
+  border:1.5px solid rgba(184,64,46,.5);border-radius:50%;transform:rotate(12deg);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--sans);font-size:8px;font-weight:600;letter-spacing:.16em;color:var(--red);
+}
+.env .stamp-pdf{
+  align-self:flex-start;background:var(--paper);border:1.5px solid rgba(36,64,107,.4);
+  outline:4px dashed rgba(36,64,107,.25);outline-offset:-8px;
+  padding:22px 26px;font-family:var(--serif);
+}
+.env .stamp-pdf b{display:block;font-size:22px;font-weight:600;color:var(--ink-deep);line-height:1.25}
+.env .stamp-pdf b em{color:var(--red);font-style:italic}
+.env .stamp-pdf small{display:block;margin-top:10px;font-family:var(--sans);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+.env .list{padding:64px 44px 44px;display:flex;flex-direction:column;justify-content:center}
+.env .list ol{list-style:none}
+.env .list li{display:flex;gap:16px;padding:13px 0;border-top:1px solid var(--line-soft);font-size:16px;color:var(--ink)}
+.env .list li b{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.2em;color:var(--red);padding-top:5px}
+.env .list li i{margin-left:auto;font-family:var(--hand);font-size:19px;color:var(--red)}
+.env .list li:last-child{border-bottom:1px solid var(--line-soft)}
+
+/* ============ ruled form ============ */
+.rform{margin-top:40px;max-width:660px}
+.rform .row{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.rform input,.rform textarea{
+  width:100%;border:0;border-bottom:1.5px solid var(--line);background:transparent;
+  padding:14px 4px;font-family:var(--serif);font-size:19px;color:var(--ink-deep);
+  transition:border-color .3s;resize:vertical;
+}
+.rform textarea{margin-top:26px;min-height:96px;
+  background-image:repeating-linear-gradient(transparent 0 36px,var(--line-soft) 36px 37px);
+  line-height:37px;border-bottom:0;
+}
+.rform input:focus,.rform textarea:focus{outline:none;border-bottom-color:var(--red)}
+.rform input::placeholder,.rform textarea::placeholder{color:var(--ink-soft);font-style:italic}
+.rform .send{margin-top:34px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.rform .privacy{font-family:var(--hand);font-size:19px;color:var(--red);transform:rotate(-1.5deg)}
+.done{font-family:var(--hand);font-size:30px;color:var(--red);transform:rotate(-1.6deg);display:inline-block;padding:24px 0}
+
+/* ============ finale ============ */
+.finale{border-top:1px solid var(--line-soft);text-align:left;position:relative;padding-bottom:15vh}
+.finale .kick{justify-content:flex-start}
+.signoff{margin-top:64px;display:flex;align-items:flex-end;gap:40px;flex-wrap:wrap}
+.signoff .yr{font-family:var(--hand);font-size:34px;color:var(--ink-deep);transform:rotate(-2deg)}
+.signoff .yr i{color:var(--red)}
+.signoff p{font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);line-height:1.9}
+
+/* ============ desk footer ============ */
+.desk-foot{max-width:1180px;margin:0 auto;padding:0 clamp(16px,3vw,40px) 70px}
+.desk-card{
+  background:var(--paper-3);border:1px solid rgba(36,64,107,.16);
+  box-shadow:0 10px 30px rgba(40,34,20,.10);
+  padding:clamp(30px,4vw,50px);
+  transform:rotate(-.4deg);
+}
+.desk-card .top{display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap;border-bottom:1px solid rgba(36,64,107,.18);padding-bottom:18px}
+.desk-card .wm{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--ink-deep)}
+.desk-card .wm i{font-style:italic;color:var(--red);font-weight:400}
+.desk-card .tag{font-family:var(--hand);font-size:21px;color:var(--ink-soft)}
+.desk-cols{display:grid;grid-template-columns:repeat(5,1fr);gap:26px;margin-top:26px}
+.desk-cols h6{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:12px}
+.desk-cols a{display:block;font-family:var(--sans);font-size:12.5px;color:var(--ink-soft);padding:5px 0;transition:color .25s}
+.desk-cols a:hover{color:var(--red)}
+.desk-bot{display:flex;justify-content:space-between;gap:14px;margin-top:30px;border-top:1px solid rgba(36,64,107,.18);padding-top:16px;font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);flex-wrap:wrap}
+
+/* ============ whatsapp ============ */
+.wa{
+  position:fixed;right:22px;bottom:22px;z-index:65;width:52px;height:52px;
+  border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;
+  box-shadow:0 12px 30px rgba(25,47,80,.35);transition:transform .3s,background .3s;
+}
+.wa:hover{transform:translateY(-4px);background:var(--red)}
+.wa svg{width:24px;height:24px;fill:var(--paper)}
+
+/* ============ responsive ============ */
+@media(max-width:1000px){
+  .nav{display:none}
+  .menu-btn{display:block}
+  .marginal{display:none}
+  .env{grid-template-columns:1fr}
+  .env .flap{border-right:0;border-bottom:1px solid var(--line-soft);padding-bottom:34px}
+  .evidence{grid-template-columns:1fr;gap:34px}
+  .pledge li{grid-template-columns:44px 1fr}
+  .pledge li p{grid-column:2}
+  .desk-cols{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:640px){
+  :root{--margin:24px}
+  .inner{padding-right:22px}
+  .letter{margin:10px auto 40px}
+  .gate{grid-template-columns:44px 1fr;gap:6px 16px}
+  .gate .num{font-size:34px}
+  .rform .row{grid-template-columns:1fr}
+  .desk-cols{grid-template-columns:1fr 1fr}
+  .postmark{width:96px;height:96px;top:18px;right:12px}
+  .hero{padding-top:40px}
+  .evt{grid-template-columns:1fr;gap:12px}
+}
+@media(prefers-reduced-motion:reduce){
+  .rv{transition:none;opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ mobile menu ============ -->
+<nav class="mmenu" id="mmenu" aria-label="Menu">
+  <a class="mm-st" href="#journey"><b>01</b>The journey</a>
+  <a class="mm-st" href="#postcards"><b>02</b>Postcards</a>
+  <a class="mm-st" href="#pledge"><b>03</b>Undertakings</a>
+  <a class="mm-st" href="#people"><b>04</b>People</a>
+  <a class="mm-st" href="#correspondence"><b>05</b>Correspondence</a>
+  <a class="mm-st" href="#postings"><b>06</b>Postings</a>
+  <a class="mm-st" href="#writeback"><b>07</b>Write back</a>
+  <div class="mmenu-tax">
+    <h6>Admissions</h6>
+    <a href="/private-schools/day">Day schools</a><a href="/private-schools/boarding">Boarding</a>
+    <a href="/admissions/entrance-exams">Entrance exams 11+/13+/16+</a><a href="/universities/uk">Universities UK</a>
+    <a href="/universities/europe">Europe</a><a href="/universities/usa">USA</a>
+    <a href="/universities/oxbridge">Oxbridge</a><a href="/universities/masters">Master's</a>
+    <a href="/universities/doctoral">Doctoral</a>
+    <h6>Tuition</h6>
+    <a href="/tuition/entrance-exams">Exam prep 11+/13+/16+</a><a href="/tuition/university-tests">University tests</a>
+    <a href="/tuition/gcse">GCSE</a><a href="/tuition/a-level">A-Level</a>
+    <a href="/tuition/ib">IB</a><a href="/tuition/home-education">Home education</a>
+    <a href="/tuition/intensive-courses">Intensive courses</a><a href="/tutors">Tutors</a>
+    <h6>Services</h6>
+    <a href="/services/guardianship">Guardianship</a><a href="/services/academic-assessment">Academic assessment</a>
+    <a href="/services/career-guidance">Career guidance</a><a href="/services/personal-statement">Personal statement</a>
+    <a href="/summer-schools">Summer schools</a><a href="/executive-education">Executive — MBA &amp; EMBA</a>
+    <h6>Albion</h6>
+    <a href="#pledge">Our approach</a><a href="#people">People</a>
+    <a href="#correspondence">Journal</a><a href="#postings">Events</a>
+    <a href="/resources/pricing">Pricing</a>
+  </div>
+  <a class="mmenu-cta" href="#writeback">Begin a conversation</a>
+</nav>
+
+<!-- ============ the letter ============ -->
+<div class="letter">
+  <span class="margin-rule" aria-hidden="true"></span>
+  <div class="inner">
+
+    <header class="head">
+      <a class="brand" href="#top">ALBION <i>Consult</i></a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#journey">The journey</a>
+        <a href="#postcards">Postcards</a>
+        <a href="#pledge">Undertakings</a>
+        <a href="#people">People</a>
+        <a href="#correspondence">Correspondence</a>
+        <a href="#postings">Postings</a>
+        <a class="go" href="#writeback">Write back</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main id="top">
+
+      <!-- 01 · hero — the letter opens -->
+      <section class="hero">
+        <span class="marginal">begins<br>here →</span>
+        <div class="postmark" aria-hidden="true"><b>Albion</b><small>Oxford</small><b>TBC</b></div>
+        <span class="dear rv">Dear family,</span>
+        <h1 class="rv d1">Every student has a <em>way through</em>.</h1>
+        <p class="body rv d2">An Oxford-based consultancy for international families. We walk with each student through the thresholds of British education — school, university, and whatever lies beyond the last arch. We write this letter the way we work: personally, and without hurry.</p>
+        <div class="sig rv d3">
+          <span class="who">— <i>William</i>, ALBION Consult</span>
+        </div>
+        <div class="cta-row rv d3">
+          <a class="btn btn-ink" href="#writeback">Begin a conversation&nbsp;→</a>
+          <a class="btn btn-line" href="#journey">Follow the route&nbsp;↓</a>
+        </div>
+        <div class="stamp-hint rv d3">Counsellors, not consultants — Oxford, England</div>
+      </section>
+
+      <!-- trust strip -->
+      <div class="trust rv">
+        <div class="stars">★★★★★<b>5.0</b><small>on Google</small></div>
+        <span class="trust-sep"></span>
+        <ul class="trust-figs">
+          <li><b>20+</b><span>years of combined experience</span></li>
+          <li><b>240+</b><span>offers received</span></li>
+          <li><b>180+</b><span>families guided</span></li>
+        </ul>
+        <span class="trust-note">figures in preparation</span>
+      </div>
+
+      <!-- 02 · the journey -->
+      <section id="journey">
+        <span class="marginal">the<br>route</span>
+        <span class="kick rv">The journey — five gates</span>
+        <h2 class="rv d1">One route, <em>walked together</em>.</h2>
+        <p class="lede rv d2">Every family arrives at a different gate, and no one passes through all five in the same way. But the passage is never made alone.</p>
+
+        <article class="gate rv">
+          <span class="num">i.</span>
+          <h3>School</h3>
+          <p>The first threshold is the school that fits — not the most famous name, but the right house, the right pace, the right room to grow. We read the child before we read the league tables.</p>
+          <ul>
+            <li><b>01</b>Understanding the student — character, language, ambitions</li>
+            <li><b>02</b>A shortlist of schools chosen for fit, not prestige alone</li>
+            <li><b>03</b>Visits, introductions and applications, arranged end to end</li>
+          </ul>
+        </article>
+
+        <article class="gate rv">
+          <span class="num">ii.</span>
+          <h3>Preparation</h3>
+          <p>Before every threshold there is a corridor — the quiet work of getting ready. Entrance assessments, interviews, the English that exams don't measure: preparation is where confidence is built.</p>
+          <ul>
+            <li><b>01</b>Assessment preparation for UKiset, ISEB and school-specific papers</li>
+            <li><b>02</b>Interview coaching — thinking aloud, not reciting answers</li>
+            <li><b>03</b>Academic English and settling-in support on arrival</li>
+          </ul>
+        </article>
+
+        <article class="gate rv">
+          <span class="num">iii.</span>
+          <h3>University</h3>
+          <p>The route narrows to a single statement, five choices, one direction. We help students find the course worth committing to — then build an application that sounds like no one else.</p>
+          <ul>
+            <li><b>01</b>Course and university selection across the UCAS landscape</li>
+            <li><b>02</b>Personal statement development — drafts, honesty, voice</li>
+            <li><b>03</b>Admissions tests and predicted-grade strategy</li>
+          </ul>
+        </article>
+
+        <article class="gate rv">
+          <span class="num">iv.</span>
+          <h3>Oxbridge</h3>
+          <p>For some students, the passage leads here — to colleges, tutors and interviews unlike anything else in the world. We prepare them for the conversation, not the performance.</p>
+          <ul>
+            <li><b>01</b>College choice — the question inside the question</li>
+            <li><b>02</b>Tutorial-style preparation with subject specialists</li>
+            <li><b>03</b>Mock interviews that teach students to think on their feet</li>
+          </ul>
+        </article>
+
+        <article class="gate rv">
+          <span class="num">v.</span>
+          <h3>What's next</h3>
+          <p>Every arch opens onto something. Careers, postgraduate study, the first steps of a working life — the route continues, and so does the relationship. Our students come back for advice long after the last application.</p>
+          <ul>
+            <li><b>01</b>Postgraduate and career-direction counsel</li>
+            <li><b>02</b>A standing relationship, not a finished transaction</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- 03 · postscript — no standard route -->
+      <section class="ps">
+        <span class="hand rv">P.S. — There is <i>no standard route</i>.</span>
+        <p class="rv d1">Two students can leave the same school and arrive at entirely different futures — and both be right. We do not sell a conveyor belt. We draw a map for one traveller at a time.</p>
+        <div class="pm rv d2" aria-hidden="true">as ever —</div>
+      </section>
+
+      <!-- 04 · postcards (offers) -->
+      <section id="postcards">
+        <span class="marginal">where<br>they<br>landed</span>
+        <span class="kick rv">Where the gates have led</span>
+        <h2 class="rv d1">Postcards from <em>destinations</em>.</h2>
+        <p class="lede rv d2">The universities and schools where Albion students study today. The list grows as offers arrive — and is shown to families in full on request.</p>
+        <div class="cards">
+          <span class="cards-tag rv">Universities</span>
+          <div class="stamp rv"><span class="pm">UK</span><i>O</i><b>Oxford</b><small>UK</small></div>
+          <div class="stamp rv d1"><span class="pm">UK</span><i>C</i><b>Cambridge</b><small>UK</small></div>
+          <div class="stamp rv d1"><span class="pm">LDN</span><i>U</i><b>UCL</b><small>London</small></div>
+          <div class="stamp rv d2"><span class="pm">LDN</span><i>I</i><b>Imperial</b><small>London</small></div>
+          <div class="stamp rv"><span class="pm">LDN</span><i>L</i><b>LSE</b><small>London</small></div>
+          <div class="stamp rv d1"><span class="pm">LDN</span><i>K</i><b>King's College</b><small>London</small></div>
+          <div class="stamp rv d1"><span class="pm">UK</span><i>D</i><b>Durham</b><small>UK</small></div>
+          <div class="stamp rv d2"><span class="pm">UK</span><i>B</i><b>Bristol</b><small>UK</small></div>
+          <span class="cards-tag rv">Schools</span>
+          <div class="stamp rv"><span class="pm">UK</span><i>E</i><b>Eton</b><small>Windsor</small></div>
+          <div class="stamp rv d1"><span class="pm">LDN</span><i>H</i><b>Harrow</b><small>London</small></div>
+          <div class="stamp rv d1"><span class="pm">UK</span><i>W</i><b>Wycombe Abbey</b><small>High Wycombe</small></div>
+          <div class="stamp rv d2"><span class="pm">LDN</span><i>W</i><b>Westminster</b><small>London</small></div>
+          <div class="stamp rv"><span class="pm">LDN</span><i>S</i><b>St Paul's</b><small>London</small></div>
+          <div class="stamp rv d1"><span class="pm">UK</span><i>S</i><b>Sevenoaks</b><small>Kent</small></div>
+          <div class="stamp rv d1"><span class="pm">UK</span><i>C</i><b>Cheltenham Ladies'</b><small>Cheltenham</small></div>
+          <div class="stamp rv d2"><span class="pm">UK</span><i>B</i><b>Brighton College</b><small>Brighton</small></div>
+        </div>
+        <span class="offers-note rv">the list is in preparation — names appear only with consent</span>
+      </section>
+
+      <!-- 05 · pledge (difference) -->
+      <section id="pledge">
+        <span class="marginal">our<br>word</span>
+        <span class="kick rv">What we undertake</span>
+        <h2 class="rv d1">What <em>walking together</em> means.</h2>
+        <p class="lede rv d2">Five things we sign our name to — not slogans, but the shape of the work.</p>
+        <div class="pledge rv d1">
+          <ol>
+            <li><h4>One advisor, whole route</h4><p>A single counsellor who knows the family's whole story — not a relay of specialists handing the file onward.</p></li>
+            <li><h4>Inside the colleges</h4><p>Based in Oxford, working within the system families are trying to enter — tutors, schools and admissions offices are neighbours, not abstractions.</p></li>
+            <li><h4>Honest counsel</h4><p>We tell families what a child needs to hear, not what an invoice suggests. Sometimes that means a humbler school and a happier student.</p></li>
+            <li><h4>The family included</h4><p>Parents crossing borders need translation of more than language — expectations, culture, process. We carry the family through each gate together.</p></li>
+            <li><h4>Beyond the letter</h4><p>An offer is a door opening, not the journey's end. Guardianship, settling-in, and counsel that continues for years after arrival.</p></li>
+          </ol>
+          <div class="seal" aria-hidden="true"><i>A</i></div>
+        </div>
+      </section>
+
+      <!-- 06 · people -->
+      <section id="people">
+        <span class="marginal">who<br>writes</span>
+        <span class="kick rv">The people on the route</span>
+        <h2 class="rv d1">Counsellors, <em>not consultants</em>.</h2>
+        <p class="lede rv d2">A small practice by design — every family is known by name. Full profiles and portraits will live here.</p>
+        <div class="people">
+          <div class="person rv"><div class="ph"><i>A</i><small>Portrait TBC</small></div><h4>Name TBC</h4><p>Founder · Senior advisor</p></div>
+          <div class="person rv d1"><div class="ph"><i>A</i><small>Portrait TBC</small></div><h4>Name TBC</h4><p>Advisor · Schools</p></div>
+          <div class="person rv d2"><div class="ph"><i>A</i><small>Portrait TBC</small></div><h4>Name TBC</h4><p>Advisor · Universities</p></div>
+          <div class="person rv d3"><div class="ph"><i>A</i><small>Portrait TBC</small></div><h4>Name TBC</h4><p>Advisor · Oxbridge</p></div>
+        </div>
+        <p class="lede rv" style="margin-top:34px;font-style:italic">Every advisor at ALBION has stood on both sides of the gates — as applicant, and as guide.</p>
+      </section>
+
+      <!-- 07 · evidence -->
+      <section id="evidence">
+        <span class="kick rv">In evidence</span>
+        <h2 class="rv d1">Measured in <em>years walked</em>.</h2>
+        <div class="evidence">
+          <div class="big rv" aria-hidden="true"><b>20<sup>+</sup></b><span>years combined</span></div>
+          <ul>
+            <li class="rv"><b>—</b><span>School &amp; university placements · figure to be supplied</span></li>
+            <li class="rv d1"><b>—</b><span>Families currently advised · figure to be supplied</span></li>
+            <li class="rv d2"><b>¶</b><span>ALBION publishes only what it can stand behind. Further figures — destinations, outcomes, testimonials — will appear here as they are verified.</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 08 · correspondence (journal) -->
+      <section id="correspondence">
+        <span class="marginal">notes<br>from the<br>desk</span>
+        <span class="kick rv">From the correspondence</span>
+        <h2 class="rv d1">Notes from <em>the desk</em>.</h2>
+        <p class="lede rv d2">Short letters we write for parents — Issue 00 is in the drawer and forthcoming.</p>
+        <div class="posts">
+          <a class="rv" href="#correspondence"><span class="iss">№ 01</span><div><h4>On choosing a school: fit before the famous name</h4><small>Forthcoming · The Albion Journal</small></div><span class="arr">→</span></a>
+          <a class="rv d1" href="#correspondence"><span class="iss">№ 02</span><div><h4>Entrance exams 11+ / 13+ / 16+ — what the papers actually test</h4><small>Forthcoming · The Albion Journal</small></div><span class="arr">→</span></a>
+          <a class="rv d2" href="#correspondence"><span class="iss">№ 03</span><div><h4>Oxford, for parents: how colleges and courses really differ</h4><small>Forthcoming · The Albion Journal</small></div><span class="arr">→</span></a>
+        </div>
+      </section>
+
+      <!-- 09 · postings (events) -->
+      <section id="postings">
+        <span class="marginal">meet<br>us</span>
+        <span class="kick rv">Postings</span>
+        <h2 class="rv d1">Meet us <em>at the gate</em>.</h2>
+        <p class="lede rv d2">Small gatherings in Oxford and abroad — conversations, not fairs. Dates and venues to be announced.</p>
+        <div>
+          <div class="evt rv"><div class="when"><b>TBC</b><small>Autumn</small></div><div><h4>An evening on British boarding schools</h4><p>Oxford · Venue to be announced</p></div><a class="reg" href="#writeback">Register interest</a></div>
+          <div class="evt rv d1"><div class="when"><b>TBC</b><small>Winter</small></div><div><h4>Oxbridge admissions — a working session</h4><p>Online · Details to be announced</p></div><a class="reg" href="#writeback">Register interest</a></div>
+          <div class="evt rv d2"><div class="when"><b>TBC</b><small>Spring</small></div><div><h4>The route through UCAS, for parents</h4><p>City to be announced</p></div><a class="reg" href="#writeback">Register interest</a></div>
+        </div>
+      </section>
+
+      <!-- 10 · envelope (lead magnet) -->
+      <section id="firstletter">
+        <span class="marginal">a free<br>letter</span>
+        <span class="kick rv">The first letter is free</span>
+        <h2 class="rv d1">Start with the <em>parent's guide</em>.</h2>
+        <p class="lede rv d2">A calm walk through the British system — schools, exams, timelines — written by the counsellors who walk it. No jargon, no funnel inside.</p>
+        <div class="env rv d1">
+          <div class="flap">
+            <div class="stamp-pdf"><b>A parent's guide to<br><em>British schools</em></b><small>Albion · Guides · Vol. I — PDF · free</small></div>
+          </div>
+          <div class="list">
+            <ol>
+              <li><b>01</b>A parent's guide to British schools<i>this one</i></li>
+              <li><b>02</b>Entrance exams 11+ / 13+ / 16+ in 90 days</li>
+              <li><b>03</b>The admissions interview, decoded</li>
+            </ol>
+          </div>
+        </div>
+        <form class="rform rv d2" id="guideForm" novalidate>
+          <div class="row">
+            <input type="email" required placeholder="Your email — for the PDF" aria-label="Email">
+            <button class="btn btn-ink" type="submit">Send me the letter&nbsp;→</button>
+          </div>
+          <p style="margin-top:18px;font-style:italic;font-size:14.5px;color:var(--ink-soft)">One email with the PDF. No sequence, no pressure.</p>
+        </form>
+      </section>
+
+      <!-- 11 · write back (finale form) -->
+      <section class="finale" id="writeback">
+        <span class="marginal">your<br>turn</span>
+        <span class="kick rv">The last line is yours</span>
+        <h2 class="rv d1">Write back to <em>Albion</em>.</h2>
+        <p class="lede rv d2">A few words about your child and your plans — a counsellor replies within one working day. The first threshold is a conversation.</p>
+        <form class="rform rv d1" id="replyForm" novalidate>
+          <div class="row">
+            <input name="name" type="text" placeholder="Your name" aria-label="Name">
+            <input name="contact" type="text" placeholder="Email or WhatsApp" aria-label="Email or WhatsApp" required>
+          </div>
+          <textarea name="msg" placeholder="A few words about your child and your plans" aria-label="Message"></textarea>
+          <div class="send">
+            <button class="btn btn-ink" type="submit">Send the letter&nbsp;→</button>
+            <span class="privacy">confidential — always</span>
+          </div>
+        </form>
+        <p class="rv d2" style="margin-top:26px;font-size:16px"><a href="mailto:hello@albion-consult.example" style="border-bottom:1px solid var(--red);color:var(--red)">Or write to ALBION directly&nbsp;&nbsp;→</a></p>
+        <div class="signoff rv d2">
+          <span class="yr">Yours sincerely,<br><i>— William</i></span>
+          <p>Albion Consult · Oxford<br>Counsellors, not consultants<br>The route is drawn one traveller at a time</p>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<!-- ============ the index card on the desk ============ -->
+<footer class="desk-foot">
+  <div class="desk-card">
+    <div class="top">
+      <span class="wm">ALBION <i>Consult</i></span>
+      <span class="tag">the route map — an index to the places this letter visits</span>
+    </div>
+    <div class="desk-cols">
+      <div><h6>Admissions</h6><a href="/private-schools/day">Day schools</a><a href="/private-schools/boarding">Boarding</a><a href="/admissions/entrance-exams">Entrance exams 11+/13+/16+</a><a href="/universities/uk">Universities UK</a><a href="/universities/europe">Europe</a><a href="/universities/usa">USA</a><a href="/universities/oxbridge">Oxbridge</a><a href="/universities/masters">Master's</a><a href="/universities/doctoral">Doctoral</a></div>
+      <div><h6>Tuition</h6><a href="/tuition/entrance-exams">Exam prep 11+/13+/16+</a><a href="/tuition/university-tests">University tests — LNAT/TMUA/UCAT</a><a href="/tuition/gcse">GCSE</a><a href="/tuition/a-level">A-Level</a><a href="/tuition/ib">IB</a><a href="/tuition/home-education">Home education</a><a href="/tuition/intensive-courses">Intensive courses</a><a href="/tutors">Tutors</a></div>
+      <div><h6>Services</h6><a href="/services/guardianship">Guardianship</a><a href="/services/academic-assessment">Academic assessment</a><a href="/services/career-guidance">Career guidance</a><a href="/services/personal-statement">Personal statement</a><a href="/summer-schools">Summer schools</a><a href="/executive-education">Executive education — MBA &amp; EMBA</a></div>
+      <div><h6>Albion</h6><a href="#pledge">Our approach</a><a href="#people">People</a><a href="#correspondence">Journal</a><a href="#postings">Events</a><a href="/resources/pricing">Pricing</a></div>
+      <div><h6>Contact</h6><a href="mailto:hello@albion-consult.example">hello@albion-consult.example</a><a href="https://wa.me/441865236391">WhatsApp</a><a href="#writeback">Oxford, United Kingdom</a></div>
+    </div>
+    <div class="desk-bot"><span>© MMXXVI Albion Consult</span><span>Every student has a way through</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/441865236391" target="_blank" rel="noopener" aria-label="Write to ALBION on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4Zm-3 3.8c-.2 0-.5.1-.7.3-.6.6-.9 1.5-.4 2.7.6 1.5 1.6 2.9 3.2 4.1 1.9 1.4 3.5 1.9 4.5 1.9h.4c.9-.1 1.6-.5 1.9-1.1.2-.5.2-1.1.1-1.4-.1-.2-.3-.3-.6-.5l-1.7-.8c-.3-.1-.5-.1-.7.1l-.7.9c-.1.2-.3.2-.5.1-.7-.4-1.3-.8-1.9-1.5-.6-.6-1-1.3-1.3-1.9-.1-.2 0-.4.1-.5l.7-.8c.1-.2.1-.4 0-.6l-.8-1.9c-.2-.4-.4-.6-.7-.7Z"/></svg>
+</a>
+
+<script>
+// reveal on scroll
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+}), { threshold: .12 });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+
+// menu
+const btn = document.getElementById('menuBtn');
+btn.addEventListener('click', () => {
+  const open = document.body.classList.toggle('menu-open');
+  btn.setAttribute('aria-expanded', open);
+});
+document.querySelectorAll('.mmenu a').forEach(a => a.addEventListener('click', () => {
+  document.body.classList.remove('menu-open');
+  btn.setAttribute('aria-expanded', 'false');
+}));
+
+// letter replies
+function swapDone(form, text) {
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const d = document.createElement('p');
+    d.className = 'done';
+    d.textContent = text;
+    form.replaceWith(d);
+  });
+}
+swapDone(document.getElementById('guideForm'), 'The letter is on its way — check your inbox shortly.');
+swapDone(document.getElementById('replyForm'), 'Received — we reply within one working day.');
+</script>
+</body>
+</html>

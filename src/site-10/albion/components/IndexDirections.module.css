@@ -1,0 +1,133 @@
+.index {
+  position: relative;
+  overflow: clip;
+  background: var(--vellum);
+  color: var(--ink);
+}
+
+/* faint wash of the quad, reused file — no extra download */
+.wash {
+  position: absolute;
+  inset: 0;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.wash img {
+  object-fit: cover;
+}
+
+.head {
+  position: relative;
+}
+
+.title {
+  font-size: clamp(46px, 6.4vw, 100px);
+  max-width: 12ch;
+  margin-top: 22px;
+}
+
+.intro {
+  margin-top: 16px;
+  font-size: clamp(16.5px, 1.7vw, 19px);
+  color: var(--ink-soft);
+}
+
+.list {
+  position: relative;
+  list-style: none;
+  margin: clamp(44px, 5vw, 72px) 0 0;
+  padding: 0;
+  border-top: 1px solid var(--hairline-light);
+}
+
+.row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 40px;
+  gap: 18px;
+  align-items: center;
+  padding: 24px 10px;
+  border-bottom: 1px solid var(--hairline-light);
+  text-decoration: none;
+  color: inherit;
+}
+
+/* hover wash fades via opacity — the arrow moves via transform */
+.row::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgb(35 44 71 / 0.055);
+  opacity: 0;
+  transition: opacity 0.4s var(--ease-out);
+  pointer-events: none;
+}
+
+.row:hover::before {
+  opacity: 1;
+}
+
+.num {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--blue);
+}
+
+.rowTitle {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(27px, 3.4vw, 44px);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+.rowText {
+  display: block;
+  max-width: 62ch;
+  margin-top: 8px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.arrow {
+  display: grid;
+  place-items: center;
+  justify-self: end;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--hairline-light);
+  border-radius: 50%;
+  transition: transform 0.4s var(--ease-out);
+}
+
+.arrow svg {
+  width: 17px;
+  height: 17px;
+}
+
+.row:hover .arrow {
+  transform: translateX(6px);
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.row:active .arrow {
+  transform: translateX(2px) scale(0.96);
+}
+
+@media (min-width: 760px) {
+  .row {
+    grid-template-columns: 64px minmax(0, 1fr) 52px;
+    gap: 24px;
+    padding: 28px 14px;
+  }
+
+  .arrow {
+    width: 48px;
+    height: 48px;
+  }
+}

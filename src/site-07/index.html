@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALBION Consult — Educational Consultancy, Oxford</title>
+<meta name="description" content="ALBION Consult is an Oxford-based educational consultancy guiding international families through British education — school, preparation, university, Oxbridge and beyond.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5EFE0;
+  --paper-2:#ECE3CD;
+  --paper-3:#DDD2B4;
+  --ink:#2B2518;
+  --ink-2:#223B2E;
+  --ink-3:#1A2B22;
+  --ink-soft:#6F6350;
+  --indigo:#2E5A43;
+  --indigo-deep:#22452F;
+  --brick:#B8892E;
+  --line:rgba(43,37,24,.26);
+  --line-soft:rgba(43,37,24,.12);
+  --serif:'EB Garamond',Georgia,serif;
+  --sans:'IBM Plex Sans',Helvetica,Arial,sans-serif;
+  --spine:30%;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--serif);
+  background:var(--paper);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--indigo);color:var(--paper)}
+img{filter:sepia(.18) saturate(.92) brightness(1.03)}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--indigo);outline-offset:3px}
+img{display:block;max-width:100%}
+
+/* ——— the spine: one fixed route line down the page ——— */
+.spine{
+  position:fixed;top:0;bottom:0;left:var(--spine);
+  width:1px;background:var(--line);
+  z-index:1;pointer-events:none;
+}
+.spine-mark{
+  position:fixed;left:calc(var(--spine) + 7px);top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  font-family:var(--sans);font-size:10px;font-weight:500;
+  letter-spacing:.3em;text-transform:uppercase;
+  color:var(--ink-soft);white-space:nowrap;
+  z-index:2;pointer-events:none;
+  opacity:0;transition:opacity .5s ease;
+}
+.spine-mark::before{
+  content:'';position:absolute;left:50%;top:-16px;
+  width:6px;height:6px;transform:translateX(-50%) rotate(45deg);
+  background:var(--brick);
+}
+.spine-mark.show{opacity:1}
+main{position:relative;z-index:3}
+
+/* station dots — sit exactly on the spine */
+.st-dot{
+  position:absolute;left:var(--spine);top:6px;
+  width:13px;height:13px;transform:translateX(-50%);
+  border-radius:50%;
+  background:var(--paper);
+  border:1px solid var(--ink-soft);
+  z-index:4;
+  transition:background .6s ease,border-color .6s ease;
+}
+.st-dot::after{
+  content:'';position:absolute;inset:3px;border-radius:50%;
+  background:var(--brick);
+  transform:scale(0);transition:transform .6s cubic-bezier(.34,1.56,.64,1);
+}
+.in .st-dot{border-color:var(--brick)}
+.in .st-dot::after{transform:scale(1)}
+
+/* ——— nav ——— */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 4vw;
+  mix-blend-mode:difference;color:#EDEAE0;
+}
+.nav .wm{font-family:var(--serif);font-size:21px;font-weight:600;letter-spacing:.06em}
+.nav .wm span{font-weight:400;font-style:italic;letter-spacing:.02em}
+.nav ul{display:flex;gap:30px;list-style:none}
+.nav ul a{
+  font-family:var(--sans);font-size:11px;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;opacity:.85;
+}
+.nav ul a:hover{opacity:1;text-decoration:underline;text-underline-offset:5px}
+.nav .cta{
+  font-family:var(--sans);font-size:11px;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;
+  border:1px solid currentColor;padding:9px 16px;border-radius:99px;
+}
+.nav .cta:hover{background:#EDEAE0;color:#14171B}
+@media(max-width:900px){.nav ul{display:none}}
+
+/* ——— hero ——— */
+.hero{
+  min-height:100vh;display:grid;
+  grid-template-columns:calc(var(--spine) - 4vw) 1fr;
+  gap:5vw;align-items:center;
+  padding:14vh 6vw 9vh 4vw;
+  position:relative;
+}
+.hero-fig{order:-1}
+.hero .kicker,.kick{
+  font-family:var(--sans);font-size:11px;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;color:var(--brick);
+  display:block;
+}
+.hero .kicker{margin-bottom:34px}
+.hero h1{
+  font-size:clamp(46px,6.4vw,104px);
+  line-height:1.02;font-weight:500;letter-spacing:-.01em;
+}
+.hero h1 em{font-style:italic;font-weight:400}
+.hero .sub{
+  margin-top:34px;max-width:46ch;
+  font-size:clamp(17px,1.35vw,21px);line-height:1.6;color:var(--ink-soft);
+}
+.hero .go{
+  display:inline-flex;align-items:center;gap:12px;margin-top:44px;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--indigo);
+  border-bottom:1px solid var(--indigo);padding-bottom:7px;
+}
+.hero .go:hover{gap:20px}
+.hero .go{transition:gap .3s ease}
+.aperture{
+  border-radius:50% 50% 0 0 / 34% 34% 0 0;
+  overflow:hidden;position:relative;
+}
+.aperture img{width:100%;height:100%;object-fit:cover}
+.hero .aperture{height:76vh}
+.hero .cap{
+  font-family:var(--sans);font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-soft);
+  text-align:center;margin-top:16px;
+}
+.hero-fig{display:flex;flex-direction:column;justify-content:center}
+
+/* ——— generic section ——— */
+section{position:relative;padding:14vh 6vw 14vh calc(var(--spine) + 4.5vw)}
+.kick{margin-bottom:22px}
+.kick::before{
+  content:'';display:inline-block;width:34px;height:1px;
+  background:var(--brick);vertical-align:middle;margin-right:14px;
+}
+h2{
+  font-size:clamp(34px,3.6vw,58px);font-weight:500;
+  line-height:1.08;letter-spacing:-.01em;
+}
+h2 em{font-style:italic;font-weight:400}
+.lede{max-width:56ch;font-size:clamp(17px,1.3vw,20px);line-height:1.65;color:var(--ink-soft);margin-top:24px}
+
+/* reveal */
+body.js .rv{opacity:0;transform:translateY(22px);transition:opacity .9s ease,transform .9s cubic-bezier(.22,1,.36,1)}
+body.js .rv.in{opacity:1;transform:none}
+body.js .rv.d1{transition-delay:.1s}body.js .rv.d2{transition-delay:.2s}
+body.js .rv.d3{transition-delay:.3s}body.js .rv.d4{transition-delay:.4s}
+
+/* ——— manifesto ——— */
+.mani{padding-top:18vh;padding-bottom:18vh}
+.mani p{
+  font-size:clamp(26px,3vw,46px);line-height:1.35;font-weight:400;
+  max-width:26ch;
+}
+.mani p em{font-style:italic;color:var(--indigo)}
+.mani .who{
+  margin-top:38px;font-family:var(--sans);font-size:12px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);
+}
+
+/* ——— the five gates ——— */
+.gates{padding-bottom:6vh}
+.gates-head{padding-bottom:10vh}
+.gate{
+  display:grid;grid-template-columns:1fr;
+  padding:9vh 6vw 9vh calc(var(--spine) + 4.5vw);position:relative;
+}
+.gate .marginal{
+  position:absolute;left:0;top:11vh;width:calc(var(--spine) - 5vw);
+  text-align:right;padding-right:2.4vw;
+}
+.gate .marginal .rn{
+  font-size:clamp(60px,6vw,110px);font-weight:500;line-height:1;
+  color:transparent;-webkit-text-stroke:1px var(--ink-soft);
+  display:block;
+}
+.gate.in .marginal .rn{color:var(--indigo);-webkit-text-stroke:0;transition:color .8s ease}
+.gate .marginal .gk{
+  display:block;margin-top:10px;font-family:var(--sans);
+  font-size:10px;font-weight:600;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--ink-soft);
+}
+.gate .st-dot{top:12.5vh}
+.gate .body{max-width:62ch}
+.gate h3{
+  font-size:clamp(30px,3vw,48px);font-weight:500;line-height:1.1;
+  margin-bottom:18px;
+}
+.gate h3 em{font-style:italic;font-weight:400}
+.gate p{color:var(--ink-soft);font-size:17px;line-height:1.65;max-width:56ch}
+.gate ul{list-style:none;margin-top:26px;border-top:1px solid var(--line-soft)}
+.gate li{
+  display:flex;gap:16px;align-items:baseline;
+  padding:13px 0;border-bottom:1px solid var(--line-soft);
+  font-size:15.5px;color:var(--ink);
+}
+.gate li b{
+  font-family:var(--sans);font-size:10px;font-weight:600;
+  letter-spacing:.18em;color:var(--brick);min-width:34px;
+}
+.gate+.gate{border-top:none}
+.gate .note{
+  margin-top:24px;font-style:italic;font-size:15px;color:var(--indigo);
+}
+
+/* ——— the fork / no standard route ——— */
+.fork{
+  padding-top:16vh;padding-bottom:16vh;min-height:90vh;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+}
+.fork-veil{
+  position:absolute;top:0;bottom:0;left:var(--spine);
+  width:min(320px,26vw);transform:translateX(-50%);
+  background:var(--paper);z-index:-1;
+}
+.fork svg{
+  position:absolute;left:var(--spine);top:0;height:100%;
+  width:min(320px,26vw);transform:translateX(-50%);
+  overflow:visible;z-index:-1;
+}
+.fork path{
+  fill:none;stroke:var(--indigo);stroke-width:1.1;
+  stroke-linecap:round;
+}
+body.js .fork path{stroke-dasharray:1200;stroke-dashoffset:1200;transition:stroke-dashoffset 3.2s ease .2s}
+body.js .fork.in path{stroke-dashoffset:0}
+.fork .inner{max-width:660px;position:relative;z-index:2}
+.fork h2{font-size:clamp(34px,4.4vw,64px)}
+.fork .lede{margin-left:auto;margin-right:auto}
+
+/* ——— student ——— */
+.student .wrap{
+  display:grid;grid-template-columns:minmax(240px,340px) 1fr;
+  gap:6vw;align-items:end;margin-top:8vh;
+}
+.student .aperture{aspect-ratio:4/5;background:var(--paper-2)}
+.student blockquote{
+  font-size:clamp(22px,2.3vw,34px);line-height:1.4;font-style:italic;
+  font-weight:400;max-width:24ch;
+}
+.student .attrib{
+  margin-top:26px;font-family:var(--sans);font-size:11px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);
+}
+.tbc-tag{
+  display:inline-block;margin-left:10px;vertical-align:middle;
+  font-family:var(--sans);font-size:9px;font-weight:600;font-style:normal;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--brick);
+  border:1px solid var(--brick);border-radius:99px;padding:3px 9px;
+}
+
+/* ——— difference ——— */
+.diff{padding-top:10vh}
+.diff-row{
+  display:grid;grid-template-columns:110px 1fr 1.1fr;gap:4vw;
+  padding:34px 0;border-top:1px solid var(--line-soft);
+  align-items:baseline;
+}
+.diff-row:last-child{border-bottom:1px solid var(--line-soft)}
+.diff-row .dn{
+  font-family:var(--sans);font-size:11px;font-weight:600;
+  letter-spacing:.2em;color:var(--brick);
+}
+.diff-row h3{font-size:clamp(20px,1.8vw,27px);font-weight:500}
+.diff-row p{font-size:15.5px;color:var(--ink-soft);line-height:1.6}
+body.js .diff-row{transition:background .5s ease}
+body.js .diff-row.lit{background:var(--paper-2)}
+
+/* ——— people ——— */
+.people .grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:2.6vw;margin-top:8vh;
+}
+.person .aperture{
+  aspect-ratio:3/4.1;background:var(--paper-2);
+  display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--line-soft);
+}
+.person .mono{
+  font-size:52px;font-weight:500;color:var(--ink-soft);
+  letter-spacing:.04em;
+}
+.person .aperture .plate{
+  font-family:var(--sans);font-size:9px;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);
+  text-align:center;line-height:1.9;padding:0 14px;
+}
+.person h4{font-size:19px;font-weight:500;margin-top:18px}
+.person .role{
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-soft);margin-top:6px;
+}
+.people .note-line{
+  margin-top:7vh;font-style:italic;color:var(--ink-soft);font-size:16px;
+}
+
+/* ——— evidence (dark) ——— */
+.ink-sec{
+  background:var(--ink-2);color:var(--paper);
+  padding-top:16vh;padding-bottom:16vh;
+}
+.ink-sec::before{
+  content:'';position:absolute;top:0;bottom:0;left:var(--spine);
+  width:1px;background:rgba(237,234,224,.16);
+}
+.ink-sec .kick{color:#D3A94F}
+.ink-sec .kick::before{background:#D3A94F}
+.ink-sec h2{color:var(--paper)}
+.ink-sec .st-dot{background:var(--ink-2);border-color:rgba(237,234,224,.5)}
+.stats{display:flex;gap:6vw;margin-top:9vh;flex-wrap:wrap}
+.stat .big{
+  font-size:clamp(64px,7vw,120px);font-weight:500;line-height:1;
+  color:var(--paper);
+}
+.stat .big sup{font-size:.45em;color:#D3A94F}
+.stat .lbl{
+  margin-top:16px;font-family:var(--sans);font-size:11px;font-weight:500;
+  letter-spacing:.2em;text-transform:uppercase;color:rgba(237,234,224,.62);
+  max-width:24ch;line-height:1.8;
+}
+.stat.pending .big{color:transparent;-webkit-text-stroke:1px rgba(237,234,224,.4)}
+.ink-sec .fine{
+  margin-top:10vh;font-size:14px;font-style:italic;
+  color:rgba(237,234,224,.55);max-width:52ch;
+}
+
+/* ——— journal ——— */
+.journal .head{display:flex;align-items:baseline;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.journal .issue{
+  font-family:var(--sans);font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--ink-soft);
+}
+.j-row{
+  display:grid;grid-template-columns:120px 1fr auto;gap:3vw;
+  align-items:baseline;padding:30px 0;
+  border-top:1px solid var(--line-soft);
+}
+.j-row:last-child{border-bottom:1px solid var(--line-soft)}
+.j-row .cat{
+  font-family:var(--sans);font-size:10px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--indigo);
+}
+.j-row h3{
+  font-size:clamp(20px,2vw,30px);font-weight:500;font-style:italic;
+  transition:color .3s ease;
+}
+.j-row:hover h3{color:var(--indigo)}
+.j-row .arr{font-size:20px;color:var(--ink-soft)}
+.j-row .meta{
+  font-family:var(--sans);font-size:10.5px;color:var(--ink-soft);
+  letter-spacing:.14em;text-transform:uppercase;margin-top:8px;
+}
+
+/* ——— events ——— */
+.events .e-row{
+  display:grid;grid-template-columns:170px 1fr auto;gap:3vw;
+  padding:30px 0;border-top:1px solid var(--line-soft);align-items:baseline;
+}
+.events .e-row:last-child{border-bottom:1px solid var(--line-soft)}
+.e-date{font-size:clamp(24px,2vw,34px);font-weight:500;color:var(--indigo)}
+.e-date small{
+  display:block;font-family:var(--sans);font-size:10px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px;
+}
+.e-row h3{font-size:clamp(19px,1.7vw,26px);font-weight:500}
+.e-row .place{
+  font-family:var(--sans);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-soft);margin-top:8px;
+}
+.e-row .reg{
+  font-family:var(--sans);font-size:10.5px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--brick);
+  border-bottom:1px solid var(--brick);padding-bottom:4px;white-space:nowrap;
+}
+
+/* ——— finale ——— */
+.finale{padding:0;text-align:left}
+.finale .art{position:relative;min-height:88vh;overflow:hidden;background:var(--ink-3)}
+.finale .art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.finale .art::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,var(--paper) 0%,rgba(237,234,224,0) 22%,rgba(237,234,224,0) 55%,rgba(34,38,43,.28) 100%);
+}
+.finale .over{
+  position:absolute;left:var(--spine);right:6vw;bottom:9vh;z-index:2;
+  padding-left:4.5vw;
+}
+.finale .over .kick{color:#EFE7D8}
+.finale .over .kick::before{background:#EFE7D8}
+.finale h2{
+  color:#F4F1E8;font-size:clamp(36px,4.6vw,72px);max-width:15ch;
+  text-shadow:0 2px 30px rgba(20,23,27,.45);
+}
+.finale .go2{
+  display:inline-flex;align-items:center;gap:12px;margin-top:36px;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  letter-spacing:.2em;text-transform:uppercase;color:#F4F1E8;
+  border:1px solid rgba(244,241,232,.7);border-radius:99px;padding:14px 26px;
+  transition:background .3s,color .3s;
+}
+.finale .go2:hover{background:#F4F1E8;color:var(--ink-3)}
+
+/* ——— footer ——— */
+footer{
+  background:var(--ink-3);color:rgba(237,234,224,.75);
+  padding:11vh 6vw 6vh;position:relative;z-index:3;
+}
+footer::before{
+  content:'';position:absolute;top:0;bottom:0;left:var(--spine);
+  width:1px;background:rgba(237,234,224,.1);
+}
+.f-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;padding-bottom:8vh}
+.f-wm{font-size:30px;font-weight:600;color:var(--paper);letter-spacing:.05em}
+.f-wm span{font-style:italic;font-weight:400}
+.f-cols{display:flex;gap:7vw;flex-wrap:wrap}
+.f-col h5{
+  font-family:var(--sans);font-size:10px;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:rgba(237,234,224,.45);
+  margin-bottom:18px;
+}
+.f-col a{
+  display:block;font-size:15px;color:rgba(237,234,224,.75);
+  padding:5px 0;transition:color .3s;
+}
+.f-col a:hover{color:var(--paper)}
+.f-bot{
+  border-top:1px solid rgba(237,234,224,.12);padding-top:28px;
+  display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
+  font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:rgba(237,234,224,.4);
+}
+
+/* ——— mobile ——— */
+@media(max-width:900px){
+  :root{--spine:26px}
+  section{padding:11vh 7vw 11vh calc(var(--spine) + 22px)}
+  .hero{
+    grid-template-columns:1fr;padding:14vh 7vw 8vh calc(var(--spine) + 22px);
+    min-height:0;gap:7vh;
+  }
+  .hero-fig{order:2}
+  .hero .aperture{height:56vh;max-width:320px}
+  .gate{padding:9vh 7vw 9vh calc(var(--spine) + 22px)}
+  .gate .marginal{
+    position:static;width:auto;text-align:left;padding:0;
+    display:flex;align-items:baseline;gap:16px;margin-bottom:18px;
+  }
+  .gate .marginal .rn{font-size:44px}
+  .gate .marginal .gk{margin-top:0}
+  .gate .st-dot{top:15px}
+  .fork-veil,.fork svg{width:120px}
+  .student .wrap{grid-template-columns:1fr;gap:40px}
+  .student .aperture{max-width:300px}
+  .diff-row{grid-template-columns:1fr;gap:8px;padding:26px 0}
+  .people .grid{grid-template-columns:repeat(2,1fr);gap:6vw}
+  .stats{gap:9vw}
+  .j-row,.e-row{grid-template-columns:1fr;gap:8px}
+  .j-row .arr{display:none}
+  .e-row .reg{justify-self:start}
+  .finale .over{left:calc(var(--spine) + 22px)}
+  .spine-mark{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+
+/* ——— hero entrance ——— */
+@keyframes heroIn{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+@keyframes heroFig{from{opacity:0;transform:translateY(34px) scale(.985)}to{opacity:1;transform:none}}
+.hero .kicker,.hero h1,.hero .sub,.hero .go{opacity:0;animation:heroIn .9s cubic-bezier(.22,.8,.3,1) forwards}
+.hero h1{animation-delay:.12s}.hero .sub{animation-delay:.28s}.hero .go{animation-delay:.42s}
+.hero-fig{opacity:0;animation:heroFig 1.15s cubic-bezier(.22,.8,.3,1) .18s forwards}
+.hero .st-dot{animation:dotpulse 3.2s ease-in-out 1.4s infinite}
+@keyframes dotpulse{0%,100%{box-shadow:0 0 0 0 rgba(184,137,46,.35)}50%{box-shadow:0 0 0 9px rgba(184,137,46,0)}}
+
+/* ——— trust strip ——— */
+.trust{border-block:1px solid var(--line-soft);padding:22px 0;position:relative;z-index:3;background:var(--paper)}
+.trust-in{
+  max-width:var(--maxw,1400px);margin-inline:auto;
+  padding-inline:calc(var(--spine) + 4.5vw) 6vw;
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--sans);font-size:12px;color:var(--ink-soft);
+}
+.trust .stars{color:var(--brick);letter-spacing:2px;font-size:13px}
+.trust-score b{font-family:var(--serif);font-size:19px;color:var(--ink);font-weight:600}
+.trust-sep{width:1px;height:22px;background:var(--line);flex:none}
+.trust-figs{display:flex;gap:26px;list-style:none;flex-wrap:wrap}
+.trust-figs b{font-family:var(--serif);font-size:19px;color:var(--ink);font-weight:600;margin-right:6px}
+.trust-note{margin-left:auto;font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.55}
+
+/* ——— offers: crest stations on a route line ——— */
+.offers .lede{max-width:56ch}
+.offer-line{margin-top:7vh}
+.offer-tag{
+  font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--brick);display:block;margin-bottom:14px;
+}
+.offer-track{
+  display:flex;gap:14px;flex-wrap:wrap;
+  border-top:1px solid var(--line);padding-top:26px;position:relative;
+}
+.offer-track::before{
+  content:'';position:absolute;left:-4px;top:-4px;width:7px;height:7px;
+  transform:rotate(45deg);background:var(--brick);
+}
+.crest{
+  display:flex;align-items:center;gap:12px;
+  border:1px solid var(--line);background:var(--paper);
+  padding:12px 18px 12px 14px;min-width:180px;
+  transition:border-color .3s,transform .35s cubic-bezier(.22,.8,.3,1),background .3s;
+}
+.crest:hover{border-color:var(--brick);transform:translateY(-3px);background:var(--paper-2)}
+.crest i{
+  font-style:normal;font-family:var(--serif);font-size:24px;font-weight:600;
+  color:var(--indigo);width:40px;height:40px;flex:none;
+  border:1px solid var(--line-soft);border-radius:50% 50% 0 0/30% 30% 0 0;
+  display:flex;align-items:center;justify-content:center;background:var(--paper-2);
+}
+.crest b{display:block;font-size:14.5px;font-weight:500;line-height:1.2}
+.crest small{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.offers-note{margin-top:5vh;font-style:italic;color:var(--ink-soft);font-size:15px}
+
+/* ——— the map: lead magnet ——— */
+.map-grid{display:grid;grid-template-columns:minmax(230px,320px) 1fr;gap:6vw;align-items:center}
+.map-cover{
+  aspect-ratio:3/4.1;background:var(--indigo);color:var(--paper);
+  border-radius:3px 14px 14px 3px;
+  box-shadow:0 30px 60px -20px rgba(43,37,24,.4),inset 0 0 0 1px rgba(245,239,224,.14);
+  display:flex;flex-direction:column;justify-content:space-between;
+  padding:26px 22px;transform:rotate(-1.2deg);
+  transition:transform .5s cubic-bezier(.22,.8,.3,1);
+}
+.map-cover:hover{transform:rotate(0)}
+.map-wm{font-family:var(--sans);font-size:9px;letter-spacing:.26em;text-transform:uppercase;opacity:.75}
+.map-title{font-size:clamp(24px,2.2vw,32px);line-height:1.15;font-weight:500}
+.map-title em{font-style:italic}
+.map-pdf{font-family:var(--sans);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.65}
+.map-list{list-style:none;margin:4vh 0 3.5vh}
+.map-list li{display:flex;gap:16px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-soft);font-size:15.5px}
+.map-list li:last-child{border-bottom:1px solid var(--line-soft)}
+.map-list b{font-family:var(--sans);font-size:10px;letter-spacing:.18em;color:var(--brick)}
+.map-list i{margin-left:auto;font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--brick);font-style:normal}
+.map-form{display:flex;gap:12px;max-width:520px}
+.map-form input{
+  flex:1;font:inherit;font-size:15px;color:var(--ink);background:transparent;
+  border:0;border-bottom:1px solid var(--line);padding:12px 2px;outline:none;
+}
+.map-form input:focus{border-color:var(--brick)}
+.map-form button,.fin-form button{
+  font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--paper);background:var(--indigo);
+  border:1px solid var(--indigo);padding:14px 22px;cursor:pointer;
+  transition:background .3s,border-color .3s;
+}
+.map-form button:hover{background:var(--indigo-deep);border-color:var(--indigo-deep)}
+.map-note{margin-top:14px;font-size:13px;font-style:italic;color:var(--ink-soft)}
+.map-done{font-family:var(--serif);font-style:italic;font-size:21px;color:var(--brick)}
+@media(max-width:860px){.map-grid{grid-template-columns:1fr;gap:44px}.map-cover{max-width:280px}}
+
+/* ——— finale form ——— */
+.fin-form{margin-top:34px;max-width:640px}
+.fin-form .ff-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.fin-form input,.fin-form textarea{
+  width:100%;font:inherit;font-size:15px;color:#F4F1E8;
+  background:rgba(20,23,27,.35);backdrop-filter:blur(4px);
+  border:1px solid rgba(244,241,232,.35);padding:13px 16px;outline:none;
+}
+.fin-form input::placeholder,.fin-form textarea::placeholder{color:rgba(244,241,232,.55)}
+.fin-form input:focus,.fin-form textarea:focus{border-color:#EFE7D8}
+.fin-form textarea{min-height:96px;resize:vertical;margin-bottom:14px}
+.fin-form button{border-color:#EFE7D8;background:#EFE7D8;color:var(--ink-3)}
+.fin-form button:hover{background:#F4F1E8;border-color:#F4F1E8}
+.fin-form .ff-note{margin-top:14px;font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(244,241,232,.6)}
+.fin-form .go2{margin-top:20px}
+@media(max-width:640px){.fin-form .ff-row{grid-template-columns:1fr}}
+
+/* ——— whatsapp float ——— */
+.wa{
+  position:fixed;right:22px;bottom:22px;z-index:60;
+  width:52px;height:52px;border-radius:50%;
+  background:var(--indigo);color:var(--paper);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 14px 30px -8px rgba(43,37,24,.45);
+  transition:transform .35s cubic-bezier(.22,.8,.3,1),background .3s;
+}
+.wa:hover{transform:translateY(-4px);background:var(--indigo-deep)}
+.wa svg{width:24px;height:24px;fill:currentColor}
+
+/* ——— burger + mobile menu ——— */
+.menu-btn{
+  display:none;border:1px solid var(--line);background:var(--paper);
+  width:44px;height:44px;cursor:pointer;position:relative;z-index:70;
+}
+.menu-btn span{
+  position:absolute;left:11px;right:11px;height:1.5px;background:var(--ink);
+  transition:transform .3s,top .3s;
+}
+.menu-btn span:first-child{top:17px}.menu-btn span:last-child{top:25px}
+body.menu-open .menu-btn span:first-child{top:21px;transform:rotate(45deg)}
+body.menu-open .menu-btn span:last-child{top:21px;transform:rotate(-45deg)}
+.mmenu{
+  display:block;position:fixed;inset:0;top:0;z-index:65;
+  background:var(--paper);padding:96px 8vw 40px;overflow-y:auto;
+  transform:translateY(-102%);visibility:hidden;
+  transition:transform .5s cubic-bezier(.22,.8,.3,1),visibility 0s .5s;
+}
+body.menu-open .mmenu{transform:none;visibility:visible;transition:transform .5s cubic-bezier(.22,.8,.3,1),visibility 0s 0s}
+.mmenu .mm-st{
+  display:block;font-family:var(--serif);font-size:30px;font-weight:500;
+  padding:11px 0;border-bottom:1px solid var(--line-soft);color:var(--ink);
+}
+.mmenu .mm-st i{font-style:normal;font-family:var(--sans);font-size:10px;letter-spacing:.2em;color:var(--brick);margin-right:14px;vertical-align:middle}
+.mmenu-tax{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px;margin-top:34px;padding-top:24px;border-top:1px solid var(--line)}
+.mmenu-tax h6{font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brick);margin:0 0 8px}
+.mmenu-tax a{display:block;font-family:var(--sans);font-size:13px;color:var(--ink-soft);padding:4px 0}
+.mmenu-cta{
+  display:block;margin-top:30px;text-align:center;
+  font-family:var(--sans);font-size:11.5px;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--paper);background:var(--indigo);padding:16px;
+}
+@media(max-width:900px){
+  .menu-btn{display:block}
+  .nav .cta{display:none}
+}
+</style>
+</head>
+<body>
+<script>document.body.classList.add('js');</script>
+
+<div class="spine" aria-hidden="true"></div>
+<div class="spine-mark" id="spineMark" aria-hidden="true">ARRIVAL</div>
+
+<header class="nav">
+  <a class="wm" href="#top">ALBION<span>&nbsp;Consult</span></a>
+  <ul>
+    <li><a href="#journey">The Journey</a></li>
+    <li><a href="#student">Student</a></li>
+    <li><a href="#difference">Approach</a></li>
+    <li><a href="#people">People</a></li>
+    <li><a href="#journal">Journal</a></li>
+    <li><a href="#events">Events</a></li>
+  </ul>
+  <a class="cta" href="#contact">Begin a conversation</a>
+  <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<nav class="mmenu" id="mmenu" aria-label="Mobile">
+  <a class="mm-st" href="#journey"><i>01</i>The Journey</a>
+  <a class="mm-st" href="#student"><i>02</i>The Student</a>
+  <a class="mm-st" href="#difference"><i>03</i>The Difference</a>
+  <a class="mm-st" href="#people"><i>04</i>The People</a>
+  <a class="mm-st" href="#journal"><i>05</i>The Journal</a>
+  <a class="mm-st" href="#events"><i>06</i>Openings</a>
+  <a class="mm-st" href="#contact"><i>07</i>Begin a conversation</a>
+  <div class="mmenu-tax">
+    <div><h6>Admissions</h6><a href="/private-schools/day">Day schools</a><a href="/private-schools/boarding">Boarding</a><a href="/admissions/entrance-exams">Entrance exams 11+/13+/16+</a><a href="/universities/uk">Universities</a><a href="/universities/oxbridge">Oxbridge</a><a href="/universities/masters">Master's</a><a href="/universities/doctoral">Doctoral</a></div>
+    <div><h6>Tuition</h6><a href="/tuition/entrance-exams">Exam prep 11+/13+/16+</a><a href="/tuition/university-tests">University tests</a><a href="/tuition/gcse">GCSE</a><a href="/tuition/a-level">A-Level</a><a href="/tuition/ib">IB</a><a href="/tuition/home-education">Home education</a><a href="/tuition/intensive-courses">Intensive courses</a></div>
+    <div><h6>Services</h6><a href="/services/guardianship">Guardianship</a><a href="/services/academic-assessment">Academic assessment</a><a href="/services/career-guidance">Career guidance</a><a href="/services/personal-statement">Personal statement</a><a href="/summer-schools">Summer schools</a><a href="/executive-education">Executive ed. — MBA & EMBA</a></div>
+    <div><h6>Explore</h6><a href="#journal">Journal</a><a href="/events/webinars-meetings">Webinars & meetings</a><a href="/events/open-day">Open day</a><a href="/resources/pricing">Pricing</a></div>
+  </div>
+  <a class="mmenu-cta" href="#contact">Begin a conversation →</a>
+</nav>
+
+<main id="top">
+
+  <!-- 01 · hero -->
+  <section class="hero st" data-mark="ARRIVAL" style="padding-top:16vh">
+    <span class="st-dot" style="top:24vh"></span>
+    <div>
+      <span class="kicker">ALBION Consult · Oxford · Educational consultancy</span>
+      <h1>Every student<br>has a <em>way&nbsp;through</em>.</h1>
+      <p class="sub">An Oxford-based consultancy for international families. We walk with each student through the thresholds of British education — school, university, and whatever lies beyond the last arch.</p>
+      <a class="go" href="#journey">Follow the route&nbsp;&nbsp;→</a>
+    </div>
+    <figure class="hero-fig">
+      <div class="aperture"><img src="assets/arch-open.webp" alt="Ink engraving of an open arched Oxford doorway with warm sunlight streaming onto a college quad" fetchpriority="high"></div>
+      <figcaption class="cap">The first threshold — Oxford</figcaption>
+    </figure>
+  </section>
+
+  <!-- 01b · trust strip -->
+  <div class="trust">
+    <div class="trust-in">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span class="trust-score"><b>5.0</b> on Google</span>
+      <span class="trust-sep" aria-hidden="true"></span>
+      <ul class="trust-figs">
+        <li><b>20+</b>years of combined experience</li>
+        <li><b>240+</b>offers received</li>
+        <li><b>180+</b>families guided</li>
+      </ul>
+      <span class="trust-note">figures in preparation</span>
+    </div>
+  </div>
+
+  <!-- 02 · manifesto -->
+  <section class="mani st" data-mark="THE PROPOSITION">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">The proposition</span>
+      <p>Education is not a destination. It is a <em>passage</em> — a series of thresholds, each one opening quietly onto the next.</p>
+      <p class="who">For international families choosing British education</p>
+    </div>
+  </section>
+
+  <!-- 03 · the five gates -->
+  <div class="gates" id="journey">
+    <section class="gates-head st" data-mark="THE JOURNEY">
+      <span class="st-dot"></span>
+      <div class="rv">
+        <span class="kick">The journey — five gates</span>
+        <h2>One route, <em>walked together</em>.</h2>
+        <p class="lede">Every family arrives at a different gate, and no one passes through all five in the same way. But the passage is never made alone.</p>
+      </div>
+    </section>
+
+    <section class="gate st" data-mark="GATE I — SCHOOL">
+      <span class="st-dot"></span>
+      <div class="marginal"><span class="rn">I</span><span class="gk">Gate — School</span></div>
+      <div class="body rv">
+        <h3>School</h3>
+        <p>The first threshold is the school that fits — not the most famous name, but the right house, the right pace, the right room to grow. We read the child before we read the league tables.</p>
+        <ul>
+          <li><b>01</b>Understanding the student — character, language, ambitions</li>
+          <li><b>02</b>A shortlist of schools chosen for fit, not prestige alone</li>
+          <li><b>03</b>Visits, introductions and applications, arranged end to end</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gate st" data-mark="GATE II — PREPARATION">
+      <span class="st-dot"></span>
+      <div class="marginal"><span class="rn">II</span><span class="gk">Gate — Preparation</span></div>
+      <div class="body rv">
+        <h3>Preparation</h3>
+        <p>Before every threshold there is a corridor — the quiet work of getting ready. Entrance assessments, interviews, the English that exams don't measure: preparation is where confidence is built.</p>
+        <ul>
+          <li><b>01</b>Assessment preparation for UKiset, ISEB and school-specific papers</li>
+          <li><b>02</b>Interview coaching — thinking aloud, not reciting answers</li>
+          <li><b>03</b>Academic English and settling-in support on arrival</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gate st" data-mark="GATE III — UNIVERSITY">
+      <span class="st-dot"></span>
+      <div class="marginal"><span class="rn">III</span><span class="gk">Gate — University</span></div>
+      <div class="body rv">
+        <h3>University</h3>
+        <p>The route narrows to a single statement, five choices, one direction. We help students find the course worth committing to — then build an application that sounds like no one else.</p>
+        <ul>
+          <li><b>01</b>Course and university selection across the UCAS landscape</li>
+          <li><b>02</b>Personal statement development — drafts, honesty, voice</li>
+          <li><b>03</b>Admissions tests and predicted-grade strategy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gate st" data-mark="GATE IV — OXBRIDGE">
+      <span class="st-dot"></span>
+      <div class="marginal"><span class="rn">IV</span><span class="gk">Gate — Oxbridge</span></div>
+      <div class="body rv">
+        <h3>Oxbridge</h3>
+        <p>For some students, the passage leads here — to colleges, tutors and interviews unlike anything else in the world. We prepare them for the conversation, not the performance.</p>
+        <ul>
+          <li><b>01</b>College choice — the question inside the question</li>
+          <li><b>02</b>Tutorial-style preparation with subject specialists</li>
+          <li><b>03</b>Mock interviews that teach students to think on their feet</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gate st" data-mark="GATE V — WHAT'S NEXT">
+      <span class="st-dot"></span>
+      <div class="marginal"><span class="rn">V</span><span class="gk">Gate — What’s next</span></div>
+      <div class="body rv">
+        <h3>What’s next</h3>
+        <p>Every arch opens onto something. Careers, postgraduate study, the first steps of a working life — the route continues, and so does the relationship. Our students come back for advice long after the last application.</p>
+        <ul>
+          <li><b>01</b>Postgraduate and career-direction counsel</li>
+          <li><b>02</b>A standing relationship, not a finished transaction</li>
+        </ul>
+        <p class="note">The gates are numbered, but the order is yours.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- 03b · the offers -->
+  <section class="offers st" data-mark="THE OFFERS">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">Where the gates have led</span>
+      <h2>Destinations, <em>named</em>.</h2>
+      <p class="lede">The universities and schools where Albion students study today. The list grows as offers arrive — and is shown to families in full on request.</p>
+    </div>
+    <div class="offer-line rv d1">
+      <span class="offer-tag">Universities</span>
+      <div class="offer-track">
+        <span class="crest"><i>O</i><span><b>Oxford</b><small>UK</small></span></span>
+        <span class="crest"><i>C</i><span><b>Cambridge</b><small>UK</small></span></span>
+        <span class="crest"><i>U</i><span><b>UCL</b><small>London</small></span></span>
+        <span class="crest"><i>I</i><span><b>Imperial</b><small>London</small></span></span>
+        <span class="crest"><i>L</i><span><b>LSE</b><small>London</small></span></span>
+        <span class="crest"><i>K</i><span><b>King's College</b><small>London</small></span></span>
+        <span class="crest"><i>D</i><span><b>Durham</b><small>UK</small></span></span>
+        <span class="crest"><i>B</i><span><b>Bristol</b><small>UK</small></span></span>
+      </div>
+    </div>
+    <div class="offer-line rv d2">
+      <span class="offer-tag">Schools</span>
+      <div class="offer-track">
+        <span class="crest"><i>E</i><span><b>Eton</b><small>Windsor</small></span></span>
+        <span class="crest"><i>H</i><span><b>Harrow</b><small>London</small></span></span>
+        <span class="crest"><i>W</i><span><b>Wycombe Abbey</b><small>High Wycombe</small></span></span>
+        <span class="crest"><i>W</i><span><b>Westminster</b><small>London</small></span></span>
+        <span class="crest"><i>S</i><span><b>St Paul's</b><small>London</small></span></span>
+        <span class="crest"><i>S</i><span><b>Sevenoaks</b><small>Kent</small></span></span>
+        <span class="crest"><i>C</i><span><b>Cheltenham Ladies'</b><small>Cheltenham</small></span></span>
+        <span class="crest"><i>B</i><span><b>Brighton College</b><small>Brighton</small></span></span>
+      </div>
+    </div>
+    <p class="offers-note rv">The list is in preparation — published names appear only with consent.</p>
+  </section>
+
+  <!-- 04 · the fork -->
+  <section class="fork st" data-mark="NO STANDARD ROUTE">
+    <span class="st-dot"></span>
+    <div class="fork-veil" aria-hidden="true"></div>
+    <svg viewBox="0 0 320 900" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M160 -10 C160 200, 60 320, 55 520 C50 720, 120 800, 105 910"/>
+      <path d="M160 -10 C160 220, 160 400, 160 910" stroke-dasharray="3 7"/>
+      <path d="M160 -10 C160 200, 265 340, 270 540 C274 740, 205 810, 225 910"/>
+    </svg>
+    <div class="inner rv">
+      <span class="kick">Here the line divides</span>
+      <h2>There is <em>no standard route</em>.</h2>
+      <p class="lede">Two students can leave the same school and arrive at entirely different futures — and both be right. We do not sell a conveyor belt. We draw a map for one traveller at a time.</p>
+    </div>
+  </section>
+
+  <!-- 05 · student at the centre -->
+  <section class="student st" id="student" data-mark="THE STUDENT">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">The student at the centre</span>
+      <h2>One person, <em>not a cohort</em>.</h2>
+    </div>
+    <div class="wrap">
+      <figure class="rv d1">
+        <div class="aperture"><img src="assets/quad.webp" alt="Ink engraving of an Oxford quadrangle with a single walking path" loading="lazy"></div>
+      </figure>
+      <blockquote class="rv d2">
+        <p>“The counsellor knew my daughter better after one afternoon than her school did after three years.”</p>
+        <p class="attrib">Parent of an ALBION student<span class="tbc-tag">testimonial to be supplied</span></p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- 06 · difference -->
+  <section class="diff st" id="difference" data-mark="THE DIFFERENCE">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">The ALBION difference</span>
+      <h2>What <em>walking together</em> means.</h2>
+    </div>
+    <div style="margin-top:8vh">
+      <div class="diff-row rv"><span class="dn">— i</span><h3>One advisor, whole route</h3><p>A single counsellor who knows the family's whole story — not a relay of specialists handing the file onward.</p></div>
+      <div class="diff-row rv"><span class="dn">— ii</span><h3>Inside the colleges</h3><p>Based in Oxford, working within the system families are trying to enter — tutors, schools, admissions offices are neighbours, not abstractions.</p></div>
+      <div class="diff-row rv"><span class="dn">— iii</span><h3>Honest counsel</h3><p>We tell families what a child needs to hear, not what an invoice suggests. Sometimes that means a humbler school and a happier student.</p></div>
+      <div class="diff-row rv"><span class="dn">— iv</span><h3>The family included</h3><p>Parents crossing borders need translation of more than language — expectations, culture, process. We carry the family through each gate together.</p></div>
+      <div class="diff-row rv"><span class="dn">— v</span><h3>Beyond the letter</h3><p>An offer is a door opening, not the journey's end. Guardianship, settling-in, and counsel that continues for years after arrival.</p></div>
+    </div>
+  </section>
+
+  <!-- 07 · people -->
+  <section class="people st" id="people" data-mark="THE PEOPLE">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">The people on the route</span>
+      <h2>Counsellors, <em>not consultants</em>.</h2>
+      <p class="lede">A small practice by design — every family is known by name. Full profiles and portraits will live here.</p>
+    </div>
+    <div class="grid">
+      <div class="person rv"><div class="aperture"><span class="plate">Portrait<br>to be supplied</span></div><h4>Name to be supplied</h4><p class="role">Founder · Senior Advisor</p></div>
+      <div class="person rv d1"><div class="aperture"><span class="plate">Portrait<br>to be supplied</span></div><h4>Name to be supplied</h4><p class="role">Advisor · Schools</p></div>
+      <div class="person rv d2"><div class="aperture"><span class="plate">Portrait<br>to be supplied</span></div><h4>Name to be supplied</h4><p class="role">Advisor · Universities</p></div>
+      <div class="person rv d3"><div class="aperture"><span class="plate">Portrait<br>to be supplied</span></div><h4>Name to be supplied</h4><p class="role">Advisor · Oxbridge</p></div>
+    </div>
+    <p class="note-line">Every advisor at ALBION has stood on both sides of the gates — as applicant, and as guide.</p>
+  </section>
+
+  <!-- 08 · evidence -->
+  <section class="ink-sec st" data-mark="IN EVIDENCE">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">In evidence</span>
+      <h2>Measured in <em>years walked</em>.</h2>
+    </div>
+    <div class="stats">
+      <div class="stat rv d1"><div class="big">20<sup>+</sup></div><p class="lbl">Years of combined experience guiding international families through British education</p></div>
+      <div class="stat pending rv d2"><div class="big">—</div><p class="lbl">School &amp; university placements · figure to be supplied</p></div>
+      <div class="stat pending rv d3"><div class="big">—</div><p class="lbl">Families currently advised · figure to be supplied</p></div>
+    </div>
+    <p class="fine">ALBION publishes only what it can stand behind. Further figures — destinations, outcomes, testimonials — will appear here as they are verified.</p>
+  </section>
+
+  <!-- 09 · journal -->
+  <section class="journal st" id="journal" data-mark="THE JOURNAL">
+    <span class="st-dot"></span>
+    <div class="head rv">
+      <div>
+        <span class="kick">The Albion Journal</span>
+        <h2>Notes from <em>the corridor</em>.</h2>
+      </div>
+      <p class="issue">Issue 00 — Forthcoming</p>
+    </div>
+    <div style="margin-top:7vh">
+      <a class="j-row rv" href="#journal"><span class="cat">Admissions</span><div><h3>What Oxford tutors are actually listening for</h3><p class="meta">Essay · Forthcoming</p></div><span class="arr">→</span></a>
+      <a class="j-row rv" href="#journal"><span class="cat">Family</span><div><h3>Choosing a school from five thousand miles away</h3><p class="meta">Essay · Forthcoming</p></div><span class="arr">→</span></a>
+      <a class="j-row rv" href="#journal"><span class="cat">Oxbridge</span><div><h3>The interview is a tutorial, not a trial</h3><p class="meta">Essay · Forthcoming</p></div><span class="arr">→</span></a>
+      <a class="j-row rv" href="#journal"><span class="cat">Albion</span><div><h3>On thresholds — why we think in gates</h3><p class="meta">Editorial · Forthcoming</p></div><span class="arr">→</span></a>
+    </div>
+  </section>
+
+  <!-- 10 · events -->
+  <section class="events st" id="events" data-mark="OPENINGS">
+    <span class="st-dot"></span>
+    <div class="rv">
+      <span class="kick">Openings</span>
+      <h2>Meet us <em>at the gate</em>.</h2>
+      <p class="lede">Small gatherings in Oxford and abroad — conversations, not fairs. Dates and venues to be announced.</p>
+    </div>
+    <div style="margin-top:6vh">
+      <div class="e-row rv"><div class="e-date">TBC<small>Autumn</small></div><div><h3>An evening on British boarding schools</h3><p class="place">Oxford · Venue to be announced</p></div><a class="reg" href="#contact">Register interest</a></div>
+      <div class="e-row rv"><div class="e-date">TBC<small>Winter</small></div><div><h3>Oxbridge admissions — a working session</h3><p class="place">Online · Details to be announced</p></div><a class="reg" href="#contact">Register interest</a></div>
+      <div class="e-row rv"><div class="e-date">TBC<small>Spring</small></div><div><h3>The route through UCAS, for parents</h3><p class="place">City to be announced</p></div><a class="reg" href="#contact">Register interest</a></div>
+    </div>
+  </section>
+
+  <!-- 10b · the map — lead magnet -->
+  <section class="mapsec st" data-mark="THE MAP">
+    <span class="st-dot"></span>
+    <div class="map-grid">
+      <figure class="rv">
+        <div class="map-cover">
+          <span class="map-wm">Albion · Guides · Vol. I</span>
+          <p class="map-title">A parent's guide to <em>British schools</em></p>
+          <span class="map-pdf">PDF · free</span>
+        </div>
+      </figure>
+      <div class="rv d1">
+        <span class="kick">The map, in print</span>
+        <h2>Start with the <em>parent's guide</em>.</h2>
+        <p class="lede" style="font-size:16.5px">A calm walk through the British system — schools, exams, timelines — written by the counsellors who walk it. No jargon, no funnel inside.</p>
+        <ul class="map-list">
+          <li><b>01</b>A parent's guide to British schools<i>this one</i></li>
+          <li><b>02</b>Entrance exams 11+ / 13+ / 16+ in 90 days</li>
+          <li><b>03</b>The admissions interview, decoded</li>
+        </ul>
+        <form class="map-form" id="mapForm" novalidate>
+          <input type="email" required placeholder="Your email" aria-label="Email">
+          <button type="submit">Send me the guide&nbsp;→</button>
+        </form>
+        <p class="map-note">One email with the PDF. No sequence, no pressure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 · finale -->
+  <section class="finale st" id="contact" data-mark="THE FIRST THRESHOLD">
+    <span class="st-dot" style="top:0"></span>
+    <div class="art">
+      <img src="assets/panorama.webp" alt="Engraving of the Oxford skyline seen through a great stone arch at dawn" loading="lazy">
+      <div class="over">
+        <span class="kick">The last door on this page is the first on yours</span>
+        <h2>The first threshold is a <em>conversation</em>.</h2>
+        <form class="fin-form" id="finForm" novalidate>
+          <div class="ff-row">
+            <input name="name" type="text" placeholder="Your name" aria-label="Name">
+            <input name="contact" type="text" placeholder="Email or WhatsApp" aria-label="Email or WhatsApp" required>
+          </div>
+          <textarea name="msg" placeholder="A few words about your child and your plans" aria-label="Message"></textarea>
+          <button type="submit">Request a consultation&nbsp;→</button>
+        </form>
+        <a class="go2" href="mailto:hello@albion-consult.example">Or write to ALBION directly&nbsp;&nbsp;→</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<a class="wa" href="https://wa.me/441865236391" target="_blank" rel="noopener" aria-label="Write to ALBION on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4Zm-3 3.8c-.2 0-.5.1-.7.3-.6.6-.9 1.5-.4 2.7.6 1.5 1.6 2.9 3.2 4.1 1.9 1.4 3.5 1.9 4.5 1.9h.4c.9-.1 1.6-.5 1.9-1.1.2-.5.2-1.1.1-1.4-.1-.2-.3-.3-.6-.5l-1.7-.8c-.3-.1-.5-.1-.7.1l-.7.9c-.1.2-.3.2-.5.1-.7-.4-1.3-.8-1.9-1.5-.6-.6-1-1.3-1.3-1.9-.1-.2 0-.4.1-.5l.7-.8c.1-.2.1-.4 0-.6l-.8-1.9c-.2-.4-.4-.6-.7-.7Z"/></svg>
+</a>
+
+<footer>
+  <div class="f-top">
+    <div>
+      <p class="f-wm">ALBION <span>Consult</span></p>
+      <p style="margin-top:14px;font-style:italic;color:rgba(237,234,224,.55);font-size:15px">An educational consultancy — Oxford, England.</p>
+    </div>
+    <div class="f-cols">
+      <div class="f-col"><h5>Admissions</h5><a href="/private-schools/day">Day schools</a><a href="/private-schools/boarding">Boarding</a><a href="/admissions/entrance-exams">Entrance exams — 11+/13+/16+</a><a href="/universities/uk">Universities UK</a><a href="/universities/europe">Europe</a><a href="/universities/usa">USA</a><a href="/universities/oxbridge">Oxbridge</a><a href="/universities/masters">Master's</a><a href="/universities/doctoral">Doctoral</a></div>
+      <div class="f-col"><h5>Tuition</h5><a href="/tuition/entrance-exams">Exam prep — 11+/13+/16+</a><a href="/tuition/university-tests">University tests — LNAT/TMUA/UCAT</a><a href="/tuition/gcse">GCSE</a><a href="/tuition/a-level">A-Level</a><a href="/tuition/ib">IB</a><a href="/tuition/home-education">Home education</a><a href="/tuition/intensive-courses">Intensive courses</a><a href="/tutors">Tutors</a></div>
+      <div class="f-col"><h5>Services</h5><a href="/services/guardianship">Guardianship</a><a href="/services/academic-assessment">Academic assessment</a><a href="/services/career-guidance">Career guidance</a><a href="/services/personal-statement">Personal statement</a><a href="/summer-schools">Summer schools</a><a href="/executive-education">Executive education — MBA & EMBA</a></div>
+      <div class="f-col"><h5>Albion</h5><a href="#difference">Our approach</a><a href="#people">People</a><a href="#journal">Journal</a><a href="#events">Events</a><a href="/resources/pricing">Pricing</a></div>
+      <div class="f-col"><h5>Contact</h5><a href="mailto:hello@albion-consult.example">hello@albion-consult.example</a><a href="https://wa.me/441865236391">WhatsApp</a><a href="#contact">Oxford, United Kingdom</a></div>
+    </div>
+  </div>
+  <div class="f-bot">
+    <span>© MMXXVI Albion Consult</span>
+    <span>Every student has a way through</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var mark = document.getElementById('spineMark');
+  var secs = document.querySelectorAll('.st');
+  var revs = document.querySelectorAll('.rv');
+  var diffRows = document.querySelectorAll('.diff-row');
+
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      e.target.classList.add('in');
+      var m = e.target.getAttribute('data-mark');
+      if(m){ mark.textContent = m; mark.classList.add('show'); }
+      io.unobserve(e.target);
+    });
+  },{threshold:.18});
+  secs.forEach(function(s){ io.observe(s); });
+
+  var io2 = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io2.unobserve(e.target); } });
+  },{threshold:.12});
+  revs.forEach(function(r){ io2.observe(r); });
+
+  var io3 = new IntersectionObserver(function(es){
+    es.forEach(function(e){ e.target.classList.toggle('lit', e.isIntersecting); });
+  },{rootMargin:'-42% 0px -42% 0px'});
+  diffRows.forEach(function(r){ io3.observe(r); });
+
+  var btn = document.getElementById('menuBtn');
+  var menu = document.getElementById('mmenu');
+  if(btn && menu){
+    btn.addEventListener('click', function(){
+      var open = document.body.classList.toggle('menu-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Menu');
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        document.body.classList.remove('menu-open');
+        btn.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+
+  ['mapForm','finForm'].forEach(function(id){
+    var f = document.getElementById(id);
+    if(!f) return;
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      var done = document.createElement('p');
+      done.className = 'map-done';
+      done.textContent = id === 'mapForm' ? 'The guide is on its way.' : 'Received — we reply within one working day.';
+      f.replaceWith(done);
+    });
+  });
+
+  if(reduced) document.body.classList.add('reduced');
+})();
+</script>
+</body>
+</html>

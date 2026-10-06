@@ -1,0 +1,470 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f1522;
+  --color-ink-2: #161e2e;
+  --color-parchment: #f5f2e9;
+  --color-cream: #f0ebdd;
+  --color-brass: #c9a24b;
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-display-italic: var(--font-cormorant-italic), var(--font-display);
+  --font-sans: var(--font-inter-tight), "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ── Font presets (data-font on <html>, switched by FontSwitcher) ── */
+html[data-font="b"] {
+  --font-display: var(--font-oranienbaum), "Oranienbaum", Georgia, serif;
+  --font-display-italic: var(--font-cormorant-italic), var(--font-display);
+  --font-sans: var(--font-manrope), "Manrope", "Segoe UI", Arial, sans-serif;
+}
+
+html[data-font="c"] {
+  --font-display: var(--font-spectral), "Spectral", Georgia, serif;
+  --font-display-italic: var(--font-spectral), var(--font-display);
+  --font-sans: var(--font-onest), "Onest", "Segoe UI", Arial, sans-serif;
+}
+
+html[data-font="d"] {
+  --font-display: var(--font-prata), "Prata", Georgia, serif;
+  --font-display-italic: var(--font-cormorant-italic), var(--font-display);
+  --font-sans: var(--font-jost), "Jost", Futura, "Trebuchet MS", sans-serif;
+}
+
+html[data-font="e"] {
+  --font-display: var(--font-tenor), "Tenor Sans", "Segoe UI", Arial, sans-serif;
+  --font-display-italic: var(--font-tenor), var(--font-display);
+  --font-sans: var(--font-onest), "Onest", "Segoe UI", Arial, sans-serif;
+}
+
+html[data-font="f"] {
+  --font-display: var(--font-jost), "Jost", Futura, "Trebuchet MS", sans-serif;
+  --font-display-italic: var(--font-jost), var(--font-display);
+  --font-sans: var(--font-manrope), "Manrope", "Segoe UI", Arial, sans-serif;
+}
+
+/* ───────────────────────── Base ───────────────────────── */
+@layer base {
+  :root {
+    --ink: #0f1522;
+    --ink-2: #161e2e;
+    --parchment: #f5f2e9;
+    --cream: #f0ebdd;
+    --brass: #c9a24b;
+    --muted: rgba(240, 235, 221, 0.74);
+    --gutter: clamp(20px, 5vw, 72px);
+    --maxw: 1320px;
+    --header-h: 64px;
+    --focus-ring: #c9a24b;
+    --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+    color-scheme: dark;
+  }
+
+  @media (min-width: 1080px) {
+    :root {
+      --header-h: 76px;
+    }
+  }
+
+  html {
+    background: var(--ink);
+    color: var(--cream);
+    scroll-padding-top: calc(var(--header-h) + 16px);
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    min-width: 320px;
+    overflow-x: clip; /* clip (not hidden) keeps position: sticky working */
+    background: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    overflow-wrap: break-word;
+  }
+
+  h1 em,
+  h2 em,
+  h3 em,
+  p em {
+    font-family: var(--font-display-italic);
+    font-style: italic;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Grid children may shrink below their min-content (long <select> options, etc.) — no horizontal scroll at 320px */
+  :where(.grid) > * {
+    min-width: 0;
+  }
+
+  ::selection {
+    background: rgba(201, 162, 75, 0.38);
+    color: #fff;
+  }
+
+  /* Focus is always visible — brass on dark, ink on parchment */
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+}
+
+/* ─────────────────────── Components ────────────────────── */
+@layer components {
+  .tone-light {
+    --focus-ring: #0f1522;
+    --muted: rgba(22, 30, 46, 0.74);
+    background: var(--parchment);
+    color: var(--ink-2);
+    color-scheme: light;
+  }
+
+  .container-x {
+    width: 100%;
+    max-width: calc(var(--maxw) + var(--gutter) * 2);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  /* Eyebrow / section label with a brass rule */
+  .label {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0;
+    font: 500 12px/1.35 var(--font-sans);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .label::before {
+    content: "";
+    flex: none;
+    width: 40px;
+    height: 1px;
+    background: var(--brass);
+  }
+
+  .display-italic {
+    font-family: var(--font-display-italic);
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  /* Buttons: only transform / opacity are animated */
+  .btn {
+    position: relative;
+    isolation: isolate;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 100%;
+    min-height: 52px;
+    padding: 0 26px;
+    font: 600 13px/1.25 var(--font-sans);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.35s var(--ease-out);
+  }
+  .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.35s var(--ease-out);
+  }
+  .btn:hover {
+    transform: translate3d(0, -1px, 0);
+  }
+  .btn:hover::before {
+    opacity: 1;
+  }
+  .btn:active {
+    transform: none;
+  }
+  .btn:disabled {
+    cursor: progress;
+    opacity: 0.7;
+  }
+  .btn-brass {
+    color: var(--ink);
+    background: var(--brass);
+  }
+  .btn-brass::before {
+    background: #d6b35f;
+  }
+  .btn-ghost {
+    color: var(--cream);
+    background: transparent;
+    box-shadow: inset 0 0 0 1px rgba(240, 235, 221, 0.42);
+  }
+  .btn-ghost::before {
+    background: rgba(240, 235, 221, 0.09);
+  }
+  .tone-light .btn-ghost {
+    color: var(--ink-2);
+    box-shadow: inset 0 0 0 1px rgba(22, 30, 46, 0.38);
+  }
+  .tone-light .btn-ghost::before {
+    background: rgba(22, 30, 46, 0.06);
+  }
+  .btn-arrow {
+    display: inline-block;
+    transition: transform 0.35s var(--ease-out);
+  }
+  .btn:hover .btn-arrow {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  @media (max-width: 479px) {
+    .btn {
+      min-height: 50px;
+      padding: 0 18px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+    }
+  }
+
+  /* Text link with a brass hairline drawn on hover */
+  .link-hair {
+    position: relative;
+    display: inline;
+    color: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(var(--brass), var(--brass));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    padding-bottom: 3px;
+  }
+  .link-hair-soft {
+    background-image: linear-gradient(rgba(240, 235, 221, 0.35), rgba(240, 235, 221, 0.35));
+  }
+  .tone-light .link-hair-soft {
+    background-image: linear-gradient(rgba(22, 30, 46, 0.35), rgba(22, 30, 46, 0.35));
+  }
+  .link-hair-soft:hover {
+    background-image: linear-gradient(var(--brass), var(--brass));
+  }
+
+  /* Visible placeholder for everything we don't know yet */
+  .tbc {
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 7px;
+    font: 600 11px/1.5 var(--font-sans);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: var(--cream);
+    border: 1px dashed rgba(240, 235, 221, 0.5);
+    border-radius: 2px;
+  }
+  .tone-light .tbc {
+    color: var(--ink-2);
+    border-color: rgba(22, 30, 46, 0.5);
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    font: 600 10px/1.4 var(--font-sans);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--cream);
+    border: 1px solid rgba(201, 162, 75, 0.7);
+  }
+  .tone-light .badge {
+    color: var(--ink-2);
+  }
+
+  .skip-link {
+    position: fixed;
+    left: 16px;
+    top: 12px;
+    z-index: 100;
+    padding: 12px 18px;
+    background: var(--parchment);
+    color: var(--ink);
+    font: 600 14px/1 var(--font-sans);
+    transform: translate3d(0, -180%, 0);
+    transition: transform 0.2s ease;
+  }
+  .skip-link:focus,
+  .skip-link:focus-visible {
+    transform: none;
+  }
+
+  /* Forms (always rendered on parchment) */
+  .field {
+    display: grid;
+    gap: 8px;
+    min-width: 0;
+  }
+  .field-label {
+    font: 600 11px/1.35 var(--font-sans);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .field-control {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    min-height: 50px;
+    padding: 12px 14px;
+    font: 400 16px/1.4 var(--font-sans);
+    color: var(--ink-2);
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(22, 30, 46, 0.26);
+    border-radius: 0;
+  }
+  .field-control::placeholder {
+    color: rgba(22, 30, 46, 0.45);
+  }
+  .field-control:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+  .field-control[aria-invalid="true"] {
+    border-color: #8c3a2b;
+  }
+  select.field-control {
+    appearance: none;
+    padding-right: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23161E2E' stroke-width='1.3'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 12px 8px;
+  }
+  textarea.field-control {
+    min-height: 124px;
+    resize: vertical;
+  }
+  .field-error {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #8c3a2b;
+  }
+  .check {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr);
+    gap: 12px;
+    align-items: start;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .check input {
+    width: 20px;
+    height: 20px;
+    margin: 1px 0 0;
+    accent-color: var(--ink-2);
+  }
+
+  /* Scroll reveal: opacity + transform only; never hides content above the fold */
+  [data-reveal-state="pending"] {
+    opacity: 0;
+    transform: translate3d(0, 22px, 0);
+  }
+  [data-reveal-state="shown"] {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 1s var(--ease-out) var(--reveal-delay, 0ms),
+      transform 1s var(--ease-out) var(--reveal-delay, 0ms);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal-state] {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+/* ================= OFFER CREST STRIPS (marquee) ================= */
+
+.strip-mask {
+  mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 7%, #000 93%, transparent 100%);
+}
+.strip-track {
+  display: flex;
+  gap: 14px;
+  width: max-content;
+  animation: strip-scroll 46s linear infinite;
+}
+.strip-track-rev {
+  animation-name: strip-scroll-rev;
+  animation-duration: 52s;
+}
+.strip-track:hover,
+.strip-track:focus-within {
+  animation-play-state: paused;
+}
+@keyframes strip-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes strip-scroll-rev {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .strip-track {
+    animation: none;
+  }
+  .strip-mask {
+    mask-image: none;
+    -webkit-mask-image: none;
+    overflow-x: auto;
+  }
+}
+
+/* ================= WHATSAPP FLOAT ================= */
+
+.wa-float {
+  position: fixed;
+  right: clamp(16px, 3vw, 30px);
+  bottom: clamp(16px, 3vw, 30px);
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: var(--cream);
+  background: var(--ink-2);
+  border: 1px solid rgba(240, 235, 221, 0.22);
+  box-shadow: 0 10px 30px rgba(15, 21, 34, 0.45);
+  transition: transform 0.3s var(--ease-out, cubic-bezier(0.22, 1, 0.36, 1)), border-color 0.3s;
+}
+.wa-float:hover {
+  transform: translateY(-3px);
+  border-color: var(--brass);
+}

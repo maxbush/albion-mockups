@@ -1,0 +1,264 @@
+.schools {
+  background: var(--bg);
+  overflow: clip;
+}
+
+.title {
+  font-size: clamp(38px, 5vw, 76px);
+  max-width: 14ch;
+  margin-top: 22px;
+}
+
+.viewport {
+  margin-top: clamp(40px, 5vw, 64px);
+  overflow: clip;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 7%,
+    #000 93%,
+    transparent
+  );
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex: none;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: clamp(28px, 4vw, 56px);
+  padding-right: clamp(28px, 4vw, 56px);
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(30px, 4.2vw, 56px);
+  line-height: 1.25;
+  white-space: nowrap;
+  color: var(--ivory);
+}
+
+.item::after {
+  content: '';
+  width: 9px;
+  height: 9px;
+  flex: none;
+  background: var(--brass);
+  transform: rotate(45deg);
+  opacity: 0.85;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px 32px;
+  margin-top: clamp(36px, 4vw, 56px);
+  border-top: 1px solid var(--hairline-dark);
+  padding-top: 26px;
+}
+
+.footnote {
+  max-width: 52ch;
+  font-size: 15.5px;
+  color: var(--ivory-mute);
+}
+
+.tbc {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px dashed rgb(201 162 75 / 0.65);
+  border-radius: 3px;
+  padding: 11px 18px;
+  font-size: 14px;
+  color: var(--ivory);
+}
+
+.tbcTag {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brass);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viewport {
+    overflow: visible;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .track {
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .copy {
+    display: none;
+  }
+
+  .item {
+    white-space: normal;
+    font-size: clamp(24px, 5vw, 34px);
+  }
+}
+
+/* ── crest rows: shield monograms drifting opposite ways ─────────────── */
+
+.crests {
+  margin-top: clamp(44px, 5.5vw, 72px);
+}
+
+.crestCaption {
+  margin: 0 0 14px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+}
+
+.crests .crestCaption + .crestViewport {
+  margin-bottom: 30px;
+}
+
+.crestViewport {
+  overflow: clip;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 6%,
+    #000 94%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 6%,
+    #000 94%,
+    transparent
+  );
+}
+
+.crestViewport:hover .crestTrack {
+  animation-play-state: paused;
+}
+
+.crestTrack {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.crestLeft {
+  animation: crest-marquee 52s linear infinite;
+}
+
+.crestRight {
+  animation: crest-marquee 58s linear infinite reverse;
+}
+
+@keyframes crest-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.crestRow {
+  display: flex;
+  flex: none;
+}
+
+.crest {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
+  margin-right: 14px;
+  padding: 12px 22px 12px 12px;
+  border: 1px solid var(--hairline-dark);
+  border-radius: 3px;
+  white-space: nowrap;
+  background: rgb(240 235 221 / 0.03);
+}
+
+.crest i {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 44px;
+  flex: none;
+  font-style: normal;
+  font-family: var(--font-display);
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--brass);
+  border: 1px solid var(--hairline-dark);
+  border-radius: 19px 19px 19px 19px / 24px 24px 3px 3px;
+}
+
+.crestText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.crestText b {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--ivory);
+}
+
+.crestText small {
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+}
+
+@media (max-width: 640px) {
+  .crest {
+    padding: 10px 18px 10px 10px;
+    gap: 11px;
+  }
+  .crest i {
+    width: 34px;
+    height: 39px;
+    font-size: 18px;
+  }
+  .crestText b {
+    font-size: 16.5px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .crestTrack {
+    animation: none;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 10px;
+  }
+  .crestTrack .crestRow + .crestRow {
+    display: none;
+  }
+}

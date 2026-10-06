@@ -1,0 +1,160 @@
+.journey {
+  background: var(--bg);
+}
+
+.title {
+  font-size: clamp(46px, 6.4vw, 100px);
+  max-width: 11ch;
+  margin: 22px 0 18px;
+}
+
+.intro {
+  max-width: 60ch;
+  font-size: clamp(17px, 1.7vw, 20px);
+}
+
+/* ── stacking cards: pure CSS, position sticky ─────────────────────────── */
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 3vh, 36px);
+  margin-top: clamp(48px, 6vw, 88px);
+  padding-bottom: 24px;
+}
+
+.card {
+  position: sticky;
+  top: calc(var(--header-h) + 14px + var(--i, 0) * 16px);
+  display: flex;
+  min-height: min(78svh, 640px);
+  background: var(--bg-2);
+  border: 1px solid var(--hairline-dark);
+  border-top: 1px solid rgb(201 162 75 / 0.55);
+  border-radius: 8px;
+}
+
+.card:nth-child(even) {
+  background: #141b2c;
+}
+
+.cardInner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 26px;
+  width: 100%;
+  padding: clamp(26px, 4vw, 60px);
+  overflow: clip;
+  border-radius: inherit;
+}
+
+.stage {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ivory-mute);
+}
+
+.stage b {
+  font-weight: 600;
+  color: var(--brass);
+  letter-spacing: 0.12em;
+}
+
+.cardTitle {
+  font-size: clamp(38px, 4.4vw, 68px);
+  margin: 16px 0 12px;
+}
+
+.cardMeta {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--brass);
+}
+
+.cardDesc {
+  max-width: 46ch;
+  margin-top: 14px;
+}
+
+.cardFig {
+  position: relative;
+  order: -1;
+  height: 230px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgb(201 162 75 / 0.28);
+  border-radius: 999px 999px 8px 8px;
+}
+
+.cardFig img {
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.ghost {
+  position: absolute;
+  top: 2px;
+  right: 18px;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(110px, 13vw, 190px);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(240 235 221 / 0.16);
+  user-select: none;
+  pointer-events: none;
+}
+
+@media (min-width: 900px) {
+  .cardInner {
+    grid-template-columns: 1.04fr 0.96fr;
+    gap: clamp(28px, 4vw, 64px);
+    align-items: center;
+  }
+
+  .card:nth-child(even) .cardFig {
+    order: -1;
+  }
+
+  .card:nth-child(odd) .cardFig {
+    order: 0;
+  }
+
+  .cardFig {
+    height: 100%;
+    min-height: 400px;
+  }
+}
+
+/* through-line: guardianship · tutoring · intensives */
+.through {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 36px;
+  margin-top: clamp(44px, 5vw, 72px);
+  border-top: 1px solid var(--hairline-dark);
+  padding-top: 30px;
+}
+
+.through p {
+  max-width: 56ch;
+  font-size: clamp(16.5px, 1.6vw, 19px);
+}
+
+.through p::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 14px;
+  background: var(--brass);
+  transform: rotate(45deg) translateY(-1px);
+}

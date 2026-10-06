@@ -1,0 +1,87 @@
+.mag {
+  display: inline-block;
+  max-width: 100%;
+  /* smooth magnetic return; instant under reduced motion (see globals) */
+  transition: transform 0.5s var(--ease-out);
+  will-change: transform;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 32px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  /* motion vocabulary: transform only — colour flips are instant */
+  transition: transform 0.4s var(--ease-out);
+  will-change: transform;
+}
+
+.sm {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+
+.primary {
+  background: var(--brass);
+  color: #131a2c;
+  font-weight: 600;
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+}
+
+.primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ghost {
+  border-color: rgb(240 235 221 / 0.34);
+  background: transparent;
+  color: var(--ivory);
+}
+
+.ghost:hover {
+  transform: translateY(-2px);
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+.ghost:active {
+  transform: scale(0.98);
+}
+
+.dark {
+  background: var(--ink);
+  color: var(--vellum);
+  font-weight: 600;
+}
+
+.dark:hover {
+  transform: translateY(-2px);
+}
+
+.dark:active {
+  transform: scale(0.98);
+}
+
+.dark:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
