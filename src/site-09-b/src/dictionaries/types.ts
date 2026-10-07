@@ -96,6 +96,7 @@ export interface Dictionary {
     linkTeam: string;
     linkResults: string;
     linkTestimonials: string;
+    linkTutors: string;
   };
   schoolsStrip: { aria: string };
   testimonials: {
@@ -213,6 +214,14 @@ export interface Dictionary {
       regTitle: string;
       regLead: string;
       submit: string;
+    };
+    tutors: {
+      rosterLabel: string;
+      rosterAria: string;
+      subjectLabel: string;
+      note: string;
+      boxTitle: string;
+      boxLead: string;
     };
   };
   consultCta: { label: string; title: string; lead: string; cta: string };

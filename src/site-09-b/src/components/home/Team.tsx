@@ -6,18 +6,11 @@ import { getDictionary, type Locale } from "@/lib/i18n";
 import { hrefFor } from "@/lib/site";
 
 const leadership = [
-  { name: "Anfisa Bashkirova", src: "/images/team/anfisa-bashkirova.webp" },
-  { name: "Altynay Yeshmatova", src: "/images/team/altynay-yeshmatova.webp" },
-  { name: "William Knox", src: "/images/team/william-knox.webp" },
-  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/vladimir-ivanov-krymskiy.webp" },
-  { name: "Jonathan Mintram", src: "/images/team/jonathan-mintram.webp" },
-];
-
-const tutors = [
-  { name: "Adrian Fort", src: "/images/tutors/adrian-fort.webp" },
-  { name: "Tom Yates", src: "/images/tutors/tom-yates.webp" },
-  { name: "Stacey Johnson", src: "/images/tutors/stacey-johnson.webp" },
-  { name: "Mollie-May Campbell", src: "/images/tutors/mollie-may-campbell.webp" },
+  { name: "Anfisa Bashkirova", src: "/images/team/team-anfisa-bashkirova.jpg" },
+  { name: "Altynay Yeshmatova", src: "/images/team/team-altynay-yeshmatova.jpg" },
+  { name: "William Knox", src: "/images/team/team-william-knox.jpg" },
+  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/team-vladimir-ivanov-krymskiy.jpg" },
+  { name: "Jonathan Mintram", src: "/images/team/team-jonathan-mintram.jpg" },
 ];
 
 function PersonCard({
@@ -33,7 +26,7 @@ function PersonCard({
 }) {
   return (
     <li className="group" data-reveal style={revealDelay(i * 70)}>
-      <div className="relative aspect-[3/4] overflow-hidden bg-[radial-gradient(ellipse_at_50%_30%,#fcfaf5_0%,#f1ede2_74%)] shadow-[0_22px_50px_-28px_rgba(0,0,0,0.75)]">
+      <div className="relative aspect-[3/4] overflow-hidden border border-cream/12 bg-[#f3efe3] shadow-[0_22px_50px_-28px_rgba(0,0,0,0.75)]">
         <Image
           src={person.src}
           alt={`${person.name} — ${person.role}`}
@@ -53,7 +46,6 @@ function PersonCard({
 export default function Team({ lang }: { lang: Locale }) {
   const t = getDictionary(lang).team;
   const leaders = leadership.map((p, i) => ({ ...p, role: t.roles[i] }));
-  const tutorCards = tutors.map((p) => ({ ...p, role: t.tutorRole }));
   return (
     <section aria-labelledby="team-title" className="bg-ink-2 py-[clamp(88px,12vw,168px)]">
       <div className="container-x grid gap-16 lg:grid-cols-12 lg:gap-8">
@@ -125,20 +117,11 @@ export default function Team({ lang }: { lang: Locale }) {
             ))}
           </ul>
 
-          <p className="label mt-16" data-reveal>
-            {t.tutorsLabel}
-          </p>
-          <ul className="mt-6 grid gap-x-4 gap-y-10 sm:grid-cols-2" aria-label={t.tutorsAria}>
-            {tutorCards.map((person, i) => (
-              <PersonCard
-                key={person.name}
-                person={person}
-                i={leaders.length + i}
-                nameLabel={t.nameLabel}
-                roleLabel={t.roleLabel}
-              />
-            ))}
-          </ul>
+          <div className="mt-12" data-reveal>
+            <Link href={hrefFor(lang, "learning", "tutors")} className="link-hair link-hair-soft">
+              {t.linkTutors}
+            </Link>
+          </div>
         </div>
       </div>
     </section>

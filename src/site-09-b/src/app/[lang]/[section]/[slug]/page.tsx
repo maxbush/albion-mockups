@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import EnquiryForm from "@/components/forms/EnquiryForm";
 import PageBand from "@/components/pages/PageBand";
 import { Tbc } from "@/components/ui/Tbc";
+import { revealDelay } from "@/lib/css";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n";
 import {
   findItem,
@@ -105,6 +106,83 @@ function OpenDayPage({ lang, section, item }: { lang: Locale; section: NavSectio
   );
 }
 
+const tutorRoster = [
+  { name: "Adrian Fort", src: "/images/tutors/tutor-adrian-fort.jpg" },
+  { name: "Tom Yates", src: "/images/tutors/tutor-tom-yates.jpg" },
+  { name: "Stacey Johnson", src: "/images/tutors/tutor-stacey-johnson.jpg" },
+  { name: "Mollie-May Campbell", src: "/images/tutors/tutor-mollie-may-campbell.jpg" },
+];
+
+function TutorsPage({ lang, section, item }: { lang: Locale; section: NavSection; item: NavItem }) {
+  const dict = getDictionary(lang);
+  const t = dict.slugPage;
+  const tu = t.tutors;
+  const role = dict.team.tutorRole;
+  return (
+    <>
+      <PageBand
+        crumbs={[
+          { label: t.homeCrumb, href: `/${lang}` },
+          { label: section.label, href: hrefFor(lang, section.id) },
+          { label: item.label },
+        ]}
+        eyebrow={section.label}
+        title={item.label}
+        lead={item.description}
+      />
+
+      <section className="bg-ink pt-[clamp(56px,8vw,104px)] pb-[clamp(72px,10vw,140px)]">
+        <div className="container-x">
+          <p className="label" data-reveal>
+            {tu.rosterLabel}
+          </p>
+          <ul
+            className="mt-8 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-4"
+            aria-label={tu.rosterAria}
+          >
+            {tutorRoster.map((person, i) => (
+              <li key={person.name} data-reveal style={revealDelay(i * 70)}>
+                <div className="relative aspect-square overflow-hidden border border-cream/12 bg-[#f3efe3] shadow-[0_22px_50px_-28px_rgba(0,0,0,0.75)]">
+                  <Image
+                    src={person.src}
+                    alt={`${person.name} — ${role}`}
+                    fill
+                    sizes="(min-width: 1024px) 21vw, (min-width: 640px) 44vw, 90vw"
+                    className="object-cover object-top"
+                  />
+                </div>
+                <p className="mt-4 text-[15px] font-medium text-cream/90">{person.name}</p>
+                <p className="mt-1 flex items-baseline gap-2 text-[13px] text-cream/65">
+                  {role} · {tu.subjectLabel} <Tbc lang={lang} />
+                </p>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-12 max-w-[62ch] text-[15px] leading-[1.7] text-cream/70" data-reveal>
+            {tu.note} <Tbc lang={lang} />
+          </p>
+
+          <div className="tone-light mt-14 grid gap-8 p-[clamp(22px,3vw,40px)] md:grid-cols-12 md:items-center" data-reveal>
+            <div className="md:col-span-8">
+              <p className="font-display text-[clamp(1.8rem,1.3rem+1.2vw,2.4rem)] leading-[1.1] font-light">
+                {tu.boxTitle}
+              </p>
+              <p className="mt-4 max-w-[56ch] text-[16px] leading-[1.7] text-ink-2/80">
+                {tu.boxLead} <Tbc lang={lang} />
+              </p>
+            </div>
+            <div className="md:col-span-4">
+              <Link href={`/${lang}/consultation`} className="btn btn-brass w-full">
+                {dict.consultCta.cta}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
 export default async function ItemPage({ params }: Props) {
   const { lang: raw, section: sectionId, slug } = await params;
   if (!isLocale(raw)) notFound();
@@ -115,6 +193,10 @@ export default async function ItemPage({ params }: Props) {
 
   if (section.id === "consulting" && item.slug === "open-day") {
     return <OpenDayPage lang={lang} section={section} item={item} />;
+  }
+
+  if (section.id === "learning" && item.slug === "tutors") {
+    return <TutorsPage lang={lang} section={section} item={item} />;
   }
 
   const dict = getDictionary(lang);

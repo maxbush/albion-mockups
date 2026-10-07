@@ -635,6 +635,7 @@ export const en: Dictionary = {
     linkTeam: "Meet the team",
     linkResults: "See results & figures",
     linkTestimonials: "Read testimonials",
+    linkTutors: "Meet the tutors",
   },
 
   schoolsStrip: {
@@ -890,6 +891,14 @@ export const en: Dictionary = {
       regTitle: "Plan the visits",
       regLead: "Tell us which course or subject interests you — we will prepare a visit plan.",
       submit: "Plan the visits",
+    },
+    tutors: {
+      rosterLabel: "The roster",
+      rosterAria: "ALBION tutors",
+      subjectLabel: "Subject",
+      note: "The roster flexes to each family's brief: shown here is part of the team — the full list and profiles are",
+      boxTitle: "We match the tutor to the brief",
+      boxLead: "Subject, level and format decide the fit — profiles and recommendations are",
     },
   },
 
