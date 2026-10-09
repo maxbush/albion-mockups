@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Tbc } from "@/components/ui/Tbc";
 import { revealDelay } from "@/lib/css";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { path } from "@/lib/site";
@@ -70,28 +69,7 @@ export default function Team({ lang }: { lang: Locale }) {
               <p className="display-italic text-[clamp(1.4rem,1.1rem+1vw,1.9rem)] leading-[1.3] text-cream/80">
                 &ldquo;{t.quote}&rdquo;
               </p>
-              <figcaption className="mt-4 flex flex-wrap items-center gap-3 text-[13px] text-cream/65">
-                {t.quoteBy} <Tbc lang={lang} />
-              </figcaption>
             </figure>
-
-            <div className="mt-10" data-reveal>
-              <p className="label">{t.resultsLabel}</p>
-              <dl className="mt-5 border-t border-cream/15">
-                <div className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
-                  <dt className="text-[15px] text-cream/85">{t.admissionsRow}</dt>
-                  <dd>
-                    <Tbc lang={lang} />
-                  </dd>
-                </div>
-                <div className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
-                  <dt className="text-[15px] text-cream/85">{t.familiesRow}</dt>
-                  <dd>
-                    <Tbc lang={lang} />
-                  </dd>
-                </div>
-              </dl>
-            </div>
 
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-[15px]">
               <Link href={path(lang, "team")} className="link-hair link-hair-soft">

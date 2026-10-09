@@ -1,10 +1,9 @@
-import { Tbc } from "@/components/ui/Tbc";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { CONTACT } from "@/lib/site";
 
-/** Contact facts for parchment (tone-light) sections. Real data comes from the live site; the unknown stays TBC. */
+/** Contact facts for parchment (tone-light) sections. */
 export default function ContactList({ lang }: { lang: Locale }) {
-  const rows = getDictionary(lang).contact.rows;
+  const rows = getDictionary(lang).contact.rows.filter((row) => row.key !== "format");
   return (
     <dl className="mt-10 border-t border-ink-2/15">
       {rows.map((row) => (
@@ -25,7 +24,6 @@ export default function ContactList({ lang }: { lang: Locale }) {
               </a>
             )}
             {row.key === "office" && <span>{CONTACT.address}</span>}
-            {row.key === "format" && <Tbc lang={lang} />}
           </dd>
         </div>
       ))}

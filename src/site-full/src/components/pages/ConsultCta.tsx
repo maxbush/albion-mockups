@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Tbc } from "@/components/ui/Tbc";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
 export default function ConsultCta({ lang, title }: { lang: Locale; title?: string }) {
@@ -16,7 +15,7 @@ export default function ConsultCta({ lang, title }: { lang: Locale; title?: stri
             {title ?? t.title}
           </h2>
           <p className="mt-5 flex max-w-[56ch] flex-wrap items-center gap-2 text-[17px] leading-[1.7] text-ink-2/80">
-            {t.lead} <Tbc lang={lang} />
+            {t.lead}
           </p>
         </div>
         <div className="lg:col-span-4 lg:justify-self-end" data-reveal>
