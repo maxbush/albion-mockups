@@ -162,10 +162,15 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
                   <div id={`nav-panel-${section.id}`} className={styles.panel} data-open={open ? "true" : "false"}>
                     <div className={styles.panelInner}>
                       <div>
-                        <p className={styles.panelTitle}>{section.label}</p>
+                        <Link href={section.href} className="group block" onClick={closeAll}>
+                          <p className={styles.panelTitle}>
+                            {section.label}
+                            <span aria-hidden="true" className="ml-2 inline-block text-brass transition-transform group-hover:translate-x-1">→</span>
+                          </p>
+                        </Link>
                         <p className={styles.panelText}>{section.intro}</p>
-                        <Link href={section.href} className="link-hair text-[14px]" onClick={closeAll}>
-                          {t.openSection} {section.label}
+                        <Link href={section.href} className="link-hair text-[14px] text-brass" onClick={closeAll}>
+                          {t.openSection} {section.label} →
                         </Link>
                       </div>
                       <div className={styles.groups}>
