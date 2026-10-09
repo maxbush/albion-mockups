@@ -124,21 +124,22 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
   const showContact = CONTACT_PAGES[lang].has(page.url);
   const pillar = page.children.length > 0;
   const segs = page.url.split("/").filter(Boolean).slice(lang === "ru" ? 1 : 0);
+  const sectionArt: Record<string, string> = {
+    "chastnye-shkoly": "/images/band-schools.webp",
+    "private-schools": "/images/band-schools.webp",
+    "postuplenie-v-universitety": "/images/band-university.webp",
+    "university-admissions": "/images/band-university.webp",
+    "executive-obrazovanie": "/images/band-executive.webp",
+    "executive-education": "/images/band-executive.webp",
+    "letnie-shkoly": "/images/band-summer.webp",
+    "summer-schools": "/images/band-summer.webp",
+    repetitory: "/images/band-tutors.webp",
+    tutors: "/images/band-tutors.webp",
+  };
   const bandArt =
-    pillar && segs.length === 1
-      ? ({
-          "chastnye-shkoly": "/images/band-schools.webp",
-          "private-schools": "/images/band-schools.webp",
-          "postuplenie-v-universitety": "/images/band-university.webp",
-          "university-admissions": "/images/band-university.webp",
-          "executive-obrazovanie": "/images/band-executive.webp",
-          "executive-education": "/images/band-executive.webp",
-          "letnie-shkoly": "/images/band-summer.webp",
-          "summer-schools": "/images/band-summer.webp",
-        } as Record<string, string>)[segs[0]]
-      : segs[1] === "opeka" || segs[1] === "guardianship"
-        ? "/images/band-guardianship.webp"
-        : undefined;
+    segs[1] === "opeka" || segs[1] === "guardianship"
+      ? "/images/band-guardianship.webp"
+      : sectionArt[segs[0]];
   const toc = secs.flatMap((blocks, si) =>
     blocks.flatMap((b, bi) => (b.type === "h2" ? [{ id: `s${si}-${bi}`, text: strip(b.text) }] : [])),
   );
