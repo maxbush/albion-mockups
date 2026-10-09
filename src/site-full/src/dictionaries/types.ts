@@ -34,7 +34,7 @@ export interface Dictionary {
     arrival: string;
     arrivalSub: string;
   };
-  trust: { aria: string; onGoogle: string; stats: Array<{ n: string; cap: string }>; cert: string; note: string };
+  trust: { aria: string; onGoogle: string; stats: Array<{ n: string; cap: string }> };
   manifesto: { label: string; title: string; titleEm: string; p1: string; p2: string; p3: string };
   route: {
     label: string;
@@ -88,10 +88,7 @@ export interface Dictionary {
     roles: string[];
     tutorRole: string;
     resultsLabel: string;
-    admissionsRow: string;
-    familiesRow: string;
-    quote: string;
-    quoteBy: string;
+    results: Array<{ n: string; cap: string }>;
     linkTeam: string;
     linkResults: string;
     linkTestimonials: string;
