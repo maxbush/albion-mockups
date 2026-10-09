@@ -14,13 +14,19 @@ export default function PageBand({
   title,
   lead,
   focus = "50% 45%",
+  variant = "compact",
+  cta,
 }: {
   crumbs: Crumb[];
   eyebrow: string;
   title: ReactNode;
   lead?: string;
   focus?: string;
+  /** compact — leaf pages (~340px); pillar — section hubs (~480px) */
+  variant?: "compact" | "pillar";
+  cta?: { label: string; href: string };
 }) {
+  const tall = variant === "pillar";
   return (
     <section aria-labelledby="page-title" className="relative isolate overflow-hidden bg-ink">
       <div aria-hidden="true" className="absolute inset-0 -z-10">
@@ -46,7 +52,11 @@ export default function PageBand({
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,21,34,0.62)_0%,rgba(15,21,34,0.46)_36%,rgba(15,21,34,0.86)_72%,#0F1522_100%)]" />
       </div>
 
-      <div className="container-x flex min-h-[min(74svh,760px)] flex-col justify-end pt-[calc(var(--header-h)+56px)] pb-[clamp(48px,7vw,96px)]">
+      <div
+        className={`container-x flex flex-col justify-end pt-[calc(var(--header-h)+40px)] ${
+          tall ? "min-h-[min(56svh,540px)] pb-[clamp(40px,6vw,72px)]" : "min-h-[min(40svh,360px)] pb-[clamp(28px,4vw,44px)]"
+        }`}
+      >
         <nav aria-label="Breadcrumb">
           <ol className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-cream/80">
             {crumbs.map((crumb, i) => (
@@ -69,15 +79,26 @@ export default function PageBand({
             ))}
           </ol>
         </nav>
-        <p className="label mt-10">{eyebrow}</p>
+        <p className={`label ${tall ? "mt-8" : "mt-5"}`}>{eyebrow}</p>
         <h1
           id="page-title"
-          className="mt-6 max-w-[18ch] font-display text-[clamp(2.5rem,1.4rem+4.2vw,5.75rem)] leading-[0.98] font-light tracking-[-0.012em]"
+          className={`mt-4 font-display leading-[1.02] font-light tracking-[-0.01em] ${
+            tall ? "max-w-[18ch] text-[clamp(2.4rem,1.5rem+3.4vw,4.5rem)]" : "max-w-[26ch] text-[clamp(1.9rem,1.4rem+2vw,3.2rem)]"
+          }`}
         >
           {title}
         </h1>
         {lead && (
-          <p className="mt-7 max-w-[58ch] text-[clamp(16px,0.95rem+0.25vw,19px)] leading-[1.65] text-cream/85">{lead}</p>
+          <p className={`mt-4 max-w-[62ch] leading-[1.6] text-cream/85 ${tall ? "text-[clamp(16px,0.95rem+0.25vw,19px)]" : "text-[15.5px]"}`}>
+            {lead}
+          </p>
+        )}
+        {cta && (
+          <p className="mt-5">
+            <Link href={cta.href} className="btn btn-brass">
+              {cta.label}
+            </Link>
+          </p>
         )}
       </div>
     </section>

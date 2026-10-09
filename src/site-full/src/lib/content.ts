@@ -3,7 +3,7 @@ import type { Locale } from "./i18n";
 
 export type Block =
   | { type: "h1" | "h2" | "h3"; text: string }
-  | { type: "p"; html: string }
+  | { type: "p" | "lead"; html: string }
   | { type: "stat"; html: string }
   | { type: "list"; ordered: boolean; items: string[] }
   | { type: "table"; header: string[]; rows: string[][] }
@@ -87,7 +87,8 @@ export function crumbsFor(page: ContentPageData, homeLabel: string): { label: st
     cur = cur.parent ? byUrl.get(cur.parent) : undefined;
   }
   const text = (s: string) => s.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&lt;/g, "<").replace(/&gt;/g, ">");
-  for (const ancestor of chain) crumbs.push({ label: text(ancestor.h1), href: ancestor.url });
+  for (const ancestor of chain)
+    crumbs.push({ label: ancestor.parent ? text(ancestor.h1) : (siloOf(ancestor) ?? text(ancestor.h1)), href: ancestor.url });
   crumbs.push({ label: text(page.h1) });
   return crumbs;
 }

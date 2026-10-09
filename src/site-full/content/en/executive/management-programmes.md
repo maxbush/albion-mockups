@@ -1,34 +1,31 @@
 > URL: /executive-education/management-programmes/ · Draft for client review
-> ⏳ Client to supply detailed programme descriptions — placeholder structure below.
+> Updated with client material "Executive Education v4" (09.10.2026)
 
-# Management Programmes: Beyond the MBA
+# Management Programmes: From Master's to Executive Diplomas
 
-Not every career question needs a full degree. British business schools run a broad tier of executive and management programmes — shorter, more targeted, often better value for a specific need. This page maps the territory; programme details are being prepared with the client. ⏳
+Not every career question needs a full degree. Executive education spans several formats — from management master's degrees to short leadership programmes — and the difference between them determines not only the programme but the admissions strategy.
 
-## The four families
+## The formats
 
-**Master's in management (MSc/MiM).** One-year degrees for early-career professionals — a structured entry into business without the years of experience an MBA assumes. Strong options beyond the famous names.
+- **Management master's (Masters / MiM)** — for profiles younger than the MBA audience: a strong entry point into a management career.
+- **MBA (full-time, accelerated)** — the full degree for experienced managers: [details →](/executive-education/mba/)
+- **Executive MBA** — the modular format for senior managers staying in role: [Oxford EMBA →](/executive-education/mba/oxford-executive-mba/)
+- **Postgraduate diplomas** — applied focus: how the programme integrates with current professional tasks, the level of the cohort, its practical usability in your context.
+- **Short executive and leadership programmes** — high-intensity formats where cohort composition and discussion format matter more than the name.
 
-**MBA.** [Full breakdown →](/executive-education/mba/) — full-time, career acceleration, 3–8 years' experience.
+## What counts as a programme
 
-**EMBA.** [Oxford EMBA →](/executive-education/mba/oxford-executive-mba/) — modular, senior managers in role.
+A programme means a separate application requiring its own package of materials and positioning — applications with different selection logic or essay sets count as separate programmes. Within a single engagement ALBION submits **no more than three programmes**: precision of selection matters more than list width.
 
-**Executive Diploma and short courses.** Diplomas in strategy, finance, leadership — weeks to months, modular, often board-level. Oxford Saïd, Cambridge Judge and LBS all run substantial portfolios. The right short programme frequently answers the real question better than a degree: leadership transition, a board seat, a specific functional gap.
+## How we choose
 
-## How to choose without overpaying
-
-The diagnostic is the career question itself:
-
-- *"I need a credential to move up"* → diploma or MBA depending on seniority.
-- *"I need to change industry"* → degree programmes give the labour-market signal; short courses rarely do.
-- *"I need specific skills, fast"* → executive education wins on cost and speed.
-- *"I need the network"* → degree cohorts and alumni systems deliver this; one-off courses much less.
+By task, not by name: "strategy", "finance for non-financiers", "digital transformation" — there are many programmes, and the difference in substance is enormous. Selection follows an analysis of your context, managerial level and career trajectory. Differences in duration do not reduce the analytical work: the goal is a precise fit between your profile and the programme's environment.
 
 ## CTA
 
-[Programme selection consultation — £350 → /apply/]
+[Find the right programme — consultation £350 → /apply/]
 
 ---
-##### KEYS_USED: management programmes uk, executive diploma oxford, short courses business school uk, masters in management uk
+##### KEYS_USED: management programmes uk, executive diploma, leadership programmes, masters in management
 ##### USED_LINKS: /apply/, /executive-education/mba/, /executive-education/mba/oxford-executive-mba/, /executive-education/
 ##### QUALITY_SCORE: 7

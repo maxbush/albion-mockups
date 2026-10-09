@@ -1,58 +1,66 @@
 > URL: /executive-education/ · EN pillar, executive silo · Draft for client review
+> Updated with client material "Executive Education v4" (09.10.2026)
 
-# Executive Education in the UK: MBA, EMBA and Management Programmes
+# Executive Education at Oxford
 
-Executive education is a different market from school and university admissions: the candidates are adults with careers, the selection reads experience rather than exam results, and the stakes are professional. ALBION's executive practice is led by Anfisa Bashkirova — co-founder of the company, a graduate of Oxford Saïd Business School and formerly in risk management at Intel. She knows this admissions route from inside — as a graduate and as an alumni representative involved in Saïd admissions.
+Executive education is not simply a course at a leading business school. It is a strategic step for leaders who have already reached considerable heights and aim to extend the influence and scale of their work internationally. Admission here is decided not by the exam logic of schools and UCAS but by professional profile, essays and interview — and well-managed guidance can be decisive.
 
-**Over the past year, 10+ ALBION clients completed programmes at Saïd Business School, Oxford.**
+ALBION runs this practice from inside Oxford. It is led by co-founder Anfisa Bashkirova — a Saïd Business School graduate, formerly in risk management at Intel, and an alumni representative involved in Saïd admissions. Over the past year **10+ of our adult clients completed programmes at Saïd** — the strongest track in this practice.
 
-## The four families of programmes
+## What a programme gives you
 
-| Programme | Who it serves | Format |
-|---|---|---|
-| **Master's in management** | early-career professionals | full-time, 1 year |
-| **MBA** | 3–8 years of experience, career acceleration | full-time, 1 year (Oxford/Cambridge) |
-| **EMBA** | senior managers, 8–15+ years | modular, alongside work |
-| **Executive Diploma / short courses** | specific skills, board-level development | weeks to months, modular |
+- A measurable rise in professional level and standing
+- Access to the networks of the world's leading business schools and universities
+- Lifetime membership of a global alumni community
+- Study and life inside historic campuses built on centuries of tradition
+- Personalised career consulting
+- High-level interactive practice: your own business cases, simulations, strategy sessions
+- Peer-level exchange with a cohort of established entrepreneurs and executives from around the world
 
-The choice is not "which is most prestigious" — it is which programme answers the actual career question. An EMBA taken too early or an MBA taken too late both waste money. That is where the conversation starts.
+## Programme formats
 
-## What admission actually requires
+Executive education spans several formats, differing in length, academic status and selection logic:
 
-- **Career narrative** — the CV and essays must read as a trajectory, not a list of jobs.
-- **GMAT/GRE** — required by most MBAs; waivers exist at some schools for strong profiles. Some executive programmes waive the test entirely.
-- **References** — professional, chosen strategically.
-- **Interview** — at Saïd, interviews are conducted by alumni and admissions staff; the format rewards clarity of purpose.
-- **English** — IELTS/TOEFL thresholds apply where prior education was not in English.
+- **Executive MBA and MBA (full-time, accelerated)** — [degree programmes →](/executive-education/mba/): a close matching of your profile to the school's expectations — managerial level, scope of responsibility, career logic, and how well the cohort composition fits your level of dialogue.
+- **Management master's and Postgraduate diplomas** — applied focus: how the programme integrates with your current work and how usable it is in your context.
+- **Short executive and leadership programmes** — limited duration does not mean lighter selection: the intensity of these formats makes cohort composition and discussion format decisive.
 
-## Why Saïd in particular
+The differences in length do not reduce the analytical work: every format requires a precise fit between your profile and the programme's environment.
 
-Saïd is the school we know best — Anfisa's background is there, and our strongest client track is there. But the method generalises: we also manage applications to Cambridge Judge, LBS, Imperial College Business School and INSEAD-style European programmes. [More on management programmes →](/executive-education/management-programmes/)
+## How ALBION works
 
-## What this looks like in practice
+We treat executive education as an investment in your professional future: the choice of programme shapes your career, your managerial role and the circle that forms around a particular school.
 
-**10+ clients to Saïd in one year** — the figure above is not an abstraction: it reflects a working pipeline of executive applications, most at Oxford, some at peer schools.
+The work begins with an analysis of your profile — managerial level, scope of responsibility, career trajectory, direction of development. For each programme we build a single application logic and consistent positioning; all materials — CV, motivation essays, references — are prepared as a coherent document set and approved by you before submission. The admissions process is managed centrally: deadlines, interview preparation.
 
-**Career change, not career continuation** — anonymised. A client came for "an MBA" — the diagnostics showed the actual goal was an industry change. A management master's was the better instrument: shorter, cheaper, and the employer market read it correctly. The right programme is the one that answers the question, not the one with the largest brand.
+**Turnkey support**, from first analysis to final decision. One boundary: within a single engagement we submit **no more than three programmes** — a programme means a separate application with its own package and positioning.
 
-[All cases → /cases/]
+## The team behind the work
 
-## Costs
+- **Lead consultant** — strategy, positioning, the overall admissions logic
+- **Industry mentors** — from the field in which you intend to grow
+- **Programme alumni** — where possible, we arrange conversations with graduates of similar profiles
+- **Writers and editors** — professional academic and business writing; every text is proofread
+- **Exam and language tutors** — university-level English and mathematics, including native speakers
 
-- **Tuition:** Oxford MBA — ⏳ ~£85,000+ for the year (verify current fee); EMBA — ⏳ ~£120,000 (verify); executive diplomas — from ~£15,000.
-- **ALBION:** consultation with written report — £350; executive admissions programme — scoped to the application package.
+## Who we work with
 
-## Questions
+- **Executives and specialists** — strengthening a position, widening responsibility, preparing the next career step
+- **Entrepreneurs and business owners** — including those long out of academia, or navigating scaling, restructuring or new markets
+- **Individuals in transition** — returning to professional life after a break, building a staged educational route
+- **Relocating families and professionals** — when a move places leading universities within reach
 
-**MBA or EMBA?** Broadly: under ~10 years of experience and ready to study full-time — MBA; senior and staying in role — EMBA. The boundary is porous; the decision is individual.
-**Is the GMAT avoidable?** At some schools and some profiles — yes. We assess whether a waiver is realistic before you spend months on preparation.
-**How long does an application take?** A strong package takes 3–6 months: tests, essays, references. Rounds matter — earlier rounds are statistically kinder.
+> **In practice** — anonymised. An entrepreneur with a strong business track came asking for "an MBA". Reviewing the profile surfaced a second line — independent-director experience: we wove both into one candidate story, and that is what worked at interview.
+
+## Cost
+
+Programmes: from several thousand pounds for a short course to £[TBC] for degree programmes. ALBION's fees: consultation with written report — £350; admissions programme — from £6,000.
 
 ## CTA
 
-[Career consultation and programme fit — £350 → /apply/]
+[Discuss the right programme for your goal — £350 → /apply/]
 
 ---
-##### KEYS_USED: executive education uk, mba uk, emba oxford, said business school, executive diploma, management programmes uk
-##### USED_LINKS: /apply/, /executive-education/mba/, /executive-education/management-programmes/, /cases/, /team/
+##### KEYS_USED: executive education uk, executive mba, oxford executive programmes, leadership programmes, business school admission
+##### USED_LINKS: /apply/, /executive-education/mba/, /about/, /prices/, /team/, /executive-education/management-programmes/
 ##### QUALITY_SCORE: 8

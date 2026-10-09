@@ -57,11 +57,12 @@ function JsonLd({ page }: { page: ContentPageData }) {
       isPartOf: { "@type": "WebSite", name: "ALBION Oxford", url: base },
     },
   ];
-  if (page.hasFaq) {
+  const faqForSchema = page.faqItems.filter((f) => strip(f.a.join(" ")).trim().length > 0);
+  if (page.hasFaq && faqForSchema.length >= 2) {
     graph.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: page.faqItems.map((f) => ({
+      mainEntity: faqForSchema.map((f) => ({
         "@type": "Question",
         name: strip(f.q),
         acceptedAnswer: { "@type": "Answer", text: strip(f.a.join(" ")) },
@@ -80,6 +81,38 @@ const CONTACT_PAGES: Record<Locale, Set<string>> = {
   ru: new Set(["/ru/kontakty/"]),
 };
 
+const PILLAR_STATS: Record<Locale, { n: string; cap: string }[]> = {
+  ru: [
+    { n: "96%", cap: "учеников получают место в выбранной школе" },
+    { n: "100%", cap: "клиентов — оффер минимум от одного вуза Russell Group" },
+    { n: "3 из 4", cap: "кандидатов доходят до интервью в Оксбридж" },
+    { n: "150+", cap: "преподавателей в разных часовых поясах" },
+    { n: "с 2010", cap: "в британском образовании" },
+  ],
+  en: [
+    { n: "96%", cap: "of pupils win a place at a chosen school" },
+    { n: "100%", cap: "of clients receive at least one Russell Group offer" },
+    { n: "3 in 4", cap: "of candidates reach the Oxbridge interview" },
+    { n: "150+", cap: "tutors across time zones" },
+    { n: "since 2010", cap: "in British education" },
+  ],
+};
+
+function StatsStrip({ lang }: { lang: Locale }) {
+  return (
+    <section className="tone-light border-b border-ink-2/10">
+      <div className="container-x grid grid-cols-2 gap-x-8 gap-y-5 py-8 sm:grid-cols-3 lg:grid-cols-5">
+        {PILLAR_STATS[lang].map((s) => (
+          <p key={s.n} className="text-[13px] leading-[1.5] text-ink-2/75">
+            <b className="block font-display text-[clamp(1.5rem,1.2rem+0.8vw,2rem)] leading-tight font-light text-ink-2">{s.n}</b>
+            {s.cap}
+          </p>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function ContentPage({ page }: { page: ContentPageData }) {
   const lang = page.lang;
   const dict = getDictionary(lang);
@@ -89,18 +122,33 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
   const eyebrow = (parent ? strip(parent.h1) : siloOf(page)) ?? "ALBION";
   const showForm = FORM_PAGES[lang].has(page.url);
   const showContact = CONTACT_PAGES[lang].has(page.url);
+  const pillar = page.children.length > 0;
+  const toc = secs.flatMap((blocks, si) =>
+    blocks.flatMap((b, bi) => (b.type === "h2" ? [{ id: `s${si}-${bi}`, text: strip(b.text) }] : [])),
+  );
 
   return (
     <>
       <JsonLd page={page} />
-      <PageBand crumbs={crumbs} eyebrow={eyebrow} title={<span dangerouslySetInnerHTML={{ __html: page.h1 }} />} lead={strip(page.lead)} />
+      <PageBand
+        crumbs={crumbs}
+        eyebrow={eyebrow}
+        title={<span dangerouslySetInnerHTML={{ __html: page.h1 }} />}
+        lead={strip(page.lead)}
+        variant={pillar ? "pillar" : "compact"}
+        cta={showForm ? undefined : { label: dict.consultCta.cta, href: lang === "ru" ? "/ru/anketa/" : "/apply/" }}
+      />
+      {pillar && <StatsStrip lang={lang} />}
 
       <section className="tone-light pt-[clamp(48px,7vw,88px)] pb-[clamp(64px,9vw,120px)]">
         <div className="container-x grid gap-14 lg:grid-cols-12">
           <article className="lg:col-span-7 xl:col-span-7">
             {secs.map((blocks, i) => (
-              <div key={i} className={i ? "mt-[clamp(40px,5vw,64px)]" : undefined}>
-                <BlockGroup blocks={blocks} />
+              <div
+                key={i}
+                className={`${i ? "mt-[clamp(40px,5vw,64px)]" : ""} ${i % 2 === 1 ? "border border-ink-2/12 bg-white/50 p-[clamp(20px,3vw,36px)]" : ""}`}
+              >
+                <BlockGroup blocks={blocks} idPrefix={`s${i}`} />
               </div>
             ))}
             {showContact && (
@@ -127,6 +175,20 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
           </article>
 
           <aside className="space-y-12 lg:col-span-4 lg:col-start-9">
+            {toc.length >= 3 && (
+              <nav aria-label={lang === "ru" ? "На этой странице" : "On this page"} className="hidden lg:block">
+                <p className="label">{lang === "ru" ? "На этой странице" : "On this page"}</p>
+                <ul className="mt-4 space-y-2 border-l border-ink-2/15">
+                  {toc.map((t) => (
+                    <li key={t.id}>
+                      <a href={`#${t.id}`} className="block py-1 pl-4 text-[14px] leading-snug text-ink-2/70 transition-colors hover:text-ink-2">
+                        {t.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
             {!showForm && (
               <div className="border border-ink-2/15 bg-white/40 p-[clamp(22px,3vw,36px)]" data-reveal>
                 <p className="font-display text-[clamp(1.6rem,1.2rem+1vw,2.1rem)] leading-[1.15] font-light text-ink-2">
@@ -137,7 +199,7 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
                 </Link>
               </div>
             )}
-            <div className="hidden lg:block">
+            <div className="hidden lg:block lg:sticky lg:top-[calc(var(--header-h)+24px)]">
               <SiblingNavDark page={page} lang={lang} />
             </div>
           </aside>

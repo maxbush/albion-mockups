@@ -28,6 +28,8 @@ Our guardianship is not subcontracted to an outside agency: the child is accompa
 
 Built into the arrangement is what outside agencies sell separately or do not have at all: more than 150 tutors, diagnostics and specialist coordination, round-the-clock emergency contact.
 
+Guardianship is not a volume service: we take it primarily for pupils whose admission we supported, and places are limited — the arrangement is individual and requires the consultant's continuous involvement.
+
 ## What actually happens — from our practice
 
 _Cases anonymised; details that could identify a child or a school are not published. ⏳ awaiting internal review by our guardianship lead._

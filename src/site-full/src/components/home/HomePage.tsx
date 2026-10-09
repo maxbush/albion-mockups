@@ -6,7 +6,6 @@ import Directory from "@/components/home/Directory";
 import LeadMagnet from "@/components/home/LeadMagnet";
 import Manifesto from "@/components/home/Manifesto";
 import Method from "@/components/home/Method";
-import Offers from "@/components/home/Offers";
 import OpenDay from "@/components/home/OpenDay";
 import RouteSection from "@/components/home/RouteSection";
 import Team from "@/components/home/Team";
@@ -27,7 +26,7 @@ export default function HomePage({ lang }: { lang: Locale }) {
       <Adults lang={lang} />
       <Difference lang={lang} />
       <Directory lang={lang} />
-      <Offers lang={lang} />
+      {/* Витрина имён школ скрыта до подтверждения разрешений клиентом (builder-text-fixes.md §1) */}
       <Team lang={lang} />
       <Testimonials lang={lang} />
       <OpenDay lang={lang} />

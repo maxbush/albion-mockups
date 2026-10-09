@@ -1,29 +1,35 @@
 > URL: /team/ · Draft for client review
-> ⏳ Team details/photos from client; titles to confirm.
+> Team data verified against live site albion-consult.com/team-4 (09.10.2026).
 
 # The Team
 
-## Anfisa Bashkirova — Co-founder, Head of Executive Education
+## Anfisa Bashkirova, MSc Oxon — Founder
 
-Graduate of Oxford Saïd Business School; formerly in risk management at Intel. Anfisa leads the executive practice — MBA, EMBA and management programmes — as an alumni representative involved in Saïd admissions: she knows this route from inside, both sides of the desk. ⏳ photo, extended bio
+MSc in Major Programme Management, Saïd Business School (Oxford); senior roles at Intel; alumni representative involved in Saïd admissions. Leads university admissions and executive education — she knows the route from inside, both sides of the desk.
 
-## William Nokes ⏳ — Academic Director
+## Altynay Yeshmatova, LLM — Co-founder, Head of Guardianship
 
-⏳ confirm English spelling of surname (sources transliterate as "Nokes"/"Knox"). A writer and scholar with three master's degrees, William leads the academic side — the design of our tutoring and preparation, and the standard of everything we produce in English. ⏳ photo, extended bio
+Master of Research in law (Buckingham University) and Enterprise Law (State Academy of Law, Kazakhstan); over two decades in educational consultancy, immigration advising and legal administration.
 
-## Altïnay — Guardianship Lead ⏳ title to confirm
+## William Knox, MA, MLitt, MSc — Academic Director
 
-Leads the guardianship practice — the daily life, logistics and welfare of our pupils in the UK. ⏳ photo, bio
+MLitt in Creative Writing (University of Glasgow), MA (Hons) in English (University of Aberdeen). Leads the academic side — tutoring, preparation design, and the standard of everything we produce in English.
+
+## Vladimir Ivanov-Krymskiy, MSc — Director of Development
+
+Strategic development of ALBION and the partner network; 15+ years in business.
+
+## Jonathan Mintram, BA (Hons), CELTA — Head of Tutor Recruitment
+
+Builds ALBION's teaching team for individual tuition and academic courses; background in professional recruitment.
 
 ## The wider team
 
-150+ tutors — UK-qualified teachers and examiners, including subject specialists who have taught within the Oxford system — selected and coordinated by a dedicated specialist. Every tutor is matched to the brief, not pulled from a list.
-
-⏳ Individual profiles to be added as client supplies bios and photos.
+150+ tutors — UK-qualified teachers and examiners — selected and coordinated by a dedicated specialist. Every tutor is matched to the brief, not pulled from a list.
 
 [Work with us — consultation £350 → /apply/]
 
 ---
 ##### KEYS_USED: albion team, education consultants oxford
 ##### USED_LINKS: /apply/, /about/, /tutors/
-##### QUALITY_SCORE: 7
+##### QUALITY_SCORE: 8

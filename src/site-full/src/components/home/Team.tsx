@@ -52,8 +52,8 @@ export default function Team({ lang }: { lang: Locale }) {
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+40px)]" data-reveal>
             <p className="label">{t.label}</p>
-            <p className="mt-10 font-display text-[clamp(6rem,3rem+11vw,12rem)] leading-[0.8] font-light tracking-[-0.035em] text-brass">
-              20+
+            <p className="mt-10 font-display text-[clamp(4rem,2.4rem+6vw,8rem)] leading-[0.9] font-light tracking-[-0.03em] text-brass">
+              {lang === "ru" ? "с 2010" : "since 2010"}
             </p>
             <p className="mt-7 max-w-[20ch] text-[14px] leading-[1.5] font-medium tracking-[0.16em] text-cream/85 uppercase">
               {t.cap}

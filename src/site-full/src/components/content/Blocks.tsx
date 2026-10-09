@@ -27,8 +27,29 @@ function Faq({ items }: { items: { q: string; a: string[] }[] }) {
   );
 }
 
+/** Segment list → card grid: every item is `**Title** — text`. */
+function isCardList(b: Extract<Block, { type: "list" }>) {
+  return !b.ordered && b.items.length >= 2 && b.items.every((it) => /^<strong>[^<]+<\/strong>\s*[-—:]/.test(it));
+}
+
+function CardList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-6 grid gap-4 sm:grid-cols-2">
+      {items.map((it, j) => {
+        const m = it.match(/^<strong>([^<]+)<\/strong>\s*[-—:]\s*([\s\S]*)$/);
+        return (
+          <li key={j} className="border border-ink-2/15 bg-white/50 p-5">
+            <p className="font-display text-[17px] leading-snug font-light text-ink-2">{m?.[1] ?? ""}</p>
+            <p className="mt-2 text-[14.5px] leading-[1.6] text-ink-2/80" dangerouslySetInnerHTML={html(m?.[2] ?? it)} />
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 /** One content section (between `---` separators) on the light parchment body. */
-export function BlockGroup({ blocks }: { blocks: Block[] }) {
+export function BlockGroup({ blocks, idPrefix = "s" }: { blocks: Block[]; idPrefix?: string }) {
   return (
     <>
       {blocks.map((b, i) => {
@@ -38,7 +59,8 @@ export function BlockGroup({ blocks }: { blocks: Block[] }) {
             return (
               <h2
                 key={i}
-                className="mt-[clamp(40px,5vw,64px)] font-display text-[clamp(1.75rem,1.3rem+1.6vw,2.6rem)] leading-[1.1] font-light text-ink-2 first:mt-0"
+                id={`${idPrefix}-${i}`}
+                className="mt-[clamp(40px,5vw,64px)] scroll-mt-[calc(var(--header-h)+24px)] font-display text-[clamp(1.75rem,1.3rem+1.6vw,2.6rem)] leading-[1.1] font-light text-ink-2 first:mt-0"
                 dangerouslySetInnerHTML={html(b.text)}
               />
             );
@@ -50,6 +72,8 @@ export function BlockGroup({ blocks }: { blocks: Block[] }) {
                 dangerouslySetInnerHTML={html(b.text)}
               />
             );
+          case "lead":
+            return <p key={i} className="mt-5 text-[18px] leading-[1.7] font-light text-ink-2" dangerouslySetInnerHTML={html(b.html)} />;
           case "p":
             return <p key={i} className="mt-5 text-[16px] leading-[1.75] text-ink-2/85" dangerouslySetInnerHTML={html(b.html)} />;
           case "stat":
@@ -67,6 +91,8 @@ export function BlockGroup({ blocks }: { blocks: Block[] }) {
                   <li key={j} dangerouslySetInnerHTML={html(it)} />
                 ))}
               </ol>
+            ) : isCardList(b) ? (
+              <CardList key={i} items={b.items} />
             ) : (
               <ul key={i} className="mt-5 space-y-3 text-[16px] leading-[1.7] text-ink-2/85">
                 {b.items.map((it, j) => (

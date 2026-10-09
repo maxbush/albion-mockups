@@ -86,8 +86,11 @@ function inline(s, todos) {
     todos.push(m);
     return "";
   });
-  // leftover ⏳ fragments
-  if (out.includes("⏳")) { todos.push(out.trim()); return ""; }
+  // ⏳ + following italic note → production remark inside a sentence: drop just the note
+  out = out.replace(/\s*⏳\s*_[^_]*_/g, (m) => { todos.push(m.trim()); return ""; });
+  out = out.replace(/\s*⏳\s*\*[^*]*\*/g, (m) => { todos.push(m.trim()); return ""; });
+  // bare ⏳ → the rest of the line is a production note
+  out = out.replace(/\s*⏳[\s\S]*$/, (m) => { todos.push(m.trim()); return ""; });
   // links: [text → /url/] and [text](/url/)
   out = out.replace(/\[([^\]]+?)\s*→\s*(\/[^\]\s]+)\]/g, '<a class="link-hair" href="$2">$1</a>');
   out = out.replace(/\[([^\]]+?)\]\((\/[^)\s]+)\)/g, '<a class="link-hair" href="$2">$1</a>');
@@ -103,15 +106,18 @@ function parseBlocks(md, page) {
   const lines = md.split("\n");
   const blocks = [];
   let i = 0;
+  let expectLead = false;
   const isHeading = (l) => l.match(/^(#{1,4})\s+(.*)/);
   const isBlokLabel = (l) => /^##\s+Блок\s+\d/.test(l) || /^#\s+FINAL\b/.test(l);
+  const isSlotLabel = (l) => /^#{1,3}\s+CTA\b/i.test(l);
+  const isLeadLabel = (l) => /^##\s+Лид\b/i.test(l);
   const isHr = (l) => /^---\s*$/.test(l);
   const isTodoLine = (l) =>
-    /^\s*>\s*(URL|STATUS|Draft)\b/i.test(l) ||
+    /^\s*>\s*(URL|STATUS|Draft|СТАТУС)\b/i.test(l) ||
+    /^\s*СТАТУС\b/i.test(l) ||
     /^#####\s/.test(l) ||
-    (/⏳/.test(l) && l.trim().startsWith("[")) ||
-    /^\s*\[(?:TBC|⏳)/.test(l.trim()) ||
-    /^\s*>\s*⏳/.test(l);
+    /\bTBC\b/i.test(l) ||
+    /^\s*>?\s*⏳/.test(l);
 
   while (i < lines.length) {
     const line = lines[i];
@@ -120,8 +126,17 @@ function parseBlocks(md, page) {
     if (isBlokLabel(t)) { i++; continue; }
     if (isHr(t)) { blocks.push({ type: "hr" }); i++; continue; }
 
+    // service prefix: `>` notes / status lines before any content block
+    if (!blocks.some((b) => b.type !== "hr") && (t.startsWith(">") || /^СТАТУС|^Статус/i.test(t))) {
+      todos.push(t);
+      i++;
+      continue;
+    }
+
     const h = isHeading(t);
     if (h) {
+      if (isLeadLabel(t)) { expectLead = true; i++; continue; }
+      if (isSlotLabel(t)) { i++; continue; }
       const lvl = h[1].length;
       blocks.push({ type: `h${Math.min(lvl, 3)}`, text: inline(h[2], todos) });
       i++; continue;
@@ -131,6 +146,7 @@ function parseBlocks(md, page) {
       const rows = [];
       while (i < lines.length && lines[i].trim().startsWith("|")) {
         const r = lines[i].trim();
+        if (isTodoLine(r)) { todos.push(r); i++; continue; }
         if (!/^\|[\s:|-]+\|$/.test(r)) {
           rows.push(r.slice(1, r.endsWith("|") ? -1 : undefined).split("|").map((c) => c.trim()));
         }
@@ -144,9 +160,9 @@ function parseBlocks(md, page) {
       const q = [];
       while (i < lines.length && lines[i].trim().startsWith(">")) { q.push(lines[i].trim().replace(/^>\s?/, "")); i++; }
       const text = q.join(" ").trim();
-      if (text && !/^(URL|STATUS|Draft)\b/i.test(text) && !text.includes("⏳"))
-        blocks.push({ type: "quote", html: inline(text, todos) });
-      else if (text.includes("⏳")) todos.push(text);
+      const html = inline(text, todos);
+      if (html.trim() && !/^(URL|STATUS|Draft)\b/i.test(text)) blocks.push({ type: "quote", html });
+      else if (text) todos.push(text);
       continue;
     }
     // list
@@ -155,6 +171,7 @@ function parseBlocks(md, page) {
       const items = [];
       while (i < lines.length && /^([-*]|\d+[.)])\s+/.test(lines[i].trim())) {
         const it = lines[i].trim().replace(/^([-*]|\d+[.)])\s+/, "");
+        if (isTodoLine(it)) { todos.push(it); i++; continue; }
         const html = inline(it, todos);
         if (html.trim()) items.push(html);
         i++;
@@ -168,18 +185,20 @@ function parseBlocks(md, page) {
       if (link) blocks.push({ type: "cta", label: esc(link[1]), href: link[2] });
       i++; continue;
     }
-    // FAQ question: **...?**
-    if (/^\*\*[^*]+\?\*\*\s*$/.test(t)) {
+    // FAQ question: **...?** (optionally list-prefixed, answer may start on same line)
+    if (/^[-*]?\s*\*\*[^*]+\?\*\*/.test(t)) {
       const items = [];
-      while (i < lines.length && /^\*\*[^*]+\?\*\*\s*$/.test(lines[i].trim())) {
-        const q = lines[i].trim().replace(/^\*\*|\*\*\s*$/g, "");
+      while (i < lines.length && /^[-*]?\s*\*\*[^*]+\?\*\*/.test(lines[i].trim())) {
+        const m = lines[i].trim().match(/^[-*]?\s*\*\*([^*]+\?)\*\*\s*(.*)$/);
+        const q = m[1];
+        const rest = m[2];
         i++;
         const ans = [];
-        while (i < lines.length && lines[i].trim() && !/^\*\*[^*]+\?\*\*/.test(lines[i].trim()) && !isHeading(lines[i].trim()) && !isHr(lines[i].trim()) && !isBlokLabel(lines[i].trim()) && !/^#####\s/.test(lines[i].trim())) {
+        if (rest.trim()) { const h = inline(rest, todos); if (h.trim()) ans.push(h); }
+        while (i < lines.length && lines[i].trim() && !/^[-*]?\s*\*\*[^*]+\?\*\*/.test(lines[i].trim()) && !isHeading(lines[i].trim()) && !isHr(lines[i].trim()) && !isBlokLabel(lines[i].trim()) && !/^#####\s/.test(lines[i].trim()) && !isTodoLine(lines[i].trim())) {
           const al = lines[i].trim();
           const html = inline(al, todos);
-          if (html.trim() && !html.includes("⏳")) ans.push(html);
-          else if (al.includes("⏳")) todos.push(al);
+          if (html.trim()) ans.push(html);
           i++;
         }
         items.push({ q: esc(q), a: ans });
@@ -191,17 +210,27 @@ function parseBlocks(md, page) {
     const parts = [];
     while (i < lines.length) {
       const l = lines[i].trim();
-      if (!l || isHeading(l) || isHr(l) || isBlokLabel(l) || isTodoLine(l) || l.startsWith("|") || l.startsWith(">") || /^[-*]\s+/.test(l) || /^\d+[.)]\s+/.test(l) || /^\*\*[^*]+\?\*\*\s*$/.test(l) || (/^\[[^\]]+\s*(?:→|\]\()\s*\/[^\]]+\]?\s*$/.test(l) && (l.includes("→") || l.includes("](")))) break;
+      if (!l || isHeading(l) || isHr(l) || isBlokLabel(l) || isTodoLine(l) || l.startsWith("|") || l.startsWith(">") || /^[-*]\s+/.test(l) || /^\d+[.)]\s+/.test(l) || /^[-*]?\s*\*\*[^*]+\?\*\*/.test(l) || (/^\[[^\]]+\s*(?:→|\]\()\s*\/[^\]]+\]?\s*$/.test(l) && (l.includes("→") || l.includes("](")))) break;
       parts.push(l); i++;
     }
     const html = inline(parts.join(" "), todos);
     if (html.trim()) {
       // standalone bold paragraph → stat line
       if (/^<strong>.*<\/strong>$/.test(html.trim())) blocks.push({ type: "stat", html });
-      else blocks.push({ type: "p", html });
+      else blocks.push({ type: expectLead ? "lead" : "p", html });
+      expectLead = false;
     }
   }
-  return { blocks, todos };
+  // dedupe repeated blocks (same type + content), keep first occurrence
+  const seen = new Set();
+  const deduped = blocks.filter((b) => {
+    if (b.type === "hr") return true;
+    const key = b.type + JSON.stringify(b);
+    if (seen.has(key)) { todos.push(`duplicate block: ${b.type}`); return false; }
+    seen.add(key);
+    return true;
+  });
+  return { blocks: deduped, todos };
 }
 
 /* ---------- page collection ---------- */
@@ -346,7 +375,8 @@ for (const p of pages) {
 for (const p of pages) {
   const h1 = p.blocks.findIndex((b) => b.type === "h1");
   p.h1 = h1 >= 0 ? p.blocks[h1].text : (p.meta?.h1 || p.stubTitle || "");
-  const leadIdx = h1 >= 0 ? p.blocks.findIndex((b, i) => i > h1 && b.type === "p") : -1;
+  let leadIdx = p.blocks.findIndex((b) => b.type === "lead");
+  if (leadIdx < 0 && h1 >= 0) leadIdx = p.blocks.findIndex((b, i) => i > h1 && b.type === "p");
   p.lead = leadIdx >= 0 ? p.blocks[leadIdx].html.replace(/<[^>]+>/g, "") : "";
   p.hasFaq = p.blocks.some((b) => b.type === "faq" && b.items.length >= 2);
   p.faqItems = p.blocks.flatMap((b) => (b.type === "faq" ? b.items : []));

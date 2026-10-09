@@ -84,8 +84,8 @@ export const en: Dictionary = {
     leadMore: "One route and one team — instead of scattered applications.",
     cta1: "Book a consultation",
     cta2: "See the route",
-    proofNum: "20+",
-    proofText: "years of combined team experience",
+    proofNum: "since 2010",
+    proofText: "in British education",
     scroll: "Scroll",
     arrival: "Step inside — the route begins here.",
     arrivalSub: "",
@@ -96,16 +96,20 @@ export const en: Dictionary = {
     onGoogle: "on Google",
     stats: [
       {
-        n: "240+",
-        cap: "offers received",
+        n: "96%",
+        cap: "of pupils win a place at a chosen school",
       },
       {
-        n: "180+",
-        cap: "families guided",
+        n: "100%",
+        cap: "of clients receive a Russell Group offer",
+      },
+      {
+        n: "3 in 4",
+        cap: "of candidates reach the Oxbridge interview",
       },
     ],
-    cert: "British Council certified consultants",
-    note: "figures in preparation",
+    cert: "",
+    note: "",
   },
 
   manifesto: {
@@ -217,7 +221,7 @@ export const en: Dictionary = {
 
   team: {
     label: "The team",
-    cap: "years of combined experience across the team",
+    cap: "in British education",
     title: "The people who",
     titleEm: "walk the route",
     lead: "School and university consultants, tutors and guardians work as one team: each knows what came before their stage and what comes after it.",
