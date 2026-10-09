@@ -42,16 +42,18 @@ export default function PageBand({
           className="object-cover"
           style={{ objectPosition: focus }}
         />
-        <div className="absolute inset-0 mix-blend-multiply">
-          <Image
-            src="/images/hero-foliage-wide.webp"
-            alt=""
-            fill
-            sizes="100vw"
-            quality={70}
-            className="object-cover object-top"
-          />
-        </div>
+        {!art && (
+          <div className="absolute inset-0 mix-blend-multiply">
+            <Image
+              src="/images/hero-foliage-wide.webp"
+              alt=""
+              fill
+              sizes="100vw"
+              quality={70}
+              className="object-cover object-top"
+            />
+          </div>
+        )}
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,21,34,0.62)_0%,rgba(15,21,34,0.46)_36%,rgba(15,21,34,0.86)_72%,#0F1522_100%)]" />
       </div>
 
