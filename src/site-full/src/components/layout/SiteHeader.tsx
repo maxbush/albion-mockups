@@ -27,7 +27,7 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
   const pairUrl = (l: Locale) => {
     const here = normalized + "/";
     const page = pageByUrl(here);
-    if (page) return l === page.lang ? page.url : page.pair;
+    if (page?.pair) return l === page.lang ? page.url : page.pair;
     return l === "ru" ? "/ru/" : "/";
   };
 
