@@ -165,7 +165,7 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
                         <Link href={section.href} className="group block" onClick={closeAll}>
                           <p className={styles.panelTitle}>{section.label}</p>
                           <p className={styles.panelText}>{section.intro}</p>
-                          <span className="mt-4 inline-block text-[16px] font-medium text-brass underline decoration-brass/40 underline-offset-4 transition-colors group-hover:decoration-brass">
+                          <span className="mt-5 inline-block font-display text-[22px] leading-tight font-light text-brass underline decoration-brass/40 underline-offset-6 transition-colors group-hover:decoration-brass">
                             {t.openSection} {section.label} →
                           </span>
                         </Link>
