@@ -163,14 +163,11 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
                     <div className={styles.panelInner}>
                       <div>
                         <Link href={section.href} className="group block" onClick={closeAll}>
-                          <p className={styles.panelTitle}>
-                            {section.label}
-                            <span aria-hidden="true" className="ml-2 inline-block text-brass transition-transform group-hover:translate-x-1">→</span>
-                          </p>
-                        </Link>
-                        <p className={styles.panelText}>{section.intro}</p>
-                        <Link href={section.href} className="link-hair text-[14px] text-brass" onClick={closeAll}>
-                          {t.openSection} {section.label} →
+                          <p className={styles.panelTitle}>{section.label}</p>
+                          <p className={styles.panelText}>{section.intro}</p>
+                          <span className="mt-4 inline-block text-[16px] font-medium text-brass underline decoration-brass/40 underline-offset-4 transition-colors group-hover:decoration-brass">
+                            {t.openSection} {section.label} →
+                          </span>
                         </Link>
                       </div>
                       <div className={styles.groups}>
