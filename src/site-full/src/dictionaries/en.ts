@@ -84,8 +84,8 @@ export const en: Dictionary = {
     leadMore: "One route and one team — instead of scattered applications.",
     cta1: "Book a consultation",
     cta2: "See the route",
-    proofNum: "since 2010",
-    proofText: "in British education",
+    proofNum: "20+",
+    proofText: "years of combined team experience",
     scroll: "Scroll",
     arrival: "Step inside — the route begins here.",
     arrivalSub: "",
@@ -96,20 +96,16 @@ export const en: Dictionary = {
     onGoogle: "on Google",
     stats: [
       {
-        n: "96%",
-        cap: "of pupils win a place at a chosen school",
+        n: "240+",
+        cap: "offers received",
       },
       {
-        n: "150+",
-        cap: "tutors on the team",
-      },
-      {
-        n: "since 2010",
-        cap: "in British education",
+        n: "180+",
+        cap: "families guided",
       },
     ],
-    cert: "",
-    note: "",
+    cert: "British Council certified consultants",
+    note: "figures in preparation",
   },
 
   manifesto: {
@@ -214,14 +210,14 @@ export const en: Dictionary = {
     label: "Our families",
     title: "Where our families",
     titleEm: "go on to study",
-    lead: "The schools and universities where our families study, or have studied.",
+    lead: "The schools and universities where our families study, or have studied. The list is in preparation",
     universities: "Universities",
     schools: "Schools",
   },
 
   team: {
     label: "The team",
-    cap: "tutors on the team",
+    cap: "years of combined experience across the team",
     title: "The people who",
     titleEm: "walk the route",
     lead: "School and university consultants, tutors and guardians work as one team: each knows what came before their stage and what comes after it.",
@@ -239,13 +235,8 @@ export const en: Dictionary = {
     ],
     tutorRole: "Tutor",
     resultsLabel: "Results & figures",
-    results: [
-      { n: "96%", cap: "of pupils win a place at a chosen school" },
-      { n: "100%", cap: "of clients receive at least one Russell Group offer" },
-      { n: "3 in 4", cap: "of candidates reach the Oxbridge interview" },
-      { n: "10+", cap: "adult clients completed Saïd programmes in the past year" },
-      { n: "3,000+", cap: "teaching hours a year" },
-    ],
+    admissionsRow: "Admissions across the route's stages",
+    familiesRow: "Families we walk with",
     quote: "Words from a family who walked the route with us",
     quoteBy: "Testimonial text and the family's name",
     linkTeam: "Meet the team",
@@ -265,6 +256,7 @@ export const en: Dictionary = {
     score: "5.0",
     scoreCap: "average rating on Google",
     linkGoogle: "All reviews on Google",
+    linkTrustpilot: "Reviews on Trustpilot",
     note: "Excerpts from the original reviews.",
     reviews: [
       {
@@ -294,7 +286,7 @@ export const en: Dictionary = {
     label: "Open days",
     title: "Which colleges",
     titleEm: "to see first",
-    lead: "Oxford has more than 30 colleges, and each runs its own admissions office, its own open days and its own calendar; faculties hold subject events of their own. We help the family plan the visits so that a limited number of trips shows what matters most.",
+    lead: "Oxford has 32 colleges, and each runs its own admissions office, its own open days and its own calendar; faculties hold subject events of their own. We help the family plan the visits so that a limited number of trips shows what matters most.",
     details: [
       "A visit plan by college and subject",
       "A feel for the academic environment",

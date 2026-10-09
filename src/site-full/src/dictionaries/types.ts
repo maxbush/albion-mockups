@@ -88,7 +88,8 @@ export interface Dictionary {
     roles: string[];
     tutorRole: string;
     resultsLabel: string;
-    results: Array<{ n: string; cap: string }>;
+    admissionsRow: string;
+    familiesRow: string;
     quote: string;
     quoteBy: string;
     linkTeam: string;
@@ -104,6 +105,7 @@ export interface Dictionary {
     score: string;
     scoreCap: string;
     linkGoogle: string;
+    linkTrustpilot: string;
     note: string;
     reviews: Array<{ text: string; by: string; source: string }>;
   };

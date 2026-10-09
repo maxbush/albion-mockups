@@ -42,6 +42,14 @@ export default function Testimonials({ lang }: { lang: Locale }) {
               <a href={REVIEW_LINKS.google} className="link-hair link-hair-soft" target="_blank" rel="noopener noreferrer">
                 {t.linkGoogle}
               </a>
+              <a
+                href={REVIEW_LINKS.trustpilot}
+                className="link-hair link-hair-soft"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t.linkTrustpilot}
+              </a>
             </p>
             <p className="mt-6 max-w-[36ch] text-[14px] leading-[1.6] text-ink-2/65">{t.note}</p>
           </div>

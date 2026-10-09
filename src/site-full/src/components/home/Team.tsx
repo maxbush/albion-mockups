@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Tbc } from "@/components/ui/Tbc";
 import { revealDelay } from "@/lib/css";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { path } from "@/lib/site";
@@ -51,8 +52,8 @@ export default function Team({ lang }: { lang: Locale }) {
         <div className="lg:col-span-5">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+40px)]" data-reveal>
             <p className="label">{t.label}</p>
-            <p className="mt-10 font-display text-[clamp(4rem,2.4rem+6vw,8rem)] leading-[0.9] font-light tracking-[-0.03em] text-brass">
-              150+
+            <p className="mt-10 font-display text-[clamp(6rem,3rem+11vw,12rem)] leading-[0.8] font-light tracking-[-0.035em] text-brass">
+              20+
             </p>
             <p className="mt-7 max-w-[20ch] text-[14px] leading-[1.5] font-medium tracking-[0.16em] text-cream/85 uppercase">
               {t.cap}
@@ -65,16 +66,30 @@ export default function Team({ lang }: { lang: Locale }) {
             </h2>
             <p className="mt-6 max-w-[46ch] text-[16px] leading-[1.7] text-cream/80">{t.lead}</p>
 
+            <figure className="mt-10 border-l border-brass/70 pl-6">
+              <p className="display-italic text-[clamp(1.4rem,1.1rem+1vw,1.9rem)] leading-[1.3] text-cream/80">
+                &ldquo;{t.quote}&rdquo;
+              </p>
+              <figcaption className="mt-4 flex flex-wrap items-center gap-3 text-[13px] text-cream/65">
+                {t.quoteBy} <Tbc lang={lang} />
+              </figcaption>
+            </figure>
 
             <div className="mt-10" data-reveal>
               <p className="label">{t.resultsLabel}</p>
               <dl className="mt-5 border-t border-cream/15">
-                {t.results.map((r) => (
-                  <div key={r.cap} className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
-                    <dt className="text-[15px] text-cream/85">{r.cap}</dt>
-                    <dd className="font-display text-[24px] font-light text-brass">{r.n}</dd>
-                  </div>
-                ))}
+                <div className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
+                  <dt className="text-[15px] text-cream/85">{t.admissionsRow}</dt>
+                  <dd>
+                    <Tbc lang={lang} />
+                  </dd>
+                </div>
+                <div className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
+                  <dt className="text-[15px] text-cream/85">{t.familiesRow}</dt>
+                  <dd>
+                    <Tbc lang={lang} />
+                  </dd>
+                </div>
               </dl>
             </div>
 

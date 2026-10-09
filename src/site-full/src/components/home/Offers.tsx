@@ -1,4 +1,5 @@
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { Tbc } from "@/components/ui/Tbc";
 
 type Entry = { name: string; city: string; /** Path to the real crest/logo once the client supplies it and consents. */ crest?: string };
 
@@ -24,14 +25,15 @@ const SCHOOLS: Entry[] = [
   { name: "Brighton College", city: "Brighton" },
 ];
 
-function CrestStrip({ items, label }: { items: Entry[]; label: string }) {
+function CrestStrip({ items, reverse = false, label }: { items: Entry[]; reverse?: boolean; label: string }) {
+  const doubled = [...items, ...items];
   return (
     <div>
       <p className="container-x mb-5 text-[12px] font-semibold tracking-[0.2em] text-ink-2/60 uppercase">{label}</p>
-      <div className="container-x">
-        <ul className="flex flex-wrap justify-center gap-3" aria-label={label}>
-          {items.map((s, i) => (
-            <li key={`${s.name}-${i}`} className="flex items-center gap-4 border border-ink-2/15 bg-cream/60 px-6 py-4">
+      <div className="strip-mask overflow-hidden">
+        <ul className={`strip-track ${reverse ? "strip-track-rev" : ""}`} aria-label={label}>
+          {doubled.map((s, i) => (
+            <li key={`${s.name}-${i}`} className="flex shrink-0 items-center gap-4 border border-ink-2/15 bg-cream/60 px-6 py-4">
               {s.crest && (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={s.crest} alt="" className="h-10 w-auto" />
@@ -48,7 +50,7 @@ function CrestStrip({ items, label }: { items: Entry[]; label: string }) {
   );
 }
 
-/** Where Albion families study today. University names are a public fact; school names pending client confirmation. */
+/** Where Albion families study today. The names are placeholders (TBC) until the client supplies the real list and crests. */
 export default function Offers({ lang }: { lang: Locale }) {
   const t = getDictionary(lang).offers;
   return (
@@ -64,14 +66,14 @@ export default function Offers({ lang }: { lang: Locale }) {
               {t.title} <span className="border-b-2 border-brass/70 pb-1">{t.titleEm}</span>
             </h2>
           </div>
-          <p className="max-w-[44ch] text-[16px] leading-[1.7] text-ink-2/70 lg:col-span-4 lg:col-start-9">
-            {t.lead}
+          <p className="flex max-w-[44ch] flex-wrap items-center gap-2 text-[16px] leading-[1.7] text-ink-2/70 lg:col-span-4 lg:col-start-9">
+            {t.lead} <Tbc lang={lang} />
           </p>
         </div>
       </div>
       <div className="mt-[clamp(40px,5vw,64px)] space-y-8" data-reveal>
         <CrestStrip items={UNIVERSITIES} label={t.universities} />
-        <CrestStrip items={SCHOOLS} label={t.schools} />
+        <CrestStrip items={SCHOOLS} label={t.schools} reverse />
       </div>
     </section>
   );
