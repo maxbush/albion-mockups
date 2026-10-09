@@ -766,7 +766,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку клиентом. Плейсхолдеры […] — ждут данных или согласий.",
     "> Пишется по `wave1/dnevnye/d0-research.md`, `d1-lexicon.md`, `context/kb_company.md`, `context/kb_cases.md`.",
     "[школа-пансион + опека → /ru/chastnye-shkoly/pansiony/]",
     "⏳ _проверка обезличенности._"
@@ -820,10 +819,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "p",
      "html": "ALBION ведёт этот контур изнутри: офис в Оксфорде, а направление курирует со-основательница Анфиса Башкирова — выпускница Saïd Business School и представитель выпускников по набору кандидатов. За последний год <strong>10+ наших взрослых клиентов окончили программы Saïd</strong> — это самый массовый результат направления."
@@ -933,7 +928,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/executive-obrazovanie/",
     "> Обновлено по материалу клиента «Executive Education v4» (09.10.2026)",
     "⏳ _анонимно._"
    ],
@@ -960,10 +954,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Как выбирать программу"
@@ -1033,9 +1023,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/executive-obrazovanie/mba/"
-   ],
+   "todos": [],
    "pair": "/executive-education/mba/",
    "parent": "/ru/executive-obrazovanie/",
    "children": [
@@ -1080,10 +1068,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Кому подходит"
@@ -1131,7 +1115,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/executive-obrazovanie/mba/oksford-emba/",
     "⏳ по актуальным требованиям программы.",
     "⏳ _анонимно._",
     "⏳ точная стоимость по текущему набору; сопровождение ALBION — от £6 000 за программу поступления. Модульность: считаем вместе с вашим календарём."
@@ -1158,10 +1141,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Что смотрит комиссия"
@@ -1224,7 +1203,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/executive-obrazovanie/mba/oksford-said/",
     "⏳ Точные дедлайны и стоимость программы — по текущему набору (обновляем страницу ежегодно). Сопровождение ALBION: от £350 (консультация) и от £6 000 (программа поступления).",
     "⏳ _анонимно._"
    ],
@@ -1263,10 +1241,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Типы программ"
@@ -1314,9 +1288,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/letnie-shkoly/"
-   ],
+   "todos": [],
    "pair": "/summer-schools/",
    "parent": null,
    "children": [
@@ -1339,10 +1311,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Что предлагает Оксфорд летом"
@@ -1374,9 +1342,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/letnie-shkoly/oksford/"
-   ],
+   "todos": [],
    "pair": "/summer-schools/oxford/",
    "parent": "/ru/letnie-shkoly/",
    "children": [],
@@ -1511,7 +1477,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку клиентом. Чувствительные кейсы — только обезличенно, согласование с Алтынай перед публикацией.",
     "> Пишется по `wave1/opeka/d0-research.md`, `d1-lexicon.md`, `context/kb_company.md`, `context/kb_cases.md`.",
     "⏳ _блок ждёт внутреннего согласования с Алтынай._"
    ],
@@ -1564,10 +1529,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "С чем работаем"
@@ -1628,9 +1589,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/repetitory/a-level/"
-   ],
+   "todos": [],
    "pair": "/tutors/a-level/",
    "parent": "/ru/repetitory/",
    "children": [],
@@ -1759,7 +1718,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку клиентом. Плейсхолдеры […] — ждут данных или согласий.",
     "> Пишется по `wave1/repetitory/d0-research.md`, `d1-lexicon.md`, `context/kb_company.md`, `context/kb_cases.md`.",
     "⏳ _проверка обезличенности._"
    ],
@@ -1815,10 +1773,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "С чем работаем"
     },
     {
@@ -1857,7 +1811,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/repetitory/gcse/",
     "⏳ _проверка обезличенности._"
    ],
    "pair": "/tutors/gcse/",
@@ -1884,10 +1837,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "IB или A-level — честно"
@@ -1932,9 +1881,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/repetitory/ib/"
-   ],
+   "todos": [],
    "pair": "/tutors/ib/",
    "parent": "/ru/repetitory/",
    "children": [],
@@ -1959,10 +1906,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Форматы"
@@ -2015,9 +1958,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/repetitory/intensivy/"
-   ],
+   "todos": [],
    "pair": "/tutors/revision-courses/",
    "parent": "/ru/repetitory/",
    "children": [
@@ -2044,10 +1985,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Что внутри"
@@ -2083,9 +2020,7 @@
      "type": "hr"
     }
    ],
-   "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/repetitory/intensivy/paskha/ (сезонная, февр–апр)"
-   ],
+   "todos": [],
    "pair": "/tutors/revision-courses/easter/",
    "parent": "/ru/repetitory/intensivy/",
    "children": [],
@@ -2103,10 +2038,6 @@
    "file": "services/akademicheskaya-otsenka.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Что входит"
@@ -2163,10 +2094,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Как устроено"
     },
     {
@@ -2210,10 +2137,6 @@
    "file": "services/domashnee-obuchenie.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Форматы"
@@ -2271,10 +2194,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Чем европейское поступление отличается"
     },
     {
@@ -2329,10 +2248,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Как работаем"
     },
     {
@@ -2376,10 +2291,6 @@
    "file": "services/ssha.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Специфика"
@@ -2441,10 +2352,6 @@
    "file": "services/tseny.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Услуги"
@@ -2524,10 +2431,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Форматы"
     },
     {
@@ -2587,10 +2490,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Что делаем"
     },
     {
@@ -2628,10 +2527,6 @@
    "file": "trust/kejsy.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "По направлениям"
@@ -2673,10 +2568,6 @@
    "file": "trust/komanda.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Команда"
@@ -2765,10 +2656,6 @@
    "file": "trust/otzyvy.md",
    "meta": {},
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Витрина"
@@ -2956,10 +2843,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Карта тестов"
     },
     {
@@ -3070,7 +2953,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/postuplenie-v-universitety/ekzameny/",
     "> Ресерч: silo-research.md (вузы). Спецификации тестов — сверить с актуальными перед публикацией."
    ],
    "pair": "/university-admissions/admissions-tests/",
@@ -3270,7 +3152,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку клиентом. Плейсхолдеры […] — ждут данных или согласий.",
     "> Пишется по `wave1/universitety/d0-research.md`, `d1-lexicon.md`, `context/kb_company.md`, `context/kb_cases.md`.",
     "⏳ _проверка обезличенности._",
     "⏳ _проверка обезличенности._",
@@ -3338,10 +3219,6 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "Лид"
-    },
-    {
-     "type": "h2",
      "text": "Как устроена заявка"
     },
     {
@@ -3407,7 +3284,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/postuplenie-v-universitety/magistratura/",
     "> Ресерч: silo-research.md (вузы)."
    ],
    "pair": "/university-admissions/masters/",
@@ -3456,10 +3332,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Что читают приёмные комиссии"
@@ -3540,7 +3412,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/postuplenie-v-universitety/motivatsionnoe-pismo/",
     "⏳ или новый формат из структурированных ответов — уточняем по году набора."
    ],
    "pair": "/university-admissions/personal-statement/",
@@ -3589,10 +3460,6 @@
     "description": null
    },
    "blocks": [
-    {
-     "type": "h2",
-     "text": "Лид"
-    },
     {
      "type": "h2",
      "text": "Честная математика"
@@ -3678,7 +3545,6 @@
     }
    ],
    "todos": [
-    "> СТАТУС: D3-финал, на проверку. URL: /ru/postuplenie-v-universitety/oksbridzh/",
     "> Ресерч: silo-research.md (вузы). Кейс №4 — честный, без гарантий.",
     "⏳ _проверка обезличенности._"
    ],

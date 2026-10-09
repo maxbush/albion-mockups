@@ -112,11 +112,11 @@ function parseBlocks(md, page) {
   const isHeading = (l) => l.match(/^(#{1,4})\s+(.*)/);
   const isBlokLabel = (l) => /^##\s+Блок\s+\d/.test(l) || /^#\s+FINAL\b/.test(l);
   const isSlotLabel = (l) => /^#{1,3}\s+CTA\b/i.test(l);
-  const isLeadLabel = (l) => /^##\s+Лид\b/i.test(l);
+  const isLeadLabel = (l) => /^##\s+Лид\s*$/i.test(l);
   const isHr = (l) => /^---\s*$/.test(l);
   const isTodoLine = (l) =>
-    /^\s*>\s*(URL|STATUS|Draft|СТАТУС)\b/i.test(l) ||
-    /^\s*СТАТУС\b/i.test(l) ||
+    /^\s*>\s*(URL|STATUS|Draft)\b/i.test(l) ||
+    /^\s*>?\s*СТАТУС/i.test(l) ||
     /^#####\s/.test(l) ||
     /\bTBC\b/i.test(l) ||
     /^\s*>?\s*⏳/.test(l);
