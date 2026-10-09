@@ -16,6 +16,7 @@ export default function PageBand({
   focus = "50% 45%",
   variant = "compact",
   cta,
+  art,
 }: {
   crumbs: Crumb[];
   eyebrow: string;
@@ -25,13 +26,15 @@ export default function PageBand({
   /** compact — leaf pages (~340px); pillar — section hubs (~480px) */
   variant?: "compact" | "pillar";
   cta?: { label: string; href: string };
+  /** section-specific watercolour for the band background */
+  art?: string;
 }) {
   const tall = variant === "pillar";
   return (
     <section aria-labelledby="page-title" className="relative isolate overflow-hidden bg-ink">
       <div aria-hidden="true" className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-quad.webp"
+          src={art ?? "/images/hero-quad.webp"}
           alt=""
           fill
           sizes="100vw"
