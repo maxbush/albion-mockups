@@ -18,7 +18,7 @@ export default function Method({ lang }: { lang: Locale }) {
             className="absolute inset-0 translate-x-3 translate-y-3 border border-brass/50 sm:translate-x-4 sm:translate-y-4"
           />
           <Image
-            src="/images/method-cloister.jpg"
+            src="/images/method-cloister.webp"
             alt={t.imgAlt}
             width={738}
             height={984}

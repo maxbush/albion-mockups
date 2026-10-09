@@ -15,7 +15,7 @@ export default function OpenDay({ lang }: { lang: Locale }) {
             className="absolute inset-0 translate-x-3 translate-y-3 border border-brass/45 sm:translate-x-5 sm:translate-y-5"
           />
           <Image
-            src="/images/open-door.jpg"
+            src="/images/open-door.webp"
             alt={t.imgAlt}
             width={1200}
             height={1600}

@@ -21,7 +21,7 @@ export default function Consultation({ lang }: { lang: Locale }) {
           </div>
           <ContactList lang={lang} />
           <Image
-            src="/images/consultation-scene.jpg"
+            src="/images/consultation-scene.webp"
             alt={t.imgAlt}
             width={1600}
             height={900}

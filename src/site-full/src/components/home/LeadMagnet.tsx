@@ -10,7 +10,7 @@ export default function LeadMagnet({ lang }: { lang: Locale }) {
         <div className="lg:col-span-5" data-reveal>
           <figure className="mx-auto max-w-[380px] border border-ink-2/20 bg-[linear-gradient(160deg,#f7f3e8_0%,#efe9d6_100%)] shadow-[14px_14px_0_-4px_rgba(22,30,46,0.12)]">
             <Image
-              src="/images/route-school.jpg"
+              src="/images/route-school.webp"
               alt={t.cover.imgAlt}
               width={1200}
               height={900}

@@ -5,11 +5,11 @@ import { getDictionary, type Locale } from "@/lib/i18n";
 import { path } from "@/lib/site";
 
 const leadership = [
-  { name: "Anfisa Bashkirova", src: "/images/team/team-anfisa-bashkirova.jpg" },
-  { name: "Altynay Yeshmatova", src: "/images/team/team-altynay-yeshmatova.jpg" },
-  { name: "William Knox", src: "/images/team/team-william-knox.jpg" },
-  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/team-vladimir-ivanov-krymskiy.jpg" },
-  { name: "Jonathan Mintram", src: "/images/team/team-jonathan-mintram.jpg" },
+  { name: "Anfisa Bashkirova", src: "/images/team/team-anfisa-bashkirova.webp" },
+  { name: "Altynay Yeshmatova", src: "/images/team/team-altynay-yeshmatova.webp" },
+  { name: "William Knox", src: "/images/team/team-william-knox.webp" },
+  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/team-vladimir-ivanov-krymskiy.webp" },
+  { name: "Jonathan Mintram", src: "/images/team/team-jonathan-mintram.webp" },
 ];
 
 function PersonCard({

@@ -110,7 +110,7 @@
   top: -18%;
   bottom: auto;
   height: 75%;
-  background: url("/images/hero-foliage-wide.jpg") 50% 0 / 130% auto no-repeat;
+  background: url("/images/hero-foliage-wide.webp") 50% 0 / 130% auto no-repeat;
   mix-blend-mode: multiply;
   filter: blur(2px) saturate(0.6);
   opacity: 0.5;
@@ -129,7 +129,7 @@
 .foliageBottomImg {
   position: absolute;
   inset: 0;
-  background: url("/images/hero-foliage-wide.jpg") 50% 100% / 120% auto no-repeat;
+  background: url("/images/hero-foliage-wide.webp") 50% 100% / 120% auto no-repeat;
   transform: scaleY(-1);
   mix-blend-mode: multiply;
   filter: blur(3px) saturate(0.55);

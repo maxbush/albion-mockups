@@ -31,7 +31,7 @@ export default function PageBand({
     <section aria-labelledby="page-title" className="relative isolate overflow-hidden bg-ink">
       <div aria-hidden="true" className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-quad.jpg"
+          src="/images/hero-quad.webp"
           alt=""
           fill
           sizes="100vw"
@@ -41,7 +41,7 @@ export default function PageBand({
         />
         <div className="absolute inset-0 mix-blend-multiply">
           <Image
-            src="/images/hero-foliage-wide.jpg"
+            src="/images/hero-foliage-wide.webp"
             alt=""
             fill
             sizes="100vw"

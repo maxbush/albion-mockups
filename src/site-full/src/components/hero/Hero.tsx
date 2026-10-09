@@ -109,19 +109,19 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
   };
   const {
     props: { srcSet: foliageWide },
-  } = getImageProps({ ...foliageBase, src: "/images/hero-foliage-wide.jpg", width: 1600, height: 1200 });
+  } = getImageProps({ ...foliageBase, src: "/images/hero-foliage-wide.webp", width: 1600, height: 1200 });
   const {
     props: { srcSet: foliageTall, ...foliageImg },
-  } = getImageProps({ ...foliageBase, src: "/images/hero-foliage-tall.jpg", width: 1200, height: 1600 });
+  } = getImageProps({ ...foliageBase, src: "/images/hero-foliage-tall.webp", width: 1200, height: 1600 });
 
   // Same art direction for the quad: full facade for landscape, gatehouse crop for portrait.
   const quadBase = { alt: "", sizes: "100vw", quality: 80, loading: "eager" as const, fetchPriority: "high" as const };
   const {
     props: { srcSet: quadWide },
-  } = getImageProps({ ...quadBase, src: "/images/hero-quad.jpg", width: 1496, height: 1126 });
+  } = getImageProps({ ...quadBase, src: "/images/hero-quad.webp", width: 1496, height: 1126 });
   const {
     props: { srcSet: quadTall, ...quadImg },
-  } = getImageProps({ ...quadBase, src: "/images/hero-quad-tall.jpg", width: 572, height: 986 });
+  } = getImageProps({ ...quadBase, src: "/images/hero-quad-tall.webp", width: 572, height: 986 });
 
   useEffect(() => {
     const root = rootRef.current;
@@ -322,7 +322,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
         {/* Far plane: watercolour Oxford quad in the morning haze */}
         <div className={`${styles.layer} ${styles.quad}`} data-layer="quad">
           <picture className={styles.picture}>
-            <source media="(orientation: landscape)" srcSet="/images/hero-quad.jpg" sizes="100vw" />
+            <source media="(orientation: landscape)" srcSet="/images/hero-quad.webp" sizes="100vw" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               {...quadImg}
@@ -348,7 +348,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
         {/* Near plane: sunlit foliage & wisteria; paper dissolves via multiply, oval mask opens the centre */}
         <div className={`${styles.layer} ${styles.foliage}`} data-layer="foliage" aria-hidden="true">
           <picture className={styles.picture}>
-            <source media="(orientation: landscape)" srcSet="/images/hero-foliage-wide.jpg" sizes="100vw" />
+            <source media="(orientation: landscape)" srcSet="/images/hero-foliage-wide.webp" sizes="100vw" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img {...foliageImg} srcSet={foliageTall} alt="" className={styles.foliageImg} />
           </picture>
