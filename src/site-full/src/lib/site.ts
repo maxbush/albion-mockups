@@ -193,14 +193,14 @@ const NAV: Record<Locale, NavSection[]> = {
       id: "tutors",
       label: "Tutors",
       href: P.en.tutors,
-      intro: "Oxford tutors for GCSE, A-Level and IB — online and in person.",
+      intro: "Subject tutors for GCSE, A-Level and IB — online and in person.",
       groups: [
         {
           items: [
             { label: "GCSE / IGCSE", href: P.en.gcse, description: "Core subjects with measurable progress." },
             { label: "A-Level", href: P.en.alevel, description: "Subject depth for strong grades." },
             { label: "IB", href: P.en.ib, description: "IB Diploma support across subjects." },
-            { label: "Homeschooling", href: P.en.homeschooling, description: "A full programme with Oxford tutors." },
+            { label: "Homeschooling", href: P.en.homeschooling, description: "A full programme with specialist tutors." },
           ],
         },
         {
@@ -316,7 +316,7 @@ const NAV: Record<Locale, NavSection[]> = {
       id: "tutors",
       label: "Тьюторы",
       href: P.ru.tutors,
-      intro: "Оксфордские тьюторы по GCSE, A-Level и IB — онлайн и очно.",
+      intro: "Предметные тьюторы по GCSE, A-Level и IB — онлайн и очно.",
       groups: [
         {
           items: [

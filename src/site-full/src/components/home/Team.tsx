@@ -52,7 +52,7 @@ export default function Team({ lang }: { lang: Locale }) {
           <div className="lg:sticky lg:top-[calc(var(--header-h)+40px)]" data-reveal>
             <p className="label">{t.label}</p>
             <p className="mt-10 font-display text-[clamp(4rem,2.4rem+6vw,8rem)] leading-[0.9] font-light tracking-[-0.03em] text-brass">
-              {lang === "ru" ? "с 2010" : "since 2010"}
+              150+
             </p>
             <p className="mt-7 max-w-[20ch] text-[14px] leading-[1.5] font-medium tracking-[0.16em] text-cream/85 uppercase">
               {t.cap}
@@ -65,11 +65,18 @@ export default function Team({ lang }: { lang: Locale }) {
             </h2>
             <p className="mt-6 max-w-[46ch] text-[16px] leading-[1.7] text-cream/80">{t.lead}</p>
 
-            <figure className="mt-10 border-l border-brass/70 pl-6">
-              <p className="display-italic text-[clamp(1.4rem,1.1rem+1vw,1.9rem)] leading-[1.3] text-cream/80">
-                &ldquo;{t.quote}&rdquo;
-              </p>
-            </figure>
+
+            <div className="mt-10" data-reveal>
+              <p className="label">{t.resultsLabel}</p>
+              <dl className="mt-5 border-t border-cream/15">
+                {t.results.map((r) => (
+                  <div key={r.cap} className="flex flex-wrap items-center justify-between gap-4 border-b border-cream/15 py-4">
+                    <dt className="text-[15px] text-cream/85">{r.cap}</dt>
+                    <dd className="font-display text-[24px] font-light text-brass">{r.n}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
 
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-4 text-[15px]">
               <Link href={path(lang, "team")} className="link-hair link-hair-soft">
