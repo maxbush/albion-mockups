@@ -40,7 +40,7 @@ function CardList({ items }: { items: string[] }) {
         return (
           <li key={j} className="border border-ink-2/15 bg-white/50 p-5">
             <p className="font-display text-[17px] leading-snug font-light text-ink-2">{m?.[1] ?? ""}</p>
-            <p className="mt-2 text-[14.5px] leading-[1.6] text-ink-2/80" dangerouslySetInnerHTML={html(m?.[2] ?? it)} />
+            <p className="mt-2 text-[14.5px] leading-[1.6] text-ink-2/80" dangerouslySetInnerHTML={html((m?.[2] ?? it).replace(/^[\s,;:—-]+/, ""))} />
           </li>
         );
       })}

@@ -95,6 +95,8 @@ function inline(s, todos) {
   out = out.replace(/\[([^\]]+?)\s*→\s*(\/[^\]\s]+)\]/g, '<a class="link-hair" href="$2">$1</a>');
   out = out.replace(/\[([^\]]+?)\]\((\/[^)\s]+)\)/g, '<a class="link-hair" href="$2">$1</a>');
   out = out.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  // punctuation orphaned by stripped placeholders: " ,", " .", " , :", "( )"
+  out = out.replace(/ ,/g, ",").replace(/ \./g, ".").replace(/ :/g, ":").replace(/\(\s+\)/g, "")
   out = out.replace(/(?<![\w*])\*([^*\n]+)\*(?![\w*])/g, "<em>$1</em>");
   out = out.replace(/(?<![\w_])_([^_\n]+)_(?![\w_])/g, "<em>$1</em>");
   return out;
@@ -185,17 +187,17 @@ function parseBlocks(md, page) {
       if (link) blocks.push({ type: "cta", label: esc(link[1]), href: link[2] });
       i++; continue;
     }
-    // FAQ question: **...?** (optionally list-prefixed, answer may start on same line)
-    if (/^[-*]?\s*\*\*[^*]+\?\*\*/.test(t)) {
+    // FAQ question: bold line containing ? (optionally list-prefixed, answer may start on same line)
+    if (/^[-*]?\s*\*\*[^*]*\?[^*]*\*\*/.test(t)) {
       const items = [];
-      while (i < lines.length && /^[-*]?\s*\*\*[^*]+\?\*\*/.test(lines[i].trim())) {
-        const m = lines[i].trim().match(/^[-*]?\s*\*\*([^*]+\?)\*\*\s*(.*)$/);
+      while (i < lines.length && /^[-*]?\s*\*\*[^*]*\?[^*]*\*\*/.test(lines[i].trim())) {
+        const m = lines[i].trim().match(/^[-*]?\s*\*\*([^*]*\?[^*]*)\*\*\s*(.*)$/);
         const q = m[1];
         const rest = m[2];
         i++;
         const ans = [];
         if (rest.trim()) { const h = inline(rest, todos); if (h.trim()) ans.push(h); }
-        while (i < lines.length && lines[i].trim() && !/^[-*]?\s*\*\*[^*]+\?\*\*/.test(lines[i].trim()) && !isHeading(lines[i].trim()) && !isHr(lines[i].trim()) && !isBlokLabel(lines[i].trim()) && !/^#####\s/.test(lines[i].trim()) && !isTodoLine(lines[i].trim())) {
+        while (i < lines.length && lines[i].trim() && !/^[-*]?\s*\*\*[^*]*\?[^*]*\*\*/.test(lines[i].trim()) && !isHeading(lines[i].trim()) && !isHr(lines[i].trim()) && !isBlokLabel(lines[i].trim()) && !/^#####\s/.test(lines[i].trim()) && !isTodoLine(lines[i].trim())) {
           const al = lines[i].trim();
           const html = inline(al, todos);
           if (html.trim()) ans.push(html);
@@ -210,7 +212,7 @@ function parseBlocks(md, page) {
     const parts = [];
     while (i < lines.length) {
       const l = lines[i].trim();
-      if (!l || isHeading(l) || isHr(l) || isBlokLabel(l) || isTodoLine(l) || l.startsWith("|") || l.startsWith(">") || /^[-*]\s+/.test(l) || /^\d+[.)]\s+/.test(l) || /^[-*]?\s*\*\*[^*]+\?\*\*/.test(l) || (/^\[[^\]]+\s*(?:→|\]\()\s*\/[^\]]+\]?\s*$/.test(l) && (l.includes("→") || l.includes("](")))) break;
+      if (!l || isHeading(l) || isHr(l) || isBlokLabel(l) || isTodoLine(l) || l.startsWith("|") || l.startsWith(">") || /^[-*]\s+/.test(l) || /^\d+[.)]\s+/.test(l) || /^[-*]?\s*\*\*[^*]*\?[^*]*\*\*/.test(l) || (/^\[[^\]]+\s*(?:→|\]\()\s*\/[^\]]+\]?\s*$/.test(l) && (l.includes("→") || l.includes("](")))) break;
       parts.push(l); i++;
     }
     const html = inline(parts.join(" "), todos);

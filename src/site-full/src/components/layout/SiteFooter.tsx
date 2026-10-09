@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { CONTACT, SOCIALS, getNav, path } from "@/lib/site";
-import { Tbc } from "@/components/ui/Tbc";
 
 export default function SiteFooter({ lang }: { lang: Locale }) {
   const t = getDictionary(lang).footer;
@@ -93,12 +92,8 @@ export default function SiteFooter({ lang }: { lang: Locale }) {
         <div className="mt-10 flex flex-col gap-3 text-[13px] text-cream/60 sm:flex-row sm:items-center sm:justify-between">
           <p>{t.rights}</p>
           <p className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            <span className="inline-flex items-center gap-2">
-              {t.privacy} <Tbc lang={lang} />
-            </span>
-            <span className="inline-flex items-center gap-2">
-              {t.company} <Tbc lang={lang} />
-            </span>
+            <span>{t.privacy}</span>
+            <span>{t.company}</span>
           </p>
         </div>
       </div>

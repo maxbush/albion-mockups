@@ -45,8 +45,8 @@
      "type": "list",
      "ordered": false,
      "items": [
-      "<strong>Топовые академические</strong> — , : высокий конкурс, сильная научная среда, маршрут в Oxbridge и Russell Group.",
-      "<strong>Сбалансированные co-ed</strong> — , : крепкая академика и пасторальная поддержка, подходит большинству семей.",
+      "<strong>Топовые академические</strong> —,: высокий конкурс, сильная научная среда, маршрут в Oxbridge и Russell Group.",
+      "<strong>Сбалансированные co-ed</strong> —,: крепкая академика и пасторальная поддержка, подходит большинству семей.",
       "<strong>Раздельное обучение</strong> — школы для девочек и для мальчиков: модель выбираем по темпераменту и целям, а не по привычке.",
       "<strong>По регионам</strong> — школы-пансионы в Лондоне и пригородах, Оксфордшир, Кент, графства: география влияет на логистику каникул и опеки."
      ]
@@ -197,7 +197,7 @@
     },
     {
      "type": "quote",
-     "html": "<strong>Из практики</strong> Ученик с сильным спортивным профилем поступал на 13+ в 2022 году — получил офферы всех школ из согласованного списка и выбрал . Через два года — капитан гребной команды школы."
+     "html": "<strong>Из практики</strong> Ученик с сильным спортивным профилем поступал на 13+ в 2022 году — получил офферы всех школ из согласованного списка и выбрал. Через два года — капитан гребной команды школы."
     },
     {
      "type": "cta",
@@ -232,12 +232,14 @@
      "text": "Частые вопросы родителей"
     },
     {
-     "type": "p",
-     "html": "<strong>Пансион — не рано ли? Говорят про «boarding school syndrome».</strong> Честный ответ: пансион подходит не всем. Ребёнку нужна базовая самостоятельность и готовность жить в коллективе — это мы смотрим на этапе оценки. Для детей, которым раздельная жизнь с родителями даётся тяжело, есть дневные школы и формат weekly boarding — домой на выходные. Синдром реален, но решается выбором среды и сильной пасторальной системой, а не отказом от идеи."
-    },
-    {
      "type": "faq",
      "items": [
+      {
+       "q": "Пансион — не рано ли? Говорят про «boarding school syndrome».",
+       "a": [
+        "Честный ответ: пансион подходит не всем. Ребёнку нужна базовая самостоятельность и готовность жить в коллективе — это мы смотрим на этапе оценки. Для детей, которым раздельная жизнь с родителями даётся тяжело, есть дневные школы и формат weekly boarding — домой на выходные. Синдром реален, но решается выбором среды и сильной пасторальной системой, а не отказом от идеи."
+       ]
+      },
       {
        "q": "Совместная школа или раздельная?",
        "a": [
@@ -317,6 +319,12 @@
    "lead": "Пансион (по-русски его часто называют «интернат») — это школа, дом и образовательная среда одновременно: выбор определит следующие десять лет жизни ребёнка. ALBION подбирает британские школы-пансионы по профилю ребёнка и ведёт поступление целиком: диагностика, вступительные экзамены, документы, интервью и адаптация после зачисления — одной командой из Оксфорда.",
    "hasFaq": true,
    "faqItems": [
+    {
+     "q": "Пансион — не рано ли? Говорят про «boarding school syndrome».",
+     "a": [
+      "Честный ответ: пансион подходит не всем. Ребёнку нужна базовая самостоятельность и готовность жить в коллективе — это мы смотрим на этапе оценки. Для детей, которым раздельная жизнь с родителями даётся тяжело, есть дневные школы и формат weekly boarding — домой на выходные. Синдром реален, но решается выбором среды и сильной пасторальной системой, а не отказом от идеи."
+     ]
+    },
     {
      "q": "Совместная школа или раздельная?",
      "a": [
@@ -668,7 +676,7 @@
      "ordered": false,
      "items": [
       "<strong>Семья живёт или переезжает в UK</strong> → дневная школа: ребёнок дома каждый вечер, выбор от центрального Лондона до графств.",
-      "<strong>Семья остаётся за рубежом</strong> → : дневная форма без взрослого рядом невозможна."
+      "<strong>Семья остаётся за рубежом</strong> →: дневная форма без взрослого рядом невозможна."
      ]
     },
     {
@@ -4672,8 +4680,8 @@
      "type": "list",
      "ordered": false,
      "items": [
-      "<strong>Highly academic</strong> — , : high competition, a strong scholarly environment, a route toward Oxbridge and the Russell Group.",
-      "<strong>Balanced co-educational</strong> — , : solid academics and strong pastoral care; suits most families.",
+      "<strong>Highly academic</strong> —,: high competition, a strong scholarly environment, a route toward Oxbridge and the Russell Group.",
+      "<strong>Balanced co-educational</strong> —,: solid academics and strong pastoral care; suits most families.",
       "<strong>Single-sex</strong> — girls' and boys' schools; the model is chosen on temperament and goals, not habit.",
       "<strong>By region</strong> — boarding schools in and around London, Oxfordshire, Kent and the counties: geography drives logistics, guardianship and the exeats — the weekends when the school closes and the child goes to the guardian."
      ]
@@ -4824,7 +4832,7 @@
     },
     {
      "type": "quote",
-     "html": "<strong>In practice</strong> — anonymised. A pupil with a strong sporting profile applied at 13+ in 2022, received offers from every school on the agreed list and chose . Two years later he was captain of the school's rowing team."
+     "html": "<strong>In practice</strong> — anonymised. A pupil with a strong sporting profile applied at 13+ in 2022, received offers from every school on the agreed list and chose. Two years later he was captain of the school's rowing team."
     },
     {
      "type": "cta",
@@ -5002,7 +5010,7 @@
      "ordered": false,
      "items": [
       "<strong>The family lives in or is moving to the UK</strong> → day school: the child is home every evening, the choice runs from central London to the counties.",
-      "<strong>The family stays abroad</strong> → : a day place is impossible without a parent on the ground."
+      "<strong>The family stays abroad</strong> →: a day place is impossible without a parent on the ground."
      ]
     },
     {
@@ -6981,7 +6989,7 @@
     },
     {
      "type": "p",
-     "html": "<strong>Four sixth-form offers.</strong> A pupil received offers from  and chose . The list was built for fit, not rankings — and it worked at every entry."
+     "html": "<strong>Four sixth-form offers.</strong> A pupil received offers from  and chose. The list was built for fit, not rankings — and it worked at every entry."
     },
     {
      "type": "p",
