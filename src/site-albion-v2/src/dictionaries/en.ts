@@ -35,7 +35,7 @@ export const en: Dictionary = {
         numeral: "IV",
         title: "University",
         short: "UCAS, Oxbridge, the USA and Europe.",
-        text: "An application moves through four phases: research and direction, positioning, application preparation, and decision with fallback. The university is a tool, chosen for what the student wants to do next.",
+        text: "An application moves through four phases: research and choice of direction, shaping the profile, preparing the application, and the decision with a fallback. The university is a tool, chosen for what the student wants to do next.",
       },
       {
         id: "postgrad",
@@ -96,16 +96,12 @@ export const en: Dictionary = {
     onGoogle: "on Google",
     stats: [
       {
-        n: "96%",
-        cap: "of pupils are placed at the school they chose",
-      },
-      {
-        n: "150+",
-        cap: "tutors across time zones",
-      },
-      {
         n: "since 2010",
         cap: "in British education",
+      },
+      {
+        n: "3,000+",
+        cap: "hours of lessons a year",
       },
     ],
   },
@@ -114,7 +110,7 @@ export const en: Dictionary = {
     label: "Principle",
     title: "Each decision shapes the next.",
     titleEm: "So the route is planned as a whole.",
-    p1: "The school sets the exam subjects, the subjects narrow the choice of university, and the university decides what comes after. ALBION plans the whole sequence.",
+    p1: "The school decides which subjects are on offer, the subjects narrow the choice of university, and the university decides what comes after. ALBION plans the whole sequence.",
     p2: "The order is the same at every stage. The academic profile, the requirements of the school or programme and the longer-term goal come first, then a timetable of actions.",
     p3: "The fallback is built early, since a single offer is not a plan.",
   },
@@ -150,7 +146,7 @@ export const en: Dictionary = {
       {
         n: "III",
         title: "Preparation and documents",
-        text: "Tutors inside the same company prepare the child for ISEB, UKiset, CAT4, LNAT, TARA, TMUA and interviews, so a change to the list reaches the lesson plan at once. ALBION also covers the application documents: personal statement or motivation letter, references and, where needed, a portfolio.",
+        text: "Tutors from the same company prepare the child for ISEB, UKiset, CAT4, LNAT, TARA, TMUA and interviews, so a change to the school list reaches the lesson plan at once. The same team works on the application documents: the personal statement or motivation letter and, where needed, a portfolio.",
       },
       {
         n: "IV",
@@ -186,7 +182,7 @@ export const en: Dictionary = {
       },
       {
         n: "IV",
-        word: "Students and parents themselves",
+        word: "Seen from both sides",
         text: "The team has been through British education as students and as parents, working out an unfamiliar system from scratch.",
       },
     ],
@@ -196,14 +192,14 @@ export const en: Dictionary = {
     label: "Directory",
     title: "If you already know",
     titleEm: "what you are looking for",
-    lead: "Every section of the site in one place, each leading into the same route.",
+    lead: "Every section of the site in one place, so you can go straight to the one you need.",
   },
 
   adults: {
     label: "For adults",
     title: "Education",
     titleEm: "for adults",
-    lead: "Master's degrees, doctorates, MBAs and management programmes, for graduates and working professionals choosing the next step.",
+    lead: "Master's degrees, doctorates, MBAs and management programmes. ALBION reviews the candidate's profile and prepares the documents and the interview; the admissions committee makes the decision.",
     cta: "Discuss a programme",
   },
 
@@ -258,11 +254,9 @@ export const en: Dictionary = {
     tutorRole: "Tutor",
     resultsLabel: "The numbers",
     results: [
-      { n: "96%", cap: "of pupils are placed at the school they chose" },
       { n: "100%", cap: "of clients receive an offer from at least one Russell Group university" },
       { n: "3 in 4", cap: "of ALBION's candidates are invited to an Oxbridge interview" },
       { n: "10+", cap: "adult clients completed Saïd (Oxford) programmes in the past year" },
-      { n: "3,000+", cap: "hours of lessons a year" },
     ],
     linkTeam: "Meet the team",
     linkResults: "Figures and results",
@@ -307,7 +301,7 @@ export const en: Dictionary = {
     label: "Open days",
     title: "Which colleges",
     titleEm: "to see first",
-    lead: "Oxford alone has 32 undergraduate colleges. Each has its own admissions committee, its own open days and its own timetable, and departments run subject events separately. No family can see everything, so the question is which to visit first. A separate page explains the two formats: a planning service for visits, and an ALBION event in Oxford.",
+    lead: "Oxford has 32 colleges. Each has its own admissions committee, its own open days and its own timetable, and departments run subject events separately. No family can see everything, so the question is which to visit first. A separate page explains the two formats: a planning service for visits, and an ALBION event in Oxford.",
     details: [
       "A sense of a college's academic environment",
       "Time with admissions staff",
@@ -356,7 +350,7 @@ export const en: Dictionary = {
     label: "What comes next",
     title: "After",
     titleEm: "the offer",
-    lead: "An offer can be conditional on final grades. Offers are compared before the family replies to a school, and after a first degree the conversation can turn to a master's, a doctorate or an MBA.",
+    lead: "An offer can be conditional on final grades, so the work does not end with the letter of admission. After a first degree the conversation can turn to a master's, a doctorate or an MBA.",
     cta: "Discuss the next step in the form",
     caption: "Each stage leads into the next",
   },
@@ -365,7 +359,7 @@ export const en: Dictionary = {
     label: "Consultation",
     title: "How the conversation",
     titleEm: "begins",
-    lead: "Say who the programme is for, how old the child is and what you are looking at. ALBION will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
+    lead: "Say who the programme is for, how old the student is and what you are looking at. ALBION will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
     submit: "Book a consultation",
     imgAlt: "Watercolour: a parent and a schoolchild in uniform walking up a path to the open gates of a college",
   },
@@ -534,16 +528,16 @@ export const en: Dictionary = {
       rosterLabel: "The roster",
       rosterAria: "ALBION tutors",
       subjectLabel: "Subject",
-      note: "The roster flexes to each family's brief: shown here is part of the team, and the full list and profiles are",
+      note: "The roster flexes to each family's brief: shown here is part of the team, and the full list and profiles are on the team page.",
       boxTitle: "We match the tutor to the brief",
-      boxLead: "Subject, level and format decide the fit, and profiles and recommendations are",
+      boxLead: "Subject, level and format decide the fit, and the profile and recommendations follow.",
     },
   },
 
   consultCta: {
     label: "Consultation",
     title: "Let's discuss your family's route",
-    lead: "A first consultation to see where the child is now and which next step is the right one. Format and fee",
+    lead: "A first consultation to see where the child is now and which next step is the right one.",
     cta: "Book a consultation",
   },
 
