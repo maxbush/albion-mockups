@@ -143,12 +143,13 @@ export interface NavSection {
 const NAV: Record<Locale, NavSection[]> = {
   en: [
     {
-      id: "schools",
-      label: "Schools",
+      id: "consulting",
+      label: "Consulting",
       href: P.en.schools,
-      intro: "Independent schools in Britain: boarding and day, entry points 7+/11+/13+/16+, guardianship.",
+      intro: "Educational consulting, end to end: British schools and universities worldwide.",
       groups: [
         {
+          title: "British schools",
           items: [
             { label: "Boarding schools", href: P.en.boarding, description: "Selection and admission to UK boarding schools, end to end." },
             { label: "Day schools", href: P.en.day, description: "Day schools in London and the counties, for relocating families." },
@@ -157,33 +158,20 @@ const NAV: Record<Locale, NavSection[]> = {
           ],
         },
         {
+          title: "Universities",
+          items: [
+            { label: "Oxbridge", href: P.en.oxbridge, description: "College choice, admissions tests, interviews." },
+            { label: "UK universities", href: P.en.universities, description: "UCAS strategy for British universities." },
+            { label: "Personal statement", href: P.en.statement, description: "The UCAS essay that carries your application." },
+            { label: "Admissions tests", href: P.en.admissionsTests, description: "LNAT, TMUA, UCAT, MAT and more." },
+            { label: "Europe", href: P.en.europe, description: "English-taught programmes across Europe." },
+            { label: "USA", href: P.en.usa, description: "US colleges: lists, essays, deadlines." },
+          ],
+        },
+        {
           title: "First step",
           items: [
             { label: "Academic assessment", href: P.en.assessment, description: "Where the child stands and which route is realistic." },
-          ],
-        },
-      ],
-    },
-    {
-      id: "universities",
-      label: "Universities",
-      href: P.en.universities,
-      intro: "UCAS strategy, Oxbridge, master's and admissions tests — plus Europe, the USA and PhD.",
-      groups: [
-        {
-          items: [
-            { label: "Oxbridge", href: P.en.oxbridge, description: "College choice, admissions tests, interviews." },
-            { label: "Master's degrees", href: P.en.masters, description: "Taught master's and research programmes." },
-            { label: "Personal statement", href: P.en.statement, description: "The UCAS essay that carries your application." },
-            { label: "Admissions tests", href: P.en.admissionsTests, description: "LNAT, TMUA, UCAT, MAT and more." },
-          ],
-        },
-        {
-          title: "Beyond the UK",
-          items: [
-            { label: "Europe", href: P.en.europe, description: "English-taught programmes across Europe." },
-            { label: "USA", href: P.en.usa, description: "US colleges: lists, essays, deadlines." },
-            { label: "PhD", href: P.en.phd, description: "Doctoral applications and supervision." },
             { label: "Career guidance", href: P.en.career, description: "Match interests to subjects before choosing." },
           ],
         },
@@ -191,9 +179,9 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "tutors",
-      label: "Tutors",
+      label: "Tuition",
       href: P.en.tutors,
-      intro: "Subject tutors for GCSE, A-Level and IB — online and in person.",
+      intro: "Subject tutors and school/university test preparation — online and in person.",
       groups: [
         {
           items: [
@@ -216,10 +204,12 @@ const NAV: Record<Locale, NavSection[]> = {
       id: "adults",
       label: "For adults",
       href: P.en.exec,
-      intro: "Executive education in Oxford: MBA, EMBA and management programmes.",
+      intro: "Education for adults: master's, PhD, MBA and management programmes.",
       groups: [
         {
           items: [
+            { label: "Master's degrees", href: P.en.masters, description: "Taught master's and research programmes." },
+            { label: "PhD", href: P.en.phd, description: "Doctoral applications and supervision." },
             { label: "MBA admissions", href: P.en.mba, description: "Strategy, essays and interviews for top schools." },
             { label: "Oxford Saïd MBA", href: P.en.said, description: "Requirements, essays and deadlines." },
             { label: "Oxford EMBA", href: P.en.emba, description: "The executive format at Saïd." },
@@ -230,9 +220,9 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "summer",
-      label: "Summer",
+      label: "Summer camps",
       href: P.en.summer,
-      intro: "Summer schools in the UK and Oxford for children and teenagers.",
+      intro: "Summer schools and language programmes in the UK and Oxford.",
       groups: [
         {
           items: [
@@ -245,20 +235,25 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "about",
-      label: "About",
+      label: "About us",
       href: P.en.about,
       intro: "An Oxford-based consultancy since 2010 — one team for the whole route.",
       groups: [
         {
           items: [
             { label: "Team", href: P.en.team, description: "Consultants, tutors and guardians." },
-            { label: "Cases", href: P.en.cases, description: "Admission stories, anonymised." },
+            { label: "Cases & results", href: P.en.cases, description: "Admission stories, anonymised." },
             { label: "Reviews", href: P.en.reviews, description: "From our public Google profile." },
-            { label: "Guides", href: P.en.guides, description: "Free PDF guides for parents." },
             { label: "Events & open days", href: P.en.events, description: "Webinars and meetings in Oxford." },
-            { label: "Prices", href: P.en.prices, description: "How our fees work." },
-            { label: "Blog", href: P.en.blog, description: "Guides on schools, exams, admissions." },
             { label: "Contact", href: P.en.contact, description: "Office in Oxford, phone, messengers." },
+          ],
+        },
+        {
+          title: "Resources",
+          items: [
+            { label: "Guides", href: P.en.guides, description: "Free PDF guides for parents." },
+            { label: "Blog", href: P.en.blog, description: "Guides on schools, exams, admissions." },
+            { label: "Prices", href: P.en.prices, description: "How our fees work." },
           ],
         },
       ],
@@ -266,12 +261,13 @@ const NAV: Record<Locale, NavSection[]> = {
   ],
   ru: [
     {
-      id: "schools",
-      label: "Школы",
+      id: "consulting",
+      label: "Консалтинг",
       href: P.ru.schools,
-      intro: "Частные школы Великобритании: пансионы и дневные, точки входа 7+/11+/13+/16+, опека.",
+      intro: "Образовательный консалтинг под ключ: британские школы и университеты мира.",
       groups: [
         {
+          title: "Британские школы",
           items: [
             { label: "Школы-пансионы", href: P.ru.boarding, description: "Подбор пансиона и поступление под ключ." },
             { label: "Дневные школы", href: P.ru.day, description: "Дневные школы Лондона и графств для переезда." },
@@ -280,33 +276,20 @@ const NAV: Record<Locale, NavSection[]> = {
           ],
         },
         {
+          title: "Университеты",
+          items: [
+            { label: "Оксбридж", href: P.ru.oxbridge, description: "Выбор колледжа, тесты, интервью." },
+            { label: "Британские вузы", href: P.ru.universities, description: "Стратегия UCAS для британских вузов." },
+            { label: "Мотивационное письмо", href: P.ru.statement, description: "Personal statement, который работает." },
+            { label: "Тесты вузов", href: P.ru.admissionsTests, description: "LNAT, TMUA, UCAT, MAT и другие." },
+            { label: "Европа", href: P.ru.europe, description: "Англоязычные программы в Европе." },
+            { label: "США", href: P.ru.usa, description: "Колледжи США: список, эссе, дедлайны." },
+          ],
+        },
+        {
           title: "Первый шаг",
           items: [
             { label: "Академическая оценка", href: P.ru.assessment, description: "Честная картина уровня и реальные варианты." },
-          ],
-        },
-      ],
-    },
-    {
-      id: "universities",
-      label: "Университеты",
-      href: P.ru.universities,
-      intro: "Стратегия UCAS, Оксбридж, магистратура и тесты — плюс Европа, США и докторантура.",
-      groups: [
-        {
-          items: [
-            { label: "Оксбридж", href: P.ru.oxbridge, description: "Выбор колледжа, тесты, интервью." },
-            { label: "Магистратура", href: P.ru.masters, description: "Программы master's и исследовательские." },
-            { label: "Мотивационное письмо", href: P.ru.statement, description: "Personal statement, который работает." },
-            { label: "Тесты вузов", href: P.ru.admissionsTests, description: "LNAT, TMUA, UCAT, MAT и другие." },
-          ],
-        },
-        {
-          title: "За пределами UK",
-          items: [
-            { label: "Европа", href: P.ru.europe, description: "Англоязычные программы в Европе." },
-            { label: "США", href: P.ru.usa, description: "Колледжи США: список, эссе, дедлайны." },
-            { label: "Докторантура", href: P.ru.phd, description: "PhD и научное руководство." },
             { label: "Карьерное ориентирование", href: P.ru.career, description: "Интересы и способности — до выбора предметов." },
           ],
         },
@@ -314,9 +297,9 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "tutors",
-      label: "Тьюторы",
+      label: "Обучение",
       href: P.ru.tutors,
-      intro: "Предметные тьюторы по GCSE, A-Level и IB — онлайн и очно.",
+      intro: "Предметные тьюторы и подготовка к тестам школ и вузов — онлайн и очно.",
       groups: [
         {
           items: [
@@ -339,10 +322,12 @@ const NAV: Record<Locale, NavSection[]> = {
       id: "adults",
       label: "Взрослым",
       href: P.ru.exec,
-      intro: "Образование для взрослых в Оксфорде: MBA, EMBA и управленческие программы.",
+      intro: "Образование для взрослых: магистратура, докторантура, MBA и управленческие программы.",
       groups: [
         {
           items: [
+            { label: "Магистратура", href: P.ru.masters, description: "Программы master's и исследовательские." },
+            { label: "Докторантура", href: P.ru.phd, description: "PhD и научное руководство." },
             { label: "Поступление на MBA", href: P.ru.mba, description: "Стратегия, эссе и интервью для топ-школ." },
             { label: "Oxford Saïd MBA", href: P.ru.said, description: "Требования, эссе и дедлайны." },
             { label: "Oxford EMBA", href: P.ru.emba, description: "Executive-формат Saïd." },
@@ -353,9 +338,9 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "summer",
-      label: "Летние школы",
+      label: "Летние лагеря",
       href: P.ru.summer,
-      intro: "Летние школы Великобритании и Оксфорда для детей и подростков.",
+      intro: "Летние лагеря и языковые программы Великобритании и Оксфорда.",
       groups: [
         {
           items: [
@@ -368,20 +353,25 @@ const NAV: Record<Locale, NavSection[]> = {
     },
     {
       id: "about",
-      label: "О компании",
+      label: "О нас",
       href: P.ru.about,
       intro: "Оксфордский консалтинг с 2010 года — одна команда на весь путь.",
       groups: [
         {
           items: [
             { label: "Команда", href: P.ru.team, description: "Консультанты, тьюторы и опекуны." },
-            { label: "Кейсы", href: P.ru.cases, description: "Истории поступлений, обезличенные." },
+            { label: "Кейсы и цифры", href: P.ru.cases, description: "Истории поступлений, обезличенные." },
             { label: "Отзывы", href: P.ru.reviews, description: "Из публичного профиля Google." },
-            { label: "Гайды", href: P.ru.guides, description: "Бесплатные PDF для родителей." },
-            { label: "События и open day", href: P.ru.events, description: "Вебинары и встречи в Оксфорде." },
-            { label: "Цены", href: P.ru.prices, description: "Как устроена стоимость услуг." },
-            { label: "Блог", href: P.ru.blog, description: "Гайды по школам, экзаменам, поступлению." },
+            { label: "Мероприятия", href: P.ru.events, description: "Вебинары и встречи в Оксфорде." },
             { label: "Контакты", href: P.ru.contact, description: "Офис в Оксфорде, телефон, мессенджеры." },
+          ],
+        },
+        {
+          title: "Ресурсы",
+          items: [
+            { label: "Гайды", href: P.ru.guides, description: "Бесплатные PDF для родителей." },
+            { label: "Блог", href: P.ru.blog, description: "Гайды по школам, экзаменам, поступлению." },
+            { label: "Цены", href: P.ru.prices, description: "Как устроена стоимость услуг." },
           ],
         },
       ],

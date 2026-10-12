@@ -10,6 +10,7 @@ export type Block =
   | { type: "quote"; html: string }
   | { type: "cta"; label: string; href: string }
   | { type: "faq"; items: { q: string; a: string[] }[] }
+  | { type: "cases"; items: { title: string; html: string }[] }
   | { type: "hr" };
 
 export interface ContentPageData {

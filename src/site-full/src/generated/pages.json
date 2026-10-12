@@ -2529,17 +2529,86 @@
    "blocks": [
     {
      "type": "h2",
-     "text": "По направлениям"
+     "text": "Школы"
     },
     {
-     "type": "list",
-     "ordered": false,
+     "type": "cases",
      "items": [
-      "<strong>Школы</strong> — поздний оффер из листа ожидания; оффер, отозванный в июле; школа «за пределами очевидного»; пересдача GCSE за 2 недели до года.",
-      "<strong>Университеты</strong> — 5 офферов и поворот в августе; IB отменили за ночь — заявку пересобрали за час; 15 заявок за каникулы.",
-      "<strong>Оксбридж</strong> — честный кейс: до интервью дошли, оффера не было — и год закрыт сильным Russell Group.",
-      "<strong>Опека</strong> — 90 замечаний и вопрос «почему»; перелом, не увиденный школой; спасённое место.",
-      "<strong>Executive</strong> — предприниматель+директор в одну историю; «слишком сильный кандидат»; Saïd-трек."
+      {
+       "title": "Четыре оффера на шестую форму.",
+       "html": "Ученик получил офферы от  и выбрал. Список строился на соответствии, а не на рейтингах — и сработал в каждой точке входа."
+      },
+      {
+       "title": "Место, потерянное в июле — возвращённое к сентябрю.",
+       "html": "Ученик 18+ держал место в пансионе, виза уже оформлялась, когда школа отозвала оффер после инспекции. Мы пересобрали заявку и закрыли год другой сильной школой. Один оффер — это не план."
+      },
+      {
+       "title": "Победа в листе ожидания за десять дней до начала.",
+       "html": "Ученица 9-го класса держала два оффера, пока школа первого выбора держала её в ожидании. Мы вели лист активно — место открылось за десять дней до начала, а так как решение было принято заранее, семья успела переехать."
+      },
+      {
+       "title": "Полная программа GCSE с нуля.",
+       "html": "Ученик на домашнем обучении — шахматист-турнирщик, английский ниже школьного уровня, подозрение на дислексию — прошёл с нашими тьюторами всю программу GCSE и получил оффер от сильной школы на A-Level в 14 лет."
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Университеты"
+    },
+    {
+     "type": "cases",
+     "items": [
+      {
+       "title": "Интервью в Оксбридже — и сильный план Б.",
+       "html": "Кандидат дошёл до интервью в Оксбридже — оффера не случилось. Мы пересобрали список и закрыли год сильным вузом Russell Group. Показываем честно: выход на интервью — это результат подготовки; само интервью — конкурс."
+      },
+      {
+       "title": "Пятнадцать заявок за каникулы.",
+       "html": "Семья пришла в рождественские каникулы; за две недели подано около пятнадцати заявок. Экстремальный срок — но он показывает, что умеет сжать управляемый процесс."
+      },
+      {
+       "title": "Пять офферов и поворот в августе.",
+       "html": "Офферы от всех пяти вузов списка — а потом планы изменились в августе. Стратегию пересобрали по факту результатов; сильный вариант сохранили."
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Опека"
+    },
+    {
+     "type": "cases",
+     "items": [
+      {
+       "title": "Девяносто замечаний по поведению — и один незаданный вопрос.",
+       "html": "Ученик накапливал дисциплинарные отметки; школа фиксировала симптомы. Мы спросили «почему», организовали оценку у специалиста — и школа получила план поддержки вместо санкций."
+      },
+      {
+       "title": "Перелом, которого не увидела медсестра.",
+       "html": "Боль ребёнка школа списывала на обычное. Мы настояли на независимом обследовании — перелом. Опекун стоит на стороне ребёнка, когда система торопится."
+      },
+      {
+       "title": "Место в школе под угрозой — развёрнуто.",
+       "html": "Первый триместр проблем с учёбой и поведением поставил место под сомнение. Оценка, план со специалистом, координация со школой. Год спустя: ровный прогресс, семья смотрит на более сильные шестые формы."
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Executive-образование"
+    },
+    {
+     "type": "cases",
+     "items": [
+      {
+       "title": "10+ клиентов в Saïd за один год.",
+       "html": "MBA, EMBA и executive-дипломы Оксфорда — самый большой трек по одной школе в нашей практике."
+      },
+      {
+       "title": "Поворот, а не продолжение.",
+       "html": "Клиент просил «MBA»; диагностика показала, что реальная цель — смена отрасли. Управленческий магистерский трек оказался верным инструментом — короче, дешевле и правильно читается работодателями."
+      }
      ]
     },
     {
@@ -2549,18 +2618,31 @@
     }
    ],
    "todos": [
-    "[Хаб: карточки кейсов — наполняется из kb_cases.md]"
+    "[SCHOOLS: Magdalen College School, Highgate, National Mathematics and Science College]",
+    "[SCHOOL: d'Overbroeck's]",
+    "⏳",
+    "⏳ детали с Анфисой",
+    "⏳",
+    "⏳",
+    "⏳",
+    "⏳",
+    "⏳",
+    "⏳ на проверке у головы опеки",
+    "⏳",
+    "⏳",
+    "⏳",
+    "⏳"
    ],
    "pair": "/cases/",
    "parent": null,
    "children": [],
    "siblings": [],
    "h1": "Кейсы и результаты",
-   "lead": "Мы показываем работу, а не рассказываем о ней. Кейсы обезличены — имена учеников и названия школ не публикуем.",
+   "lead": "Мы показываем работу, а не рассказываем о ней. Кейсы обезличены — имена учеников и названия школ не публикуем: смысл кейса в решении, а не в семье. Там, где название школы указано в скобках, оно ждёт разрешения на публикацию.",
    "hasFaq": false,
    "faqItems": [],
    "title": "Кейсы и результаты",
-   "description": "Мы показываем работу, а не рассказываем о ней. Кейсы обезличены — имена учеников и названия школ не публикуем."
+   "description": "Мы показываем работу, а не рассказываем о ней. Кейсы обезличены — имена учеников и названия школ не публикуем: смысл кейса в решении, а не в семье. Там, где название школ"
   },
   {
    "lang": "ru",
@@ -6854,64 +6936,84 @@
      "text": "School admissions"
     },
     {
-     "type": "p",
-     "html": "<strong>Four sixth-form offers.</strong> A pupil received offers from  and chose. The list was built for fit, not rankings — and it worked at every entry."
-    },
-    {
-     "type": "p",
-     "html": "<strong>A place lost in July, recovered by September.</strong> A pupil aged 18+ held a boarding place, visa in progress, when the school withdrew it after an inspection. We rebuilt the application and closed the year with another strong school. One offer is not a plan."
-    },
-    {
-     "type": "p",
-     "html": "<strong>A waiting-list win, ten days before term.</strong> A Year 9 pupil held two offers while her first-choice school kept her waiting. We managed the list actively — a place opened ten days before term, and because the decision had been made in advance, the family moved."
-    },
-    {
-     "type": "p",
-     "html": "<strong>A full GCSE programme from scratch.</strong> A home-educated pupil — a tournament chess player, English below school level, suspected dyslexia — completed the whole GCSE programme with our tutors and won an offer from a strong school for A-Level at 14."
+     "type": "cases",
+     "items": [
+      {
+       "title": "Four sixth-form offers.",
+       "html": "A pupil received offers from  and chose. The list was built for fit, not rankings — and it worked at every entry."
+      },
+      {
+       "title": "A place lost in July, recovered by September.",
+       "html": "A pupil aged 18+ held a boarding place, visa in progress, when the school withdrew it after an inspection. We rebuilt the application and closed the year with another strong school. One offer is not a plan."
+      },
+      {
+       "title": "A waiting-list win, ten days before term.",
+       "html": "A Year 9 pupil held two offers while her first-choice school kept her waiting. We managed the list actively — a place opened ten days before term, and because the decision had been made in advance, the family moved."
+      },
+      {
+       "title": "A full GCSE programme from scratch.",
+       "html": "A home-educated pupil — a tournament chess player, English below school level, suspected dyslexia — completed the whole GCSE programme with our tutors and won an offer from a strong school for A-Level at 14."
+      }
+     ]
     },
     {
      "type": "h2",
      "text": "University admissions"
     },
     {
-     "type": "p",
-     "html": "<strong>Interview at Oxbridge — and a strong plan B.</strong> A candidate reached the Oxbridge interview stage — no offer came. We rebuilt the list and closed the year with a strong Russell Group university. We show this honestly: reaching interview is a preparation result; the interview itself is a competition."
-    },
-    {
-     "type": "p",
-     "html": "<strong>Fifteen applications over the holidays.</strong> A family arrived during the Christmas break; within two weeks about fifteen applications were filed. An extreme timeline — but it shows what a controlled process can compress."
-    },
-    {
-     "type": "p",
-     "html": "<strong>Five offers, one turn in August.</strong> Offers from all five universities on the list — then plans changed in August. The strategy was rebuilt after results; the strong option was preserved."
+     "type": "cases",
+     "items": [
+      {
+       "title": "Interview at Oxbridge — and a strong plan B.",
+       "html": "A candidate reached the Oxbridge interview stage — no offer came. We rebuilt the list and closed the year with a strong Russell Group university. We show this honestly: reaching interview is a preparation result; the interview itself is a competition."
+      },
+      {
+       "title": "Fifteen applications over the holidays.",
+       "html": "A family arrived during the Christmas break; within two weeks about fifteen applications were filed. An extreme timeline — but it shows what a controlled process can compress."
+      },
+      {
+       "title": "Five offers, one turn in August.",
+       "html": "Offers from all five universities on the list — then plans changed in August. The strategy was rebuilt after results; the strong option was preserved."
+      }
+     ]
     },
     {
      "type": "h2",
      "text": "Guardianship"
     },
     {
-     "type": "p",
-     "html": "<strong>Ninety conduct marks — and one missing question.</strong> A pupil was accumulating disciplinary notes; the school recorded symptoms. We asked why, arranged specialist assessment, and the school received a support plan instead of sanctions."
-    },
-    {
-     "type": "p",
-     "html": "<strong>The fracture the nurse did not see.</strong> A child's pain was dismissed by the school. We insisted on an independent examination — a fracture. A guardian stands on the child's side when the system is in a hurry."
-    },
-    {
-     "type": "p",
-     "html": "<strong>A school place under threat — turned around.</strong> A first term of academic and behavioural problems put a school place in doubt. Assessment, a specialist plan, coordination with the school. A year on: steady progress, and the family is looking at stronger sixth forms."
+     "type": "cases",
+     "items": [
+      {
+       "title": "Ninety conduct marks — and one missing question.",
+       "html": "A pupil was accumulating disciplinary notes; the school recorded symptoms. We asked why, arranged specialist assessment, and the school received a support plan instead of sanctions."
+      },
+      {
+       "title": "The fracture the nurse did not see.",
+       "html": "A child's pain was dismissed by the school. We insisted on an independent examination — a fracture. A guardian stands on the child's side when the system is in a hurry."
+      },
+      {
+       "title": "A school place under threat — turned around.",
+       "html": "A first term of academic and behavioural problems put a school place in doubt. Assessment, a specialist plan, coordination with the school. A year on: steady progress, and the family is looking at stronger sixth forms."
+      }
+     ]
     },
     {
      "type": "h2",
      "text": "Executive education"
     },
     {
-     "type": "p",
-     "html": "<strong>10+ clients to Saïd in one year.</strong> Oxford MBAs, EMBAs and executive diplomas — the largest single-school track in our practice."
-    },
-    {
-     "type": "p",
-     "html": "<strong>A pivot, not a continuation.</strong> A client asked for &quot;an MBA&quot;; diagnostics showed the real goal was an industry change. A management master's was the better instrument — shorter, cheaper, correctly read by employers."
+     "type": "cases",
+     "items": [
+      {
+       "title": "10+ clients to Saïd in one year.",
+       "html": "Oxford MBAs, EMBAs and executive diplomas — the largest single-school track in our practice."
+      },
+      {
+       "title": "A pivot, not a continuation.",
+       "html": "A client asked for &quot;an MBA&quot;; diagnostics showed the real goal was an industry change. A management master's was the better instrument — shorter, cheaper, correctly read by employers."
+      }
+     ]
     },
     {
      "type": "hr"

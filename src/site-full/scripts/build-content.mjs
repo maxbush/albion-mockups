@@ -217,8 +217,16 @@ function parseBlocks(md, page) {
     }
     const html = inline(parts.join(" "), todos);
     if (html.trim()) {
+      const caseM = /kejsy|cases|otzyvy|reviews/.test(page?.url || "")
+        ? html.trim().match(/^<strong>([^<]+)<\/strong>\s+([\s\S]+)$/)
+        : null;
+      if (caseM) {
+        const last = blocks[blocks.length - 1];
+        if (last && last.type === "cases") last.items.push({ title: caseM[1], html: caseM[2] });
+        else blocks.push({ type: "cases", items: [{ title: caseM[1], html: caseM[2] }] });
+      }
       // standalone bold paragraph → stat line
-      if (/^<strong>.*<\/strong>$/.test(html.trim())) blocks.push({ type: "stat", html });
+      else if (/^<strong>.*<\/strong>$/.test(html.trim())) blocks.push({ type: "stat", html });
       else blocks.push({ type: expectLead ? "lead" : "p", html });
       expectLead = false;
     }

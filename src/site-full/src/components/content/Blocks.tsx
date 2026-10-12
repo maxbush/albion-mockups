@@ -100,6 +100,17 @@ export function BlockGroup({ blocks, idPrefix = "s" }: { blocks: Block[]; idPref
                 ))}
               </ul>
             );
+          case "cases":
+            return (
+              <div key={i} className="mt-7 grid gap-4 sm:grid-cols-2">
+                {b.items.map((c, j) => (
+                  <div key={j} className="border border-ink-2/12 bg-white/40 p-5 sm:p-6">
+                    <p className="font-display text-[19px] leading-[1.25] font-normal text-ink-2">{c.title}</p>
+                    <p className="mt-3 text-[14.5px] leading-[1.65] text-ink-2/80" dangerouslySetInnerHTML={html(c.html)} />
+                  </div>
+                ))}
+              </div>
+            );
           case "table":
             return (
               <div key={i} className="mt-7 overflow-x-auto">
