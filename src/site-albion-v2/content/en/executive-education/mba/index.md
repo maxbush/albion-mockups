@@ -28,7 +28,7 @@ The formats differ in what happens to your job while you study and in who sits n
 
 A **full-time MBA** means a pause in your career. It suits anyone switching sector, function or country, and it is the format in which the alumni community and the school's academic model count for most.
 
-An **accelerated MBA** compresses the course into a shorter period. It is meant for candidates with substantial experience who cannot justify a long break, and the programme is denser as a result.
+An **accelerated MBA** compresses the course into a shorter period. It is meant for candidates with substantial experience who cannot justify a long break. The course covers its content in less time, so each week carries more.
 
 An **Executive MBA** is built around the working manager. Study runs alongside your post, and the cohort is made up of people who already lead. If you are looking for a part-time MBA at senior level, this is probably the format you have in mind. The Oxford version has its own page: [Oxford Executive MBA](/executive-education/mba/oxford-executive-mba/).
 
@@ -53,7 +53,7 @@ The mix depends on the programme. A typical file includes:
 5. A test, if the programme asks for one. The GMAT or GRE may be a separate stage, prepared with university-level mathematics and English teachers.
 6. Submission, deadline control and interview preparation.
 
-ALBION's team prepares every document, and you approve each one. How the team is organised is described under [executive education](/executive-education/). If you are comparing several kinds of programme, the page on [management programmes](/executive-education/management-programmes/) explains how masters, diplomas and short courses differ from the MBA.
+Our team prepares every document, and you approve each one. How the team is organised is described under [executive education](/executive-education/). If you are comparing several kinds of programme, the page on [management programmes](/executive-education/management-programmes/) explains how masters, diplomas and short courses differ from the MBA.
 
 ## Questions and answers
 

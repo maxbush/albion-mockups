@@ -10,7 +10,7 @@ publish: true
 
 # US university admissions
 
-An American admissions office reads a good deal more than grades. ALBION, an Oxford-based consultancy, guides candidates to Ivy League and other American universities, from choosing where to apply and sequencing the submissions to the personal essays each university asks for. The page is written for families comparing the US with the UK, and for adults looking at graduate and business programmes across the Atlantic.
+An American admissions office reads a good deal more than grades. ALBION, an Oxford-based consultancy, guides candidates to Ivy League and other American universities, from choosing where to apply and sequencing the submissions to the personal essays each university asks for. Our US clients are families comparing the US with the UK, and adults looking at graduate and business programmes across the Atlantic.
 
 ## What a US file contains
 

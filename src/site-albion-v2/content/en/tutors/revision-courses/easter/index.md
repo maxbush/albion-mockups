@@ -26,7 +26,7 @@ Every lost mark is given a cause: a gap in knowledge, a slip in calculation, a m
 
 ## Who it suits, and who should wait
 
-A course suits a student who knows the content but sees gaps in mock results: answers that run out of time, marks lost on wording though the topic is understood, errors that repeat from paper to paper. It also suits a candidate sitting British exams outside a UK school who wants to test preparation against exam board format.
+A course suits a student who knows the content but sees gaps in mock results. These show up as answers that run out of time, marks lost on wording though the topic is understood, and errors that repeat from paper to paper. It also suits a candidate sitting British exams outside a UK school who wants to test preparation against exam board format.
 
 It suits a student less when the basics of a subject are missing and the exam is weeks away. A holiday course cannot rebuild a syllabus. After the diagnosis we say so, and suggest either regular lessons with an [A-Level tutor](/tutors/a-level/) or a [GCSE tutor](/tutors/gcse/), or a narrower aim for the course.
 
@@ -36,7 +36,7 @@ Subjects and exam boards are confirmed when a place is booked, and the final lis
 
 Dates are published once they are confirmed, and we do not quote provisional ones. A family that needs a course in the coming holidays can start with the [short form](/apply/), which asks for year group, subjects, exam board and preferred timing. We reply with the options that are open.
 
-## Fees
+## What the Easter course costs
 
 The price of a course depends on its format, the number of hours and the level of tutor, and we give it after a first conversation, once the right programme is clear. For orientation, lessons with an academic tutor start at £65 an hour. The [prices page](/prices/) sets out the other levels.
 

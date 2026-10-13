@@ -10,7 +10,7 @@ publish: true
 
 # Results and figures
 
-Every figure on this page describes past years. None is a forecast, and none is a promise to the next family: a place or an offer comes from the school or university, not from the consultant. Each number appears once, with a note on what it leaves out.
+96% of ALBION pupils are placed at the school they chose. That figure and the others describe past years. None is a forecast or a promise to the next family, because a place or an offer comes from the school or university, not from the consultant.
 
 ## How much weight the numbers can bear
 
@@ -24,7 +24,7 @@ Oxbridge is counted separately: 3 in 4 of the students ALBION works with are inv
 
 ## Schools
 
-96% of ALBION pupils are placed at the school they chose. It does not mean every child received a first choice without complication. The stories listed below include a waiting list and an outcome that differed from the original aim. Nor does it promise anything to the next child, since nobody can predict how an application will fare in a given year.
+The 96% does not mean every child received a first choice without complication. The stories listed below include a waiting list and an outcome that differed from the original aim. Nor does it promise anything to the next child, since nobody can predict how an application will fare in a given year.
 
 ## Adult clients
 

@@ -10,7 +10,7 @@ publish: true
 
 # University Admissions Test Preparation: LNAT, TMUA, MAT, UCAT, GMAT and GRE
 
-Strong grades do not always settle an application. University admissions tests in the UK are tied to particular courses: for law, mathematics, economics, medicine and a number of others, the university asks for a separate test, and at some programmes the score helps decide who is invited to interview. ALBION prepares applicants for LNAT, TARA, TMUA, MAT and TSA, for SAT, and for GMAT and GRE at postgraduate level. Our tutors teach the test. Our consultants decide which test is needed, by when, and how it fits the rest of the file.
+Strong grades do not always settle an application. University admissions tests in the UK are tied to particular courses. For law, mathematics, economics, medicine and a number of others, the university asks for a separate test, and at some programmes the score helps decide who is invited to interview. ALBION prepares applicants for LNAT, TARA, TMUA, MAT and TSA, for SAT, and for GMAT and GRE at postgraduate level. Our tutors teach the test. Our consultants decide which test is needed, by when, and how it fits the rest of the file.
 
 ## Working back from the deadline
 
@@ -26,7 +26,7 @@ Test requirements change from year to year, so treat what follows as a map and n
 
 ### Law and reasoning: LNAT, TARA and TSA
 
-LNAT is used for law at Oxford and a number of other UK universities. It has two parts, verbal reasoning and an argumentative essay, and each calls for a different technique, so LNAT preparation treats them separately, and an LNAT tutor works on the verbal section and the essay in turn.
+LNAT is used for law at Oxford and a number of other UK universities. It has two parts, verbal reasoning and an argumentative essay, and each calls for a different technique. LNAT preparation therefore treats them separately, and an LNAT tutor works on the verbal section and the essay in turn.
 
 The TARA admissions test and the TSA are the thinking and reasoning tests used by Oxford and Cambridge on some courses. Their names, and the courses that use them, have changed in recent years, so we confirm them against the college or faculty for your year of entry. TARA test preparation follows the same pattern as the rest: past papers under time, then a review of every error.
 

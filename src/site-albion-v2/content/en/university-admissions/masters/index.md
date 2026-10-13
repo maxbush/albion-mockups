@@ -62,7 +62,7 @@ Start with the programmes, not the writing. A statement drafted before you know 
 
 ## Where our service stops
 
-ALBION cannot promise an offer, because the decision is the university's. If your profile falls short of the programmes you had in mind, you will hear it from us, along with alternatives: a different programme, a year to strengthen the profile, a further course or a test.
+ALBION cannot promise an offer, because the decision is the university's. If your profile falls short of the programmes you had in mind, you will hear it from us. Alternatives follow: a different programme, a year to strengthen the profile, a further course or a test.
 
 ## Questions and answers
 

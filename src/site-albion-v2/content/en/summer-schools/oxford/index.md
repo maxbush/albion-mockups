@@ -10,7 +10,7 @@ publish: true
 
 # Oxford Summer Schools and Academic Programmes
 
-ALBION is based in Oxford, so families often ask about summer courses in the city. One type we can describe with confidence: day camps for children aged 6 to 12. For academic Oxford summer schools for high school students, held in the university's colleges, we hold no verified details, and this page gives no names, dates or fees for them. It sets out what to check before you book anything, and what we can show you now.
+The Oxford summer programmes we can describe with confidence are day camps for children aged 6 to 12, run by Ultimate Activity Camps in two independent schools. For academic Oxford summer schools for high school students, held in the university's colleges, we hold no verified details. That is why there are no names, dates or fees for them here. For teenagers, the nearest options we can verify are in other cities.
 
 ## Oxford summer term dates and summer programme dates
 
@@ -26,9 +26,9 @@ The 2024 materials give Chandlings five weeks, from 22 July to 23 August, and He
 
 ## Oxford summer courses for high school students
 
-The provider files we hold for 2025 and 2026 list no Oxford summer school for ages 13 to 18, meaning no academic programme held in Oxford itself. The nearest options we can verify are elsewhere: Dukes Cambridge for ages 14 to 17, InvestIN career programmes on the UCL and LSE campuses for 15 to 18, and Earlscliffe in Kent for 13 to 17. Ages, content and fees are set out on the main summer schools page.
+The provider files we hold for 2025 and 2026 list no Oxford summer school for ages 13 to 18, meaning no academic programme held in Oxford itself. The nearest options we can verify are elsewhere. Dukes Cambridge is for ages 14 to 17, InvestIN career programmes on the UCL and LSE campuses for 15 to 18, and Earlscliffe in Kent for 13 to 17. Ages, content and fees are set out on the main summer schools page.
 
-A programme billed as a University of Oxford summer school may be run by the university itself or by an independent provider that hires its rooms, and the name alone does not tell you which. Ask who the organiser is first. Courses in any university city differ more than their websites suggest, so before paying a deposit on an Oxford summer course, ask:
+A programme billed as a University of Oxford summer school may be run by the university itself, or by an independent provider that hires its rooms. The name alone does not tell you which, so ask who the organiser is first. Courses in any university city differ more than their websites suggest. Before paying a deposit on an Oxford summer course, put five questions to the organiser.
 
 - who teaches, and how many hours a week are lessons;
 - where the children sleep, and who is responsible for them outside lessons;
@@ -38,13 +38,13 @@ A programme billed as a University of Oxford summer school may be run by the uni
 
 ## If Oxford or Cambridge is the goal
 
-For candidates aiming at Oxford or Cambridge, ALBION recommends summer schools, lectures and masterclasses chosen around the subject, not an Oxford course for its own sake. The test is whether the experience leaves your child something to read, write about and discuss at interview. A paid summer school is not an admission requirement. If you start early, this can be built alongside [Oxbridge preparation](/university-admissions/oxbridge/).
+For candidates aiming at Oxford or Cambridge, we recommend summer schools, lectures and masterclasses chosen around the subject, not an Oxford course for its own sake. The test is whether the experience leaves your child something to read, write about and discuss at interview. A paid summer school is not an admission requirement. If you start early, this can be built alongside [Oxbridge preparation](/university-admissions/oxbridge/).
 
 ## Questions and answers
 
 ### Does ALBION run its own summer school in Oxford?
 
-Not in the materials we hold. ALBION matches children to provider programmes and helps with the choice, while the provider runs the programme and the accommodation.
+Not in the materials we hold. We match children to provider programmes and help with the choice, while the provider runs the programme and the accommodation.
 
 ### Can my 15-year-old take an academic course in Oxford this summer?
 

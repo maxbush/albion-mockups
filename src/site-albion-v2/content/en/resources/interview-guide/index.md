@@ -10,7 +10,7 @@ publish: true
 
 # Guide to the Admissions Interview
 
-An interview is the part of admissions where the paperwork stops and a person has to speak. Schools use it to meet the child. Oxford and Cambridge use it to hear how a candidate thinks about a subject. The two conversations are quite different, and so is the preparation. This guide covers both, along with a habit that helps in each: being able to say aloud, with ease, what you have already written down.
+An interview is the part of admissions where the paperwork stops and a person has to speak. Schools use it to meet the child. Oxford and Cambridge use it to hear how a candidate thinks about a subject. The two conversations are quite different, and so is the preparation. One habit helps in both: being able to say aloud, with ease, what you have already written down.
 
 Interview procedures vary from school to school and change between admissions cycles. We describe what is established and avoid format details that cannot be confirmed here, so check each school's or college's own guidance for your year.
 

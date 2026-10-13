@@ -10,7 +10,7 @@ publish: true
 
 # Resources
 
-This section holds three guides we wrote for families who are working out how British admissions fit together. Each is a full article, read on the page, and each links on to the pages where the detail sits.
+We wrote three guides for families who are working out how British admissions fit together. Each is a full article, read on the page, and each links on to the pages where the detail sits.
 
 ## The guides
 
@@ -26,6 +26,6 @@ The guides describe the system as it stood when we last checked them. Exam rules
 
 ## If you would like to talk it through
 
-A guide cannot tell you which of these routes suits your child. If you would like a person to look at the age, the current school and the timetable with you, tell us about the situation in the form, and we will invite you to an initial consultation.
+A guide cannot tell you which of these routes suits your child. If you would like a person to look at the age, the current school and the timetable with you, tell us about the situation in the form. We will then invite you to an initial consultation.
 
 [Tell us about your child in the form](/apply/)

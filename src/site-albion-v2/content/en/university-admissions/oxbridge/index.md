@@ -10,7 +10,7 @@ publish: true
 
 # Oxbridge Admissions Support
 
-The two Oxbridge universities ask for more than other UK universities do: a single choice between them, an earlier deadline, an admissions test on many courses and an interview in December. How to get into Oxford University or Cambridge is partly a question of preparation, and our Oxbridge application support is built around a personal mentor, who stays with the application from the first assessment of competitiveness to the decision on offers. The page is for students with a strong academic profile, and for parents who want an unvarnished view of how that profile compares.
+The two Oxbridge universities ask for more than other UK universities do: a single choice between them, an earlier deadline, an admissions test on many courses and an interview in December. How to get into Oxford University or Cambridge is partly a question of preparation. Our Oxbridge application support is built around a personal mentor, who stays with the application from the first assessment of competitiveness to the decision on offers. It suits students with a strong academic profile, and parents who want an unvarnished view of how that profile compares.
 
 ## Who reads the application
 

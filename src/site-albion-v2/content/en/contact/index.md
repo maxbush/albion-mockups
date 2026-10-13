@@ -10,7 +10,7 @@ publish: true
 
 # Contact ALBION
 
-ALBION is based in Oxford and works with families and adults in many countries, so email is usually the simplest first step.
+ALBION is based in Oxford and works with families and adults in many countries.
 
 ## Where to find us
 
@@ -24,7 +24,7 @@ For anything that is not urgent, an email is easier to fit around different time
 
 ## What to put in a first message
 
-Four details are enough: what you want to achieve (school, university, master's or MBA, tutoring), your child's age and school year or, for an adult, current work and education, the timing you have in mind, and the country you live in. With those, a consultant can reply to the point.
+Four details are enough. Say what you want to achieve (school, university, master's or MBA, tutoring) and the timing you have in mind. Add your child's age and school year or, for an adult, current work and education, together with the country you live in. With those, a consultant can reply to the point.
 
 If you would like an initial consultation, the form is the faster route: it asks the same questions and adds an approximate budget and your preferred way to be contacted. Published fees, and what they depend on, are on the [prices page](/prices/).
 

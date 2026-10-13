@@ -10,11 +10,11 @@ publish: true
 
 # Parents' Guide to British Schools
 
-A British school application is easiest to follow if you read it backwards from the date your child will start. That date fixes the entry point, the entry point fixes the tests, and the tests fix when preparation has to begin. This guide works through that chain, then looks at the practical choices (boarding or day, guardian, cost), who decides what, and the mistakes we see families make most often. It is written for parents who are new to the system and for those who have already read a dozen school websites and want to check their understanding.
+A British school application is easiest to follow if you read it backwards from the date your child will start. That date fixes the entry point, the entry point fixes the tests, and the tests fix when preparation has to begin. From there the guide turns to the practical choices (boarding or day, guardian, cost), who decides what, and the mistakes we see families make most often. It is written for parents who are new to the system and for those who have already read a dozen school websites and want to check their understanding.
 
 ## Start with the entry point
 
-Independent schools admit children at fixed ages, and the labels on school websites (7+, 11+, 13+, 16+) are simply the age at which a child joins. Each point has its own tests and its own level of competition.
+Independent schools admit children at fixed ages, and the labels on school websites (7+, 11+, 13+, 16+) are simply the age at which a child joins. The tests and the competition differ at each of them.
 
 | Joining at | Year group | Kind of school | A question that tends to come up |
 |---|---|---|---|
@@ -23,7 +23,7 @@ Independent schools admit children at fixed ages, and the labels on school websi
 | 13+ | Year 9 | Senior school | A school that runs to eighteen, or a further change at sixteen? |
 | 16+ | Year 12 | Sixth form | Which A-Level or IB subjects? The school tests readiness for those and no others. |
 
-Miss one point and the child is not out of the system, but the route changes. Which tests belong to which point is set out in our [entrance tests guide](/resources/entrance-tests-guide/), and school by school on the page about [11+, 13+ and 16+ entrance exams](/private-schools/entrance-exams/).
+A missed entry point does not close the system to a child, though it does change the route. Which tests belong to which point is set out in our [entrance tests guide](/resources/entrance-tests-guide/), and school by school on the page about [11+, 13+ and 16+ entrance exams](/private-schools/entrance-exams/).
 
 ## What the stages mean
 
@@ -33,7 +33,7 @@ A prep school takes children from about seven or eight to thirteen. A senior sch
 
 ## Where the child sleeps
 
-A day school assumes you live within reach: in London, in the counties around it, or in a place you are willing to move to. Boarding suits families based overseas, and teenagers who want a full school community. Weekly boarding (at school during the week, home at weekends) and flexi boarding (individual nights) sit between the two.
+A day school assumes you live within reach: in London, in the counties around it, or in a place you are willing to move to. Boarding suits families based overseas, and teenagers who want a full school community. Between the two sit weekly boarding, where the child is at school during the week, and flexi boarding, where nights are taken as needed.
 
 Neither format is better in the abstract. A nine-year-old and a sixteen-year-old will answer the question differently, and so will two children of the same age. Our pages on [boarding schools](/private-schools/boarding/) and [day schools](/private-schools/day-schools/) describe what each involves, including the cases where it goes badly.
 
@@ -43,7 +43,7 @@ One point is not optional. If the child is under 18 and the parents live abroad,
 
 You decide the format, the city, the budget, how many schools to apply to, and whether the child is ready. You also decide whether to apply at all, and the child's own wishes ought to count for a great deal.
 
-The school decides which tests it uses, what counts as a good result, whom it invites to interview and whom it offers a place. It decides, too, whom it will accept as a guardian. No consultant sits in that room. ALBION acts for no school and takes no commission from any, so a shortlist reflects the child and not a partner network. Of our pupils, 96% receive a place at the school they chose, and that is a record, not a promise.
+The school decides which tests it uses, what counts as a good result, whom it invites to interview and whom it offers a place. It decides, too, whom it will accept as a guardian. No consultant sits in that room. ALBION acts for no school and takes no commission from any, so a shortlist reflects the child and not a partner network. In 96% of cases our pupils have been placed at their chosen school. That describes the past and promises nothing to your child.
 
 ## The route, in the order that works
 
@@ -51,7 +51,7 @@ The sequence matters more than the pace, because each stage feeds the next.
 
 First, an assessment. Before anyone looks at schools, someone needs to establish how the child compares with British pupils of the same age, and English is checked first so that language does not distort the other subjects. At ALBION, teachers do this on past papers, as described on our [academic assessment](/assessment/) page.
 
-Second, a shortlist. We start from up to ten schools, each with reasons, and narrow it with the family to five for applications. The aim is a spread of selectivity, not five of the same.
+Second, a shortlist. The working list can run to ten schools, and each has a stated reason for being there. Together with the family it is cut to five applications. The aim is a spread of selectivity, not five of the same.
 
 Third, the tests, which depend on school and entry point. Some are online, some in person, and some schools set their own papers. Fourth, interviews, which many schools hold with the child and some with the parents as well. Fifth, the decision: an offer, a waiting-list place or a refusal, followed by registration and paperwork. Last, the guardian and the move itself, which overseas families should settle before term, and preferably before accepting a place.
 
@@ -67,7 +67,7 @@ Looking for a guardian after the offer. The school has views on who is acceptabl
 
 Underrating English. A strong pupil at a local school abroad can still misread a question because of the language. It can be put right, but it takes months, and it is better found in an assessment than in the test hall.
 
-Counting only the termly fee. Registration and exam fees, travel and holidays come on top, and a London day school adds housing and the daily commute. The ranges we know of are on our page about [private schools in the UK](/private-schools/).
+Counting only the termly fee. Beyond it lie registration, exams, travel and holidays, plus housing and the daily trip in if the school is a London day school. The ranges we know of are on our page about [private schools in the UK](/private-schools/).
 
 Working from last year's calendar. Registration windows and tests move, and every school keeps its own.
 
@@ -75,9 +75,9 @@ Choosing boarding for a child who does not want it. Boarding does not fix diffic
 
 ## Four facts to gather first
 
-Before you contact anyone, write down the child's age and current year, the entry year you have in mind, where the family lives, and the language the child is taught in now. Our working figure is one to two years before the entry year, which leaves room for assessment, tests, visits and applications. Less time does not close the route, but the shortlist is built differently.
+Before you contact anyone, write down the child's age and current year, the entry year you have in mind, where the family lives, and the language the child is taught in now. We suggest starting a year or two ahead of the entry year, which leaves room for assessment, tests, visits and applications. Less time does not close the route, but the shortlist is built differently.
 
-If you live in the UK, your child is already in the British system and you want a local prep school with modest competition, you can do much of this yourself, because schools publish their requirements. Advice earns its fee when the child has studied abroad and not sat British tests, when time is short, or when the list mixes very different schools.
+Much of this can be done alone if your child already attends a British school and the target is a local prep school without fierce competition, since schools publish their requirements. In other cases advice earns its fee, and the page on [private schools in the UK](/private-schools/) sets out which cases those are.
 
 [Describe your family's situation in the form](/apply/)
 
@@ -91,9 +91,9 @@ They are a starting point and a poor finishing one. Tables chiefly reflect how s
 
 Yes, and international families do so every year. The assessment shows the level against British pupils, and the tests are chosen from there. Some schools accept UKiset, which is designed for pupils outside the British system, while others ask for their own online tasks.
 
-### What costs come on top of the termly fee?
+### What does a place cost beyond the termly fee?
 
-A registration fee and exam fees, plus travel and holidays for boarders, and housing and commuting for a London day school. Each school gives its own full list and its final figure.
+Registration and exam fees come first, then travel and holidays for boarders. Each school gives its own full list and its final figure.
 
 ### Do we need a consultant, or can we manage alone?
 
@@ -101,8 +101,8 @@ If you live in the UK and want a local school with modest competition, you proba
 
 ### What happens if my child is not offered a place?
 
-That is why the list holds several schools. If the result is not what you hoped for, the options are another school, another entry point or a year of further preparation. No adviser can promise an offer, because each school makes its own decision.
+That is why the list holds several schools. If the result is not what you hoped for, the options are another school, another entry point or a year of further preparation. No adviser can promise an offer, since the decision belongs to the school.
 
 ### Does my child need a guardian?
 
-If the parents live abroad and the child is under 18, a British school will ask for an official guardian, who is responsible for health, welfare and holidays. [Guardianship](/private-schools/guardianship/) at ALBION is limited and goes mainly to pupils whose admission we handled.
+If the parents live abroad and the child is under 18, the school will require an official guardian, who is responsible for health, welfare and holidays. [Guardianship](/private-schools/guardianship/) at ALBION is limited and goes mainly to pupils whose admission we handled.

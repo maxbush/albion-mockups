@@ -20,7 +20,7 @@ More than 150 tutors work with the company from different time zones, and betwee
 - [A-Level tutors](/tutors/a-level/): choosing subjects with a degree in mind, predicted grades and exam preparation.
 - [IB tutors](/tutors/ib/): the Diploma Programme, Extended Essay, TOK and CAS.
 - [Revision courses](/tutors/revision-courses/): structured holiday preparation before exam season, including [Easter revision](/tutors/revision-courses/easter/).
-- [Homeschooling with ALBION tutors](/tutors/homeschooling/): for a child studying outside a school, with the whole timetable built around academic and non-academic needs.
+- [Homeschooling with our tutors](/tutors/homeschooling/): for a child studying outside a school, with the whole timetable built around academic and non-academic needs.
 
 If the target is a place rather than a grade, see [entrance exams for 11+, 13+ and 16+](/private-schools/entrance-exams/) and [university admissions tests](/university-admissions/admissions-tests/).
 
@@ -64,9 +64,9 @@ All figures are per hour. The level is settled with you, weighing the goal, how 
 
 Where lessons belong to an admissions plan, the consultant can see how they are going, and the tutor knows which school or course the pupil is aiming for and what the exam will look like. A change of plan then takes one conversation, not two companies.
 
-A boy at an international school abroad was due to move to a British boarding school in Year 10. By the time his family came to ALBION the usual application window had closed, his English was still developing and several subjects had gaps. Instead of a rushed application, the consultants proposed nearly a year of lessons with ALBION tutors in English, maths and the sciences. Applications then went to selective schools outside the normal cycle.
+A boy at an international school abroad was due to move to a British boarding school in Year 10. By the time his family came to ALBION the usual application window had closed, his English was still developing and several subjects had gaps. Instead of a rushed application, the consultants proposed nearly a year of lessons with our tutors in English, maths and the sciences. Applications then went to selective schools outside the normal cycle.
 
-His family's first-choice school declined Year 10, so ALBION asked it to consider Year 9 instead, which suited a pupil still adjusting to a new language and system. It agreed. He did not get the Year 10 entry the family had asked for, but he took the place and gained a year to build a solid foundation.
+His family's first-choice school declined Year 10, so the consultants asked it to consider Year 9 instead, which suited a pupil still adjusting to a new language and system. It agreed. He did not get the Year 10 entry the family had asked for, but he took the place and gained a year to build a solid foundation.
 
 ## What tutoring will not solve
 
@@ -96,7 +96,7 @@ Your child's age or year group, the current school or country, the nearest exam 
 
 ### Can you promise a particular grade?
 
-No. ALBION is accountable for the diagnostic, the tutor match and the plan. Final results depend on the starting point, the time available and the pupil's own work, none of which we control.
+No. We are accountable for the diagnostic, the tutor match and the plan. Final results depend on the starting point, the time available and the pupil's own work, none of which we control.
 
 ### Do you teach adults?
 

@@ -16,7 +16,7 @@ A doctorate means several years of supervision and funding, and the people readi
 
 Admissions decisions on PhD programmes rest on three factors: risk, fit with the department's research, and the potential for funding. A committee turns these into three questions. How coherent is this candidate's research path so far? Can a supervisor realistically be found for the proposed topic? Are years of financial commitment to this person justified?
 
-A good idea fails if nobody in the department can supervise it. A suitable supervisor will not rescue an application that offers no thread from past study to future research. Everything below is arranged to answer all three questions before anything is submitted.
+A good idea fails if nobody in the department can supervise it. A suitable supervisor will not rescue an application that offers no thread from past study to future research. The work is arranged to answer all three questions before anything is submitted.
 
 ## How an application is prepared
 

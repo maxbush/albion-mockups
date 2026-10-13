@@ -14,7 +14,7 @@ Management programmes differ in length, academic standing and the way applicants
 
 ## What we prepare
 
-Once your profile has been reviewed, ALBION prepares the CV in the form each school expects, along with motivation statements and essays. References are part of the work: the choice of referees and letters written in an academic register. Where a programme requires the GMAT or GRE, university-level mathematics and English teachers prepare you for it. Interview rehearsal and control of submission dates complete the list.
+Once your profile has been reviewed, we prepare the CV in the form each school expects, along with motivation statements and essays. References are part of the work: the choice of referees and letters written in an academic register. Where a programme requires the GMAT or GRE, university-level mathematics and English teachers prepare you for it. Interview rehearsal and control of submission dates complete the list.
 
 The people behind this are introduced on the [team page](/team/), and figures for adult clients are on the [results page](/about/results/).
 
@@ -30,7 +30,7 @@ The people behind this are introduced on the [team page](/team/), and figures fo
 
 **Short executive and leadership programmes.** These last weeks, yet the cohort and the way discussion is run matter just as much. The analysis before applying is hardly smaller.
 
-## What counts as one programme
+## One programme, one application
 
 One programme means one application that needs its own documents and its own argument. The Executive MBA and the Saïd MBA, for instance, are two, even where the school is the same. Three is the ceiling for one engagement: past that point the applications begin to contradict each other, and the time you have for approving documents runs out before the submission window closes. A long list is therefore cut down at the very start.
 
@@ -60,6 +60,6 @@ When the format and the cohort suit your task, they can be. Choosing one takes t
 
 ### Who writes the essays?
 
-ALBION's writers and editors prepare the texts in constant dialogue with you. The material, the biographical detail and the voice are yours, and you approve the final version.
+Our writers and editors prepare the texts in constant dialogue with you. The material, the biographical detail and the voice are yours, and you approve the final version.
 
 [Check which format fits you](/apply/)

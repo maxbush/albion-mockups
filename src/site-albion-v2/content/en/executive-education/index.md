@@ -37,7 +37,7 @@ A short course does not mean short preparation. The cohort and the style of disc
 
 Work begins with your profile: management level, scale of responsibility, the direction your career has taken and where you want it to go. That analysis produces the list of programmes and one line of argument for each, consistent across all of them. The committee then reads a single coherent set of documents, not a pile of unrelated texts.
 
-ALBION drafts the CV, motivation statements, essays and references, and you approve every document and every decision before anything is sent. Deadlines, submission and interview rehearsal stay with us. This is the full-service format: analysis, strategy and drafting run as one process, from the first review to the final choice.
+We draft the CV, motivation statements, essays and references, and you approve every document and every decision before anything is sent. Deadlines, submission and interview rehearsal stay with us. Analysis, strategy and drafting run as one process, from the first review to the final choice.
 
 The method behind the profile review comes from Anfisa Bashkirova, a co-founder of ALBION. She is a Saïd graduate and works with the school as an alumni representative in candidate recruitment. The method sorts your managerial experience into strengths and gaps and sets it against the academic model of a particular programme. How that looks for degree courses is described under [MBA admissions](/executive-education/mba/).
 

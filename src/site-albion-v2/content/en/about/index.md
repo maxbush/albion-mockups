@@ -10,7 +10,7 @@ publish: true
 
 # About ALBION
 
-ALBION is an education consultancy based in Oxford. Since 2010 it has advised families on British schools and universities, and has guided adult clients towards postgraduate and executive programmes. The company's motto is "More than consultancy", and the sections below try to say what that means in practice.
+ALBION is an Oxford consultancy that has advised families on British schools and universities since 2010, and has guided adult clients towards postgraduate and executive programmes. Its motto is "More than consultancy". The evidence for it is practical: who pays for the advice, how the team is organised, and what a family never has to explain.
 
 ## Working from Oxford
 
@@ -24,13 +24,13 @@ Many clients are international families, and the team speaks their language in b
 
 Families often meet these two roles in different companies: one writes the admissions plan, another teaches the child. At ALBION they work side by side. If the shortlist or the timetable changes, the tutor preparing a child for ISEB, UKiset, CAT4, LNAT or TARA hears at once, and the lessons follow the plan. The 150+ tutors work across time zones, and each one has been chosen personally by Jonathan Mintram.
 
-Guardianship belongs to the same structure. It is offered mainly to pupils whose admission the team handled, and places are limited because the consultant stays closely involved. ALBION does not market it as a mass service, and the [guardianship page](/private-schools/guardianship/) has the detail.
+Guardianship belongs to the same structure. It is offered mainly to pupils whose admission the team handled, and places are limited because the consultant stays closely involved. We do not market it as a mass service, and the [guardianship page](/private-schools/guardianship/) has the detail.
 
 ## Who pays for the advice
 
-Families pay ALBION. Schools and universities do not, and no commission comes from either. A shortlist is therefore built around the pupil or candidate: where the application is competitive, and where the person is likely to do well once there.
+Families pay us. Schools and universities do not, and no commission comes from either. A shortlist is therefore built around the pupil or candidate: where the application is competitive, and where the person is likely to do well once there.
 
-The same logic governs the choice of course. A university is a tool for a career and a life, not a destination, so each course is judged by where the student is likely to stand in ten years rather than three or four. One limit follows from this. ALBION advises, and the offer of a place is made by the school or the university.
+The same logic governs the choice of course. A university is a tool for a career and a life, not a destination, so each course is judged by where the student is likely to stand in ten years rather than three or four. One limit follows from this. We advise, and the offer of a place is made by the school or the university.
 
 ## How a case is approached
 

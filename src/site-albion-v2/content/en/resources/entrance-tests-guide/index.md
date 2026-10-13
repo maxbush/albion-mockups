@@ -10,9 +10,9 @@ publish: true
 
 # Guide to Entrance Tests for UK Schools and Universities
 
-Parents and applicants often ask for a list of the tests their child or they must sit. A list would be easy to write and would soon be wrong, because the answer depends on three things: the school or course, the year of entry, and where the candidate is studying now. This guide explains what the main tests are for and how to work out which ones apply. It covers school tests first, then the university tests that are tied to particular courses, and ends with preparation and the limits of what a test can tell anyone.
+Parents and applicants often ask for a list of the tests their child or they must sit. A list would be easy to write and would soon be wrong, because the answer depends on three things: the school or course, the year of entry, and where the candidate is studying now. Each of the main tests has a purpose, and the real task is working out which of them apply to you. School tests come first, then the university tests tied to particular courses, and last come preparation and the limits of what a test can tell anyone.
 
-Requirements change, and test names and rules do so from cycle to cycle. Treat this page as a map of the ground, and check the school's or university's own requirements for your year before you register for anything.
+Requirements change, and test names and rules do so from cycle to cycle. Treat what follows as a map of the ground, and check the school's or university's own requirements for your year before you register for anything.
 
 ## School tests: what each one measures
 
@@ -21,17 +21,17 @@ For admission to an independent school, no single exam applies everywhere. Schoo
 | Test | What it looks at | Can you prepare for it? |
 |---|---|---|
 | ISEB Pre-Test | English, maths, verbal and non-verbal reasoning, online and adaptive, with the score standardised for age | Yes, up to a point: ISEB publishes material for families, and practice mostly removes surprise and builds pace |
-| CAT4 | Verbal, non-verbal, quantitative and spatial reasoning | Not like a syllabus, but the format can be met in advance |
+| CAT4 | Four areas of reasoning: verbal, non-verbal, numerical and spatial | Not as a subject, though it helps to see the format beforehand |
 | CEM Select, Quest | Reasoning and academic skills, requested by individual schools | The school says which applies |
 | Common Entrance, set by ISEB | Subjects that the school specifies, at 11+ or 13+ | Yes, from the school's own list of subjects |
-| UKiset | Academic potential and English, set against British pupils of the same age | Mostly through English and familiarity with the online format |
+| UKiset | Academic potential and English, measured against British peers | Mostly through English and familiarity with the online format |
 | The school's own papers | Whatever the school wants to see, at any age | From past papers, if the school provides them |
 
 Two things in this table are worth a closer look.
 
-The Pre-Test is taken in Year 6 or 7. At 11+ and in some schools at 13+, it acts as a first filter that decides whom the school invites further, so it comes well before Common Entrance for a 13+ candidate. A parent registers the child through the ISEB portal, and each school sets its own thresholds and timetable.
+Children usually sit the Pre-Test in Year 6 or 7. At 11+ and in some schools at 13+, it acts as a first filter that decides whom the school invites further, so it comes well before Common Entrance for a 13+ candidate. Registration goes through the ISEB portal and is done by a parent, while thresholds and timing are left to each school.
 
-UKiset was developed with Cambridge University Press & Assessment for pupils educated outside the British system. Most candidates sit it online under remote invigilation. Schools tend to read the result as a profile before the rest of the file and not as a pass mark. One set of results can go to several schools in the UKiset network, which is a growing group and not every school, so it is worth checking the shortlist before anyone registers.
+UKiset was developed with Cambridge University Press & Assessment for pupils educated outside the British system. Most candidates sit it online under remote invigilation. A school will usually treat the result as an early profile of the candidate, not as a pass mark. The same results can reach several schools in the UKiset network, a growing group that still leaves many schools out, so it is worth checking the shortlist before anyone registers.
 
 ## Working out what your child will sit
 
@@ -39,7 +39,7 @@ Four questions settle it, in this order.
 
 1. Which schools are on the list? The tests follow from the schools, so choose the schools first.
 2. What is the entry point? A seven-year-old, a thirteen-year-old and a sixteen-year-old are tested differently. The detail by age is on our page about [11+, 13+ and 16+ entrance exams](/private-schools/entrance-exams/).
-3. Where does the child study now? A child at a British prep school generally follows the standard route. One at a local school abroad may need UKiset or a school's own online tasks, with English checked first. A child at an international school on a British curriculum is compared with British independent schools before tests are chosen.
+3. Where does the child study now? The route differs for a pupil at a British prep school, at a local school abroad and at an international school on a British curriculum. Abroad, UKiset or a school's own online tasks may be needed, with English checked first.
 4. Does each school actually accept what you plan to send? Ask. Whether a school takes UKiset, offers its own papers instead of Common Entrance, or allows a retake is the school's decision.
 
 ## University tests
@@ -66,7 +66,7 @@ Many candidates prepare alone, particularly for the ISEB Pre-Test, where there i
 
 A test records one performance on one day. It says nothing about curiosity, persistence or how a child will cope away from home. It is also one input among several: schools read it with reports, references and an interview, and universities read it with grades, the personal statement and, for some courses, an interview. A weak result is not the end of an application, though it may change the list.
 
-Nobody can promise a score. ALBION does not set marks or influence a decision, and the exam boards and schools run the tests. For the other half of selection, our [interview guide](/resources/interview-guide/) covers what happens when the paper is over.
+Nobody can promise a score. ALBION does not set marks or influence a decision, and the tests are run by exam boards and schools. For the other half of selection, our [interview guide](/resources/interview-guide/) covers what happens when the paper is over.
 
 ## Questions and answers
 
@@ -80,7 +80,7 @@ Only if the schools on your list ask for it. Some accept it as a profile, others
 
 ### Can my child retake a test?
 
-It depends on the test and the school. Retake rules are set by exam boards and schools, so ask before you register.
+It depends on the test and the school. Each exam board and school writes its own retake rules, so ask before you register.
 
 ### Is the ISEB Pre-Test something a child can revise for?
 
@@ -88,7 +88,7 @@ Not as a syllabus. It is adaptive and standardised for age, so what helps is fam
 
 ### My child's English is not yet strong. Should we wait?
 
-First find out how far behind it is. If language is the main gap, the plan starts with English lessons, and the school list and entry point are chosen with the time available in mind.
+First find out how far behind it is. If language is the main gap, English lessons come first, and the school list and entry point follow from the time that is left.
 
 ### How early do university tests need to be planned?
 

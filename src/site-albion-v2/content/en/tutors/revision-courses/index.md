@@ -32,7 +32,7 @@ It helps much less when the gaps are deep. If the exam is months away, ordinary 
 
 ## Revision course or regular tuition?
 
-The two do different jobs. Regular tuition runs alongside school through the year, with a tutor explaining, consolidating and filling gaps as they appear. A revision course starts from the assumption that the material has been taught, and spends its hours on what earns marks: the topics a student still drops marks on, the formats of the questions, the habits that cost time in the exam hall. A course does not replace a year of study.
+The two do different jobs. Regular tuition runs alongside school through the year, with a tutor explaining, consolidating and filling gaps as they appear. A revision course starts from the assumption that the material has been taught. It spends its hours on what earns marks: the topics a student still drops marks on, the formats of the questions, the habits that cost time in the exam hall. A course does not replace a year of study.
 
 ## Inside a course
 
@@ -44,7 +44,7 @@ Content, subjects and hours depend on the student's level and on the programme. 
 
 Online revision courses are the main format, for GCSE and A-Level as much as for the IB, and sessions can be set around the student's day wherever the family lives. In-person lessons in Oxford can be arranged, depending on subject and timing.
 
-When a student is also going through university admissions, an ALBION consultant can see how the lessons are going. Predicted grades and offer conditions follow from results, and the application plan may need to follow them.
+When a student is also going through university admissions, a consultant can see how the lessons are going. Predicted grades and offer conditions follow from results, and the application plan may need to follow them.
 
 ## Where to go next
 
@@ -53,7 +53,7 @@ When a student is also going through university admissions, an ALBION consultant
 - [A-Level tutors](/tutors/a-level/): support in the subjects on which university conditions depend.
 - [IB tutors](/tutors/ib/): HL and SL subjects, the Extended Essay, TOK and internal assessments.
 
-## Fees
+## What a course costs
 
 What a course costs depends on its format, the number of hours and the level of tutor, and we give a figure after a first conversation with the family. One-to-one lesson rates are on the [tutors overview](/tutors/), but they are lesson rates, not the price of a course.
 
@@ -71,7 +71,7 @@ Not always. If the basics are missing, a whole syllabus cannot be rebuilt in a s
 
 ### Are courses one-to-one or in groups?
 
-ALBION's published rates are for one-to-one lessons. Whether a particular course also runs in groups is confirmed when its programme is confirmed.
+Our published rates are for one-to-one lessons. Whether a particular course also runs in groups is confirmed when its programme is confirmed.
 
 ### Can a course take place in person in Oxford?
 

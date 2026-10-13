@@ -10,11 +10,11 @@ publish: true
 
 # Prices and Packages
 
-Where a price is fixed, ALBION publishes it. Every figure is a "from" price, with a note on what moves the final amount. University admissions and tutoring are priced below. Schools, guardianship, executive programmes and summer programmes have no single price, and the last section explains why.
+Where a price is fixed, ALBION publishes it. Every figure is a "from" price, with a note on what moves the final amount. University admissions and tutoring have fixed starting prices. Schools, guardianship, executive programmes and summer programmes have no single price, each for its own reason.
 
 ## University admissions
 
-Work on a university application starts with a meeting between ALBION, the student and the parents, followed by a written report on the options. The meeting costs £350 for standard UK admissions and £500 for Oxbridge, and is invoiced separately on the day. A family that goes on to the full programme within the same admissions cycle has the fee deducted in full.
+Work on a university application starts with a meeting between a consultant, the student and the parents, followed by a written report on the options. The meeting costs £350 for standard UK admissions and £500 for Oxbridge, and is invoiced separately on the day. A family that goes on to the full programme within the same admissions cycle has the fee deducted in full.
 
 | Stage | Standard (UK) | Oxbridge |
 |---|---|---|
@@ -28,9 +28,9 @@ Work on a university application starts with a meeting between ALBION, the stude
 
 Stage 4 is not charged on top for full programme clients. Buying stages one by one suits families who join late or need help at a single point.
 
-Oxbridge open days are priced at £350 for strategy and visit planning and a further £350 for ALBION to accompany you on the visit. Families on the full Oxbridge programme receive this service as part of the package.
+Oxbridge open days are priced at £350 for strategy and visit planning and a further £350 for us to accompany you on the visit. Families on the full Oxbridge programme receive this service as part of the package.
 
-## Tutors
+## Hourly tutor rates
 
 Rates are per hour. The level is chosen with the family, depending on the goal, how complex the application is and which specialists are free.
 
@@ -46,11 +46,11 @@ Tutoring is billed apart from the admissions programme. The family decides how m
 
 **School admissions.** The work depends on the child's age, the entry point and how much preparation is needed, and none of that is known until we have your questionnaire. We give a figure then.
 
-**Guardianship.** Places are limited, and the service is offered mainly to students whose admission ALBION has supported. Terms are agreed in conversation.
+**Guardianship.** Places are limited, and the service is offered mainly to students whose admission our team has supported. Terms are agreed in conversation.
 
-**Executive programmes.** A programme here means one application with its own set of materials. Applications with different essays and selection criteria are counted as separate programmes, and ALBION takes on no more than three at a time. The fee follows the number of programmes and the candidate's profile.
+**Executive programmes.** A programme here means one application with its own set of materials. Applications with different essays and selection criteria are counted as separate programmes, and we take on no more than three at a time. The fee follows the number of programmes and the candidate's profile.
 
-**Summer programmes.** The provider sets the price, not ALBION. Budget guides are on the [summer schools](/summer-schools/) page, taken from provider materials and reconfirmed each season.
+**Summer programmes.** The provider sets the price, not us. Budget guides are on the [summer schools](/summer-schools/) page, taken from provider materials and reconfirmed each season.
 
 To get a figure for your own situation, the [questionnaire](/apply/) is the way in, and an initial consultation follows. How [university admissions](/university-admissions/) work and what our [tutors](/tutors/) do are described on their own pages.
 

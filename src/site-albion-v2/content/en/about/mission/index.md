@@ -10,11 +10,11 @@ publish: true
 
 # Our mission
 
-ALBION exists so that a family can plan its way through British education instead of reacting to it. That applies to a child preparing for a first school entrance test and to an adult choosing an executive programme, and the same few principles govern both.
+ALBION's aim is modest: to help a family plan its way through British education instead of reacting to it. That holds for a child preparing for a first school entrance test and for an adult choosing an executive programme, and the same few principles govern both.
 
 ## Advice that nobody else pays for
 
-A consultancy is only as candid as its income allows. ALBION is paid by families. Schools and universities pay nothing and the firm takes no commission from either, so a shortlist is built around the pupil or applicant and not around an arrangement. The [about page](/about/) has the wider picture of how the company is built.
+A consultancy is only as candid as its income allows. Families pay us. Schools and universities pay nothing and the firm takes no commission from either, so a shortlist is built around the pupil or applicant and not around an arrangement. The [about page](/about/) has the wider picture of how the company is built.
 
 ## Understanding comes before applying
 
@@ -34,7 +34,7 @@ A course is judged by what the student will do with the degree. The beauty of th
 
 ## What we do not promise
 
-ALBION advises, and the offer of a place comes from the school or university. For that reason admission is never promised, and results are quoted as the outcomes of past years, with caveats. Fees for the university programme are published on the [prices page](/prices/), so a family sees what it is paying for before the first conversation.
+We advise, and the offer of a place comes from the school or university. For that reason admission is never promised, and results are quoted as the outcomes of past years, with caveats. Fees for the university programme are published on the [prices page](/prices/), so a family sees what it is paying for before the first conversation.
 
 If you would like to talk about a specific child, the application form comes first. It asks about the goal, age or year group, timing and country of residence.
 
@@ -44,11 +44,11 @@ If you would like to talk about a specific child, the application form comes fir
 
 ### Is ALBION tied to any schools?
 
-No. ALBION is not an agent for schools and takes no commission from them or from universities. Each name on a shortlist comes with a reason for its place there.
+No. We are not an agent for schools and takes no commission from them or from universities. Each name on a shortlist comes with a reason for its place there.
 
 ### Can you help a child who finds school hard?
 
-Yes. ALBION works with children whose studies are difficult as well as with very able ones. The assessment shows where the gaps are, and a tutor is matched to the actual need, whether that is closing gaps or preparing for a competitive exam. What is realistic for the individual child is said after the assessment.
+Yes. We work with children whose studies are difficult as well as with very able ones. The assessment shows where the gaps are, and a tutor is matched to the actual need, whether that is closing gaps or preparing for a competitive exam. What is realistic for the individual child is said after the assessment.
 
 ### Must a family use ALBION for the whole route?
 

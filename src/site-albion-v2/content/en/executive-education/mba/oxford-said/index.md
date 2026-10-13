@@ -10,7 +10,7 @@ publish: true
 
 # MBA Oxford: Applying to the Oxford Saïd MBA
 
-More than ten adult clients of ALBION completed Saïd programmes over the past year. Our co-founder, Anfisa Bashkirova, took her MSc in Major Programme Management at Saïd and now sits on the school's candidate recruitment as an alumni representative. We work from the same city as the school, and we know what a committee there tends to ask of a candidate with a long career behind them.
+Our co-founder, Anfisa Bashkirova, took her MSc in Major Programme Management at Saïd and now sits on the school's candidate recruitment as an alumni representative. We work from the same city as the school, and we know what a committee there tends to ask of a candidate with a long career behind them. More than ten adult clients of ALBION completed Saïd programmes over the past year.
 
 [Discuss a Saïd application](/apply/)
 

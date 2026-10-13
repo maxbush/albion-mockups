@@ -10,7 +10,7 @@ publish: true
 
 # Boarding Schools in the UK: Admissions Support from One Team
 
-A boarding application involves three jobs that are usually done by three different people: someone to choose the schools, someone to prepare the child for the tests and, once an offer has arrived, someone to act as guardian. ALBION does all three from Oxford. One consultant stays with your family from the first conversation to the first term, and ALBION teachers assess and tutor your child.
+A boarding application involves three jobs, usually done by three different people. Someone chooses the schools, someone prepares the child for the tests, and once an offer has arrived someone acts as guardian. ALBION does all three from Oxford. One consultant stays with your family from the first conversation to the first term, and ALBION teachers assess and tutor your child.
 
 ## Is boarding the right choice?
 
@@ -36,7 +36,7 @@ Boarding schools in England are spread across the whole country, so the region m
 
 **4. Preparation.** Tutors close gaps in the subjects and practise the formats the chosen schools use, online tests included. Nearer the dates they run mock interviews with feedback. The diagnostic sets the intensity of lessons, and every quarter you receive a note on progress and readiness.
 
-**5. Applications.** ALBION helps with forms and letters, watches formal deadlines and informal conventions, and negotiates with schools on your behalf. Once you have registered and paid the registration fee, the school invites your child to sit exams and interviews. The decision is the school's.
+**5. Applications.** The consultant helps with forms and letters, watches formal deadlines and informal conventions, and negotiates with schools on your behalf. Once you have registered and paid the registration fee, the school invites your child to sit exams and interviews. The decision is the school's.
 
 **6. Offers and the choice.** We compare the offers with you and, if needed, widen or change the list. After enrolment, pupils whose admission we managed can move on to guardianship: contact with the school, academic monitoring and holidays.
 
@@ -46,17 +46,17 @@ Boarding schools in England are spread across the whole country, so the region m
 
 The consultant who builds the shortlist also sees how preparation is going, so the list or the timetable can change when the picture does. Preparation is delivered by ALBION's own tutors: more than 150 in different time zones, teaching over 3,000 hours a year. Guardianship places are limited and we do not promote them as a general service; the [guardianship](/private-schools/guardianship/) page explains how it works.
 
-## Who pays for the advice
+## No commission from schools
 
 Some consultancies charge families nothing because schools fund them, and an adviser paid that way will naturally work from the schools that pay. ALBION is paid by the family and takes no commission from schools. The shortlist is therefore built from the child's profile and the schools' requirements alone, and it can include a strong school that few overseas families have heard of.
 
 ## What are the best boarding schools in the UK?
 
-There is no single answer, because "best" depends on the child. League tables mostly show how selective a school is on entry, which says as much about who is admitted as about what the school adds. A good boarding school for one child can be the wrong place for another, and lists of the top UK boarding schools say nothing about pastoral care, the boarding pattern or how a particular child will cope.
+There is no single answer, because "best" depends on the child. League tables mostly show how selective a school is on entry, which says as much about who is admitted as about what the school adds. A good boarding school for one child can be the wrong place for another. Lists of the top UK boarding schools say nothing about pastoral care, the boarding pattern or how a particular child will cope.
 
-ALBION does not publish a ranking or name schools. The shortlist of up to ten starts from the academic assessment and the child's temperament, then looks at how competitive entry is for that child.
+We do not publish a ranking or name schools. The shortlist of up to ten starts from the academic assessment and the child's temperament, then looks at how competitive entry is for that child.
 
-## What it costs
+## Boarding fees and our fees
 
 Published market figures for fees at private boarding schools, per term, are £9,500–15,000 for pupils aged 8–13 and £13,000–18,000 for pupils aged 11–18, over three terms a year. A registration fee, exam fees and the cost of travel and holidays come on top.
 

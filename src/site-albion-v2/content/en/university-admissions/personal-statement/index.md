@@ -36,7 +36,7 @@ The opening is easiest to write last. A natural way in is the answer to the firs
 
 ## UCAS personal statement examples: how to read them
 
-Published personal statement examples for university entry are useful as an illustration of structure: how a paragraph moves from an experience to a point about the course, and how a claim sits next to its evidence. They mislead when treated as a template. A statement is written for one person and one subject, and an example from an earlier year was composed for a different format. Borrowed phrasing also tends to give itself away, and at interview the applicant can be asked about any claim.
+Published personal statement examples for university entry are useful as an illustration of structure. They show how a paragraph moves from an experience to a point about the course, and how a claim sits next to its evidence. They mislead when treated as a template. A statement is written for one person and one subject, and an example from an earlier year was composed for a different format. Borrowed phrasing also tends to give itself away, and at interview the applicant can be asked about any claim.
 
 ## Law and medicine side by side
 
@@ -52,7 +52,7 @@ Work shadowing becomes useful material when the applicant can say what it showed
 
 A consultant and a subject mentor work on the statement together. The raw material comes from the applicant: what has been read, what has been done, where there is an opinion of their own. Positioning for the faculty then decides what to bring forward for the courses on the list and what to leave out, which belongs to stage 2 of the programme.
 
-The first draft is the student's. After that the text goes through several rounds of revision, with the consultant and mentor pointing out where the argument is thin, where a fact does not support the conclusion and where the text drifts from the shortlist. The Oxbridge track has more rounds, because the statement is read especially closely there. ALBION does not write the school reference or alter predicted grades, but it checks that the statement does not contradict them, and coordination with the school is part of stage 3.
+The first draft is the student's. After that the text goes through several rounds of revision. The consultant and mentor point out where the argument is thin, where a fact does not support the conclusion and where the text drifts from the shortlist. The Oxbridge track has more rounds, because the statement is read especially closely there. ALBION does not write the school reference or alter predicted grades, but it checks that the statement does not contradict them, and coordination with the school is part of stage 3.
 
 The voice belongs to the student, and an adult's prose reads differently to a tutor. The consultants help to find material, shape an argument and cut what does not earn its place. The sentences are the applicant's.
 

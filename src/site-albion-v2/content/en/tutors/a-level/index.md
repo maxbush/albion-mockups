@@ -10,11 +10,11 @@ publish: true
 
 # A-Level tutors: maths, sciences and the grades universities ask for
 
-A-Levels are the qualification universities read most closely. The subjects you take decide which courses are open, predicted grades decide which offers arrive, and final results decide whether those offers hold. ALBION's A-Level tuition teaches the subject itself, whether that calls for a maths tutor, a chemistry tutor or a physics tutor, while consultants check that the lessons fit the application: tests, deadlines, the choice of universities.
+A-Levels are the qualification universities read most closely. The subjects you take decide which courses are open, predicted grades decide which offers arrive, and final results decide whether those offers hold. ALBION's A-Level tuition teaches the subject itself, whether that calls for a maths tutor, a chemistry tutor or a physics tutor. Consultants check that the lessons fit the application: tests, deadlines, the choice of universities.
 
-## Who it is for
+## Who needs A-Level lessons
 
-Sixth Form pupils who need to lift one subject before applying are the obvious group. Some are moving to A-Level from another system or an international school and closing gaps against peers who have followed the UK programme for two years, or are aged 18 or over and retaking individual subjects. Students who have already been admitted use lessons to keep pace with their school's standard.
+Sixth Form pupils who need to lift one subject before applying are the obvious group. Some are moving to A-Level from another system or an international school, closing gaps against peers who have followed the UK programme for two years. Others are aged 18 or over and retaking individual subjects. Students who have already been admitted use lessons to keep pace with their school's standard.
 
 ## Subjects
 
@@ -34,7 +34,7 @@ Lessons are one-to-one and run online, so a pupil can work with an A-Level tutor
 
 Most pupils pick three or four A-Levels, and the combination counts for more than it seems in Year 11. Some courses expect particular subjects, and a few look closely at the mix. A wrong choice shows up a year or two later, when it is hard to put right.
 
-Before any lessons an ALBION consultant sets the intended direction against current results and course requirements, and tutors assess the subject itself: is the maths strong enough for a demanding course, is the physics base solid. When two options are close, the decision rests on evidence, not preference.
+Before any lessons a consultant sets the intended direction against current results and course requirements. Tutors then assess the subject itself: is the maths strong enough for a demanding course, is the physics base solid. When two options are close, the decision rests on evidence, not preference.
 
 ## Predicted grades, deadlines and tests
 
@@ -52,13 +52,13 @@ A plan follows, with a timetable of lessons. The tutor works from your school's 
 
 ## From our files: exam adjustments for an A-Level pupil
 
-A pupil aged 18 or over was entering A-Level, and her adjustment needs were known in advance. The ALBION team arranged a specialist assessment (it took persuading the pupil herself, since at 18 nothing can be done without her consent), secured support in her exams and organised an emergency exam in her home language that the school had not wanted to submit.
+A pupil aged 18 or over was entering A-Level, and her adjustment needs were known in advance. The team arranged a specialist assessment. It took persuading the pupil herself, since at 18 nothing can be done without her consent. The team then secured support in her exams and organised an emergency exam in her home language that the school had not wanted to submit.
 
 Extra time is granted by the school on the basis of an assessment, so the outcome cannot be promised in advance. The story shows what support looks like when exam preparation, assessment and dealings with the school sit with one team.
 
 ## Limits
 
-Tutors do not promise grades. If the chosen subjects do not fit the course a pupil wants, lessons alone will not mend that: the university list has to be rethought, and that is the consultant's job. If too little time remains before the exams, ALBION says what can be closed and what cannot.
+Tutors do not promise grades. If the chosen subjects do not fit the course a pupil wants, lessons alone will not mend that: the university list has to be rethought, and that is the consultant's job. If too little time remains before the exams, we say what can be closed and what cannot.
 
 ## Questions and answers
 

@@ -16,9 +16,9 @@ ALBION is an Oxford consultancy that has worked in British education since 2010.
 
 ## Five stages, one road
 
-Each decision in the British system shapes the next: the school sets the exam subjects, the subjects narrow the choice of university. ALBION plans the whole sequence, and you can join it at any point.
+Each decision in the British system shapes the next: the school sets the exam subjects, the subjects narrow the choice of university. We plan the whole sequence, and you can join it at any point.
 
-**I. Assessment and route.** An online [academic assessment](/assessment/) with ALBION teachers, including past papers, shows where a child stands against British peers, where the gaps are and which entry points are realistic. The result is a route rather than a wish list.
+**I. Assessment and route.** An online [academic assessment](/assessment/) with our teachers, including past papers, shows where a child stands against British peers, where the gaps are and which entry points are realistic. The result is a route rather than a wish list.
 
 **II. School.** A shortlist of boarding and day schools, entrance exams at 7+, 8+, 11+, 13+ and 16+, and interview practice. Our page on [private school admissions](/private-schools/) sets out how this works.
 
@@ -30,13 +30,13 @@ Each decision in the British system shapes the next: the school sets the exam su
 
 ## Analysis first, then a plan
 
-At every stage the order is the same. The academic profile, the requirements of the school or programme and the longer-term goal are examined first, and a timetable of actions follows. University applications move through four phases: research and direction, positioning, application preparation, and decision with fallback. The fallback is built early, since a single offer is not a plan.
+At every stage the order is the same. The academic profile, the requirements of the school or programme and the longer-term goal are examined first, and a timetable of actions follows. University applications move through four phases: research and choice of direction, shaping the profile, preparing the application, and the decision with a fallback. The fallback is built early, since a single offer is not a plan.
 
 Fees are published. A university consultation with a written report starts at £350 and a full programme at £6,000, depending on the destination and the number of phases. The [prices page](/prices/) shows how it adds up.
 
 ## What ALBION handles, and what it cannot
 
-Each shortlist arrives with reasons for every name on it. Tutors inside the same company prepare the child for ISEB, UKiset, CAT4, LNAT, TARA, TMUA and interviews, so a change to the list reaches the lesson plan at once. ALBION also covers the application documents: personal statement or motivation letter, references, and a portfolio where needed. When offers arrive, they are compared before the family replies to any school.
+Each shortlist arrives with reasons for every name on it. Tutors from the same company prepare the child for ISEB, UKiset, CAT4, LNAT, TARA, TMUA and interviews, so a change to the list reaches the lesson plan at once. The same team works on the application documents: the personal statement or motivation letter and, where needed, a portfolio. When offers arrive, they are compared before the family replies to any school.
 
 Nobody can promise a place, because schools and universities decide. They also pay ALBION nothing, which leaves the shortlist free to follow the child.
 
@@ -59,11 +59,10 @@ Two co-founders lead ALBION. Anfisa Bashkirova (MSc Oxon) graduated from Saïd B
 - Every client (100%) receives an offer from at least one Russell Group university.
 - Tutors number 150+, spread across time zones, and give 3,000+ hours of lessons a year.
 - 10+ adult clients completed Saïd (Oxford) programmes in the past year.
-- ALBION is rated 5.0 on Google.
 
 ## From practice: a school few families had heard of
 
-A capable girl at an international school was applying for Year 10 in the UK, and her family lived abroad. ALBION assessed her level and drew up a shortlist of selective schools. Beside the familiar names it included one that is academically outstanding but little known to overseas families. The family visited every school and liked that one best. She sat entrance exams for three schools, received an offer from each and chose the one the family had not known about. She later took GCSEs and A-Levels there with excellent results. No family can be promised offers from every school on a list. More [client stories](/about/results/) are listed on the results page.
+A capable girl at an international school was applying for Year 10 in the UK, and her family lived abroad. We assessed her level and drew up a shortlist of selective schools. Beside the familiar names it included one that is academically outstanding but little known to overseas families. The family visited every school and liked that one best. She sat entrance exams for three schools, received an offer from each and chose the one the family had not known about. She later took GCSEs and A-Levels there with excellent results. No family can be promised offers from every school on a list. More [client stories](/about/results/) are listed on the results page.
 
 ## Starting the conversation
 

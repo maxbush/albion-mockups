@@ -27,7 +27,7 @@ A prep school is a preparatory school for children from about seven or eight up 
 
 11+ is the entry point most London families ask about first. Independent schools in London, UK, set their own requirements: some use the ISEB Pre-Test and CAT4, some add their own papers, and most hold an interview. Registration and testing dates differ by school, so check them early and do not rely on last year's calendar.
 
-Competition for day places at 7+, 8+ and 11+ in London is often higher than for boarding places at the same ages, which makes a shortlist of five matter even more. Preparation for the tests and interviews is delivered by ALBION tutors, and our page on [entrance exams at 11+, 13+ and 16+](/private-schools/entrance-exams/) describes each test.
+Competition for day places at 7+, 8+ and 11+ in London is often higher than for boarding places at the same ages, which makes a shortlist of five matter even more. Preparation for the tests and interviews is delivered by our tutors, and our page on [entrance exams at 11+, 13+ and 16+](/private-schools/entrance-exams/) describes each test.
 
 ## Day, boarding or both
 
@@ -41,9 +41,9 @@ For an international family without UK status, state and grammar schools are usu
 
 There is no single best school, only the best fit for a particular child, so the best private schools in England for one family may be wrong for another. League tables mainly show how selective a school is on entry, and a list of the top private schools in England tells you who gets in rather than what the school adds. The better criteria are how competitive entry is for your child, the academic level the child can sustain, the pastoral system and the daily commute.
 
-ALBION does not publish rankings or name schools. The list of up to ten, and the five we advise applying to, comes from the child's assessment and the family's address, not from a table.
+We do not publish rankings or name schools. The list of up to ten, and the five we advise applying to, comes from the child's assessment and the family's address, not from a table.
 
-## What it costs
+## Day-school fees and the cost of living
 
 The published market range for a private day school is £6,000–9,000 per term, over three terms a year. A registration fee, exam fees and travel come on top, and so does the family's cost of living in the city, which is why the yearly total matters more than the fee alone.
 
@@ -57,9 +57,9 @@ We take no commission from schools, so the list reflects the child and the commu
 
 [Tell us where you live and your child's year group](/apply/)
 
-## From practice
+## Two years in a prep school before 13+
 
-This case involves a boarding school, but its logic is general. The family approached us while their son was in Year 6 of a British school. His ability was clear, but his English and academic preparation needed strengthening. They hoped for Year 9 entry to a highly selective senior boarding school, and ALBION suggested two years first, covering Years 7 and 8, at a strong prep school that taught boys and girls together.
+This case involves a boarding school, but its logic is general. The family approached us while their son was in Year 6 of a British school. His ability was clear, but his English and academic preparation needed strengthening. They hoped for Year 9 entry to a highly selective senior boarding school, and we suggested two years first, covering Years 7 and 8, at a strong prep school that taught boys and girls together.
 
 Applications to the most selective schools brought no offers. We went back to the question of what he needed, in lessons and in personal support, and approached other selective schools, some of them after their usual deadlines. Every one offered him a place. The prep school was a boarding one, and ALBION's guardianship team worked with the family through his first year. Giving a child two years before 13+ does not depend on the format, but this case has not been tested with a day school.
 

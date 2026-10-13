@@ -10,7 +10,7 @@ publish: true
 
 # UK University Admissions
 
-A UCAS application has five choices and one personal statement, and most of the decisions that matter are made before either is written. ALBION advises students and families on the whole sequence: the profile, the course shortlist, the application, admissions tests, interviews and the choice between offers. The page is written for parents of children in the last years of GCSE, A-Level or IB, and for students applying independently who would like their plan read by someone who knows how admissions tutors read.
+A UCAS application has five choices and one personal statement, and most of the decisions that matter are made before either is written. ALBION advises students and families on the whole sequence: the profile, the course shortlist, the application, admissions tests, interviews and the choice between offers. Parents of children in the last years of GCSE, A-Level or IB come to us for this, as do students applying independently who want their plan read by someone who knows how admissions tutors read.
 
 ## How a UCAS application works
 
@@ -30,7 +30,7 @@ Oxford and Cambridge follow a separate track. An applicant may apply to only one
 
 ## Choosing a course for the long term
 
-League tables, an attractive campus and the university a friend attended make a poor basis for a decision that shapes the next ten years. We ask who the student is likely to be at thirty and which degree leads there, so a course is judged by where it goes after graduation as well as by how the offer looks on the day.
+League tables, an attractive campus and the university a friend attended make a poor basis for a decision that shapes the next ten years. We ask who the student is likely to be at thirty and which degree leads there. A course is then judged by where it goes after graduation as well as by how the offer looks on the day.
 
 That is why the work starts with the academic profile: subject combination, exam results, predicted grades and the profession in mind. A pupil can be a strong candidate for one course and a weak one for another with a similar name. A consultant's job includes saying which is which.
 

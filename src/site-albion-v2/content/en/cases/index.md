@@ -82,7 +82,7 @@ The school agreed and offered a place, which gave him an extra year to build a s
 
 ## The figures behind the stories
 
-ALBION's work in British education dates from 2010. Over that time 96% of pupils have been placed at their chosen school, every client (100%) has received at least one Russell Group offer, and 3 in 4 of the pupils we support have reached interview at [Oxford or Cambridge](/university-admissions/oxbridge/). These describe past work and do not forecast yours: schools and universities make the decisions.
+ALBION's work in British education dates from 2010. Over that time 96% of pupils have been placed at their chosen school, and every client (100%) has received at least one Russell Group offer. Three in four of the pupils we support have reached interview at [Oxford or Cambridge](/university-admissions/oxbridge/). These describe past work and do not forecast yours: schools and universities make the decisions.
 
 ## Where to start
 

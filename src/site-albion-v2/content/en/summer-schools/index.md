@@ -10,7 +10,7 @@ publish: true
 
 # Summer Schools and Camps in the UK
 
-A British summer can be a week of day camp near home, a fortnight on a Cambridge campus, or two weeks in university halls in London with work experience in a chosen field. ALBION advisers recommend programmes that suit what your child wants from the summer and what you are prepared to spend. The programmes below are the ones for which we hold provider materials, for ages 6 to 18.
+A British summer can be a week of day camp near home, a fortnight on a Cambridge campus, or two weeks in university halls in London with work experience in a chosen field. ALBION advisers match the programme to what your child wants from the summer and what you are prepared to spend. We recommend only from those for which we hold provider materials, covering ages 6 to 18.
 
 ## Programmes by age
 
@@ -34,7 +34,7 @@ The 2024 materials list Chandlings and Headington in Oxford, Holy Cross in Kings
 
 ### Dulwich College, ages 12–14
 
-Career Discovery is new for summer 2026: two weeks for children who have not yet settled on a direction. In small groups they work through industry simulations in medicine, finance, business, computing, artificial intelligence, robotics and engineering, and spend two days in workshops on interview preparation and career skills. English level B1+ is required. In 2026 the courses started on 6 and 20 July.
+Career Discovery was added to the college's programme for summer 2026: two weeks for children who have not yet settled on a direction. In small groups they work through industry simulations in medicine, finance, business, computing, artificial intelligence, robotics and engineering, and spend two days in workshops on interview preparation and career skills. English level B1+ is required. In 2026 the courses started on 6 and 20 July.
 
 The fee covers 25 hours a week of simulations and lessons, a social programme, London excursions, a graduation ceremony, a reference letter, a certificate and insurance. The residential option means a place in the college boarding houses on the London campus, with meals and pastoral support. It costs £5,495, or £5,695 with a private bathroom.
 
@@ -60,11 +60,11 @@ One week costs £2,150 without accommodation and £3,550 on campus. Two weeks co
 
 Most families start from one of four aims. Speaking practice points to a day camp full of native speakers or, for an older child, a residential course that pairs lessons with a subject. A first look at a profession points to simulations and placements. University preparation points to a subject faculty on a school or college campus. A trial of boarding life needs nothing more than a fortnight away.
 
-After the aim come the limits: age, minimum level of English, residential or day format, dates and budget. ALBION works with providers tested over the years and well reviewed by students and parents, and a recommendation reaches you only when all of those line up.
+After the aim come the limits: age, minimum level of English, residential or day format, dates and budget. We work with providers tested over the years and well reviewed by students and parents, and a recommendation reaches you only when all of those line up.
 
 ## How a summer fits the longer plan
 
-A fortnight away is useful evidence if you are weighing [boarding schools](/private-schools/boarding/). It shows how a child handles routine, a teaching language not their own and life in a group. To see where a child stands against UK peers, ALBION teachers run an [academic assessment](/assessment/) online.
+A fortnight away is useful evidence if you are weighing [boarding schools](/private-schools/boarding/). It shows how a child handles routine, a teaching language not their own and life in a group. To see where a child stands against UK peers, our teachers run an [academic assessment](/assessment/) online.
 
 For a student who may apply to university, the programmes worth choosing leave something to discuss later: a placement, a project, a reference letter. Which of them belong in a profile is decided with you as part of [university admissions](/university-admissions/) planning. If English is below a course's level, [language preparation](/language-preparation/) comes first.
 

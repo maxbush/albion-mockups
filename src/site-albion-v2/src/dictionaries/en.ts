@@ -110,7 +110,7 @@ export const en: Dictionary = {
     label: "Principle",
     title: "Each decision shapes the next.",
     titleEm: "So the route is planned as a whole.",
-    p1: "The school decides which subjects are on offer, the subjects narrow the choice of university, and the university decides what comes after. ALBION plans the whole sequence.",
+    p1: "The school decides which subjects are on offer, the subjects narrow the choice of university, and the university decides what comes after. We plan the whole sequence.",
     p2: "The order is the same at every stage. The academic profile, the requirements of the school or programme and the longer-term goal come first, then a timetable of actions.",
     p3: "The fallback is built early, since a single offer is not a plan.",
   },
@@ -136,7 +136,7 @@ export const en: Dictionary = {
       {
         n: "I",
         title: "Academic assessment",
-        text: "An online assessment with ALBION teachers, past papers included, shows where the child stands against British peers, where the gaps are and what is realistic.",
+        text: "An online assessment with our teachers, past papers included, shows where the child stands against British peers, where the gaps are and what is realistic.",
       },
       {
         n: "II",
@@ -199,7 +199,7 @@ export const en: Dictionary = {
     label: "For adults",
     title: "Education",
     titleEm: "for adults",
-    lead: "Master's degrees, doctorates, MBAs and management programmes. ALBION reviews the candidate's profile and prepares the documents and the interview; the admissions committee makes the decision.",
+    lead: "Master's degrees, doctorates, MBAs and management programmes. We review the candidate's profile and prepare the documents and the interview; the admissions committee makes the decision.",
     cta: "Discuss a programme",
   },
 
@@ -207,7 +207,7 @@ export const en: Dictionary = {
     label: "Directions",
     title: "Where the route",
     titleEm: "leads",
-    lead: "ALBION does not publish the names of the schools and universities its families go on to, and the stories on this site are anonymised. These are the areas the work covers.",
+    lead: "We do not publish the names of the schools and universities our families go on to, and the stories on this site are anonymised. These are the areas the work covers.",
     itemsAria: "Areas of work",
     items: [
       {
@@ -359,7 +359,7 @@ export const en: Dictionary = {
     label: "Consultation",
     title: "How the conversation",
     titleEm: "begins",
-    lead: "Say who the programme is for, how old the student is and what you are looking at. ALBION will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
+    lead: "Say who the programme is for, how old the student is and what you are looking at. We will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
     submit: "Book a consultation",
     imgAlt: "Watercolour: a parent and a schoolchild in uniform walking up a path to the open gates of a college",
   },

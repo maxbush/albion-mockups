@@ -10,9 +10,9 @@ publish: true
 
 # Client Reviews
 
-ALBION is rated 5.0 on Google. Clients write and publish those reviews themselves, so our Google profile is the place to read them.
+Clients review ALBION on Google, where the rating is 5.0. They write and publish those reviews themselves, so our Google profile is the place to read them.
 
-This page carries no pull-quotes, and we will not add some to make it look fuller. What a family says about a child's school, a university application or a budget is personal, and it appears here only when the author has agreed.
+We will not add pull-quotes here to make the page look fuller. What a family says about a child's school, a university application or a budget is personal, and it appears only when the author has agreed.
 
 ## What to look for in any consultancy's reviews
 

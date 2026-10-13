@@ -10,7 +10,7 @@ publish: true
 
 # Start Your Application
 
-The form is short and does two jobs. It tells a consultant who the plan is for, what you are aiming at, by when and with what budget, so the first conversation can start in the right place. It also shows both sides early whether ALBION is the right adviser. If we are not, we would rather say so after reading the form than after a consultation.
+The form is short and does two jobs. It tells a consultant who the plan is for, what you are aiming at, by when and with what budget. The first conversation can then start in the right place. It also shows both sides early whether ALBION is the right adviser, and if we are not, we would rather say so after reading the form than after a consultation.
 
 ## What we ask
 
@@ -24,7 +24,7 @@ The form is short and does two jobs. It tells a consultant who the plan is for, 
 
 ## Who we are probably not right for
 
-If you want a place assured in advance, we cannot help, because the decision always rests with the school or university. If price is your main criterion, bear in mind that schools pay ALBION no commission, so our fees reflect the work of consultants and tutors and nothing else. And if you hope to use [guardianship](/private-schools/guardianship/) without having had your admission handled by ALBION, places are limited and go mainly to pupils whose admission our team supported.
+If you want a place assured in advance, we cannot help, because the decision always rests with the school or university. If price is your main criterion, bear in mind that schools pay us no commission. Our fees reflect the work of consultants and tutors and nothing else. And [guardianship](/private-schools/guardianship/) is not a service to count on if your admission was handled elsewhere: places are limited and go mainly to pupils whose admission our team supported.
 
 ## What happens next
 

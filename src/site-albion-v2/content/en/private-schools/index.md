@@ -10,7 +10,7 @@ publish: true
 
 # Private Schools in the UK: How to Choose and Get In
 
-Three facts decide which independent schools are realistic for a child: age, current academic level and the country the family will be living in. Famous names come later. This page explains how entry works at each age, what a term costs, and where ALBION's work begins and ends.
+Three facts decide which independent schools are realistic for a child: age, current academic level and the country the family will be living in. Entry happens at fixed ages between 7+ and 16+, fees are charged by the term, and our own work begins with an academic assessment, well before a shortlist exists.
 
 ## Entry points, age by age
 
@@ -51,7 +51,7 @@ State schools are funded by the government and are, as a rule, closed to familie
 
 ## When you may not need a consultant
 
-If your family lives in the UK, your child is already in the British system and you want a local prep school with modest competition, much of the process can be done yourself, because schools publish their requirements. A consultant earns the fee when the child has studied abroad and not sat British tests, when time is short, when the list mixes schools with different selection formats, or when the profile is not standard.
+If your family lives in the UK, your child is already in the British system and you want a local prep school with modest competition, much of the process can be done yourself. Schools publish their requirements. A consultant earns the fee when the child has studied abroad and not sat British tests, or when time is short. The same goes for a list that mixes schools with different selection formats, and for a profile that is not standard.
 
 ## Where ALBION comes in
 
@@ -65,7 +65,7 @@ Of ALBION's pupils, 96% receive a place at the school they chose. That is a reco
 
 [Tell us about your child in the application form](/apply/)
 
-## From practice
+## When the preferred school withdrew its place
 
 A sixth-form applicant aged 18+ had little room for manoeuvre, since few schools take pupils at that age. She held offers from two of them. The school she preferred withdrew its place in July, after an inspection, when her visa application was already under way, and the placement had to be rebuilt. It is the reason we never plan an admission around a single offer. Other stories are listed on the [results page](/about/results/).
 

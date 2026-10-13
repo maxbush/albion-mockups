@@ -10,11 +10,11 @@ publish: true
 
 # UCAS Deadline, Application and Offers
 
-The UCAS deadline depends on the course, not on the applicant. Oxford, Cambridge and most medicine, dentistry and veterinary courses close in October; nearly everything else closes in January. This page sets out how the dates work for 2027 entry, what a UCAS application is made of, how offers are accepted, and where an adviser changes the outcome and where one is not needed.
+The UCAS deadline depends on the course, not on the applicant. Oxford, Cambridge and most medicine, dentistry and veterinary courses close in October; nearly everything else closes in January. For 2027 entry the October date is 15 October 2026 and the January date is 13 January 2027. Not every family needs an adviser, and we say plainly when your own effort is enough.
 
 ## UCAS deadlines for 2027 entry
 
-By UCAS data for the 2027 cycle, these are the dates to work to. Deadlines fall at 18:00 UK time.
+These are the UCAS dates for the 2027 cycle, checked against UCAS on 12 October 2026. Deadlines fall at 18:00 UK time.
 
 | Date | What happens |
 |---|---|
@@ -24,6 +24,8 @@ By UCAS data for the 2027 cycle, these are the dates to work to. Deadlines fall 
 | 25 February 2027 | UCAS Extra opens for applicants with five choices and no offers |
 | 30 June 2027 | Last date for applications to be sent to universities; later ones go into Clearing |
 | 23 September 2027 | Final date for 2027 entry applications |
+
+The October date for 2027 entry is 15 October 2026. If it has passed, or only hours remain, the second question below covers what to do.
 
 "Equal consideration" means that a complete application, reference included, which arrives by the date is read on the same terms as every other one. A choice with an October date can be combined with choices that have a January date, because the later ones may be added afterwards, up to five in total.
 
@@ -69,7 +71,7 @@ After offers arrive, stage 4, "Decision and fallback" (£500, included for full-
 
 Many families complete UCAS without outside help. A single mainstream course, a school with experience of the system and a referee who knows the pupil is a workable setup.
 
-Help earns its fee elsewhere: when the courses must share one statement, in competitive subjects, on the Oxbridge and medical tracks with their October date, and for families abroad or applicants without a school that handles UCAS. A consultant reads the application as an admissions tutor would, and finds weak points while there is time to fix them.
+Help earns its fee elsewhere. It matters when the courses must share one statement, in competitive subjects, and on the Oxbridge and medical tracks with their October date. It matters too for families abroad and for applicants without a school that handles UCAS. A consultant reads the application as an admissions tutor would, and finds weak points while there is time to fix them.
 
 ## Questions and answers
 
@@ -79,7 +81,7 @@ For Oxford, Cambridge and most medical courses it is 15 October 2026; for most o
 
 ### What happens if I miss the UCAS deadline?
 
-For many courses you can still apply, up to the final date in September. Ask the university whether it has places first, especially for October courses, which rarely consider late applications. Many universities accept applications from international students for longer.
+If the October date is still ahead, the application can be submitted until 18:00 UK time on the day, provided the reference has been added. After a deadline, for many courses you can still apply, up to the final date in September. Ask the university whether it has places first, especially for October courses, which rarely consider late applications. Many universities accept applications from international students for longer.
 
 ### How much are UCAS applications, and what does the fee cover?
 

@@ -8,7 +8,7 @@ description: Home education tutors for UK and international families: in person 
 publish: true
 ---
 
-# Homeschooling with ALBION Tutors
+# Homeschooling with our tutors
 
 A family that educates at home needs two things from a tutor: a plan that fits the child, and someone accountable for it. ALBION arranges lessons in the school holidays or in term time, wherever the family lives, and builds the week around the child's academic needs and everything else in it, from sport to travel.
 
@@ -20,9 +20,9 @@ Some families bring in a tutor for the holidays only, to keep momentum. Others o
 
 ## How the lessons are organised
 
-The first step is an academic assessment, which ALBION teachers run online on past papers. The result is set against UK peers and shows both the gaps and a realistic outlook before any hours are booked. A written academic plan follows: subjects, weekly load, exams and dates. Where the aim is a UK qualification, the work follows [GCSE](/tutors/gcse/), [A-Level](/tutors/a-level/) or [IB](/tutors/ib/) content.
+The first step is an academic assessment, which our teachers run online on past papers. The result is set against UK peers and shows both the gaps and a realistic outlook before any hours are booked. A written academic plan follows: subjects, weekly load, exams and dates. Where the aim is a UK qualification, the work follows [GCSE](/tutors/gcse/), [A-Level](/tutors/a-level/) or [IB](/tutors/ib/) content.
 
-ALBION has more than 150 tutors across different time zones, and Jonathan Mintram selects each of them personally. For a family on another continent that range makes a workable lesson time possible. Whether a tutor travels or lessons run another way is settled during matching. Subjects and stages are covered more broadly on the [tutors](/tutors/) page.
+We have more than 150 tutors across different time zones, and Jonathan Mintram selects each of them personally. For a family on another continent that range makes a workable lesson time possible. Whether a tutor travels or lessons run another way is settled during matching. Subjects and stages are covered more broadly on the [tutors](/tutors/) page.
 
 ## Rates
 
@@ -36,9 +36,9 @@ Home education is charged at the tutor's hourly rate. The level is settled at th
 
 An academic tutor raises results in a subject and prepares for exams. A specialist or senior specialist is brought in when subject depth or experience of competitive preparation is needed. Entrance exam and interview preparation costs more, and those rates are on the [prices](/prices/) page. The total follows hours per week and the length of the programme.
 
-## What ALBION does not do
+## What this service does not replace
 
-In the UK the responsibility for a child's education rests with the parents, who may meet it through a school or at home. That is the general position only. The rules that apply to your family depend on where you live, and ALBION does not give legal advice. Lessons are built to match the qualification the child is working towards. ALBION is not a school and does not take over legal responsibility for education, and no grade can be promised: results depend on the starting level and on regular attendance.
+In the UK the responsibility for a child's education rests with the parents, who may meet it through a school or at home. That is the general position only. The rules that apply to your family depend on where you live, and we do not give legal advice. Lessons are built to match the qualification the child is working towards. We are not a school and do not take over legal responsibility for education, and no grade can be promised: results depend on the starting level and on regular attendance.
 
 ## Questions and answers
 
@@ -56,6 +56,6 @@ It saves time. The assessment shows the gaps and a candid outlook, so the first 
 
 ### Will you prepare my child for a return to school?
 
-If that is the aim, yes: closing gaps and preparing for [entrance exams](/private-schools/entrance-exams/) into a UK school. The lesson plan is agreed with ALBION's school advisers so that it fits the admissions timetable.
+If that is the aim, yes: closing gaps and preparing for [entrance exams](/private-schools/entrance-exams/) into a UK school. The lesson plan is agreed with our school advisers so that it fits the admissions timetable.
 
 [Give your country, age and dates in the questionnaire](/apply/)

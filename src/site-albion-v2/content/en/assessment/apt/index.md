@@ -10,7 +10,7 @@ publish: true
 
 # APT (Academic Profiling Test): what it measures and how to read the scores
 
-Parents usually meet the APT as a number: a standard age score showing how a child compares with others of the same age. The Academic Profiling Test is an adaptive online assessment for ages 6 to 16, and its developer, aptonline.co.uk, says it can be taken at home. Here is what sits behind the number, and what it cannot tell you.
+Parents usually meet the APT as a number: a standard age score showing how a child compares with others of the same age. Behind it sits the Academic Profiling Test, an adaptive online assessment for ages 6 to 16 that, according to its developer (aptonline.co.uk), can be taken at home. It says little about writing, interview manner or depth in one subject.
 
 ## What the scores mean
 

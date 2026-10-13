@@ -12,9 +12,9 @@ publish: true
 
 GCSE grades are the first results a sixth form will look at, and a university admissions tutor will see them later. Whether the need is maths, English or the sciences, ALBION's GCSE tutors work subject by subject and exam board by exam board. They begin with a diagnostic lesson, build a plan around the specification your child will sit, and practise on past papers until the exam format is familiar.
 
-## Who this is for
+## Who comes for GCSE tutoring
 
-The page suits a Year 10 or Year 11 pupil in the UK who needs one or two subjects strengthened before the exams. It also suits children at international schools who follow a British curriculum abroad, and families moving into the British system from another country, where gaps against the UK programme need closing before a school move. Homeschooled pupils can have subjects taught by ALBION tutors from start to finish, and those retaking after disappointing results are welcome too.
+A Year 10 or Year 11 pupil in the UK who needs one or two subjects strengthened before the exams is the most common case. Children at international schools who follow a British curriculum abroad come too. So do families moving into the British system from another country, where gaps against the UK programme need closing before a school move. Homeschooled pupils can have subjects taught by our tutors from start to finish, and those retaking after disappointing results are welcome.
 
 If your child is preparing to enter a school rather than sit GCSEs, see [entrance exams for 11+, 13+ and 16+](/private-schools/entrance-exams/).
 
@@ -62,7 +62,7 @@ The price of that story was a year, and a year cannot be given back. It is one r
 
 ## What tutors do not do
 
-A tutor does not replace the school, write coursework or set predicted grades. Those come from teachers, and ALBION has no influence over them. Tutors close specific gaps and make the exam format familiar. Where the pupil ends up still depends on the starting point, how much time remains and how consistently they work.
+A tutor does not replace the school, write coursework or set predicted grades. Those come from teachers, and we have no influence over them. Tutors close specific gaps and make the exam format familiar. Where the pupil ends up still depends on the starting point, how much time remains and how consistently they work.
 
 Next in line is [A-Level tutoring](/tutors/a-level/), which picks up the same approach for the sixth form.
 

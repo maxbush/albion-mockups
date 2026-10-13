@@ -10,11 +10,11 @@ publish: true
 
 # Academic assessment: an honest picture of where your child stands
 
-Parents of a child educated outside the UK often know how the child is doing at home, but not how that compares with pupils at British independent schools. ALBION's academic assessment settles that question before schools are chosen and before preparation time is spent. It is run online by ALBION teachers and suits children from overseas schools, including international schools that follow the British curriculum. The scheme described here is built for sixth form entry.
+Parents of a child educated outside the UK often know how the child is doing at home, but not how that compares with pupils at British independent schools. ALBION's academic assessment settles that question before schools are chosen and before preparation time is spent. It is run online by ALBION teachers and suits children from overseas schools, including international schools that follow the British curriculum. The scheme is built for sixth form entry.
 
 ## What you receive
 
-For each subject the teacher writes a detailed report. ALBION consultants add an overall profile, recommendations and a view on whether the chosen A-Level combination makes sense. Your child is set against British peers from independent schools, the gaps are named, and the outlook for admission is realistic rather than reassuring.
+For each subject the teacher writes a detailed report. Consultants add an overall profile, recommendations and a view on whether the chosen A-Level combination makes sense. Your child is set against British peers from independent schools, the gaps are named, and the outlook for admission is realistic rather than reassuring.
 
 A disappointing result is still a useful one. If the schools you have in mind look out of reach for now, we say so and suggest another timeline, another entry point or a different list.
 

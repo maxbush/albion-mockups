@@ -10,7 +10,7 @@ publish: true
 
 # Entrance exams for UK independent schools: 7+ to 16+
 
-Parents tend to ask which exam their child has to sit, the 11+ exam or the 13+. The better question is which schools, because the UK has no single set of school entrance exams: each school asks for its own combination of results, depending on the entry point (7+, 8+, 11+, 13+ or 16+), the shortlist and where the child studies now. At ALBION the order is fixed: schools first, then the tests those schools use, then the lessons.
+Parents tend to ask which exam their child has to sit, the 11+ exam or the 13+. The better question is which schools. The UK has no single set of school entrance exams. Each school asks for its own combination of results, depending on the entry point (7+, 8+, 11+, 13+ or 16+), the shortlist and where the child studies now. At ALBION the order is fixed: schools first, then the tests those schools use, then the lessons.
 
 ## Which entrance exam at which age
 
