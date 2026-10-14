@@ -44,7 +44,7 @@ If you would like to talk about a specific child, the application form comes fir
 
 ### Is ALBION tied to any schools?
 
-No. We are not an agent for schools and takes no commission from them or from universities. Each name on a shortlist comes with a reason for its place there.
+No. We are not an agent for schools and take no commission from them or from universities. Each name on a shortlist comes with a reason for its place there.
 
 ### Can you help a child who finds school hard?
 

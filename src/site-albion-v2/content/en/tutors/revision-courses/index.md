@@ -10,7 +10,7 @@ publish: true
 
 # Revision Courses for GCSE, A-Level and IB
 
-A revision course is a short, concentrated block of work before an exam. It suits a student who has already covered the syllabus and now needs to turn knowledge into marks: weak topics repaired, papers practised against the clock, mistakes understood rather than repeated. ALBION tutors run these courses in school holidays and in the weeks before the exam series, for students at the final stage of GCSE, A-Level or the IB Diploma and for those preparing a resit.
+A revision course is a short, concentrated block of work before an exam. It suits a student who has already covered the syllabus and now needs to turn knowledge into marks: weak topics repaired, papers practised against the clock, mistakes understood rather than repeated. ALBION tutors run these courses in Oxford and online, in small groups, in school holidays and as regular weekend groups, with a focus on STEM subjects and exam disciplines. They are for students at the final stage of GCSE, A-Level or the IB Diploma and for those preparing a resit.
 
 ## Three points in the school year
 
@@ -38,11 +38,11 @@ The two do different jobs. Regular tuition runs alongside school through the yea
 
 It begins with an academic diagnosis. The tutor looks at recent work and mock results, identifies the risks and builds a plan topic by topic. The core of the course is past papers under a timer, a review of every lost mark and repeat attempts on weak topics. Answer format is trained too: for GCSE and A-Level the requirements of the exam board matter, whether AQA, Edexcel or OCR, while IB revision courses follow the criteria of each assessment.
 
-Content, subjects and hours depend on the student's level and on the programme. We agree the details after the short form and the diagnosis, not from a template.
+Content, subjects and hours depend on the student's level and on the programme. We agree the details after the short form and the diagnosis, not from a template. For example, the 2026 Easter course in A-Level Mathematics ran for two weeks at ten hours a week, in small groups, with a mock exam and weekly feedback. It is described on the [Easter revision page](/tutors/revision-courses/easter/).
 
 ## Online or in Oxford
 
-Online revision courses are the main format, for GCSE and A-Level as much as for the IB, and sessions can be set around the student's day wherever the family lives. In-person lessons in Oxford can be arranged, depending on subject and timing.
+Sessions are held in Oxford and online. Online revision courses suit families abroad, since sessions can be set around the student's day wherever the family lives, for GCSE and A-Level as much as for the IB. In-person sessions run in Oxford, and what is available in a given holiday is confirmed at booking.
 
 When a student is also going through university admissions, a consultant can see how the lessons are going. Predicted grades and offer conditions follow from results, and the application plan may need to follow them.
 
@@ -71,11 +71,11 @@ Not always. If the basics are missing, a whole syllabus cannot be rebuilt in a s
 
 ### Are courses one-to-one or in groups?
 
-Our published rates are for one-to-one lessons. Whether a particular course also runs in groups is confirmed when its programme is confirmed.
+ALBION revision courses run in small groups. The published rates are for one-to-one lessons, and that format is discussed separately.
 
 ### Can a course take place in person in Oxford?
 
-By arrangement. Online is the main format, and in-person sessions are discussed after the form, as they depend on subject, tutor and timing.
+Yes. Sessions are held in Oxford and online. What is available in person in a given holiday depends on subject, tutor and timing, and we confirm it after the form.
 
 ### Can you promise a particular grade?
 

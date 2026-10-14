@@ -60,7 +60,7 @@ ALBION prepares the strategy and schedule for each visit and can go with you on 
 
 ## Starting two to four years early
 
-Well before the application, there is more to work with. For families who target Oxbridge and prepare in good time, ALBION advises on school subjects with the future application in mind, draws up individual reading lists and discusses what has been read. It also recommends summer schools, lectures and masterclasses, and helps students find essay competitions, olympiads and academic contests, along with internships and relevant work experience where opportunities exist.
+Well before the application, there is more to work with. For families who target Oxbridge and prepare in good time, ALBION advises on school subjects with the future application in mind, draws up individual reading lists and discusses what has been read. Our consultants also recommend summer schools, lectures and masterclasses, and help students find essay competitions, olympiads and academic contests, along with internships and relevant work experience where opportunities exist.
 
 Some of this fits into the [Oxford summer schools](/summer-schools/oxford/), and subject depth can be built through ALBION tutors for [A-Level](/tutors/a-level/) or [IB](/tutors/ib/).
 

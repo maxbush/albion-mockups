@@ -26,15 +26,17 @@ Every lost mark is given a cause: a gap in knowledge, a slip in calculation, a m
 
 ## Who it suits, and who should wait
 
-A course suits a student who knows the content but sees gaps in mock results. These show up as answers that run out of time, marks lost on wording though the topic is understood, and errors that repeat from paper to paper. It also suits a candidate sitting British exams outside a UK school who wants to test preparation against exam board format.
+A course suits a student who knows the content but sees gaps in mock results. These show up as answers that run out of time, marks lost on wording though the topic is understood, and errors that repeat from paper to paper. It also suits a student aiming higher, for example from a B to an A or from an A to an A*. It is equally useful for a candidate sitting British exams outside a UK school who wants to test preparation against exam board format.
 
 It suits a student less when the basics of a subject are missing and the exam is weeks away. A holiday course cannot rebuild a syllabus. After the diagnosis we say so, and suggest either regular lessons with an [A-Level tutor](/tutors/a-level/) or a [GCSE tutor](/tutors/gcse/), or a narrower aim for the course.
 
-## Subjects, format and dates
+## The 2026 course: A-Level Maths Exam Mastery
 
-Subjects and exam boards are confirmed when a place is booked, and the final list depends on which tutors are available. Courses are online, with sessions set around the student's time zone.
+The 2026 Easter course was built for A-Level Mathematics: two weeks (30 March to 3 April and 6 to 10 April), ten hours of teaching a week, taught online in small groups. It was meant for Year 12 and Year 13 students preparing for final papers on any of the main UK exam boards. In the second week students sat a timed mock exam, and every week they received written feedback.
 
-Dates are published once they are confirmed, and we do not quote provisional ones. A family that needs a course in the coming holidays can start with the [short form](/apply/), which asks for year group, subjects, exam board and preferred timing. We reply with the options that are open.
+Students were placed in one of two tracks. The first was for stronger candidates, with hard questions and detailed work on how to take the most marks from higher-level papers. The second explained topics more fully, with worked examples and structured notes, before moving on to exam-style questions. Each day had two sessions, topic review and technique first, then past papers. The first week followed the topics (algebra and functions, calculus, trigonometry, statistics, mechanics), and the second was given to mixed problems, timed work and the mock.
+
+Before a place is confirmed we usually speak with the family about the student's level, exam board, difficult topics and revision priorities. That conversation shows whether the course fits and which track is better. Dates for the next intake are published once confirmed, and subjects beyond maths are confirmed at booking.
 
 ## What the Easter course costs
 
@@ -52,7 +54,7 @@ Early. Diagnosis and tutor matching take time, and the Easter break is short. Th
 
 ### Does it cover both GCSE and A-Level?
 
-Yes, though the work differs. GCSE leans towards precise wording and secure basics, A-Level towards depth and argument. The tutor is matched to subject and level.
+The 2026 course was devoted to A-Level Mathematics. For GCSE and other subjects we agree the programme at booking: GCSE leans towards precise wording and secure basics, A-Level towards depth and argument, and the tutor is matched to subject and level.
 
 ### Do we need to know the exam board?
 
@@ -60,7 +62,7 @@ It helps, and it is normally printed in school documents. If you are unsure, we 
 
 ### Is it one-to-one or in a group?
 
-That depends on the course, and we confirm the details with the programme. One-to-one work with a tutor is possible in any holiday.
+The 2026 course ran online in small groups. One-to-one lessons with an ALBION tutor run through the year, at the rates on the prices page, and we confirm the format of the next intake with its dates.
 
 ### Can families outside the UK take part?
 
@@ -68,6 +70,6 @@ Yes, if the student is sitting British exams, for instance IGCSE or A-Level at a
 
 ### How many hours will a student need?
 
-The diagnosis decides, since it depends on the subjects and the size of the gaps. We give the hours together with the programme and do not quote a range in advance.
+The 2026 course ran for 20 hours over two weeks, ten a week. For one-to-one preparation the diagnosis decides, since it depends on the subjects and the size of the gaps, and we do not quote a range in advance.
 
 [Tell us what the student needs for Easter](/apply/)
