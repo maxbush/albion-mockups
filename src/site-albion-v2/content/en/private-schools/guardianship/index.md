@@ -16,7 +16,7 @@ A UK school will normally expect a pupil under 18 who has come from abroad to ha
 
 In school guardianship in the UK the school entrusts the guardian with the child's health and wellbeing and with practical decisions: travel, accommodation, exeat weekends and holidays. For a boarding school guardian, exeat weekends and holidays are where the role is most visible, because the child is away from school. For the parents the guardian is their representative in the UK, acting for the child where they cannot be present.
 
-A guardian does not stand in for the parents. The role is a responsible adult with the authority to act.
+A guardian does not stand in for the parents. The guardian is a responsible adult with the authority to act.
 
 ## Who we can take on
 
@@ -28,7 +28,7 @@ There is no fee on this page. Terms are agreed with families whose [boarding sch
 
 The guardian is a consultant who has known the pupil since admission: academic and personal profile, goals, how the child has settled. A family therefore does not have to explain the background each time a new question arises.
 
-The consultant attends meetings with the school, reviews academic progress and checks that agreements are kept. The consultant also keeps school and parents informed of each other, so that neither hears of a problem last, and explains the British system, the programmes and the school's internal procedures. Where a pupil is doing steadily well, the aim is to hold that level, adjust the subject load and plan the next steps. Where difficulties appear, whether academic, behavioural or practical, the consultant joins the conversations with the school and draws up a plan to keep the pupil on course.
+The consultant attends meetings with the school, reviews academic progress and checks that agreements are kept. The consultant also keeps the school and the parents informed of each other, so that neither hears of a problem last, and explains the British system, the programmes and the school's internal procedures. Where a pupil is doing steadily well, the aim is to hold that level, adjust the subject load and plan the next steps. Where difficulties appear, whether academic, behavioural or practical, the consultant joins the conversations with the school and draws up a plan to keep the pupil on course.
 
 Specialists are brought in when needed: educational psychologists, study skills coaches, subject [tutors](/tutors/), specialists in assessing learning needs and medical consultants. The guardianship team is led by co-founder Altynai Yeshmatova, who is introduced on the [team page](/team/).
 

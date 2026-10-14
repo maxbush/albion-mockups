@@ -20,7 +20,7 @@ The limit is deliberate. Every application needs its own positioning, and ten fi
 
 ## Building the file
 
-Positioning comes first. Which parts of your record support the programme, where are the gaps, and what closes them: a course, a test, a project, work experience? If you are changing field, the aim is for the move to read as a logical next step.
+Positioning comes first. Which parts of your record support the programme, where the gaps lie, and what closes them: a course, a test, a project, work experience? If you are changing field, the aim is for the move to read as a logical next step.
 
 The academic CV leads with study, research and project work, and with publications where they exist, which makes it a different document from a business résumé. Each programme gets its own personal statement. For a master's it is closer to a statement of purpose: why this programme, what your degree has prepared you for, what you will do with the result. If you would like to see the undergraduate version first, it is explained on our [personal statement page](/university-admissions/personal-statement/).
 
@@ -52,7 +52,7 @@ US master's applications run on different rules: separate tests, a distinct essa
 
 PhD admission turns on three things: risk, fit with the research area and the likelihood of funding. A committee wants to know whether your research path is coherent, whether a supervisor can realistically be found for the topic, and whether years of investment in you are justified. The preparation is different, and it is set out on the [PhD admissions page](/university-admissions/phd/).
 
-MBA, Executive MBA and management master's applications are judged on managerial experience and the make-up of the cohort. Our [MBA admissions service](/executive-education/mba/) handles them. ALBION's co-founder, Anfisa Bashkirova, is a graduate of Saïd Business School, Oxford, and 10+ adult clients completed Saïd programmes with us in the past year.
+MBA, Executive MBA and management master's applications are judged on managerial experience and the make-up of the cohort. Our [MBA admissions service](/executive-education/mba/) handles them. ALBION's co-founder, Anfisa Bashkirova, is a graduate of Saïd Business School, Oxford, and 10+ adult clients have completed Saïd programmes with us in the past year.
 
 ## Fees and timing
 

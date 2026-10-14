@@ -10,7 +10,7 @@ publish: true
 
 # UCAS Deadline, Application and Offers
 
-The UCAS deadline depends on the course, not on the applicant. Oxford, Cambridge and most medicine, dentistry and veterinary courses close in October; nearly everything else closes in January. For 2027 entry the October date is 15 October 2026 and the January date is 13 January 2027. Not every family needs an adviser, and we say plainly when your own effort is enough.
+The UCAS deadline depends on the course, not on the applicant. Oxford, Cambridge and most medicine, dentistry and veterinary courses close in October; nearly everything else closes in January. For 2027 entry the October date is 15 October 2026 and the January date is 13 January 2027. Not every family needs an adviser, and we say plainly when a family's own effort is enough.
 
 ## UCAS deadlines for 2027 entry
 

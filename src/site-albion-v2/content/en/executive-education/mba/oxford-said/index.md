@@ -10,7 +10,7 @@ publish: true
 
 # MBA Oxford: Applying to the Oxford Saïd MBA
 
-Our co-founder, Anfisa Bashkirova, took her MSc in Major Programme Management at Saïd and now sits on the school's candidate recruitment as an alumni representative. We work from the same city as the school, and we know what a committee there tends to ask of a candidate with a long career behind them. More than ten adult clients of ALBION completed Saïd programmes over the past year.
+Our co-founder, Anfisa Bashkirova, took her MSc in Major Programme Management at Saïd and now takes part in the school's candidate recruitment as an alumni representative. We work from the same city as the school, and we know what a committee there tends to ask of a candidate with a long career behind them. More than ten adult clients of ALBION have completed Saïd programmes over the past year.
 
 [Discuss a Saïd application](/apply/)
 
@@ -46,7 +46,7 @@ The first mistake is an essay that is all about the company. The committee wants
 
 ## What we do not do
 
-We do not promise a place. At some programmes in large business schools selection is below 10%, and good preparation does not change that arithmetic. We do not write essays in your place, because the voice has to stay yours. And we do not give a preparation time in advance, since it depends on whether you already have referees, English and a test result.
+We do not promise a place. At some programmes in large business schools selection is below 10%, and good preparation does not change that arithmetic. We do not write essays in your place, because the voice has to stay yours. And we do not quote a preparation time in advance, since it depends on whether you already have referees, English and a test result.
 
 If you lead a team and want to study without leaving your post, read about the [Oxford Executive MBA](/executive-education/mba/oxford-executive-mba/). The formats are compared on our [MBA admissions](/executive-education/mba/) page.
 
@@ -78,7 +78,7 @@ No. ALBION acts for the candidate and receives no commission from schools. Anfis
 
 ### How many ALBION clients have been admitted to Saïd?
 
-More than ten adult clients completed Saïd programmes in the past year. We publish no other intake figures.
+More than ten adult clients have completed Saïd programmes in the past year. We publish no other intake figures.
 
 ### I run a business and have not studied for years. Is this realistic?
 

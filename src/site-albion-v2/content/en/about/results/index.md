@@ -28,7 +28,7 @@ The 96% does not mean every child received a first choice without complication. 
 
 ## Adult clients
 
-Over the last year, 10+ adult clients completed programmes at Saïd Business School, University of Oxford. These are graduates, not the number admitted this year. Admission is the school's decision. The method Anfisa Bashkirova designed for testing how a professional profile fits a programme helps choose the right one and has no bearing on the committee.
+Over the last year, 10+ adult clients have completed programmes at Saïd Business School, University of Oxford. These are graduates, not the number admitted this year. Admission is the school's decision. The method Anfisa Bashkirova designed for testing how a professional profile fits a programme helps choose the right one and has no bearing on the committee.
 
 ## Tutoring
 

@@ -10,7 +10,7 @@ publish: true
 
 # Easter Revision Courses for A-Level and GCSE
 
-Mock results usually arrive with a list of things that went wrong, and the Easter holiday is the last long stretch in which to deal with them before the May and June papers. With lessons paused, there is time to find where marks are leaking and to repair it. ALBION tutors spend that time on exam technique: timed past papers, marking against the mark scheme and a close look at every error.
+Mock results usually arrive with a list of things that went wrong, and the Easter holiday is the last long stretch in which to deal with them before the May and June papers. With lessons paused, there is time to find where marks are being lost and to put that right. ALBION tutors spend that time on exam technique: timed past papers, marking against the mark scheme and a close look at every error.
 
 ## Where marks are lost
 
@@ -34,7 +34,7 @@ It suits a student less when the basics of a subject are missing and the exam is
 
 The 2026 Easter course was built for A-Level Mathematics: two weeks (30 March to 3 April and 6 to 10 April), ten hours of teaching a week, taught online in small groups. It was meant for Year 12 and Year 13 students preparing for final papers on any of the main UK exam boards. In the second week students sat a timed mock exam, and every week they received written feedback.
 
-Students were placed in one of two tracks. The first was for stronger candidates, with hard questions and detailed work on how to take the most marks from higher-level papers. The second explained topics more fully, with worked examples and structured notes, before moving on to exam-style questions. Each day had two sessions, topic review and technique first, then past papers. The first week followed the topics (algebra and functions, calculus, trigonometry, statistics, mechanics), and the second was given to mixed problems, timed work and the mock.
+Students were placed in one of two tracks. The first was for stronger candidates, with hard questions and detailed work on how to take the most marks from higher-level papers. The second explained topics more fully, with worked examples and structured notes, before moving on to exam-style questions. Each day had two sessions: topic review and technique first, then past papers. The first week followed the topics (algebra and functions, calculus, trigonometry, statistics, mechanics), and the second was given to mixed problems, timed work and the mock.
 
 Before a place is confirmed we usually speak with the family about the student's level, exam board, difficult topics and revision priorities. That conversation shows whether the course fits and which track is better. Dates for the next intake are published once confirmed, and subjects beyond maths are confirmed at booking.
 

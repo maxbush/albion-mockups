@@ -26,7 +26,7 @@ Because adviser and tutors belong to one team, a change of plan reaches the less
 
 ## What cannot be promised
 
-Nobody can promise a place, and we do not. No commission reaches ALBION from any university, so the shortlist follows the candidate's profile and nothing else. If the language of a chosen programme is not yet within reach, language study comes first and sets the timetable. Fees depend on the country, the number of programmes and the amount of preparation; we quote them after an initial consultation, and the [prices page](/prices/) lists what we publish for other services.
+Nobody can promise a place, and we do not. ALBION receives no commission from any university, so the shortlist follows the candidate's profile and nothing else. If the language of a chosen programme is not yet within reach, language study comes first and sets the timetable. Fees depend on the country, the number of programmes and the amount of preparation; we quote them after an initial consultation, and the [prices page](/prices/) lists what we publish for other services.
 
 A European track can run beside a British one. The [wider university admissions service](/university-admissions/) keeps both calendars in a single plan.
 

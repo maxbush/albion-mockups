@@ -20,7 +20,7 @@ Few choices in a British education look like career decisions when they are made
 | A-Level or IB choices | which degree courses the student can apply for |
 | University course | the profession, or the postgraduate route, that follows |
 
-A weak combination tends to show itself late, when little can be done before the application deadline. Advice on subject choice is therefore written with the later application in mind, Oxford and Cambridge included, where depth in the subject carries particular weight.
+A weak combination tends to become apparent late, when little can be done before the application deadline. Advice on subject choice is therefore written with the later application in mind, Oxford and Cambridge included, where depth in the subject carries particular weight.
 
 ## How we look at a degree
 
@@ -34,7 +34,7 @@ Beyond lessons, an adviser discusses what could strengthen a future application:
 
 ## What it does not do
 
-We will not name a single correct career, and a plan made at 14 will be revised as interests change. The number of sessions and the fee depend on the student's age, the aim and the amount of work. Both are discussed at an initial consultation, to which we invite you after the enquiry form.
+We will not name a single correct career, and a plan made at 14 will be revised as interests change. The number of sessions and the fee depend on the student's age, the aim and the amount of work. Both are discussed at an initial consultation, which follows the enquiry form.
 
 [Tell us where the student is in the choice](/apply/)
 

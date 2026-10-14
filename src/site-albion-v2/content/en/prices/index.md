@@ -14,7 +14,7 @@ Where a price is fixed, ALBION publishes it. Every figure is a "from" price, wit
 
 ## University admissions
 
-Work on a university application starts with a meeting between a consultant, the student and the parents, followed by a written report on the options. The meeting costs £350 for standard UK admissions and £500 for Oxbridge, and is invoiced separately on the day. A family that goes on to the full programme within the same admissions cycle has the fee deducted in full.
+Work on a university application starts with a meeting between a consultant, the student and the parents, followed by a written report on the options. The meeting costs £350 for standard UK admissions and £500 for Oxbridge, and is invoiced separately on the day of the meeting. A family that goes on to the full programme within the same admissions cycle has the fee deducted in full.
 
 | Stage | Standard (UK) | Oxbridge |
 |---|---|---|
@@ -40,7 +40,7 @@ Rates are per hour. The level is chosen with the family, depending on the goal, 
 | Specialist tutor | from £85 | from £110 | from £110 |
 | Senior specialist tutor | from £95 | from £150 | from £150 |
 
-Tutoring is billed apart from the admissions programme. The family decides how many hours it needs and at what level of tutor.
+Tutoring is billed apart from the admissions programme. The family decides how many hours they need and at what level of tutor.
 
 ## What has no public price, and why
 

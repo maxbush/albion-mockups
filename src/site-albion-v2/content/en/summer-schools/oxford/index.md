@@ -44,7 +44,7 @@ For candidates aiming at Oxford or Cambridge, we recommend summer schools, lectu
 
 ### Does ALBION run its own summer school in Oxford?
 
-Not in the materials we hold. We match children to provider programmes and help with the choice, while the provider runs the programme and the accommodation.
+Not in the materials we hold. We match children to provider programmes and help with the choice, while the provider runs the programme and provides the accommodation.
 
 ### Can my 15-year-old take an academic course in Oxford this summer?
 
@@ -56,7 +56,7 @@ Not in the files we hold: our Oxford day camps, with English lessons, are for ag
 
 ### Is there an Oxford summer internship for a teenager?
 
-We hold no verified internship in Oxford for school-age students. What our files do contain are InvestIN career programmes for ages 15 to 18 on the UCL and LSE campuses, which combine teaching with practice alongside industry specialists. Treat any offer under the name of internship with the same questions as for a course: who organises it, who is responsible for your child, and what your child receives at the end.
+We hold no verified internship in Oxford for school-age students. What our files do contain are InvestIN career programmes for ages 15 to 18 on the UCL and LSE campuses, which combine teaching with practice alongside industry specialists. Treat any offer called an internship with the same questions as for a course: who organises it, who is responsible for your child, and what your child receives at the end.
 
 ### What do Oxford day camps cost?
 

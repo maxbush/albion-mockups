@@ -18,11 +18,11 @@ A consultancy is only as candid as its income allows. Families pay us. Schools a
 
 ## Understanding comes before applying
 
-British admissions run school by school, each with its own tests, dates and expectations. The consultant's job is to turn that scatter into a plan: where the child stands now, what has to be decided this year, and what can wait. The family makes the decisions and knows what they rest on. The child, meanwhile, can concentrate on learning and not on paperwork.
+British admissions run school by school, each with its own tests, dates and expectations. The consultant's job is to turn that scatter of requirements into a plan: where the child stands now, what has to be decided this year, and what can wait. The family makes the decisions and knows what they rest on. The child, meanwhile, can concentrate on learning and not on paperwork.
 
 ## Success is not the same for every child
 
-Some pupils arrive needing support, others are aiming at the most competitive schools and universities. For each, a good result looks different, so the target is set from the child and not from a list of famous names. The assessment looks at strengths and also at any difficulty that needs attention. Occasionally the outcome differs from the family's first aim, and the [results page](/about/results/) says so openly.
+Some pupils arrive needing support, others are aiming at the most competitive schools and universities. For each, a good result looks different, so the target is built around the child and not taken from a list of famous names. The assessment looks at strengths and also at any difficulty that needs attention. Occasionally the outcome differs from the family's first aim, and the [results page](/about/results/) says so openly.
 
 ## A fallback before the application, not after
 

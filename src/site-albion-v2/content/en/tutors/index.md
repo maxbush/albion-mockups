@@ -42,7 +42,7 @@ Online tutoring for maths begins with a diagnostic lesson, so that the tutor can
 
 English is checked first. A pupil who struggles to read the question will under-perform in every subject, and the results then mean little. After that a tutor gives a one-to-one online lesson in each chosen subject and assesses knowledge, skills and potential at the next level, set against British peers at independent schools.
 
-You then receive a written plan: which gaps come first, how often to meet, which exam or entrance test the work is aimed at. There are no hour packages sold in advance, because the scale comes from the assessment.
+You then receive a written plan: which gaps come first, how often to meet, which exam or entrance test the work is aimed at. We do not sell hour packages in advance, because the scope comes from the assessment.
 
 Every tutor is personally selected by Jonathan Mintram (BA Hons, CELTA), and your consultant explains why a particular person is being recommended.
 

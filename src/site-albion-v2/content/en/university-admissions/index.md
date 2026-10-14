@@ -68,9 +68,9 @@ Academic preparation sits outside the programme. Subject lessons, preparation fo
 
 ## What ALBION does not promise
 
-No adviser can promise an offer, because the admissions panel decides. The record so far is that every client has ended up with a Russell Group offer in hand (100%). It reflects work on individual profiles and is not a forecast for the next family.
+No adviser can promise an offer, because the admissions panel decides. The record so far is that every client has secured a Russell Group offer (100%). It reflects work on individual profiles and is not a forecast for the next family.
 
-ALBION takes no commission from universities, so the course list comes from the student's profile and nothing else. The tutors who prepare students for tests and interviews work alongside the consultant, which keeps the lessons tied to one plan. Admissions for the UK, the US and Europe, and for master's and executive programmes, are overseen by our academic director, William Knox. The rest of the people are on the [team page](/team/).
+ALBION takes no commission from universities, so the course list comes from the student's profile and nothing else. The tutors who prepare students for tests and interviews work alongside the consultant, which keeps the lessons tied to one plan. Admissions for the UK, the US and Europe, and for master's and executive programmes, are overseen by our academic director, William Knox. Other team members are on the [team page](/team/).
 
 ## Questions and answers
 

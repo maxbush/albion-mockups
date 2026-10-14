@@ -40,7 +40,7 @@ The Oxford interview, like the Cambridge one, is a conversation about your subje
 
 ## What the mentor and the programme cover
 
-One mentor runs the process. Tutors and senior consultants join at the stages where they are needed, and test preparation follows the mentor's plan, with what the mock interviews show fed back into it. The programme contains:
+One mentor runs the process. Tutors and senior consultants join at the stages where they are needed, and test preparation follows the mentor's plan, with feedback from the mock interviews fed back into it. The programme contains:
 
 1. an assessment of how competitive you are, made at the start;
 2. choice of subject and college, with the reasoning set out;

@@ -61,7 +61,7 @@ From the assessment our consultants draw up a list of up to ten schools, each wi
 
 We take no commission from schools, and nothing on a shortlist has been paid for. For pupils whose admission we handled, [guardianship](/private-schools/guardianship/) is available, but places are few.
 
-Of ALBION's pupils, 96% receive a place at the school they chose. That is a record, not a promise, because each school makes its own decision. Altynai Eshmatova, co-founder, leads the schools and guardianship side and has worked in school consulting since 2010. The rest of the people are on the [team page](/team/).
+Of ALBION's pupils, 96% receive a place at the school they chose. That is a record, not a promise, because each school makes its own decision. Altynai Eshmatova, co-founder, leads the schools and guardianship side and has worked in school consulting since 2010. Other team members are on the [team page](/team/).
 
 [Tell us about your child in the application form](/apply/)
 

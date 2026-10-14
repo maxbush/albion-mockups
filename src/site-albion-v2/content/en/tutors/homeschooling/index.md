@@ -14,7 +14,7 @@ A family that educates at home needs two things from a tutor: a plan that fits t
 
 ## Who chooses this format
 
-The reasons differ. Frequent moves between countries, a training or performance schedule that a school timetable cannot hold, gaps left by a change of system, GCSE, A-Level or IB preparation outside a classroom. In each case the timetable has to bend around the child, not the other way round.
+The reasons differ. Frequent moves between countries, a training or performance schedule that a school timetable cannot hold, gaps left by a change of system, or GCSE, A-Level or IB preparation outside a classroom. In each case the timetable has to bend around the child, not the other way round.
 
 Some families bring in a tutor for the holidays only, to keep momentum. Others organise the whole school year around one-to-one lessons. The scope is agreed at the start.
 

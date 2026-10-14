@@ -36,7 +36,7 @@ The two do different jobs. Regular tuition runs alongside school through the yea
 
 ## Inside a course
 
-It begins with an academic diagnosis. The tutor looks at recent work and mock results, identifies the risks and builds a plan topic by topic. The core of the course is past papers under a timer, a review of every lost mark and repeat attempts on weak topics. Answer format is trained too: for GCSE and A-Level the requirements of the exam board matter, whether AQA, Edexcel or OCR, while IB revision courses follow the criteria of each assessment.
+It begins with an academic diagnosis. The tutor looks at recent work and mock results, identifies the risks and builds a plan topic by topic. The core of the course is past papers under a timer, a review of every lost mark and repeat attempts on weak topics. Answer format is practised too: for GCSE and A-Level the requirements of the exam board matter, whether AQA, Edexcel or OCR, while IB revision courses follow the criteria of each assessment.
 
 Content, subjects and hours depend on the student's level and on the programme. We agree the details after the short form and the diagnosis, not from a template. For example, the 2026 Easter course in A-Level Mathematics ran for two weeks at ten hours a week, in small groups, with a mock exam and weekly feedback. It is described on the [Easter revision page](/tutors/revision-courses/easter/).
 

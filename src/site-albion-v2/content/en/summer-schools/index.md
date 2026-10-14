@@ -10,7 +10,7 @@ publish: true
 
 # Summer Schools and Camps in the UK
 
-A British summer can be a week of day camp near home, a fortnight on a Cambridge campus, or two weeks in university halls in London with work experience in a chosen field. ALBION advisers match the programme to what your child wants from the summer and what you are prepared to spend. We recommend only from those for which we hold provider materials, covering ages 6 to 18.
+A British summer can be a week of day camp near home, a fortnight on a Cambridge campus, or two weeks in university halls in London with work experience in a chosen field. ALBION advisers match the programme to what your child wants from the summer and what you are prepared to spend. We recommend only programmes for which we hold provider materials, covering ages 6 to 18.
 
 ## Programmes by age
 

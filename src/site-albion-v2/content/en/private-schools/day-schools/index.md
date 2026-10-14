@@ -10,7 +10,7 @@ publish: true
 
 # Private Day Schools in London and the UK: Prep, 11+ and Senior
 
-Some families look at day schools because they already live in the UK, others because they are about to move. Either way the school has to be within a daily commute. If you will stay overseas, the realistic route is usually a [boarding school](/private-schools/boarding/) with a guardian. ALBION works with both, and we will not recommend a day school to a family that needs boarding.
+Some families look at day schools because they already live in the UK, others because they are about to move. Either way the school has to be within daily commuting distance. If you will stay overseas, the realistic route is usually a [boarding school](/private-schools/boarding/) with a guardian. ALBION works with both, and we will not recommend a day school to a family that needs boarding.
 
 ## Prep school: what it is and how to enter
 
@@ -41,7 +41,7 @@ For an international family without UK status, state and grammar schools are usu
 
 There is no single best school, only the best fit for a particular child, so the best private schools in England for one family may be wrong for another. League tables mainly show how selective a school is on entry, and a list of the top private schools in England tells you who gets in rather than what the school adds. The better criteria are how competitive entry is for your child, the academic level the child can sustain, the pastoral system and the daily commute.
 
-We do not publish rankings or name schools. The list of up to ten, and the five we advise applying to, comes from the child's assessment and the family's address, not from a table.
+We do not publish rankings or name schools. The list of up to ten, and the five we advise applying to, comes from the child's assessment and the family's address, not from a league table.
 
 ## Day-school fees and the cost of living
 
