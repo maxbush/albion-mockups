@@ -3,14 +3,14 @@ url: /summer-schools/oxford/
 url_pair: /ru/letnie-shkoly/oksford/
 lang: en
 page_type: money
-title: Oxford Summer Schools and Courses for Teens | ALBION Oxford
+title: Oxford Day Camps and Summer Options for Teens | ALBION Oxford
 description: Oxford summer programmes explained: day camps for ages 6–12 at £595 a week, how to judge courses for high school students, and how summer ties to Oxbridge plans.
 publish: true
 ---
 
-# Oxford Summer Schools and Academic Programmes
+# Oxford Summer Schools: Day Camps and Options for Teens
 
-The Oxford summer programmes we can describe with confidence are day camps for children aged 6 to 12, run by Ultimate Activity Camps in two independent schools. For academic Oxford summer schools for high school students, held in the university's colleges, we hold no verified details. That is why there are no names, dates or fees for them here. For teenagers, the nearest options we can verify are in other cities.
+The Oxford summer programmes we can describe with confidence are day camps for children aged 6 to 12, run by Ultimate Activity Camps in two independent schools. For academic Oxford summer schools for high school students, held in the university's colleges, there are no verified details, so the page names no courses, dates or fees for them. For teenagers, the nearest options we can verify are in other cities.
 
 ## Oxford summer term dates and summer programme dates
 
@@ -20,13 +20,13 @@ Two calendars are easily confused. The University of Oxford has its own terms, a
 
 The camps run with Ultimate Activity Camps in two independent schools. Chandlings sits about five miles from Oxford in the Oxfordshire countryside, on 60 acres, with a pool and classrooms for English lessons. Headington is a few minutes' walk from the city centre and has a heated indoor pool, an astroturf surface for tennis and hockey, a sports hall and rooms for arts and crafts.
 
-Weeks run Monday to Friday, and a course can be built from one to seven of them. Each day a child has two 50-minute English lessons in a group of no more than 12, then moves on to activities chosen from more than 40. Around 85% of the other children are native speakers on the provider's figures, though the share differs by site. A teaching week costs £595.
+Weeks run Monday to Friday, and a course can be built from one to seven of them. Each day a child has two 50-minute English lessons in a group of no more than 12, then moves on to activities chosen from more than 40. Around 85% of the other children are native speakers on the provider's figures, though the share differs by site. A teaching week costs £595 on the provider's 2024 materials.
 
 The 2024 materials give Chandlings five weeks, from 22 July to 23 August, and Headington seven, from 8 July to 23 August. Dates and fees for the coming season are reconfirmed with the provider. Parents who stay in the city during the week can arrange language courses and leisure for themselves as an option. Other regions and formats are covered under [summer schools in the UK](/summer-schools/).
 
 ## Oxford summer courses for high school students
 
-The provider files we hold for 2025 and 2026 list no Oxford summer school for ages 13 to 18, meaning no academic programme held in Oxford itself. The nearest options we can verify are elsewhere. Dukes Cambridge is for ages 14 to 17, InvestIN career programmes on the UCL and LSE campuses for 15 to 18, and Earlscliffe in Kent for 13 to 17. Ages, content and fees are set out on the main summer schools page.
+The provider files for 2025 and 2026 list no Oxford summer school for ages 13 to 18, so the nearest options are elsewhere. Dukes Cambridge is for ages 14 to 17, InvestIN career programmes on the UCL and LSE campuses for 15 to 18, and Earlscliffe in Kent for 13 to 17. Ages, content and fees are set out on the main summer schools page.
 
 A programme billed as a University of Oxford summer school may be run by the university itself, or by an independent provider that hires its rooms. The name alone does not tell you which, so ask who the organiser is first. Courses in any university city differ more than their websites suggest. Before paying a deposit on an Oxford summer course, put five questions to the organiser.
 
@@ -44,19 +44,19 @@ For candidates aiming at Oxford or Cambridge, we recommend summer schools, lectu
 
 ### Does ALBION run its own summer school in Oxford?
 
-Not in the materials we hold. We match children to provider programmes and help with the choice, while the provider runs the programme and provides the accommodation.
+No. We match children to provider programmes and help with the choice, while the provider runs the programme and provides the accommodation.
 
 ### Can my 15-year-old take an academic course in Oxford this summer?
 
-We cannot name a verified Oxford college course for that age. Send the questionnaire with your child's age, subject interest and budget, and an adviser will come back with options we have been able to check.
+No Oxford college course is confirmed for that age. Send the questionnaire with your child's age, subject interest and budget, and an adviser will come back with options we have been able to check.
 
 ### Are there Oxford summer English courses for teenagers?
 
-Not in the files we hold: our Oxford day camps, with English lessons, are for ages 6 to 12. For teenagers, English comes inside programmes elsewhere. Earlscliffe's Think Global course takes ages 13 to 17 from A2+, and the English Pathway at Dukes Cambridge takes ages 14 to 17 at any level. Fees and dates are on the main summer schools page.
+Not for teenagers: our Oxford day camps, with English lessons, are for ages 6 to 12. For teenagers, English comes inside programmes elsewhere. Earlscliffe's Think Global course takes ages 13 to 17 from A2+, and the English Pathway at Dukes Cambridge takes ages 14 to 17 at any level. Fees and dates are on the main summer schools page.
 
 ### Is there an Oxford summer internship for a teenager?
 
-We hold no verified internship in Oxford for school-age students. What our files do contain are InvestIN career programmes for ages 15 to 18 on the UCL and LSE campuses, which combine teaching with practice alongside industry specialists. Treat any offer called an internship with the same questions as for a course: who organises it, who is responsible for your child, and what your child receives at the end.
+There is no verified internship in Oxford for school-age students. The nearest are InvestIN career programmes for ages 15 to 18 on the UCL and LSE campuses, which combine teaching with practice alongside industry specialists. Treat any offer called an internship with the same questions as for a course: who organises it, who is responsible for your child, and what your child receives at the end.
 
 ### What do Oxford day camps cost?
 
@@ -72,7 +72,7 @@ On the provider's account, children are grouped for English lessons by level, fr
 
 ### Do we need a visa for the camp?
 
-It depends on your child's nationality and the length of the trip. ALBION prepares applications for UK Visitor, Child Student and Student visas, so it is worth asking before anything is booked.
+It depends on your child's nationality and the length of the trip. ALBION helps with UK Visitor, Child Student and Student visa applications, so it is worth asking before anything is booked.
 
 [Request a summer programme match](/apply/)
 

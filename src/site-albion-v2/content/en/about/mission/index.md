@@ -30,7 +30,7 @@ Anfisa Bashkirova came to education consulting from Intel, where she managed ris
 
 ## A university is a means
 
-A course is judged by what the student will do with the degree. The beauty of the prospectus and the colour of student life do not count, and entry requirements are compared only afterwards.
+A course is judged by what the student will do with the degree. An attractive prospectus is not enough: the course, its demands and the setting still have to suit the student, and entry requirements are compared only afterwards.
 
 ## What we do not promise
 

@@ -20,7 +20,7 @@ Money enters the picture earlier too. Tuition and any financial aid depend on th
 
 ## How we work
 
-An adviser reviews the candidate's academic record, subjects, test results, activities and intended direction, then proposes a list that mixes ambitious options with realistic ones. A degree is a tool for the career that follows, so each university is judged on where it leads, not on the name alone. The same adviser plans the order of applications and tracks each university's dates. Together with the student, the adviser works on the essays through several rounds of revision. Recommendation letters and portfolios are covered where a programme accepts them.
+An adviser reviews the candidate's academic record, subjects, test results, activities and intended direction, then proposes a list that mixes ambitious options with realistic ones. Each university is judged on where it leads, not on the name alone. The same adviser plans the order of applications and tracks each university's dates. Together with the student, the adviser works on the essays through several rounds of revision. Recommendation letters and portfolios are covered where a programme accepts them.
 
 ## Tests
 

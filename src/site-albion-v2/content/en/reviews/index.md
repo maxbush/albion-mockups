@@ -10,7 +10,7 @@ publish: true
 
 # Client Reviews
 
-Clients review ALBION on Google, where the rating is 5.0. They write and publish those reviews themselves, so our Google profile is the place to read them.
+Clients review ALBION on Google, where the rating is 5.0. They write and publish those reviews themselves, so [our Google profile](https://www.google.com/maps?cid=962086464612808454) is the place to read them.
 
 We will not add pull-quotes here to make the page look fuller. What a family says about a child's school, a university application or a budget is personal, and it appears only when the author has agreed.
 

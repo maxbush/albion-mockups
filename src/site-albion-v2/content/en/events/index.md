@@ -10,7 +10,7 @@ publish: true
 
 # Events and webinars
 
-None of ALBION's planned events has a confirmed date yet, and we would rather say so than publish a placeholder. Webinars for parents and applicants and an open day in Oxford are being planned, and the interest form is the way to hear about them once a date is fixed.
+None of ALBION's planned events has a confirmed date yet, and we would rather say so than publish a placeholder. Webinars for parents and applicants and an open day in Oxford are being planned, and the details will be posted on this page once a date is fixed.
 
 ## What is planned
 
@@ -20,7 +20,7 @@ None of ALBION's planned events has a confirmed date yet, and we would rather sa
 
 ## Hearing first
 
-The interest form asks for your name, your email address and the format you prefer: a webinar, an in-person event or both. When something is confirmed, you receive one email with the date, topic and registration link.
+Once something is confirmed, the date, topic and registration link will appear on this page.
 
 Until then, the [guides](/resources/) and the [blog](/blog/) are the place for questions on schools, exams and applications. If a decision cannot wait for a webinar, a consultant can look at your situation now. Families working towards [Oxford and Cambridge](/university-admissions/oxbridge/) run to a fixed calendar, so an early conversation helps.
 

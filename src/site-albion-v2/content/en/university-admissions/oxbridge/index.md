@@ -10,7 +10,7 @@ publish: true
 
 # Oxbridge Admissions Support
 
-The two Oxbridge universities ask for more than other UK universities do: a single choice between them, an earlier deadline, an admissions test on many courses and an interview in December. How to get into Oxford University or Cambridge is partly a question of preparation. Our Oxbridge application support is built around a personal mentor, who stays with the application from the first assessment of competitiveness to the decision on offers. It suits students with a strong academic profile, and parents who want an unvarnished view of how that profile compares.
+The two Oxbridge universities ask for more than other UK universities do: a single choice between them, an earlier deadline, an admissions test on many courses and an interview in December. Our Oxbridge application support is built around a personal mentor, who stays with the application from the first assessment of competitiveness to the decision on offers. It suits students with a strong academic profile, and parents who want an unvarnished view of how that profile compares.
 
 ## Who reads the application
 
@@ -46,7 +46,7 @@ One mentor runs the process. Tutors and senior consultants join at the stages wh
 2. choice of subject and college, with the reasoning set out;
 3. profile development and positioning;
 4. a personal statement taken through several rounds of revision;
-5. preparation for admissions tests (TSA, TARA, MAT, LNAT and others);
+5. preparation for admissions tests (TSA, TARA, MAT, LNAT and others), with tutor lessons billed separately;
 6. interview preparation with mock sessions and a review after each;
 7. preparation for, and accompaniment at, open days;
 8. risk management and a strategy for fallback universities;
@@ -111,6 +111,10 @@ In December, after the 15 October deadline. Each college keeps its own calendar 
 ### How to get into Cambridge University: where do I start?
 
 The Cambridge application goes through UCAS by the Oxbridge deadline of 15 October, and you apply to Cambridge or Oxford in a given year, not both. Where the course asks for a test you sit it, and in December there is an interview. A college reads the file and weighs grades, personal statement, test and interview together, so the first step is an honest look at the whole profile. That is what the Oxbridge consultation with a written report is for.
+
+### How to get into Oxford University: is the route different from Cambridge?
+
+The steps match: UCAS by 15 October, a test where the course asks for one, and interviews in December. The differences lie in the details. Oxford sets the tests by course, for example MAT for mathematics and LNAT for law, and an applicant can name a college or leave the choice to the university. We compare both options against your profile in the consultation.
 
 ### Where can I find mathematics admissions test past papers?
 

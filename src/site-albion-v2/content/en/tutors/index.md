@@ -36,7 +36,7 @@ If the target is a place rather than a grade, see [entrance exams for 11+, 13+ a
 
 ## Online tutors for maths, English and the sciences
 
-Online tutoring for maths begins with a diagnostic lesson, so that the tutor can tell a gap in one topic from a wider problem with fluency. An online maths tutor and an online English tutor work in the same way: one to one, at an hour set around your family, with the plan reviewed as the lessons go on. English is checked first for every pupil, which means that for some children an online English tutor is where the work starts, before maths or the sciences. Whether the aim is GCSE, A-Level or IB, mathematics online tutoring starts the same way, and the sciences follow the same method.
+Online tutoring for maths begins with a diagnostic lesson, so that the tutor can tell a gap in one topic from a wider problem with fluency. An online maths tutor and an online English tutor work in the same way: one to one, at an hour set around your family, with the plan reviewed as the lessons go on. Whether the aim is GCSE, A-Level or IB, mathematics online tutoring starts the same way, and the sciences follow the same method.
 
 ## How a tutor is matched
 

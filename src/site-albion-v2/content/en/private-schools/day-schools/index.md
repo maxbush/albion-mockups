@@ -57,12 +57,6 @@ We take no commission from schools, so the list reflects the child and the commu
 
 [Tell us where you live and your child's year group](/apply/)
 
-## Two years in a prep school before 13+
-
-This case involves a boarding school, but its logic is general. The family approached us while their son was in Year 6 of a British school. His ability was clear, but his English and academic preparation needed strengthening. They hoped for Year 9 entry to a highly selective senior boarding school, and we suggested two years first, covering Years 7 and 8, at a strong prep school that taught boys and girls together.
-
-Applications to the most selective schools brought no offers. We went back to the question of what he needed, in lessons and in personal support, and approached other selective schools, some of them after their usual deadlines. Every one offered him a place. The prep school was a boarding one, and ALBION's guardianship team worked with the family through his first year. Giving a child two years before 13+ does not depend on the format, but this case has not been tested with a day school.
-
 ## Questions and answers
 
 ### Is a day school cheaper than boarding?

@@ -40,7 +40,7 @@ Before any lessons a consultant sets the intended direction against current resu
 
 Schools enter predicted grades in the UCAS application, and universities make conditional offers on that basis. A tutor does not set them and cannot overrule a teacher. What a tutor can do is strengthen the evidence behind the forecast: steady results in school tests, mock exams and set work through Year 12 and the first half of Year 13. We advise against waiting until spring: by the autumn of Year 13 each subject needs a clear position, so the consultant can judge which university list is realistic.
 
-UCAS applications are due by 15 January, and for Oxford and Cambridge by 15 October. By then a candidate needs results that make the case and often a test as well: LNAT, TARA or TMUA. A-Level tutors supply the subject depth, while entrance-test and interview preparation is led by a specialist or senior specialist.
+UCAS applications are due by mid-January (13 January for 2027 entry), and for Oxford and Cambridge by 15 October. By then a candidate needs results that make the case and often a test as well: LNAT, TARA or TMUA. A-Level tutors supply the subject depth, while entrance-test and interview preparation is led by a specialist or senior specialist.
 
 Applications to [Oxford and Cambridge](/university-admissions/oxbridge/) and [university admissions tests](/university-admissions/admissions-tests/) have their own pages. ALBION reports that three in four of the pupils it works with are invited to interview at Oxford or Cambridge. That figure reflects the whole admissions programme, not lessons alone.
 

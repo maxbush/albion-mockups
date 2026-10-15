@@ -14,7 +14,7 @@ Strong grades do not always settle an application. University admissions tests i
 
 ## Working back from the deadline
 
-The UCAS main deadline is 15 January, and for Oxford and Cambridge it is 15 October. Tests keep calendars of their own, and registration often closes before the application does, so the plan starts from the test dates and not from the submission date. The [Oxbridge page](/university-admissions/oxbridge/) covers that cycle in detail, and the [university admissions overview](/university-admissions/) explains the wider timeline.
+The UCAS main deadline falls in mid-January (13 January for 2027 entry), and for Oxford and Cambridge it is 15 October. Tests keep calendars of their own, and registration often closes before the application does, so the plan starts from the test dates and not from the submission date. The [Oxbridge page](/university-admissions/oxbridge/) covers that cycle in detail, and the [university admissions overview](/university-admissions/) explains the wider timeline.
 
 Courses and universities are normally chosen before anyone knows which tests will be required. In an ALBION admissions programme the question of tests comes up while courses are being chosen, not once the shortlist is final. For Oxford and Cambridge, consultants coordinate test preparation with the rest of the candidate's positioning, so the tutor receives a clear brief: which test, by what date, to what standard.
 

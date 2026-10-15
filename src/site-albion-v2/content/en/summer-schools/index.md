@@ -4,7 +4,7 @@ url_pair: /ru/letnie-shkoly/
 lang: en
 page_type: pillar
 title: UK Summer Schools and Camps for Ages 6–18 | ALBION Oxford
-description: How ALBION matches a child to a UK summer school or camp: day camps from £595 a week, residential programmes from £3,495, and subject or career courses.
+description: How ALBION matches a child to a UK summer school or camp: day camps from £595 a week (2024 rates), residential courses from £3,495 (2026) and career courses.
 publish: true
 ---
 
@@ -54,7 +54,7 @@ In 2026 the two-week sessions started on 29 June, 13 July and 27 July. Two weeks
 
 InvestIN runs one or two weeks in July and August: theory, practice alongside industry specialists, and visits to real workplaces. There are 15 specialisms, and not every one runs on every date. In 2025, medicine, law, investment and engineering ran on all three starts (7 July, 28 July and 18 August). Psychology and entrepreneurship ran in July only, architecture on 7 July alone, and art, computer science, dentistry, forensic science and several others on 28 July only.
 
-One week costs £2,150 without accommodation and £3,550 on campus. Two weeks cost £3,150 and £6,150, and the premium fortnight £4,250 and £7,250. The provider offers ALBION clients a discount of £150. Residential places are en-suite single rooms in university halls, with breakfast, dinner, evening and weekend activities and 24/7 safeguarding and support from a named student support lead (PAL). A Heathrow transfer is £300 return. The official work-experience certificate (the Level 3 Award, which the provider says earns UCAS points) is included in premium and costs a further £375 on the standard fortnight. For a teenager still choosing a field, the course gives [career guidance](/career-guidance/) something concrete to work with.
+One week costs £2,150 without accommodation and £3,550 on campus. Two weeks cost £3,150 and £6,150, and the premium fortnight £4,250 and £7,250. The provider's 2025 materials offered ALBION clients a discount of £150; whether it applies in the new season is confirmed with the provider. Residential places are en-suite single rooms in university halls, with breakfast, dinner, evening and weekend activities and 24/7 safeguarding and support from a named student support lead (PAL). A Heathrow transfer is £300 return. The official work-experience certificate (the Level 3 Award, which the provider says earns UCAS points) is included in premium and costs a further £375 on the standard fortnight. For a teenager still choosing a field, the course gives [career guidance](/career-guidance/) something concrete to work with.
 
 ## Choosing between them
 
@@ -80,11 +80,11 @@ It varies by course. Earlscliffe's spring course starts at A1+, Think Global at 
 
 ### What will a summer cost in total?
 
-From £595 for a week of day camp to £7,250 for the InvestIN premium fortnight with accommodation. The two-week residential courses in the table fall between £3,495 and £6,150. The final sum is confirmed once a programme has been chosen, for the current season.
+From £595 for a week of day camp to £7,250 for the InvestIN premium fortnight with accommodation. Apart from the premium option, the two-week residential courses in the table fall between £3,495 and £6,150. The final sum is confirmed once a programme has been chosen, for the current season.
 
 ### Does my child need a visa?
 
-That depends on nationality, length of stay and programme. ALBION prepares applications for UK Visitor, Child Student and Student visas, and your family's position is checked before anything is booked.
+That depends on nationality, length of stay and programme. ALBION helps with UK Visitor, Child Student and Student visa applications, and your family's position is checked before anything is booked.
 
 ### Who looks after my child outside lessons?
 

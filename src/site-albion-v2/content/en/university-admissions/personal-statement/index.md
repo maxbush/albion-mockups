@@ -66,11 +66,11 @@ There is no separate "statement only" fee. Work on the statement sits in stage 3
 
 ### How long should a personal statement be?
 
-Within the UCAS limit, 4,000 characters across three answers. How the space is shared out depends on the course and on where the strongest evidence lies.
+Within the UCAS limit of 4,000 characters, across three answers of at least 350 characters each. How the space is shared out depends on the course and on where the strongest evidence lies.
 
 ### How many characters is a personal statement, and how many words?
 
-The limit is 4,000 characters including spaces. UCAS gives it in characters, so there is no official answer to how many words in a UCAS personal statement. Work to the character counter in the form.
+Spaces count towards the 4,000. UCAS gives the limit in characters, so there is no official answer to how many words in a UCAS personal statement. Work to the character counter in the form.
 
 ### How do I type a personal statement for UCAS?
 

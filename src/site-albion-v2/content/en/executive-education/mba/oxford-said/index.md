@@ -38,15 +38,11 @@ A typical file contains your education and management record, proof of English, 
 | GMAT or GRE | Required on some programmes only | Plan time with university-level mathematics and English teachers where a test is needed |
 | Interview | A worry about the file can surface in person | Rehearse the likely questions on the facts of your file |
 
-We also track deadlines and make sure the pack reads as a single argument. If several programmes are in play, each needs its own materials, and the [executive education](/executive-education/) page explains how they are counted.
-
-## Where adult applications usually go wrong
-
-The first mistake is an essay that is all about the company. The committee wants something else: how the candidate will grow, and what the programme will do for him or her personally. The second is a profile the candidate thinks too businesslike to show anything personal. The conversations before any drafting are where we find out which parts of a career, which interests and which achievements belong on the page. The method is the same for the MBA and for other Saïd programmes, and the [figures and stories](/about/results/) are set out separately.
+We also track deadlines and make sure the pack reads as a single argument. If several programmes are in play, each needs its own materials, and the [executive education](/executive-education/) page explains how they are counted. The method is the same for the MBA and for other Saïd programmes, and the [figures and stories](/about/results/) are set out separately.
 
 ## What we do not do
 
-We do not promise a place. At some programmes in large business schools selection is below 10%, and good preparation does not change that arithmetic. We do not write essays in your place, because the voice has to stay yours. And we do not quote a preparation time in advance, since it depends on whether you already have referees, English and a test result.
+We do not promise a place. At some programmes in large business schools selection is below 10%, and good preparation does not change that arithmetic. And we do not quote a preparation time in advance, since it depends on whether you already have referees, English and a test result.
 
 If you lead a team and want to study without leaving your post, read about the [Oxford Executive MBA](/executive-education/mba/oxford-executive-mba/). The formats are compared on our [MBA admissions](/executive-education/mba/) page.
 
@@ -60,7 +56,7 @@ Saïd reviews tuition by intake, so Oxford University MBA fees are best taken fr
 
 The school assesses education, management experience, English, essays, references and interview. Thresholds and dates are revised, so we verify them against the current intake and write them into your plan.
 
-### Is an MBA in Oxford University UK the same as the Saïd MBA?
+### Is the Saïd MBA the MBA of the University of Oxford?
 
 Yes. Saïd is the business school of the University of Oxford, and the MBA is a degree of the University. Applications go through the school, which is why we work from Saïd's current pages rather than from a general university page.
 
@@ -76,7 +72,7 @@ It depends on the programme and the intake. Where a test is needed, we allow tim
 
 No. ALBION acts for the candidate and receives no commission from schools. Anfisa Bashkirova takes part in recruitment as an alumni representative, which does not alter the committee's decision.
 
-### How many ALBION clients have been admitted to Saïd?
+### How many ALBION clients have completed Saïd programmes?
 
 More than ten adult clients have completed Saïd programmes in the past year. We publish no other intake figures.
 

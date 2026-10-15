@@ -40,7 +40,7 @@ ALBION has worked in British education since 2010. That tells you the firm has s
 
 ## Where the family stories are
 
-There is no separate case page. Each story sits on the page whose subject it illustrates, and all are anonymised.
+The anonymised stories appear on the pages whose subjects they illustrate.
 
 - [Home page](/): a school little known to overseas families, and three offers for a Year 10 entry.
 - [Private schools](/private-schools/): an applicant at 18+ holds two offers, then one school withdraws its place.

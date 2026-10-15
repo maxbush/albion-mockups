@@ -16,7 +16,7 @@ A UCAS application has five choices and one personal statement, and most of the 
 
 UCAS is the single route for undergraduate applications to UK universities. Up to five choices go on one form, and all five receive the same personal statement, the same school reference and the same predicted grades. The courses should therefore be related: one text cannot persuade five panels about five unrelated subjects. Submission and deadlines are covered on the [UCAS support page](/university-admissions/ucas/).
 
-Universities reply with offers. A conditional offer depends on final A-Level or IB results, an unconditional one does not. The applicant names a firm choice and an insurance choice, and if results fall short of the plan, Clearing and Adjustment remain.
+Universities reply with offers. A conditional offer depends on final A-Level or IB results, an unconditional one does not. The applicant names a firm choice and an insurance choice, and if results fall short of the plan, Clearing remains.
 
 Oxford and Cambridge follow a separate track. An applicant may apply to only one of them, the deadline is earlier, many courses require an admissions test, and interviews are held in December. Our [Oxbridge page](/university-admissions/oxbridge/) covers that track in detail.
 
@@ -25,8 +25,8 @@ Oxford and Cambridge follow a separate track. An applicant may apply to only one
 | 2–4 years before applying | Choice of A-Level or IB subjects, reading, olympiads, building the profile |
 | By 15 October | Oxford, Cambridge and medical courses; registration for tests tied to the chosen courses |
 | December | Oxford and Cambridge interviews |
-| By 15 January | Main UCAS deadline |
-| Summer | Results, replies to offers, Clearing and Adjustment if needed |
+| Mid-January | Main UCAS deadline (13 January for 2027 entry) |
+| Summer | Results, replies to offers, Clearing if needed |
 
 ## Choosing a course for the long term
 

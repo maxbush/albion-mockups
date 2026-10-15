@@ -16,7 +16,7 @@ Two applications in continental Europe rarely look alike. There is no shared por
 
 Deadlines, document lists, requirements for school qualifications and the language of instruction are all set locally. A file that works for one university may need rewriting for the next, and a business-school application is judged on different grounds from a bachelor's. The two are never prepared in the same way.
 
-We therefore start with the candidate, not the map: subjects, exam results, languages and the career the degree is meant to serve. A university is a tool for that career, and each programme is weighed against where the student wants to be in ten years, not only at graduation.
+We therefore start with the candidate, not the map: subjects, exam results, languages and the career the degree is meant to serve. Each programme is weighed against the career the student wants.
 
 ## What the work covers
 

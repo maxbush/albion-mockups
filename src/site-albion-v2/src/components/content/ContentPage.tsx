@@ -5,7 +5,7 @@ import { BlockGroup } from "@/components/content/Blocks";
 import TutorsSection from "@/components/tutors/TutorsSection";
 import { crumbsFor, pageByUrl, siloOf, type Block, type ContentPageData } from "@/lib/content";
 import { getDictionary, type Locale } from "@/lib/i18n";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, REVIEW_LINKS } from "@/lib/site";
 import { TUTOR_BLOCKS } from "@/lib/tutors";
 
 const strip = (s: string) => s.replace(/<[^>]+>/g, "");
@@ -82,6 +82,10 @@ const CONTACT_PAGES: Record<Locale, Set<string>> = {
   en: new Set(["/contact/"]),
   ru: new Set(["/ru/kontakty/"]),
 };
+const REVIEW_PAGES: Record<Locale, Set<string>> = {
+  en: new Set(["/reviews/"]),
+  ru: new Set(["/ru/otzyvy/"]),
+};
 
 const PILLAR_STATS: Record<Locale, { n: string; cap: string }[]> = {
   ru: [
@@ -124,6 +128,7 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
   const eyebrow = (parent ? strip(parent.h1) : siloOf(page)) ?? "ALBION";
   const showForm = FORM_PAGES[lang].has(page.url);
   const showContact = CONTACT_PAGES[lang].has(page.url);
+  const showReviews = REVIEW_PAGES[lang].has(page.url);
   const tutorBlock = TUTOR_BLOCKS[page.url];
   const pillar = page.children.length > 0;
   const segs = page.url.split("/").filter(Boolean).slice(lang === "ru" ? 1 : 0);
@@ -189,6 +194,16 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
                   </p>
                   <p>{CONTACT.address}</p>
                 </div>
+              </div>
+            )}
+            {showReviews && (
+              <div className="mt-10 border border-ink-2/15 p-[clamp(20px,3vw,32px)]" data-reveal>
+                <p className="label">{lang === "ru" ? "Отзывы" : "Reviews"}</p>
+                <p className="mt-6 text-[16px] leading-[1.7] text-ink-2/85">
+                  <a className="link-hair" href={REVIEW_LINKS.google} target="_blank" rel="noopener noreferrer">
+                    {lang === "ru" ? "Профиль ALBION на Google" : "ALBION on Google"}
+                  </a>
+                </p>
               </div>
             )}
             {showForm && (
