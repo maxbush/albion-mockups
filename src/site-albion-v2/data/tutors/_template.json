@@ -1,0 +1,20 @@
+{
+  "slug": "firstname-lastname",
+  "publish": true,
+  "consent": false,
+  "name": { "en": "Firstname Lastname", "ru": "Имя Фамилия" },
+  "title": { "en": "Maths tutor, MA Cantab", "ru": "Тьютор по математике, MA Cantab" },
+  "subjects": ["maths"],
+  "levels": ["gcse", "a-level"],
+  "education": { "en": "MA Mathematics, University of Cambridge", "ru": "MA по математике, Кембриджский университет" },
+  "examBoards": ["AQA", "Edexcel"],
+  "experienceYears": null,
+  "languages": ["en", "ru"],
+  "formats": ["online"],
+  "bio": {
+    "en": "Facts only, 30 to 150 words: what the tutor teaches, at which levels and how the lessons are run.",
+    "ru": "Только факты, 30–150 слов: что преподаёт тьютор, на каких уровнях и как строятся занятия."
+  },
+  "photo": { "src": "/images/tutors/firstname-lastname.jpg", "focus": "50% 20%", "alt": null },
+  "sort": 100
+}

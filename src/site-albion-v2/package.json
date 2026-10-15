@@ -8,7 +8,9 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "build:content": "node scripts/build-content.mjs",
-    "prebuild": "node scripts/build-content.mjs",
+    "check:tutors": "node scripts/build-tutors.mjs --check",
+    "import:tutors": "node scripts/import-tutors-csv.mjs",
+    "prebuild": "node scripts/build-content.mjs && node scripts/build-tutors.mjs",
     "postbuild": "node scripts/prefix-build.mjs"
   },
   "dependencies": {

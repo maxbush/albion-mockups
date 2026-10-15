@@ -1,0 +1,22 @@
+{
+  "levels": {
+    "gcse": { "en": "GCSE", "ru": "GCSE" },
+    "a-level": { "en": "A-Level", "ru": "A-Level" },
+    "ib": { "en": "IB", "ru": "IB" },
+    "entrance": { "en": "School entrance", "ru": "Вступительные в школы" },
+    "tests": { "en": "University tests", "ru": "Тесты в вузы" }
+  },
+  "subjects": {
+    "maths": { "en": "Maths", "ru": "Математика" },
+    "english": { "en": "English", "ru": "Английский" },
+    "sciences": { "en": "Sciences", "ru": "Естественные науки" },
+    "humanities": { "en": "Humanities", "ru": "Гуманитарные предметы" },
+    "languages": { "en": "Languages", "ru": "Языки" },
+    "economics": { "en": "Economics and business", "ru": "Экономика и бизнес" },
+    "computing": { "en": "Computing", "ru": "Информатика" }
+  },
+  "formats": {
+    "online": { "en": "Online", "ru": "Онлайн" },
+    "in-person": { "en": "In person", "ru": "Очно" }
+  }
+}

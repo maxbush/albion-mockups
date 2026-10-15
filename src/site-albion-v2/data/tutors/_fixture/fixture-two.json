@@ -1,0 +1,51 @@
+{
+  "slug": "fixture-two",
+  "publish": true,
+  "consent": true,
+  "name": {
+    "en": "Test Tutor Two",
+    "ru": "Тестовый Тьютор Два"
+  },
+  "title": {
+    "en": "Fixture tutor, invented",
+    "ru": "Тестовый тьютор, выдуманный"
+  },
+  "subjects": [
+    "english",
+    "humanities"
+  ],
+  "levels": [
+    "gcse",
+    "ib"
+  ],
+  "education": {
+    "en": "Invented test data",
+    "ru": "Выдуманные тестовые данные"
+  },
+  "examBoards": [
+    "OCR"
+  ],
+  "experienceYears": null,
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "formats": [
+    "online"
+  ],
+  "bio": {
+    "en": "Invented test profile used only to check the layout of tutor cards and pages. It describes no real person. The text is long enough to pass the length check and to show how a short biography wraps inside the profile page.",
+    "ru": "Выдуманный тестовый профиль, нужный только для проверки вёрстки карточек и страниц тьюторов. Он не описывает реального человека. Текст достаточно длинный, чтобы пройти проверку длины и показать, как короткая биография переносится на странице профиля."
+  },
+  "sort": 20,
+  "photo": {
+    "src": "/images/tutors/_fixture-2.svg",
+    "focus": "50% 25%",
+    "alt": null
+  },
+  "_svg": {
+    "w": 1000,
+    "h": 1000,
+    "hue": 150
+  }
+}

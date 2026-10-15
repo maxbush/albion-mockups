@@ -1,0 +1,52 @@
+{
+  "slug": "fixture-one",
+  "publish": true,
+  "consent": true,
+  "name": {
+    "en": "Test Tutor One",
+    "ru": "Тестовый Тьютор Один"
+  },
+  "title": {
+    "en": "Fixture tutor, invented",
+    "ru": "Тестовый тьютор, выдуманный"
+  },
+  "subjects": [
+    "maths"
+  ],
+  "levels": [
+    "gcse",
+    "a-level"
+  ],
+  "education": {
+    "en": "Invented test data",
+    "ru": "Выдуманные тестовые данные"
+  },
+  "examBoards": [
+    "AQA",
+    "Edexcel"
+  ],
+  "experienceYears": 12,
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "formats": [
+    "online",
+    "in-person"
+  ],
+  "bio": {
+    "en": "Invented test profile used only to check the layout of tutor cards and pages. It describes no real person. The text is long enough to pass the length check and to show how a short biography wraps inside the profile page.",
+    "ru": "Выдуманный тестовый профиль, нужный только для проверки вёрстки карточек и страниц тьюторов. Он не описывает реального человека. Текст достаточно длинный, чтобы пройти проверку длины и показать, как короткая биография переносится на странице профиля."
+  },
+  "sort": 10,
+  "photo": {
+    "src": "/images/tutors/_fixture-1.svg",
+    "focus": "50% 30%",
+    "alt": null
+  },
+  "_svg": {
+    "w": 1600,
+    "h": 1000,
+    "hue": 205
+  }
+}

@@ -2,9 +2,11 @@ import Link from "next/link";
 import PageBand from "@/components/pages/PageBand";
 import EnquiryForm from "@/components/forms/EnquiryForm";
 import { BlockGroup } from "@/components/content/Blocks";
+import TutorsSection from "@/components/tutors/TutorsSection";
 import { crumbsFor, pageByUrl, siloOf, type Block, type ContentPageData } from "@/lib/content";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { CONTACT } from "@/lib/site";
+import { TUTOR_BLOCKS } from "@/lib/tutors";
 
 const strip = (s: string) => s.replace(/<[^>]+>/g, "");
 
@@ -122,6 +124,7 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
   const eyebrow = (parent ? strip(parent.h1) : siloOf(page)) ?? "ALBION";
   const showForm = FORM_PAGES[lang].has(page.url);
   const showContact = CONTACT_PAGES[lang].has(page.url);
+  const tutorBlock = TUTOR_BLOCKS[page.url];
   const pillar = page.children.length > 0;
   const segs = page.url.split("/").filter(Boolean).slice(lang === "ru" ? 1 : 0);
   const sectionArt: Record<string, string> = {
@@ -228,6 +231,8 @@ export default function ContentPage({ page }: { page: ContentPageData }) {
           </aside>
         </div>
       </section>
+
+      {tutorBlock && <TutorsSection lang={lang} level={tutorBlock.level} hub={tutorBlock.hub} />}
 
       <section className="tone-light border-t border-ink-2/10 pb-[clamp(56px,8vw,96px)] lg:hidden">
         <div className="container-x pt-10">

@@ -1,0 +1,51 @@
+{
+  "slug": "fixture-three",
+  "publish": true,
+  "consent": true,
+  "name": {
+    "en": "Test Tutor Three",
+    "ru": "Тестовый Тьютор Три"
+  },
+  "title": {
+    "en": "Fixture tutor, invented",
+    "ru": "Тестовый тьютор, выдуманный"
+  },
+  "subjects": [
+    "sciences"
+  ],
+  "levels": [
+    "a-level",
+    "ib"
+  ],
+  "education": {
+    "en": "Invented test data",
+    "ru": "Выдуманные тестовые данные"
+  },
+  "examBoards": [
+    "Edexcel"
+  ],
+  "experienceYears": 8,
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "formats": [
+    "online",
+    "in-person"
+  ],
+  "bio": {
+    "en": "Invented test profile used only to check the layout of tutor cards and pages. It describes no real person. The text is long enough to pass the length check and to show how a short biography wraps inside the profile page.",
+    "ru": "Выдуманный тестовый профиль, нужный только для проверки вёрстки карточек и страниц тьюторов. Он не описывает реального человека. Текст достаточно длинный, чтобы пройти проверку длины и показать, как короткая биография переносится на странице профиля."
+  },
+  "sort": 30,
+  "photo": {
+    "src": "/images/tutors/_fixture-3.svg",
+    "focus": "50% 20%",
+    "alt": null
+  },
+  "_svg": {
+    "w": 800,
+    "h": 1200,
+    "hue": 20
+  }
+}

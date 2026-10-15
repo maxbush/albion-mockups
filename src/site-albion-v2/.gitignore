@@ -4,3 +4,4 @@ node_modules/
 .next/
 out/
 tsconfig.tsbuildinfo
+public/images/tutors/_fixture-*
