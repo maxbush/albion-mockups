@@ -42,7 +42,6 @@ ALBION has worked in British education since 2010. That tells you the firm has s
 
 The anonymised stories appear on the pages whose subjects they illustrate.
 
-- [Home page](/): a school little known to overseas families, and three offers for a Year 10 entry.
 - [Private schools](/private-schools/): an applicant at 18+ holds two offers, then one school withdraws its place.
 - [Boarding schools](/private-schools/boarding/): a girl applying for Year 9 holds two offers while her first choice puts her on a waiting list.
 - [Entrance exams](/private-schools/entrance-exams/): two years at a prep school before Year 9 entry, then offers from other selective schools.

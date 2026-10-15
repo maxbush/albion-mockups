@@ -114,7 +114,7 @@ The Cambridge application goes through UCAS by the Oxbridge deadline of 15 Octob
 
 ### How to get into Oxford University: is the route different from Cambridge?
 
-The steps match: UCAS by 15 October, a test where the course asks for one, and interviews in December. The differences lie in the details. Oxford sets the tests by course, for example MAT for mathematics and LNAT for law, and an applicant can name a college or leave the choice to the university. We compare both options against your profile in the consultation.
+The steps match those for Cambridge, and the differences lie in the details. Oxford sets the tests by course, for example MAT for mathematics and LNAT for law, and an applicant can name a college or leave the choice to the university. We compare both options against your profile in the consultation.
 
 ### Where can I find mathematics admissions test past papers?
 

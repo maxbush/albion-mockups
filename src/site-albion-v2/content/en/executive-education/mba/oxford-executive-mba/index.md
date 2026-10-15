@@ -20,7 +20,7 @@ A senior candidate often has a choice of formats, and the choice shapes the appl
 
 ## Where senior applications go wrong
 
-The risks differ from those of a candidate with five years behind them. A profile can be too strong for a shorter programme, where a committee may politely suggest the Executive MBA instead, and the remedy is to anchor the application in concrete business tasks, since a wish for the qualification itself persuades no school. A long career can produce too many achievements, and a file that lists everything sinks. Most of the editing is cutting.
+The risks differ from those of a candidate with five years behind them. A profile can be too strong for a shorter programme, and the committee may politely suggest the Executive MBA instead. The remedy is to anchor the application in concrete business tasks: a wish for the qualification itself persuades no school. A long career can produce too many achievements, and a file that lists everything sinks. Most of the editing is cutting.
 
 References are the third trap: the school needs a letter that explains why this person will be a strong member of the group. The fourth is time. A senior person has little of it, so the calendar is planned to limit your part to approvals and a few short working sessions.
 

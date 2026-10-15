@@ -16,7 +16,7 @@ All seven cases are school admissions, and all are anonymised: no names, no scho
 
 A young woman from abroad, aged 18, was applying for A-levels, and few schools accept students over 18. ALBION prepared her for IELTS (the school took her further). She wrote the entrance tests well and held two offers. In July, with her visa in progress, the school she had chosen said that after an inspection it could not take her.
 
-ALBION rebuilt the placement. A specialist assessment was needed, which meant persuading the student herself: at 18, it cannot go ahead without her consent. The team handled the paperwork and the correspondence with the school, and the assessment led to support in her exams. She was also entered for an additional A-level in Russian, with a tutor.
+The team rebuilt the placement. A specialist assessment was needed, which meant persuading the student herself: at 18, it cannot go ahead without her consent. The team handled the paperwork and the correspondence with the school, and the assessment led to support in her exams. She was also entered for an additional A-level in Russian, with a tutor.
 
 She is now studying, with that support in place, and we are discussing help with her university applications.
 
@@ -26,7 +26,7 @@ She is now studying, with that support in place, and we are discussing help with
 
 A boy in Year 6 at a British school had clear ability, but his English and academic groundwork both needed attention. His parents hoped for a place at one of the most selective boarding schools at 13+.
 
-ALBION suggested buying him time: two further years, Years 7 and 8, at a strong co-educational boarding prep school. The first year was demanding, with a new curriculum, language, culture and boarding life, and the family, the school and ALBION's guardians worked together. The family still wanted the most selective senior schools. ALBION spoke plainly about how competitive entry is and supported those applications, but they produced no offers. The team then reassessed what he needed, academically and pastorally, and applied to a different set of selective schools, a few of them after their normal deadlines.
+We suggested buying him time: two further years, Years 7 and 8, at a strong co-educational boarding prep school. The first year was demanding, with a new curriculum, language, culture and boarding life, and the family, the school and ALBION's guardians worked together. The family still wanted the most selective senior schools. ALBION spoke plainly about how competitive entry is and supported those applications, but they produced no offers. The team then reassessed what he needed, academically and pastorally, and applied to a different set of selective schools, a few of them after their normal deadlines.
 
 Every one of them offered him a place. He is now at the school his family chose, doing well and happy there.
 
@@ -56,7 +56,7 @@ About ten days before term, one did. The family said yes quickly, having already
 
 A pupil at a British boarding school planned to stay on for A-levels, but their GCSE results ruled that out, and term began in less than two weeks.
 
-With those grades, a place straight onto A-levels was effectively closed. ALBION looked elsewhere and found a small, supportive school with a one-year GCSE resit programme, where each pupil gets real attention.
+With those grades, a place straight onto A-levels was effectively closed. The team looked elsewhere and found a small, supportive school with a one-year GCSE resit programme, where each pupil gets real attention.
 
 The grades improved markedly. The pupil moved on to A-levels, did well in the exams and is now finishing university.
 
@@ -64,7 +64,7 @@ The grades improved markedly. The pupil moved on to A-levels, did well in the ex
 
 ## A sporting profile, and a shortlist that worked
 
-A boy applying to boarding schools at 13+ had a strong sporting profile. ALBION drew up his boarding shortlist. Once he was at school it suggested taking up a team sport, and he joined a school team.
+A boy applying to boarding schools at 13+ had a strong sporting profile. We drew up his boarding shortlist. Once he was at school, we suggested taking up a team sport, and he joined a school team.
 
 Every school on the list made him an offer, and the family chose one. He later captained the team.
 
@@ -74,7 +74,7 @@ Every school on the list made him an offer, and the family chose one. He later c
 
 A family living abroad hoped to move their son, then at an international school, into Year 10 of a British boarding school. The normal application window had closed. He was still building his English and some subjects had gaps, although [our academic assessment](/assessment/) showed real potential.
 
-ALBION advised against rushed applications. For nearly a year he worked with ALBION tutors in English, mathematics and the sciences, and built the habits a British curriculum expects. Applications then went to several academically selective schools outside the usual cycle. One declined, another offered Year 9 in place of Year 10, and the family's preferred school also declined Year 10. ALBION went back to that school and proposed Year 9 as a better starting point for a boy still finding his feet in a new language and school system.
+We advised against rushed applications. For nearly a year he worked with ALBION tutors in English, mathematics and the sciences, and built the habits a British curriculum expects. Applications then went to several academically selective schools outside the usual cycle. One declined, another offered Year 9 in place of Year 10, and the family's preferred school also declined Year 10. ALBION went back to that school and proposed Year 9 as a better starting point for a boy still finding his feet in a new language and school system.
 
 The school agreed and offered a place, which gave him an extra year to build a sound foundation.
 

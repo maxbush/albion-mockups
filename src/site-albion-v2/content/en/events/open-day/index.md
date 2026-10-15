@@ -4,7 +4,7 @@ url_pair: /ru/sobytiya/den-otkrytyh-dverey/
 lang: en
 page_type: funnel
 title: Open Day in Oxford and Oxbridge Open Days | ALBION Oxford
-description: Two separate offers: planning and attending Oxbridge college open days (£350 per visit, each part) and an ALBION open day in Oxford. Register your interest.
+description: Two separate offers: planning and attending Oxbridge college open days (£350 per visit, each part) and an ALBION open day in Oxford. No date is confirmed yet.
 publish: true
 ---
 
@@ -29,7 +29,7 @@ Both parts come at no extra charge with the [full Oxbridge admissions programme]
 
 This is a separate event that we plan to hold in Oxford for parents and applicants. The date, programme and format have not been decided, so no booking is open for a particular day.
 
-To receive an invitation, leave your name, your email address and whether a parent, an applicant or both would attend. One email will follow once the date is confirmed. Other plans are listed under [events](/events/).
+Once the date and programme are confirmed, we will post them on this page with a registration link. Other plans are listed under [events](/events/).
 
 If your Oxbridge timetable is already tight, do not wait for the event. You can reach the team through the [contact page](/contact/), or describe your situation to an adviser directly.
 

@@ -26,7 +26,7 @@ CAS earns no points, but the diploma is not awarded without it. The main exam se
 
 ## What universities usually ask for
 
-Oxford states that its minimum standard offer for A-level candidates is three A grades, and that many courses, particularly in the sciences, require at least one A*. In its published guidance Cambridge gives typical A-level offers of A*AA or A*A*A, and typical IB offers of 40 to 42 points out of 45, with 776 or 777 at Higher Level. Some courses may also require a 7 in a particular subject.
+For A-level, Oxford gives AAA as its minimum standard offer, and on many courses, above all in the sciences, it asks for at least one A*. In its published guidance Cambridge gives typical A-level offers of A*AA or A*A*A, and typical IB offers of 40 to 42 points out of 45, with 776 or 777 at Higher Level. Some courses may also require a 7 in a particular subject.
 
 These are the conditions the universities published themselves. Check the requirements for your course and your year of entry on the university's own site, because they change.
 
@@ -40,7 +40,7 @@ These are the conditions the universities published themselves. Check the requir
 
 - The direction is still open, and several kinds of course need to stay possible.
 - The student is comfortable combining humanities, maths and a language.
-- He or she can sustain long independent projects and keep to a schedule across several pieces of work at once.
+- They can sustain long independent projects and keep to a schedule across several pieces of work at once.
 
 These are rules of thumb, not rules. The one firm conclusion is that the qualification must deliver the right subjects at the right level, with the grades the course asks for.
 

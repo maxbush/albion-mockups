@@ -4,7 +4,7 @@ url_pair: /ru/sobytiya/
 lang: en
 page_type: hub
 title: Events and Webinars for UK Admissions | ALBION Oxford
-description: Webinars for parents and applicants and an open day in Oxford are planned by ALBION. No dates are confirmed yet; register your interest to hear first.
+description: Webinars for parents and applicants and an open day in Oxford are planned by ALBION. No dates are confirmed yet; they will be posted on this page.
 publish: true
 ---
 

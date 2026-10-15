@@ -30,7 +30,7 @@ The guardian is a consultant who has known the pupil since admission: academic a
 
 The consultant attends meetings with the school, reviews academic progress and checks that agreements are kept. The consultant also keeps the school and the parents informed of each other, so that neither hears of a problem last, and explains the British system, the programmes and the school's internal procedures. Where a pupil is doing steadily well, the aim is to hold that level, adjust the subject load and plan the next steps. Where difficulties appear, whether academic, behavioural or practical, the consultant joins the conversations with the school and draws up a plan to keep the pupil on course.
 
-Specialists are brought in when needed: educational psychologists, study skills coaches, subject [tutors](/tutors/), specialists in assessing learning needs and medical consultants. The guardianship team is led by co-founder Altynai Yeshmatova, who is introduced on the [team page](/team/).
+Specialists are brought in when needed: educational psychologists, study skills coaches, subject [tutors](/tutors/), specialists in assessing learning needs and medical consultants. The guardianship team is led by co-founder Altynay Yeshmatova, who is introduced on the [team page](/team/).
 
 Sometimes repeated signs suggest that a pupil may benefit from a specialist assessment. It is then raised carefully with the family and the school, and a support plan follows under professional supervision. Some situations are beyond what a guardian can resolve alone, and the family is told so at once.
 

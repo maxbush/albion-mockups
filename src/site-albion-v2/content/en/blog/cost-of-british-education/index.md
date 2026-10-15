@@ -33,7 +33,7 @@ State schools in England are free for children who are entitled to a place, but 
 | From England (Home), 2026/27 | Up to £9,790, the government's cap, which is what Oxford charges | A government loan for the full fee is available |
 | International (Overseas) | At Oxford from £39,620 to £66,580, depending on the course (stated for 2027/28) | No UK government loan |
 
-Other universities set their own prices; Oxford is used as the example because it publishes a range. Oxford states that fees for international students rise every year and that the rise will not exceed the higher of 6% or CPI inflation. A budget should therefore cover the whole programme with that growth built in, not today's figure.
+The years in the table differ: the English figure is for 2026/27, while Oxford publishes the overseas range under 2027/28. Other universities set their own prices; Oxford is used as the example because it publishes a range. Oxford states that fees for international students rise every year and that the rise will not exceed the higher of 6% or CPI inflation. A budget should therefore cover the whole programme with that growth built in, not today's figure.
 
 ## Living costs
 
