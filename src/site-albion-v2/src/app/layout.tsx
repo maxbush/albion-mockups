@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Inter_Tight } from "next/font/google";
 import type { ReactNode } from "react";
 import RevealObserver from "@/components/layout/RevealObserver";
+import { INDEXABLE, metadataBase, social } from "@/lib/seo";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -30,14 +31,20 @@ const interTight = Inter_Tight({
 // Preview builds (tutor cards shown with test data) are labelled and kept out of search engines.
 const PREVIEW = process.env.NEXT_PUBLIC_TUTORS_PREVIEW === "1";
 
+const DEFAULT_TITLE = "ALBION — independent education consultancy in Oxford";
+const DEFAULT_DESCRIPTION =
+  "ALBION walks international families along the whole British route: school preparation, the British school, GCSE, A-Level or IB, university, master's and MBA.";
+
 export const metadata: Metadata = {
+  metadataBase,
   title: {
-    default: "ALBION — independent education consultancy in Oxford",
+    default: DEFAULT_TITLE,
     template: "%s — ALBION",
   },
-  description:
-    "ALBION walks international families along the whole British route: school preparation, the British school, GCSE, A-Level or IB, university, master's and MBA.",
-  ...(PREVIEW ? { robots: { index: false, follow: false } } : {}),
+  description: DEFAULT_DESCRIPTION,
+  ...social(DEFAULT_TITLE, DEFAULT_DESCRIPTION, "/", "en"),
+  // Closed mockup: hidden from search until SITE_INDEXABLE=1 is set at launch. Preview builds always stay hidden.
+  ...(PREVIEW || !INDEXABLE ? { robots: { index: false, follow: false } } : {}),
 };
 
 export const viewport: Viewport = {

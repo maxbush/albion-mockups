@@ -33,6 +33,7 @@ export interface Dictionary {
     scroll: string;
     arrival: string;
     arrivalSub: string;
+    imgAlt: string;
   };
   trust: { aria: string; onGoogle: string; stats: Array<{ n: string; cap: string }> };
   manifesto: { label: string; title: string; titleEm: string; p1: string; p2: string; p3: string };
@@ -63,15 +64,14 @@ export interface Dictionary {
     lead: string;
     items: Array<{ n: string; word: string; text: string }>;
   };
-  directory: { label: string; title: string; titleEm: string; lead: string };
   adults: { label: string; title: string; titleEm: string; lead: string; cta: string };
   offers: {
     label: string;
     title: string;
     titleEm: string;
     lead: string;
-    itemsAria: string;
-    items: Array<{ title: string; text: string; key: PathKey }>;
+    universities: string;
+    schools: string;
   };
   team: {
     label: string;

@@ -230,8 +230,8 @@ const NAV: Record<Locale, NavSection[]> = {
         {
           title: "MBA",
           items: [
-            { label: "MBA admissions", href: P.en.mba, description: "Strategy, essays and interviews for top schools." },
-            { label: "Oxford Said MBA", href: P.en.said, description: "Requirements, essays and deadlines." },
+            { label: "MBA admissions", href: P.en.mba, description: "Strategy, essays and interviews." },
+            { label: "Oxford Said MBA", href: P.en.said, description: "How the application is read, the essays, the interview." },
             { label: "Oxford Executive MBA", href: P.en.emba, description: "The executive format at Said." },
           ],
         },
@@ -370,8 +370,8 @@ const NAV: Record<Locale, NavSection[]> = {
         {
           title: "MBA",
           items: [
-            { label: "Поступление на MBA", href: P.ru.mba, description: "Стратегия, эссе и интервью для топ-школ." },
-            { label: "Oxford Saïd MBA", href: P.ru.said, description: "Требования, эссе и дедлайны." },
+            { label: "Поступление на MBA", href: P.ru.mba, description: "Стратегия, эссе и интервью." },
+            { label: "Oxford Saïd MBA", href: P.ru.said, description: "Как читают заявку, эссе, интервью." },
             { label: "Oxford Executive MBA", href: P.ru.emba, description: "Executive-формат Saïd." },
           ],
         },

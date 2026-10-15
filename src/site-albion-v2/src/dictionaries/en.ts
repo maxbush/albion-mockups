@@ -35,7 +35,7 @@ export const en: Dictionary = {
         numeral: "IV",
         title: "University",
         short: "UCAS, Oxbridge, the USA and Europe.",
-        text: "An application moves through four phases: research and choice of direction, shaping the profile, preparing the application, and the decision with a fallback. The university is a tool, chosen for what the student wants to do next.",
+        text: "The university is a tool, chosen for what the student wants to do next.",
       },
       {
         id: "postgrad",
@@ -89,6 +89,7 @@ export const en: Dictionary = {
     scroll: "Scroll",
     arrival: "The route begins here.",
     arrivalSub: "",
+    imgAlt: "Watercolour: an Oxford quad with its gatehouse tower in morning haze",
   },
 
   trust: {
@@ -161,38 +162,31 @@ export const en: Dictionary = {
 
   difference: {
     label: "How ALBION differs",
-    title: "What a family sees",
-    titleEm: "before work begins",
-    lead: "How the company is set up, and what that means for a family.",
+    title: "Four commitments",
+    titleEm: "we do not bend",
+    lead: "We work inside the British system, not selling it from the outside.",
     items: [
       {
         n: "I",
-        word: "Based in Oxford",
-        text: "ALBION works from Oxford and knows the British system from the inside. The address and telephone number are on the contact page.",
+        word: "Oxford-based",
+        text: "We work from Oxford and know the British education system from the inside. The address and telephone number are on the contact page.",
       },
       {
         n: "II",
-        word: "Independent advice",
-        text: "Schools and universities pay ALBION nothing, so the shortlist follows the child's profile and not anyone's arrangements.",
+        word: "Independent",
+        text: "Schools and universities pay us nothing and there are no commissions. When we say a school fits, it is our opinion, not a paid recommendation.",
       },
       {
         n: "III",
-        word: "One team for the whole route",
+        word: "One team",
         text: "Consultants, tutors and guardians work inside one company. A child is not passed from contractor to contractor, and decisions at each stage rest on what came before.",
       },
       {
         n: "IV",
-        word: "Seen from both sides",
-        text: "The team has been through British education as students and as parents, working out an unfamiliar system from scratch.",
+        word: "Honest about chances",
+        text: "We do not promise a place: the school or university decides. Fees are published and the limits of the service are stated up front.",
       },
     ],
-  },
-
-  directory: {
-    label: "Directory",
-    title: "If you already know",
-    titleEm: "what you are looking for",
-    lead: "Every section of the site in one place, so you can go straight to the one you need.",
   },
 
   adults: {
@@ -204,33 +198,12 @@ export const en: Dictionary = {
   },
 
   offers: {
-    label: "Directions",
-    title: "Where the route",
-    titleEm: "leads",
-    lead: "We do not publish the names of the schools and universities our families go on to, and the stories on this site are anonymised. These are the areas the work covers.",
-    itemsAria: "Areas of work",
-    items: [
-      {
-        title: "British schools",
-        text: "Boarding and day schools. Entrance exams at 7+, 8+, 11+, 13+ and 16+, interview practice and guardianship.",
-        key: "schools",
-      },
-      {
-        title: "British universities",
-        text: "UCAS applications, Oxford and Cambridge included: course choice, admissions tests, personal statement, interviews.",
-        key: "ucas",
-      },
-      {
-        title: "Europe and the USA",
-        text: "English-taught programmes in Europe and American colleges: the list, the essays, the deadlines.",
-        key: "universities",
-      },
-      {
-        title: "Master's, MBA and executive study",
-        text: "Programmes for adults, including Saïd Business School at the University of Oxford.",
-        key: "exec",
-      },
-    ],
+    label: "Our families",
+    title: "Where our families",
+    titleEm: "go on to study",
+    lead: "The schools and universities where our families study, or have studied. The list is in preparation",
+    universities: "Universities",
+    schools: "Schools",
   },
 
   team: {
@@ -301,7 +274,7 @@ export const en: Dictionary = {
     label: "Open days",
     title: "Which colleges",
     titleEm: "to see first",
-    lead: "Oxford has 32 colleges. Each has its own admissions committee, its own open days and its own timetable, and departments run subject events separately. No family can see everything, so the question is which to visit first. A separate page explains the two formats: a planning service for visits, and an ALBION event in Oxford.",
+    lead: "Oxford has 32 undergraduate colleges. Each has its own admissions committee, its own open days and its own timetable, and departments run subject events separately. No family can see everything, so the question is which to visit first. A separate page explains the two formats: a planning service for visits, and an ALBION event in Oxford.",
     details: [
       "A sense of a college's academic environment",
       "Time with admissions staff",
@@ -359,7 +332,7 @@ export const en: Dictionary = {
     label: "Consultation",
     title: "How the conversation",
     titleEm: "begins",
-    lead: "Say who the programme is for, how old the student is and what you are looking at. We will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
+    lead: "Tell us who is applying, where to and by when. We will get in touch and suggest a time for an initial consultation, where you agree which stage to start from.",
     submit: "Book a consultation",
     imgAlt: "Watercolour: a parent and a schoolchild in uniform walking up a path to the open gates of a college",
   },

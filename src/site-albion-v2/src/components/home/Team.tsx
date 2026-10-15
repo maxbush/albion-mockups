@@ -5,11 +5,11 @@ import { getDictionary, type Locale } from "@/lib/i18n";
 import { path } from "@/lib/site";
 
 const leadership = [
-  { name: "Anfisa Bashkirova", src: "/images/team/team-anfisa-bashkirova.webp" },
-  { name: "Altynay Yeshmatova", src: "/images/team/team-altynay-yeshmatova.webp" },
-  { name: "William Knox", src: "/images/team/team-william-knox.webp" },
-  { name: "Vladimir Ivanov-Krymskiy", src: "/images/team/team-vladimir-ivanov-krymskiy.webp" },
-  { name: "Jonathan Mintram", src: "/images/team/team-jonathan-mintram.webp" },
+  { name: "Anfisa Bashkirova", nameRu: "Анфиса Башкирова", src: "/images/team/team-anfisa-bashkirova.webp" },
+  { name: "Altynay Yeshmatova", nameRu: "Алтынай Ешматова", src: "/images/team/team-altynay-yeshmatova.webp" },
+  { name: "William Knox", nameRu: "Уильям Нокс", src: "/images/team/team-william-knox.webp" },
+  { name: "Vladimir Ivanov-Krymskiy", nameRu: "Владимир Иванов-Крымский", src: "/images/team/team-vladimir-ivanov-krymskiy.webp" },
+  { name: "Jonathan Mintram", nameRu: "Джонатан Минтрэм", src: "/images/team/team-jonathan-mintram.webp" },
 ];
 
 function PersonCard({
@@ -44,7 +44,7 @@ function PersonCard({
 
 export default function Team({ lang }: { lang: Locale }) {
   const t = getDictionary(lang).team;
-  const leaders = leadership.map((p, i) => ({ ...p, role: t.roles[i] }));
+  const leaders = leadership.map((p, i) => ({ name: lang === "ru" ? p.nameRu : p.name, src: p.src, role: t.roles[i] }));
   return (
     <section aria-labelledby="team-title" className="bg-ink-2 py-[clamp(88px,12vw,168px)]">
       <div className="container-x grid gap-16 lg:grid-cols-12 lg:gap-8">

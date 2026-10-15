@@ -395,13 +395,16 @@
 }
 .strip-track {
   display: flex;
-  gap: 14px;
   width: max-content;
-  animation: strip-scroll 46s linear infinite;
+  will-change: transform;
+  animation: strip-scroll 138s linear infinite;
+}
+.strip-item {
+  margin-right: 14px;
 }
 .strip-track-rev {
   animation-name: strip-scroll-rev;
-  animation-duration: 52s;
+  animation-duration: 156s;
 }
 .strip-track:hover,
 .strip-track:focus-within {

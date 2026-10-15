@@ -20,7 +20,7 @@ export default function NextStep({ lang }: { lang: Locale }) {
           <p className="mt-8 max-w-[52ch] text-[17px] leading-[1.72] text-cream/80">{t.lead}</p>
           <p className="mt-10">
             <Link href={path(lang, "apply")} className="link-hair link-hair-soft text-[15px]">
-              {t.cta} <span aria-hidden="true">↗</span>
+              {t.cta}
             </Link>
           </p>
         </div>

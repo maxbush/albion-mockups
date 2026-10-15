@@ -2,7 +2,7 @@
 // Post-build: prefix absolute /images/ references (next/image is unoptimized, CSS url(), inline styles)
 // with the gh-pages subpath. Internal links and _next assets are prefixed by Next itself (basePath).
 import { readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join, dirname, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -21,7 +21,10 @@ function walk(d) {
       files++;
       const t = readFileSync(p, "utf8");
       // a quote, paren, equals sign or backslash-escaped quote directly before /images/ (not already prefixed)
-      const next = t.replace(/(["'(=`]|\\")\/images\//g, `$1${BASE}/images/`);
+      let next = t.replace(/(["'(=`]|\\")\/images\//g, `$1${BASE}/images/`);
+      // The root layout is shared, so its <html lang> is "en". Russian pages get lang="ru" in the static HTML too
+      // (crawlers and screen readers read it before any script runs).
+      if (name.endsWith(".html") && (p.startsWith(join(OUT, "ru") + sep))) next = next.replace('<html lang="en"', '<html lang="ru"');
       if (next !== t) {
         writeFileSync(p, next);
         changed++;

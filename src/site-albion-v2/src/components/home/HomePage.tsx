@@ -2,7 +2,6 @@
 import Adults from "@/components/home/Adults";
 import Consultation from "@/components/home/Consultation";
 import Difference from "@/components/home/Difference";
-import Directory from "@/components/home/Directory";
 import Manifesto from "@/components/home/Manifesto";
 import Method from "@/components/home/Method";
 import Offers from "@/components/home/Offers";
@@ -14,11 +13,13 @@ import Testimonials from "@/components/home/Testimonials";
 import NextStep from "@/components/home/NextStep";
 import TrustBar from "@/components/home/TrustBar";
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { organizationJsonLd } from "@/lib/seo";
 
 export default function HomePage({ lang }: { lang: Locale }) {
   const dict = getDictionary(lang);
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd()) }} />
       <Hero dict={dict.hero} />
       <TrustBar lang={lang} />
       <Manifesto lang={lang} />
@@ -26,7 +27,6 @@ export default function HomePage({ lang }: { lang: Locale }) {
       <Method lang={lang} />
       <Adults lang={lang} />
       <Difference lang={lang} />
-      <Directory lang={lang} />
       <Offers lang={lang} />
       <Team lang={lang} />
       <Testimonials lang={lang} />

@@ -5,7 +5,7 @@ export function Tbc({ lang, hint }: { lang: Locale; hint?: string }) {
   const text = hint ?? getDictionary(lang).tbc.hint;
   return (
     <span className="tbc" title={text}>
-      TBC<span className="sr-only"> — {text}</span>
+      TBC<span className="sr-only">: {text}</span>
     </span>
   );
 }

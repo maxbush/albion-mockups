@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import LangChrome from "@/components/layout/LangChrome";
 import { getDictionary } from "@/lib/i18n";
+import { social } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -10,6 +11,7 @@ export function generateMetadata(): Metadata {
   return {
     title: { absolute: dict.meta.title },
     description: dict.meta.description,
+    ...social(dict.meta.title, dict.meta.description, "/", "en"),
     alternates: { canonical: "/", languages: { "en-GB": "/", ru: "/ru/", "x-default": "/" } },
   };
 }

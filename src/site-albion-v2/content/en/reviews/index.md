@@ -10,9 +10,17 @@ publish: true
 
 # Client Reviews
 
-Clients review ALBION on Google, where the rating is 5.0. They write and publish those reviews themselves, so [our Google profile](https://www.google.com/maps?cid=962086464612808454) is the place to read them.
+Clients review ALBION on Google, where the rating is 5.0. Below are excerpts from the public profile. The full texts and every other review are there too: [our Google profile](https://www.google.com/maps?cid=962086464612808454).
 
-We will not add pull-quotes here to make the page look fuller. What a family says about a child's school, a university application or a budget is personal, and it appears only when the author has agreed.
+## What clients write
+
+> “Huge thank you to the ALBION team for helping my daughter prepare to get into one of the top 2% schools in the UK, she performed brilliantly and got the offer.” Anastasia K., Google ★★★★★
+
+> “After the consultation, we had a much clearer understanding of the education pathways in the UK and the options available to us.” Alexandra L., Google ★★★★★
+
+> “Anfisa and her team do an absolutely stellar job!” Kseniya O., Google ★★★★★
+
+> “We had a very good experience with the team.” Daria S., Google ★★★★★
 
 ## What to look for in any consultancy's reviews
 

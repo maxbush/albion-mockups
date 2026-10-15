@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ContentPage from "@/components/content/ContentPage";
 import TutorProfile from "@/components/tutors/TutorProfile";
 import { allPages, pageByUrl, pageForSegments } from "@/lib/content";
+import { social } from "@/lib/seo";
 import { tutorForSegments, tutorSegments, tutorUrl } from "@/lib/tutors";
 
 export const dynamicParams = false;
@@ -37,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: page.title,
     description: page.description,
+    ...social(page.title, page.description, page.url, "en"),
     alternates: {
       canonical: page.url,
       languages: page.pair ? { "en-GB": page.url, ru: page.pair, "x-default": page.url } : undefined,

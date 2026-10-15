@@ -40,6 +40,7 @@ function Field({
 }
 
 function Choices({
+  hideLegend = false,
   legend,
   name,
   options,
@@ -49,6 +50,7 @@ function Choices({
   errorId,
 }: {
   legend: string;
+  hideLegend?: boolean;
   name: string;
   options: ReadonlyArray<{ value: string; label: string }>;
   value: string;
@@ -58,7 +60,7 @@ function Choices({
 }) {
   return (
     <fieldset className="field" aria-describedby={error ? errorId : undefined}>
-      <legend className="field-label">{legend}</legend>
+      <legend className={hideLegend ? "sr-only" : "field-label"}>{legend}</legend>
       <div className="choice-group" role="radiogroup">
         {options.map((option) => (
           <label className="choice" key={option.value}>
@@ -246,6 +248,7 @@ export default function EnquiryForm({
         <>
           <Choices
             legend={t.audienceLegend}
+            hideLegend
             name="audience"
             options={t.audienceOptions}
             value={audience}

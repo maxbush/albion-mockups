@@ -327,7 +327,7 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
             <img
               {...quadImg}
               srcSet={quadTall}
-              alt="Watercolour: an Oxford quad with its gatehouse tower in morning haze"
+              alt={dict.imgAlt}
               className={styles.quadImg}
             />
           </picture>
