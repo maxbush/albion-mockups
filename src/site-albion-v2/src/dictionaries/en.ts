@@ -272,7 +272,7 @@ export const en: Dictionary = {
     scoreCap: "rating on Google",
     linkGoogle: "Reviews on Google",
     linkReviews: "About these reviews",
-    note: "Excerpts from reviews on our public Google profile, shown in their original wording.",
+    note: "Excerpts from reviews on our public Google profile.",
     reviews: [
       {
         text: "Huge thank you to the ALBION team for helping my daughter prepare to get into one of the top 2% schools in the UK, she performed brilliantly and got the offer.",

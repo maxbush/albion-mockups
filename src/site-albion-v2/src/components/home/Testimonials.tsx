@@ -5,9 +5,9 @@ import { path, REVIEW_LINKS } from "@/lib/site";
 
 /**
  * Reviews block in the style the client picked from the green mockup: parchment cards, slightly
- * off-axis, alternating left/right, italic serif quotes. The quotes are carried over from the earlier
- * version and still need checking against the public Google profile; the block says they are excerpts
- * from it. Later this array is fed by the Google reviews source and the layout stays as is.
+ * off-axis, alternating left/right, italic serif quotes. The four quotes were checked against the public
+ * Google profile on 15.10.2026 (5.0 from 6 reviews); the block says they are excerpts from it. Later this
+ * array can be fed by the Google reviews source and the layout stays as is.
  */
 const TILT = ["sm:-rotate-[0.8deg]", "sm:rotate-[1.1deg]", "sm:-rotate-[1.2deg]", "sm:rotate-[0.7deg]"];
 

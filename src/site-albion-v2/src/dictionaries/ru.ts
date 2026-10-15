@@ -272,7 +272,7 @@ export const ru: Dictionary = {
     scoreCap: "оценка на Google",
     linkGoogle: "Отзывы на Google",
     linkReviews: "Об отзывах",
-    note: "Фрагменты отзывов с публичного профиля Google, приведены на языке оригинала.",
+    note: "Фрагменты отзывов с публичного профиля Google.",
     reviews: [
       {
         text: "Huge thank you to the ALBION team for helping my daughter prepare to get into one of the top 2% schools in the UK, she performed brilliantly and got the offer.",
