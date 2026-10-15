@@ -67,7 +67,7 @@ Of ALBION's pupils, 96% receive a place at the school they chose. That is a reco
 
 ## When the preferred school withdrew its place
 
-A sixth-form applicant aged 18+ had little room for manoeuvre, since few schools take pupils at that age. She held offers from two of them. The school she preferred withdrew its place in July, after an inspection, when her visa application was already under way, and the placement had to be rebuilt. It is the reason we never plan an admission around a single offer. Other stories are listed on the [results page](/about/results/).
+A sixth-form applicant aged 18+ had little room for manoeuvre, since few schools take pupils at that age. She held offers from two of them. The school she preferred withdrew its place in July, after an inspection, when her visa application was already under way, and the placement had to be rebuilt. It is the reason we never plan an admission around a single offer. Other cases are collected on the [cases page](/cases/).
 
 ## Where to go next
 

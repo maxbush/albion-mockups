@@ -62,7 +62,7 @@ Two co-founders lead ALBION. Anfisa Bashkirova (MSc Oxon) graduated from Saïd B
 
 ## From practice: a school few families had heard of
 
-A capable girl at an international school was applying for Year 10 in the UK, and her family lived abroad. We assessed her level and drew up a shortlist of selective schools. Beside the familiar names it included one that is academically outstanding but little known to overseas families. The family visited every school and liked that one best. She sat entrance exams for three schools, received an offer from each and chose the one the family had not known about. She later took GCSEs and A-Levels there with excellent results. No family can be promised offers from every school on a list. More [client stories](/about/results/) are listed on the results page.
+A capable girl at an international school was applying for Year 10 in the UK, and her family lived abroad. We assessed her level and drew up a shortlist of selective schools. Beside the familiar names it included one that is academically outstanding but little known to overseas families. The family visited every school and liked that one best. She sat entrance exams for three schools, received an offer from each and chose the one the family had not known about. She later took GCSEs and A-Levels there with excellent results. No family can be promised offers from every school on a list. More [client stories](/cases/) are collected separately.
 
 ## Starting the conversation
 

@@ -16,7 +16,7 @@ Management programmes differ in length, academic standing and the way applicants
 
 Once your profile has been reviewed, we prepare the CV in the form each school expects, along with motivation statements and essays. References are part of the work: the choice of referees and letters written in an academic register. Where a programme requires the GMAT or GRE, university-level mathematics and English teachers prepare you for it. Interview rehearsal and control of submission dates complete the list.
 
-The people behind this are introduced on the [team page](/team/), and figures for adult clients are on the [results page](/about/results/).
+The people behind this are introduced on the [team page](/team/), and examples of earlier work are on the [cases page](/cases/).
 
 ## The four groups and the short formats
 

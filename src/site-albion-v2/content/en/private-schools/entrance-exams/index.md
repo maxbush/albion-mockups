@@ -88,7 +88,7 @@ One boy, then in Year 6 of a British school, came to us with Year 9 entry to a w
 
 ## What we do not do
 
-ALBION does not set scores or influence a school's decision: exam boards and schools run the tests, and we prepare the child and manage the process. The figure of 96% describes pupils who receive a place at their chosen school, not marks in any individual test. The people who run admissions are on the [team page](/team/); other families' stories are listed on the [results page](/about/results/).
+ALBION does not set scores or influence a school's decision: exam boards and schools run the tests, and we prepare the child and manage the process. The figure of 96% describes pupils who receive a place at their chosen school, not marks in any individual test. The people who run admissions are on the [team page](/team/); other families' stories are in the [case studies](/cases/).
 
 ## Questions and answers
 

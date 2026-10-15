@@ -24,7 +24,7 @@ Clients review ALBION on Google, where the rating is 5.0. Below are excerpts fro
 
 ## What to look for in any consultancy's reviews
 
-A rating on its own tells you little. It helps to know which service the reviewer used (school admissions, university applications, tutoring), how long ago it was, and whether they describe actual steps rather than a general impression. If you want to see how results and setbacks are reported, the [results page](/about/results/) points to stories that are each told with their limits.
+A rating on its own tells you little. It helps to know which service the reviewer used (school admissions, university applications, tutoring), how long ago it was, and whether they describe actual steps rather than a general impression. If you want to see how results and setbacks are reported, our [case studies](/cases/) carry a caveat on each one.
 
 ## How families hear about progress
 

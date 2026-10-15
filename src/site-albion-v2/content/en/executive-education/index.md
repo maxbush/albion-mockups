@@ -57,7 +57,7 @@ ALBION does not represent schools or accept commission from universities, which 
 
 ## When a profile holds several careers
 
-Many senior candidates arrive with several lines at once: a business of their own, roles in other companies, an earlier academic or industry career. Laid side by side, they read as separate stories, and a committee struggles to see who is applying. The consultant's job is to choose one line to carry the account and to give the others a supporting place. That work is done before any text is written. Figures for adult clients are on the [results page](/about/results/).
+Many senior candidates arrive with several lines at once: a business of their own, roles in other companies, an earlier academic or industry career. Laid side by side, they read as separate stories, and a committee struggles to see who is applying. The consultant's job is to choose one line to carry the account and to give the others a supporting place. That work is done before any text is written. Other applicants' stories are on the [cases page](/cases/).
 
 ## Questions and answers
 

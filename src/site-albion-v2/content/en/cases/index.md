@@ -3,14 +3,14 @@ url: /cases/
 url_pair: /ru/kejsy/
 lang: en
 page_type: trust
-title: UK School Admission Case Studies & Results | ALBION Oxford
-description: Seven anonymised UK school admission cases: waiting lists, 13+, Year 10, a GCSE resit and A-Level at 18+. ALBION results, with caveats on each one.
+title: Case Studies: UK School Admission, Universities, MBA | ALBION Oxford
+description: Anonymised ALBION case studies: school admission, universities and Oxbridge, MBA and executive study, guardianship. Results, with caveats.
 publish: true
 ---
 
-# Case Studies: How Seven UK School Applications Turned Out
+# Case Studies: How UK School and University Applications Turned Out
 
-All seven cases are school admissions, and all are anonymised: no names, no school names, and ages only where they do not identify the family. Each closes with a caveat in italics, because a case shows what happened for one child, not what will happen for yours. Several did not go to plan. We have left them as they were.
+All the stories are anonymised: no names, no school or university names, and ages only where they do not identify the family. Seven school admission stories are told in full, the rest briefly, with a link to the page that tells each one in full. Where a caveat applies, it follows in italics, because a case shows what happened for one child, not what will happen for yours. Several did not go to plan. We have left them as they were.
 
 ## An offer is not yet a place
 
@@ -22,6 +22,8 @@ She is now studying, with that support in place, and we are discussing help with
 
 *Schools can withdraw a place even in July. The university stage of this story is still open.*
 
+The emergency exam and extra time from this story are described on the [A-Level tutors](/tutors/a-level/) page.
+
 ## Two years to reach 13+
 
 A boy in Year 6 at a British school had clear ability, but his English and academic groundwork both needed attention. His parents hoped for a place at one of the most selective boarding schools at 13+.
@@ -31,6 +33,8 @@ We suggested buying him time: two further years, Years 7 and 8, at a strong co-e
 Every one of them offered him a place. He is now at the school his family chose, doing well and happy there.
 
 *The first round of applications ended without a single offer, despite his evident ability.*
+
+This case is also mentioned in the [parents' guide](/resources/parents-guide/).
 
 ## One unfamiliar name on the shortlist
 
@@ -42,6 +46,8 @@ Three offers came from three schools. She chose the one her family had not known
 
 *The shortlist was built for this girl and this family, and it would not suit another child. We quote no exact grades.*
 
+This case is also mentioned on the [private schools](/private-schools/) page.
+
 ## The waiting list
 
 A girl sat entrance exams for Year 9 at several highly selective schools. Two offers arrived, but the school her family had ranked first put her on its waiting list.
@@ -51,6 +57,8 @@ ALBION's advice was to accept one of the confirmed offers rather than build ever
 About ten days before term, one did. The family said yes quickly, having already thought it through, and she has settled well, in lessons and with friends.
 
 *Nobody can predict a waiting list. The family took on a real risk: withdrawing late from the confirmed school could have cost a term's fees.*
+
+This case is also mentioned in the [parents' guide](/resources/parents-guide/) and on the [entrance exams](/private-schools/entrance-exams/) page.
 
 ## A GCSE resit with two weeks to spare
 
@@ -62,6 +70,8 @@ The grades improved markedly. The pupil moved on to A-Levels, did well in the ex
 
 *The route cost a year. With those results, there was no quicker one.*
 
+This case is also mentioned on the [boarding schools](/private-schools/boarding/) and [GCSE tutors](/tutors/gcse/) pages.
+
 ## A sporting profile, and a shortlist that worked
 
 A boy applying to boarding schools at 13+ had a strong sporting profile. We drew up his boarding shortlist. Once he was at school, we suggested taking up a team sport, and he joined a school team.
@@ -69,6 +79,8 @@ A boy applying to boarding schools at 13+ had a strong sporting profile. We drew
 Every school on the list made him an offer, and the family chose one. He later captained the team.
 
 *Not every shortlist ends like this, as the waiting list and the 13+ case above show.*
+
+This case is also mentioned on the [boarding schools](/private-schools/boarding/) page.
 
 ## Year 9 instead of Year 10
 
@@ -79,6 +91,50 @@ We advised against rushed applications. For nearly a year he worked with ALBION 
 The school agreed and offered a place, which gave him an extra year to build a sound foundation.
 
 *He entered a year lower than the family first intended.*
+
+This case is also mentioned on the [entrance exams](/private-schools/entrance-exams/) page.
+
+## More stories, by topic
+
+These stories are told briefly, and the full version is on the page the heading links to.
+
+### Schools
+
+**[When a school says "he cannot cope"](/private-schools/).** A school refused to move the elder of two brothers to A-Level because of his GCSE results. We quickly found a small school with small classes, he resat GCSE maths and English and carried on. *The environment had to change, rather than the place at his old school being fought for.*
+
+**[A refusal as the start of a conversation](/private-schools/).** The youngest child was refused a place at a campus of a British school abroad: his entrance tests were weak. His parents came to a meeting with a plan of summer lessons, and the school reconsidered. *It does not always go this way.*
+
+### Universities and Oxbridge
+
+**[Oxford at any price](/university-admissions/oxbridge/).** A pupil was heading for Oxford to read law without being able to say why, changed subject twice and settled on history. He reached the interview and did not get an Oxford offer, but four Russell Group offers came. *Oxford did not make an offer, and we say so plainly.*
+
+**[Five offers and a turn in August](/university-admissions/).** The applicant's school would not give predicted grades or a reference, so we submitted him as an independent applicant. Five offers came, and in August his firm choice confirmed him after he had settled on his insurance, so the matter was settled through Clearing. *Neither we nor his school had met this situation before.*
+
+**[IB closed overnight](/tutors/ib/).** The IB programme in the student's country was closed overnight, and on the UCAS deadline day her application had to be rebuilt within an hour. Three offers came, two from Russell Group universities. *It also helped that the family already held a two-year British visa.*
+
+**[A transfer to a university near Wall Street](/university-admissions/usa/).** A student at a Californian university who wanted a career in finance transferred to a city college in New York close to Wall Street. Most of the work was months of waiting for answers and documents.
+
+**[A conditional offer with no fallback](/university-admissions/usa/).** The US has no insurance offer as UCAS does, so the maths condition became a risk. We prepared a plan B in advance, and the condition was met.
+
+**[Weak grades are not the end of the road](/university-admissions/usa/).** A graduate with weak grades entered a US state university and later transferred to a strong hospitality university with an honest essay. *Study took a year longer.*
+
+### MBA and executive study
+
+**[Two profiles, one story](/executive-education/mba/oxford-said/).** The head of a fashion brand who was also a non-executive director of a large company was admitted to the one-year Executive Diploma at Saïd when her two profiles were built into one line.
+
+**[The person's story, not the company's](/executive-education/mba/).** An entrepreneur's first drafts were entirely about his business. The application worked once it became the story of the man himself, and he was admitted at the first attempt.
+
+**[All three risks in one application](/executive-education/mba/oxford-executive-mba/).** A candidate with a strong profile had references written for another purpose and too many achievements. The application was simplified, and he was admitted.
+
+### Guardianship
+
+**[A pupil with good grades](/private-schools/guardianship/).** From regular conversations his guardian noticed that a sixth-form college student was struggling despite good grades, and tactfully suggested an assessment to his parents.
+
+**[A girl with "difficult behaviour"](/private-schools/guardianship/).** About 90 reprimands in a year and a half and the threat of exclusion. In the school's records we saw attention difficulties it had missed and secured an independent assessment. She stayed at the school.
+
+**[An accident at the weekend](/private-schools/guardianship/).** An eight-year-old girl lost a permanent tooth at a weekend activity. We coordinated the school, the hospital and the parents, the school's insurance covered treatment up to 18, and the relationship survived.
+
+**[When not everything is in our power](/private-schools/guardianship/).** A capable girl could not settle into a routine or build on her chosen subjects, her parents decided to take her home, and we think that was the right decision. *Not every story ends in victory.*
 
 ## The figures behind the stories
 

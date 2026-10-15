@@ -11,13 +11,11 @@ const OUT = join(ROOT, "src", "generated");
 const warnings = [];
 
 /* Pages that belong to the old IA and are not part of this site (their stories live on topical pages). */
-const EXCLUDE = new Set(["/ru/kejsy/", "/cases/", "/ru/gidy/", "/guides/", "/ru/media/", "/media/", "/ru/", "/"]);
+const EXCLUDE = new Set(["/ru/gidy/", "/guides/", "/ru/media/", "/media/", "/ru/", "/"]);
 /* Links that may point to routes rendered outside the markdown pipeline. */
 const STATIC_OK = new Set(["/ru/", "/", "/ru/anketa/", "/apply/", "/ru/konsultatsiya/", "/consultation/"]);
 /* Links to excluded pages are redirected to their replacements. */
 const LINK_REMAP = {
-  "/ru/kejsy/": "/ru/o-kompanii/rezultaty/",
-  "/cases/": "/about/results/",
   "/ru/gidy/": "/ru/resursy/",
   "/guides/": "/resources/",
   "/ru/media/": "/ru/kontakty/",

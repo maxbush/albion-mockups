@@ -22,6 +22,6 @@ Webinars for parents and applicants and an open day in Oxford are being planned,
 
 Once something is confirmed, the date, topic and registration link will appear on this page.
 
-The [PDF guides](/guides/) and the [blog](/blog/) answer common questions on schools, exams and applications. If a decision cannot wait for a webinar, a consultant can look at your situation now. Families working towards [Oxford and Cambridge](/university-admissions/oxbridge/) run to a fixed calendar, so an early conversation helps.
+The [guides](/resources/) and the [blog](/blog/) answer common questions on schools, exams and applications. If a decision cannot wait for a webinar, a consultant can look at your situation now. Families working towards [Oxford and Cambridge](/university-admissions/oxbridge/) run to a fixed calendar, so an early conversation helps.
 
 [Ask an adviser through the form](/apply/)

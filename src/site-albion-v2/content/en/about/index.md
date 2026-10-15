@@ -42,6 +42,6 @@ Adults heading for executive programmes have a method of their own, which tests 
 
 The mission is to stay with a family through all of it. The relationship can begin early, with a governess or tutor and a preparatory school, and it can end with an adult on an [MBA or executive programme](/executive-education/). In between lie [private schools](/private-schools/), [university admissions](/university-admissions/) including Oxbridge, master's and doctoral study, and [tutoring](/tutors/).
 
-Who does the work is described on the [team page](/team/), and how difficult situations were handled is described on the [results page](/about/results/), with pointers to the full stories.
+Who does the work is described on the [team page](/team/), and how difficult situations were handled is in the [client stories](/cases/).
 
 [Ask the ALBION team a question](/contact/)

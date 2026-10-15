@@ -68,7 +68,7 @@ Entry is competitive, and no school is a safe bet. Across past admissions, 96% o
 
 In one family a child's GCSE results meant that continuing to A-Level at the boarding school was no longer possible, with less than two weeks to the start of the school year. Rather than look only for places straight onto A-Level, we found a small, supportive school offering a one-year GCSE resit programme. The grades rose substantially, the pupil went on to A-Level, did well, and is now finishing university. That is one outcome, not an average, but a poor start is not always a closed door.
 
-Plans can also shift once the first offers are in. A girl applying for Year 9 held two offers, while the school her family had ranked highest offered only a waiting-list place. We advised accepting the confirmed offer and kept in regular touch with the first-choice school. With about ten days to go before term, a place there opened up. The possibility had been discussed in advance, so the family decided quickly, knowing that withdrawing late would cost a term's fees. She has settled well. Other stories are listed on the [results page](/about/results/).
+Plans can also shift once the first offers are in. A girl applying for Year 9 held two offers, while the school her family had ranked highest offered only a waiting-list place. We advised accepting the confirmed offer and kept in regular touch with the first-choice school. With about ten days to go before term, a place there opened up. The possibility had been discussed in advance, so the family decided quickly, knowing that withdrawing late would cost a term's fees. She has settled well. More cases are on the [cases page](/cases/).
 
 ## Questions and answers
 
