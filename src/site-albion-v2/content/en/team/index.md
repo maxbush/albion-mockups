@@ -10,7 +10,7 @@ publish: true
 
 # Our team
 
-Five people run ALBION's work, and each is profiled below with role and qualifications, so you know who may be advising you before the first call. The tutors who teach alongside them are described at the end.
+Five people run ALBION's work, and the leadership team has more than 20 years of professional experience in international education between them. Each is profiled below with role and qualifications, so you know who may be advising you before the first call. The tutors who teach alongside them are described at the end.
 
 ## Anfisa Bashkirova, MSc Oxon
 

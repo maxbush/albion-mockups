@@ -17,7 +17,7 @@ export const SOCIALS = [
 ] as const;
 
 export const REVIEW_LINKS = {
-  google: "https://www.google.com/maps/search/?api=1&query=ALBION+234+Botley+Road+Oxford",
+  google: "https://www.google.com/maps?cid=962086464612808454",
   trustpilot: "https://www.trustpilot.com/review/albion-consult.com",
 } as const;
 
@@ -67,8 +67,7 @@ const P = {
     results: "/about/results/",
     cases: "/about/results/",
     reviews: "/reviews/",
-    media: "/media/",
-    events: "/events/",
+      events: "/events/",
     openDay: "/events/open-day/",
     resources: "/resources/",
     guides: "/resources/",
@@ -120,8 +119,7 @@ const P = {
     results: "/ru/o-kompanii/rezultaty/",
     cases: "/ru/o-kompanii/rezultaty/",
     reviews: "/ru/otzyvy/",
-    media: "/ru/media/",
-    events: "/ru/sobytiya/",
+      events: "/ru/sobytiya/",
     openDay: "/ru/sobytiya/den-otkrytyh-dverey/",
     resources: "/ru/resursy/",
     guides: "/ru/resursy/",
@@ -177,7 +175,6 @@ const NAV: Record<Locale, NavSection[]> = {
             { label: "Team", href: P.en.team, description: "Consultants, tutors and guardians." },
             { label: "Results and figures", href: P.en.results, description: "What the numbers mean and where to read the stories." },
             { label: "Client reviews", href: P.en.reviews, description: "From our public Google profile." },
-            { label: "Media", href: P.en.media, description: "Materials and contacts for the press." },
             { label: "Contact", href: P.en.contact, description: "Office in Oxford, phone, email." },
           ],
         },
@@ -318,7 +315,6 @@ const NAV: Record<Locale, NavSection[]> = {
             { label: "Команда", href: P.ru.team, description: "Консультанты, тьюторы и опекуны." },
             { label: "Цифры и результаты", href: P.ru.results, description: "Что значат цифры и где читать истории." },
             { label: "Отзывы клиентов", href: P.ru.reviews, description: "С публичного профиля Google." },
-            { label: "Медиа", href: P.ru.media, description: "Материалы и контакты для прессы." },
             { label: "Контакт", href: P.ru.contact, description: "Офис в Оксфорде, телефон, почта." },
           ],
         },
