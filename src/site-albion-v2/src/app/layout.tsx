@@ -27,6 +27,9 @@ const interTight = Inter_Tight({
   display: "swap",
 });
 
+// Preview builds (tutor cards shown with test data) are labelled and kept out of search engines.
+const PREVIEW = process.env.NEXT_PUBLIC_TUTORS_PREVIEW === "1";
+
 export const metadata: Metadata = {
   title: {
     default: "ALBION — independent education consultancy in Oxford",
@@ -34,6 +37,7 @@ export const metadata: Metadata = {
   },
   description:
     "ALBION walks international families along the whole British route: school preparation, the British school, GCSE, A-Level or IB, university, master's and MBA.",
+  ...(PREVIEW ? { robots: { index: false, follow: false } } : {}),
 };
 
 export const viewport: Viewport = {
@@ -49,6 +53,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     >
       <body className="bg-ink text-cream antialiased">
         {children}
+        {PREVIEW && (
+          <p className="pointer-events-none fixed bottom-3 left-3 z-[60] max-w-[26rem] border border-brass/60 bg-ink/90 px-3 py-2 text-[12px] leading-snug text-cream/90">
+            Preview of the tutor cards. Four real photos supplied by ALBION and five invented test tutors. Not the live site.
+          </p>
+        )}
         <RevealObserver />
       </body>
     </html>

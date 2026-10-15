@@ -1,0 +1,26 @@
+{
+  "_preview": true,
+  "slug": "adrian-fort",
+  "publish": true,
+  "consent": true,
+  "name": {
+    "en": "Adrian Fort",
+    "ru": "Adrian Fort"
+  },
+  "title": {
+    "en": "Tutor",
+    "ru": "Тьютор"
+  },
+  "subjects": [],
+  "levels": [],
+  "bio": {
+    "en": "Preview card. The photo was sent by ALBION to test how tutor cards look. The biography, subjects and levels will be added once the tutor confirms them. This text is not part of the live site.",
+    "ru": "Карточка для просмотра. Фото прислал ALBION, чтобы проверить, как выглядят карточки тьюторов. Биография, предметы и уровни появятся, когда тьютор их подтвердит. Этот текст не входит в живой сайт."
+  },
+  "photo": {
+    "src": "/images/tutors/tutor-adrian-fort.webp",
+    "focus": "50% 20%",
+    "alt": null
+  },
+  "sort": 1
+}

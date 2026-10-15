@@ -47,3 +47,7 @@ Tutors send their own photos, so the code does not assume they match.
 
 `data/tutors/_fixture/` holds invented tutors with synthetic photos of different shapes. They are used only when
 `TUTORS_FIXTURE=1 npm run build` (local preview). A normal build removes the generated test images, so none of this reaches the published site.
+
+## Preview build
+
+data/tutors/_client/ holds the four photos the client sent for layout review (names and photos only, no invented attributes). They are loaded only with TUTORS_PREVIEW=1 and never in a normal build. The preview is published at /albion-mockups/albion-v2-tutors-preview/ (built with SITE_BASE_PATH=/albion-mockups/albion-v2-tutors-preview TUTORS_FIXTURE=1 TUTORS_PREVIEW=1 NEXT_PUBLIC_TUTORS_PREVIEW=1 npm run build), labelled as a preview and set to noindex.
