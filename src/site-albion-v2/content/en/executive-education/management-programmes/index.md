@@ -36,7 +36,7 @@ One programme means one application that needs its own documents and its own arg
 
 ## What this page leaves out
 
-Programme fees and intake dates are not quoted here. Schools set them and revise them with each intake. A place cannot be promised, because the committee decides.
+Schools set programme fees and intake dates and revise them with each intake, so check them on the school's website. A place cannot be promised, because the committee decides.
 
 The wider approach to senior clients is set out under [executive education](/executive-education/).
 

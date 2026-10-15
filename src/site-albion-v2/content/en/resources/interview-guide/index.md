@@ -12,7 +12,7 @@ publish: true
 
 An interview is the part of admissions where the paperwork stops and a person has to speak. At school, a child should be able to speak naturally about their interests. At Oxford or Cambridge, the candidate must reason through the subject and discuss what is in the application, not recite it. The two conversations are quite different, and so is the preparation.
 
-Interview procedures vary from school to school and change between admissions cycles. We describe what is established and avoid format details that cannot be confirmed here, so check each school's or college's own guidance for your year.
+Interview procedures vary from school to school and change between admissions cycles. Check each school's or college's own guidance for your year.
 
 ## Two conversations, side by side
 

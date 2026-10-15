@@ -71,7 +71,7 @@ The Oxford route for people who keep working is the Executive MBA, taught in mod
 
 ### How much does an Executive MBA cost?
 
-Executive MBA cost differs between schools and programmes and is revised with each intake, so we quote no figure here. The school publishes its own tuition, and its website is the place for a current number. We check it against your shortlist when work begins.
+Executive MBA cost differs between schools and programmes and is revised with each intake. The school publishes its own tuition, and its website is the place for a current number. We check it against your shortlist when work begins.
 
 ### Is there a best Executive MBA in the world?
 

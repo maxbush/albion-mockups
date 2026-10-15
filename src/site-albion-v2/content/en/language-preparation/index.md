@@ -30,7 +30,7 @@ No score or date can be promised. The result depends on the starting level and o
 
 A language school suits a child who needs English good enough to study in a British school, or an adult who wants an environment and not only lessons. Courses can be in a group or one to one. We match the school to age, level, length of stay and budget, and the recommendation follows the family's aim, not a provider's convenience.
 
-School names and fees are not listed here, because they vary with age, season and length of course. We give them after an initial consultation.
+School names and fees vary with age, season and length of course, so we give them after an initial consultation.
 
 Where a child is heading for a British school, English is checked at the very start, since it affects the rest of the plan. If the gap is large, intensive study comes before entrance assessments. The page on [private school admissions](/private-schools/) explains how those fit together.
 

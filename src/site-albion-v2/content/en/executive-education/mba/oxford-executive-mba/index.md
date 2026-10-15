@@ -60,7 +60,7 @@ It depends on the school and the intake. Some programmes treat a test as a possi
 
 ### How much does the Oxford Executive MBA cost?
 
-Tuition is revised by intake, so there is no figure on this page. We verify the current amount at the outset.
+Tuition is revised by intake and published on the school's website. We verify the current amount at the outset.
 
 ### What is the Oxford University EMBA, and who runs it?
 
@@ -72,7 +72,7 @@ An engagement with ALBION covers up to three applications, each with its own ess
 
 ### How much experience do I need?
 
-The school sets length of service and seniority, and we do not quote a figure without checking the current programme page. In a consultation we judge how closely your profile matches the group, and say so if another format looks better.
+The school sets length of service and seniority, and the exact figures are on the current programme page. In a consultation we judge how closely your profile matches the group, and say so if another format looks better.
 
 ### I have not written academic texts for a long time. Will I manage?
 

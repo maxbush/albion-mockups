@@ -14,7 +14,7 @@ publish: true
 
 ## How much weight the numbers can bear
 
-The figures are the company's own, and no outside audit is published on the site. The period behind each percentage and the number of families counted are not stated here. Only the Saïd figure carries a time frame. Treat the rest as a guide, not as admissions statistics.
+The figures are the company's own, without an outside audit. Only the Saïd figure carries a time frame. Treat the rest as a guide, not as admissions statistics.
 
 ## University offers and Oxbridge interviews
 
@@ -36,7 +36,7 @@ ALBION has 150+ tutors across time zones, and together they teach 3,000+ hours a
 
 ## Years in practice and client ratings
 
-ALBION has worked in British education since 2010. That tells you the firm has seen many admissions cycles, not that its approach will suit your child. Its rating on Google is 5.0. Clients write those reviews themselves, and the [reviews page](/reviews/) explains how to read them. How many reviews sit behind the rating is not stated here.
+ALBION has worked in British education since 2010. That tells you the firm has seen many admissions cycles, not that its approach will suit your child. Its rating on Google is 5.0. Clients write those reviews themselves, and the [reviews page](/reviews/) explains how to read them.
 
 ## Where the family stories are
 

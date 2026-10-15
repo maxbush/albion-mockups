@@ -22,7 +22,7 @@ A British summer can be a week of day camp near home, a fortnight on a Cambridge
 | 14–17 | Dukes Cambridge | 2 or 4 weeks | £4,395–4,895 for 2 weeks (2026) |
 | 15–18 | InvestIN | 1–2 weeks, UCL and LSE campuses | £2,150 to £7,250 (2025 materials) |
 
-Prices and dates are taken from provider materials for the season shown and are reconfirmed before the coming summer, so treat the table as a guide to budget rather than a quotation. Flights are not listed among the inclusions.
+Prices and dates are indicative: they come from provider materials for the season shown and are reconfirmed before the coming summer, so treat the table as a guide to budget rather than a quotation. Flights are not listed among the inclusions.
 
 ## Day camps, ages 6 to 12
 
