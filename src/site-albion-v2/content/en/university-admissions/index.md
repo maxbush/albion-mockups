@@ -72,6 +72,10 @@ No adviser can promise an offer, because the admissions panel decides. The recor
 
 ALBION takes no commission from universities, so the course list comes from the student's profile and nothing else. The tutors who prepare students for tests and interviews work alongside the consultant, which keeps the lessons tied to one plan. Admissions for the UK, the US and Europe, and for master's and executive programmes, are overseen by our academic director, William Knox. Other team members are on the [team page](/team/).
 
+## From practice: five offers and a turn in August
+
+The applicant lived abroad, had modest grades and little motivation, but he was sociable and had an entrepreneurial streak. His mother wanted a Russell Group university, and his school refused to give predicted grades or write a reference. We submitted him as an independent applicant: we prepared what a school normally prepares, built the personal statement and prepared him for IELTS. After a summer entrepreneurship course in London he studied harder and took a tutor. Five offers came, one from a Russell Group university. In August he missed the grades for his firm choice and the place passed to his insurance university, but a week later the firm choice confirmed him after all. He wanted the insurance university, so we consulted UCAS, asked it to accept him again (confirmed within five days), declined the firm choice and went through Clearing. He now studies where he wanted to.
+
 ## Questions and answers
 
 ### My child is in the final year and we are only now thinking about applications. Is it too late?

@@ -46,6 +46,10 @@ We do not promise a place. At some programmes in large business schools selectio
 
 If you lead a team and want to study without leaving your post, read about the [Oxford Executive MBA](/executive-education/mba/oxford-executive-mba/). The formats are compared on our [MBA admissions](/executive-education/mba/) page.
 
+## From practice: two profiles, one story
+
+We worked through this on the one-year Executive Diploma at Saïd, which is not an MBA, but the approach is the same. The head of a small fashion brand was also a non-executive director at a very large company in a different industry. She had to apply once, and quickly, because few programmes start in the middle of the academic year. A profile like this is easy to read as "the person does not know what they want", and the director role left a "gap" in the CV, although in practice it is a steady commitment. We built one line around her business: after the pandemic the brand lost a partner, the company's structure and audience changed, so she needed a strong financial strategy. The director role was not hidden, but it took second place. Her English was confirmed through work experience in a foreign company and a degree in which English communication was part of the programme. She was admitted.
+
 ## Questions and answers
 
 ### What is the Oxford MBA cost?

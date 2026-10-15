@@ -34,6 +34,12 @@ Specialists are brought in when needed: educational psychologists, study skills 
 
 Sometimes repeated signs suggest that a pupil may benefit from a specialist assessment. It is then raised carefully with the family and the school, and a support plan follows under professional supervision. Some situations are beyond what a guardian can resolve alone, and the family is told so at once.
 
+## From practice
+
+**A pupil with good grades.** We placed a strong student at a demanding international sixth-form college and became his guardians while his parents were far away. He coped with the programme, but the intensity of study and some aspects of college life were hard for him, and with good grades that is difficult for a school or distant parents to notice. From regular conversations we saw recurring signs and tactfully suggested a professional assessment to his parents. It explained part of the difficulties and gave a basis for choosing support.
+
+**A girl with "difficult behaviour".** She joined a boarding school at 13+ and her guardian was a member of our staff. Over a year to eighteen months she collected about 90 reprimands, the school came to see her as a problem, and it reached a final warning and the threat of exclusion. Preparing for the disciplinary hearing, we asked the school for all its records and saw the pattern: forgetfulness and unfinished tasks in lessons, but excellent concentration in one-to-one sessions with a tutor. We suspected the school had missed an attention difficulty and, with her parents, consulted an education lawyer. We presented the committee with a letter saying so, the school withdrew its accusations, and we secured an independent assessment, not by doctors linked to the school. The assessment confirmed the suspicion and she stayed at the school. The guardian was the child's voice: parents far away do not know the local system and could not have gone through this alone.
+
 ## Questions and answers
 
 ### Do I need a guardian to study in the UK?

@@ -36,6 +36,10 @@ Master's applicants will find the detail on [master's admissions](/university-ad
 
 [Ask about a US application](/apply/)
 
+## From practice: a transfer to a university near Wall Street
+
+A student at a Californian university, whose grades rose every term, wanted to become a trader and transfer to New York. His average was not enough for the university he had hoped for, so we added an option he had not heard of: a city college close to Wall Street with strong links to finance. His first application to the city system went unanswered: in September it said it could not reach a decision and invited him to apply again from 16 October. We applied on the first day, then spent months pushing through the transcript check and the documents for his visa form. He was accepted, lives in New York and says he is happier than he would have been at the first-choice university. Not everything depends on an adviser: universities can be slow, so it helps to have someone who sees it through.
+
 ## Questions and answers
 
 ### Are A-Levels enough for a US application?

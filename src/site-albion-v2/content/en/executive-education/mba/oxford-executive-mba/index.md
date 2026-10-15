@@ -48,6 +48,10 @@ An engagement covers no more than three applications, each treated as a separate
 
 A committee makes the decision, so a place cannot be promised. Entry requirements, dates, length of the programme and tuition are set by the school and revised by intake. We check them against the school's pages when work begins. Our fee grows with the number of applications and the amount of preparation, and we give it after an initial conversation.
 
+## From practice: all three risks in one application
+
+These three risks met in one candidate with strong academic and professional experience whose products work in a real city environment. He applied to Saïd for the Executive Diploma in Global Business, and the committee might have judged it too easy for him and politely suggested the EMBA. He already had references, but written for another purpose: they described projects in detail, while a university needs an academic reference. The preparation fell during a business trip. The task was not to strengthen the application but to simplify it: from a huge body of achievements we picked the main ones, helped rewrite the references in an academic format and built the application around business goals. The interview went brilliantly and he was admitted.
+
 ## Questions and answers
 
 ### Can I do an Executive MBA and keep working?

@@ -86,6 +86,12 @@ Nobody can promise an offer. Each place attracts many strong applicants, and the
 
 If a consultation shows that the profile would not compare well, we say so and suggest building the application around other universities, or returning to Oxbridge later. ALBION earns nothing from where a student applies, so the advice does not depend on the destination. The people who lead this work are introduced on the [team page](/team/).
 
+## From practice: Oxford at any price
+
+A pupil at an English independent school was heading for Oxford to read law, which was his parents' plan. Neither he nor they could say why law, and it turned out to be about future earnings. At an Oxford interview that is a red flag: an applicant who cannot explain the choice of subject will not pass. Economics did not fit his maths. We suggested modern languages because he spoke fluent French, but a few months before applying he realised he was not ready to spend three years learning the language, and the subject changed a second time. We went through the open days again and settled on history, which he really liked, and it showed in the application: strong school essays checked by teachers, high grades and an excellent reference.
+
+He reached the Oxford interview but did not get an offer. He writes well, but in an unfamiliar setting he lacked confidence in spoken answers, and that takes years to build. Offers came instead from four Russell Group universities. The choice was made together after he visited two of them, and he now studies where he felt at home and takes extra modules in law. The lesson is simple: a well-chosen subject matters more than a famous name, and "Oxford, whatever the subject" does not work.
+
 ## Questions and answers
 
 ### Can you apply to Oxford and Cambridge in the same year?
