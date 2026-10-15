@@ -18,7 +18,7 @@ Deadlines, document lists, requirements for school qualifications and the langua
 
 We therefore start with the candidate, not the map: subjects, exam results, languages and the career the degree is meant to serve. Each programme is weighed against the career the student wants.
 
-## What the work covers
+## What the preparation covers
 
 An adviser sets the plan: which countries, which universities and programmes, and in what order the applications are prepared. ALBION then coordinates the written side of each file, including personal essays, motivation letters, academic references and a portfolio where the course asks for one. Tutors from the same company prepare the candidate for entrance tests, programme exams and language certificates (IELTS, DELF, Goethe-Zertifikat).
 

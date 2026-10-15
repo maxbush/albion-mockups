@@ -24,7 +24,7 @@ Our UK guardianship services are limited to a few places. Guardianship, as we ru
 
 There is no fee on this page. Terms are agreed with families whose [boarding school admission](/private-schools/boarding/) or other school placement we are managing. Pupils at day schools can have academic and practical coordination if the family asks for it.
 
-## What the work involves
+## What a guardian does
 
 The guardian is a consultant who has known the pupil since admission: academic and personal profile, goals, how the child has settled. A family therefore does not have to explain the background each time a new question arises.
 

@@ -48,7 +48,7 @@ Published personal statement examples for university entry are useful as an illu
 
 Work shadowing becomes useful material when the applicant can say what it showed them, and a debating society matters when it has trained a skill the course demands. The [admissions tests page](/university-admissions/admissions-tests/) explains how LNAT and UCAT preparation fits alongside the statement.
 
-## How the work runs
+## How we work on the statement
 
 A consultant and a subject mentor work on the statement together. The raw material comes from the applicant: what has been read, what has been done, where there is an opinion of their own. Positioning for the faculty then decides what to bring forward for the courses on the list and what to leave out, which belongs to stage 2 of the programme.
 

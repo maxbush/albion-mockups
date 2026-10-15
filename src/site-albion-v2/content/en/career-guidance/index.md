@@ -26,7 +26,7 @@ A weak combination tends to become apparent late, when little can be done before
 
 A university is a tool, not an end in itself. A well-produced prospectus and a lively student scene are poor reasons to pick a course. We assess each university and each programme by asking who the student will be ten years on, and not just on graduation three or four years from now.
 
-## What the work involves
+## What guidance involves
 
 Guidance starts from the student's present profile: subjects, results and interests. Where a clearer view of academic level is needed, an [academic assessment](/assessment/) is added. We then map how the chosen subjects connect with courses, and what each combination would leave closed.
 

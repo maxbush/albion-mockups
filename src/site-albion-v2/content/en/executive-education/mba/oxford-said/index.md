@@ -28,7 +28,7 @@ Entry requirements, application rounds and tuition are published by Saïd and ch
 
 A typical file contains your education and management record, proof of English, a CV, essays, references and an interview. Some programmes also ask for a GMAT or GRE. Our fee depends on how much preparation is needed, and we quote it after an initial conversation.
 
-## Where the work goes
+## How we handle each part of the file
 
 | Part of the file | The risk | What we do |
 |---|---|---|
