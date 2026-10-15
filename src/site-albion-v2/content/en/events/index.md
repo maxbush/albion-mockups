@@ -10,7 +10,7 @@ publish: true
 
 # Events and webinars
 
-None of ALBION's planned events has a confirmed date yet, and we would rather say so than publish a placeholder. Webinars for parents and applicants and an open day in Oxford are being planned, and the details will be posted on this page once a date is fixed.
+Webinars for parents and applicants and an open day in Oxford are being planned, and the details will be posted on this page once a date is fixed.
 
 ## What is planned
 
