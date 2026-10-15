@@ -334,7 +334,7 @@ const NAV: Record<Locale, NavSection[]> = {
             { label: "Академическая оценка", href: P.ru.assessment, description: "Где ребёнок сейчас и какой путь реалистичен." },
             { label: "APT", href: P.ru.apt, description: "Academic Profiling Test: стандартный возрастной балл." },
             { label: "Школы-пансионы", href: P.ru.boarding, description: "Подбор и поступление под ключ." },
-            { label: "Дневные школы", href: P.ru.day, description: "Для семей, которые живут в UK или переезжают." },
+            { label: "Дневные школы", href: P.ru.day, description: "Для тех, кто живёт в UK или переезжает." },
             { label: "Опекунство", href: P.ru.guardianship, description: "Опека по стандарту AEGIS." },
             { label: "Карьерное ориентирование", href: P.ru.career, description: "Интересы и предметы до выбора." },
           ],

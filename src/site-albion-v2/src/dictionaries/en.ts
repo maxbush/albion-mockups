@@ -478,7 +478,7 @@ export const en: Dictionary = {
     seeRoute: "See the whole route",
     sectionDetails: "Section details",
     sectionHint: "section content in preparation",
-    discuss: "We can discuss {item} in the context of your family",
+    discuss: "Let's talk through your situation",
     moreIn: "More in {section}",
     readMore: "In this section",
     openDay: {
@@ -509,7 +509,7 @@ export const en: Dictionary = {
 
   consultCta: {
     label: "Consultation",
-    title: "Let's discuss your family's route",
+    title: "Let's discuss your route",
     lead: "A first consultation to see where the child is now and which next step is the right one.",
     cta: "Book a consultation",
   },
