@@ -55,6 +55,10 @@ The mix depends on the programme. A typical file includes:
 
 Our team prepares every document, and you approve each one. How the team is organised is described under [executive education](/executive-education/). If you are comparing several kinds of programme, the page on [management programmes](/executive-education/management-programmes/) explains how masters, diplomas and short courses differ from the MBA.
 
+## From practice: the person's story, not the company's
+
+An entrepreneur in AI marketing applied to the one-year Executive Diploma at Saïd. It is not an MBA, but the mistake adult applicants make is the same. His first drafts were entirely about his business, while a committee wants to know how the person will grow and what the programme will give him personally. The subject was dry, hard to show the human side through, and he had no certificate at the required English level. After two or three weeks of conversation it emerged that he made up stories for his children, had worked in the film industry and held a black belt in martial arts. We built the application as the story of someone who had always told stories: in film, in bedtime tales, now in business. The black belt was woven into the same line. For English we prepared a reasoned request for a waiver of the language requirement, and it was approved. He was admitted at the first attempt, with the documents submitted about two weeks before the deadline.
+
 ## Questions and answers
 
 ### What is the difference between an Executive MBA and a full-time MBA?

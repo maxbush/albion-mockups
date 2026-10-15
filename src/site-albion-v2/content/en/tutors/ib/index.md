@@ -60,6 +60,10 @@ Lessons are online and fitted around the student's school day, wherever the fami
 
 Tutor levels and hourly rates are on the [tutors overview](/tutors/), and the [prices page](/prices/) covers the rest. The number of hours depends on subject, level and the size of the task. The first step is an [academic assessment](/assessment/), which shows where the student stands and how much work is needed. Without it, any estimate would be a guess. For May exams, an intensive block in the school holidays is often practical: see our [revision courses](/tutors/revision-courses/).
 
+## From practice: IB closed overnight
+
+In August before her final year, the IB programme in the student's country was closed overnight, in all schools at once, and her school moved the pupils to A-level. For two weeks there was panic. IB and A-level differ greatly in content: economics, which had gone well, suddenly became hard. We brought in a tutor and, alongside, ran the admissions advice: we chose courses and sent her on a weekend marketing course to strengthen her profile. She had no GCSE maths grade at all, and resitting without preparation made no sense. Sitting A-level at home was no longer possible, but the family already held a two-year British visa obtained in advance "just in case". On the UCAS deadline day the school's UCAS coordinator returned her application for a correction because of a typo in an exam number, and disappeared. An hour before the deadline we rebuilt the application and submitted her as an independent applicant: we moved everything into a new account and wrote the section a school normally completes, explaining the closure of IB and the missing maths grade. We made it just in time, and she then registered as a private candidate for exams at a college in Oxford. Three offers came, two of them from Russell Group universities. Two courses fell through because of maths, and one university first replied that it would not take her without maths and then offered sociology, which turned out closer to her interests. She chose it.
+
 ## Questions and answers
 
 ### Should my child take IB or A-Level?

@@ -40,6 +40,14 @@ Master's applicants will find the detail on [master's admissions](/university-ad
 
 A student at a Californian university, whose grades rose every term, wanted to become a trader and transfer to New York. His average was not enough for the university he had hoped for, so we added an option he had not heard of: a city college close to Wall Street with strong links to finance. His first application to the city system went unanswered: in September it said it could not reach a decision and invited him to apply again from 16 October. We applied on the first day, then spent months pushing through the transcript check and the documents for his visa form. He was accepted, lives in New York and says he is happier than he would have been at the first-choice university. Not everything depends on an adviser: universities can be slow, so it helps to have someone who sees it through.
 
+## From practice: a conditional offer with no fallback
+
+A pupil who at 13 was called a future professor lost interest in study by A-level, and people worried about him. He wanted the US, like his elder brother. We applied to several universities and bet on a campus of a state university system: not the strongest, but one standard of quality with the flagship. The offer was conditional: maths no lower than B, while C or even D was expected. The US has no insurance choice as UCAS does: by August you must accept one offer, and if the condition is not met only an expensive last-chance private university remains. We kept in touch with the university and prepared a plan B in advance. The results came, he met the condition, and when something went wrong on the maths and English placement tests we helped him through an extra module. He now earns B, A- and A, improving every term.
+
+## From practice: weak grades are not the end of the road
+
+A graduate of a British school with an academically weak profile wanted a US university, knowing his A-level results would be weak. Among several offers we chose a state university, to start from a base and think about a transfer later. In the essay we told openly how he had failed GCSE and what he had learned, and the university replied with a warm letter. The offer came before the A-level results. There he chose event management and found his place. His first attempt to transfer to a strong hospitality university after the first year ended in refusal: his average was very low. We applied again after the second year, at the end of the window, replacing the academic gap with personal qualities: a CV with event organisation and work with children, and an essay in the American style, which does not prove preparation but captures the reader. He was accepted, and the university wrote that it was impressed by his letter. He had to make up some courses and study took a year longer, but he is now finishing the programme and looking for work.
+
 ## Questions and answers
 
 ### Are A-Levels enough for a US application?
