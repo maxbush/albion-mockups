@@ -38,7 +38,7 @@ That is why the work starts with the academic profile: subject combination, exam
 
 The point of entry decides what can still be changed. Two to four years out, a family controls subject choice, reading, competitions and essay contests. A year out, the statement, tests and course list are what remain. With a few months to go, subjects are fixed and predicted grades exist, so the work narrows to the application and interview practice.
 
-The full programme is designed for families who begin early, since it runs the whole campaign through to the decision on offers. Those who arrive later can buy individual stages.
+The full programme is designed for families who begin early, since it runs the whole campaign through to the decision on offers. Those who arrive later can take individual stages.
 
 ## What the programme includes and what it costs
 

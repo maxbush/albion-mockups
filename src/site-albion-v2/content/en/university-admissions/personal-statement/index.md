@@ -20,7 +20,7 @@ The same few weaknesses turn up again and again. A life story told in order, whe
 
 ## UCAS personal statement questions and length
 
-For entry from 2026 onwards, UCAS replaced the single free-form text with three questions. They ask why you want to study the course or subject, how your qualifications and studies have prepared you for it, and what else you have done outside education and why those experiences are useful. According to UCAS for 2026 entry onwards, which covers the 2027 cycle, the total is 4,000 characters including spaces, with at least 350 characters for each answer. How the space is divided is up to the applicant, and admissions staff read the three answers as one text, so evidence should not be repeated.
+For entry from 2026 onwards, UCAS replaced the single free-form text with three questions. They ask why you want to study the course or subject, how your qualifications and studies have prepared you for it, and what else you have done outside education and why those experiences are useful. For the 2027 cycle, UCAS sets a total of 4,000 characters including spaces, with at least 350 characters for each answer. How the space is divided is up to the applicant, and admissions staff read the three answers as one text, so evidence should not be repeated.
 
 The limit is set in characters, not words, so any figure in words is only an estimate: the counter in the UCAS form decides. Guidance written for earlier years may describe a different format, which is why the consultant checks the requirements for your year of entry before the first draft. The rest of the application, including deadlines and the reference, is covered on the [UCAS application support page](/university-admissions/ucas/).
 
@@ -60,7 +60,7 @@ The voice belongs to the student, and an adult's prose reads differently to a tu
 
 Material for a statement builds up long before submission: reading, olympiads, essay contests, experience in the field. With only a few months left, the work proceeds from what already exists, because interest cannot be grown in a short time, only shown better.
 
-There is no separate "statement only" fee. Work on the statement sits in stage 3, Application preparation (£2,500; £3,000 on the Oxbridge track), and draws on stages 1 and 2. Families who join later can buy stage 3 alone, but the starting point is always a consultation with a written report, at £350 or £500 for Oxbridge. The full programme costs £6,000, or £9,500 for Oxbridge. The [admissions overview](/university-admissions/) sets out each stage, the [prices page](/prices/) gathers the rates, and the extra steps for Oxford and Cambridge are described in the [Oxbridge section](/university-admissions/oxbridge/).
+There is no separate "statement only" fee. Work on the statement sits in stage 3, Application preparation (£2,500; £3,000 on the Oxbridge track), and draws on stages 1 and 2. Families who join later can take stage 3 alone, but the starting point is always a consultation with a written report, at £350 or £500 for Oxbridge. The full programme costs £6,000, or £9,500 for Oxbridge. The [admissions overview](/university-admissions/) sets out each stage, the [prices page](/prices/) gathers the rates, and the extra steps for Oxford and Cambridge are described in the [Oxbridge section](/university-admissions/oxbridge/).
 
 ## Questions and answers
 

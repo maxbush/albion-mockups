@@ -4,7 +4,7 @@ url_pair: /ru/kejsy/
 lang: en
 page_type: trust
 title: UK School Admission Case Studies & Results | ALBION Oxford
-description: Seven anonymised UK school admission cases: waiting lists, 13+, Year 10, a GCSE resit and A-level at 18+. ALBION results, with caveats on each one.
+description: Seven anonymised UK school admission cases: waiting lists, 13+, Year 10, a GCSE resit and A-Level at 18+. ALBION results, with caveats on each one.
 publish: true
 ---
 
@@ -14,9 +14,9 @@ All seven cases are school admissions, and all are anonymised: no names, no scho
 
 ## An offer is not yet a place
 
-A young woman from abroad, aged 18, was applying for A-levels, and few schools accept students over 18. ALBION prepared her for IELTS (the school took her further). She wrote the entrance tests well and held two offers. In July, with her visa in progress, the school she had chosen said that after an inspection it could not take her.
+A young woman from abroad, aged 18, was applying for A-Levels, and few schools accept students over 18. ALBION prepared her for IELTS (the school took her further). She wrote the entrance tests well and held two offers. In July, with her visa in progress, the school she had chosen said that after an inspection it could not take her.
 
-The team rebuilt the placement. A specialist assessment was needed, which meant persuading the student herself: at 18, it cannot go ahead without her consent. The team handled the paperwork and the correspondence with the school, and the assessment led to support in her exams. She was also entered for an additional A-level in Russian, with a tutor.
+The team rebuilt the placement. A specialist assessment was needed, which meant persuading the student herself: at 18, it cannot go ahead without her consent. The team handled the paperwork and the correspondence with the school, and the assessment led to support in her exams. She was also entered for an additional A-Level in Russian, with a tutor.
 
 She is now studying, with that support in place, and we are discussing help with her university applications.
 
@@ -38,7 +38,7 @@ A very able girl at an international school, with her family abroad, was moving 
 
 After assessing her level, ALBION built a shortlist of selective schools. Next to the familiar names it included an academically very strong school that few foreign families have heard of. The family visited every school on the list and liked this one best. She sat entrance exams at three.
 
-Three offers came from three schools. She chose the one her family had not known about, and sat her GCSEs and A-levels there and finished with excellent results.
+Three offers came from three schools. She chose the one her family had not known about, and sat her GCSEs and A-Levels there and finished with excellent results.
 
 *The shortlist was built for this girl and this family, and it would not suit another child. We quote no exact grades.*
 
@@ -54,11 +54,11 @@ About ten days before term, one did. The family said yes quickly, having already
 
 ## A GCSE resit with two weeks to spare
 
-A pupil at a British boarding school planned to stay on for A-levels, but their GCSE results ruled that out, and term began in less than two weeks.
+A pupil at a British boarding school planned to stay on for A-Levels, but their GCSE results ruled that out, and term began in less than two weeks.
 
-With those grades, a place straight onto A-levels was effectively closed. The team looked elsewhere and found a small, supportive school with a one-year GCSE resit programme, where each pupil gets real attention.
+With those grades, a place straight onto A-Levels was effectively closed. The team looked elsewhere and found a small, supportive school with a one-year GCSE resit programme, where each pupil gets real attention.
 
-The grades improved markedly. The pupil moved on to A-levels, did well in the exams and is now finishing university.
+The grades improved markedly. The pupil moved on to A-Levels, did well in the exams and is now finishing university.
 
 *The route cost a year. With those results, there was no quicker one.*
 

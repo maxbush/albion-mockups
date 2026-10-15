@@ -35,9 +35,9 @@ The fees are a working figure, and the school gives the exact amount. Day school
 
 ## How to prepare
 
-There is no single set of tests, so the first step is to draw up a list of schools and find out what each one requires. For a child who is not at a British school, English is checked first: if the language does not let the child follow the tasks freely, the result will fall below the real level. An [academic assessment](/assessment/) checks English first as well.
+There is no single set of tests, so the first step is to draw up a list of schools and find out what each one requires. For a child who is not at a British school, English is checked first: if the child cannot yet follow the tasks comfortably in English, the result will understate their real level. An [academic assessment](/assessment/) checks English first as well.
 
-The Pre-Test and CAT4 cannot be learned like a syllabus, but the format can be got used to. ISEB publishes materials for families openly, so a family can practise without a tutor. A tutor is needed where mock results show a specific weakness: reading the question, speed, logic sequences.
+The Pre-Test and CAT4 cannot be learned like a syllabus, but a child can get used to the format. ISEB publishes materials for families openly, so a family can practise without a tutor. A tutor is needed where mock results show a specific weakness: reading the question, speed, logic sequences.
 
 ## Three common mistakes
 

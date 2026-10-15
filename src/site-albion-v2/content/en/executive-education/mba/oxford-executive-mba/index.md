@@ -24,7 +24,7 @@ The risks differ from those of a candidate with five years behind them. A profil
 
 References are the third trap: the school needs a letter that explains why this person will be a strong member of the group. The fourth is time. A senior person has little of it, so the calendar is planned to limit your part to approvals and a few short working sessions.
 
-## Choosing the format
+## Which format suits whom
 
 The decision turns on the time you can give. Not every long programme fits a working diary, and the formats differ in selection logic as well as length.
 

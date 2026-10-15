@@ -30,4 +30,4 @@ If you want a place assured in advance, we cannot help, because the decision alw
 
 A consultant reads every form personally. If the brief is one we can take on, you will be invited to an initial consultation to look at the profile and the possible routes. If another format or another adviser would suit you better, we will say so.
 
-Not ready yet? Read the [results and stories page](/about/results/) or use the [contact page](/contact/).
+If you are not ready yet, read the [case studies](/cases/) or use the [contact page](/contact/).

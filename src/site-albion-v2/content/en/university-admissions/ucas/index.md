@@ -25,7 +25,7 @@ These are the UCAS dates for the 2027 cycle, checked against UCAS on 12 October 
 | 30 June 2027 | Last date for applications to be sent to universities; later ones go into Clearing |
 | 23 September 2027 | Final date for 2027 entry applications |
 
-The October date for 2027 entry is 15 October 2026. If it has passed, or only hours remain, the second question below covers what to do.
+If the October date has passed, or only hours remain, the second question below covers what to do.
 
 "Equal consideration" means that a complete application, reference included, which arrives by the date is read on the same terms as every other one. A choice with an October date can be combined with choices that have a January date, because the later ones may be added afterwards, up to five in total.
 

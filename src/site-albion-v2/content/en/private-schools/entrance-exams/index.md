@@ -34,7 +34,7 @@ A child at a British prep school usually follows the route in the table. One at 
 
 UKiset is an adaptive test for international students applying to British schools, developed with Cambridge University Press & Assessment. Most candidates sit the UKiset test online under remote invigilation. It measures academic potential and English against British pupils of the same age. Schools tend to read the UKiset score as a profile before the rest of the file, not as a pass or fail mark.
 
-One set of UKiset results can go to several schools in the UKiset network. Schools that use UKiset are a growing group, though not every school does, so we check your list before anyone registers.
+One set of results can go to several schools in the UKiset network. That network is growing, though not every school belongs to it, so we check your list before anyone registers.
 
 ## What the other tests involve
 
@@ -46,7 +46,7 @@ ISEB publishes preparation material for families, so ISEB Pre-Test preparation c
 
 ### CAT4, CEM Select and Quest
 
-The CAT4 test measures verbal, non-verbal, quantitative and spatial reasoning. Schools use it at 11+ and 13+, and after entry to place children in sets. The CEM Select and Quest admissions tests are requested by individual schools, so the school confirms which applies. None of these can be learned like a syllabus, but the format can be met in advance.
+The CAT4 test measures verbal, non-verbal, quantitative and spatial reasoning. Schools use it at 11+ and 13+, and after entry to place children in sets. The CEM Select and Quest admissions tests are requested by individual schools, so the school confirms which applies. None of these can be learned like a syllabus, but a child can get used to the format in advance.
 
 ### Common Entrance and CASE
 
@@ -82,7 +82,7 @@ The level is agreed with you, and the number of hours depends on what the assess
 
 ## When the plan has to change
 
-Sometimes about six months remain, or key deadlines have passed. The schools most in demand settle their lists long before entry, and that window does not reopen. What remains is schools with later intakes, stronger English and a different entry point.
+Sometimes about six months remain, or key deadlines have passed. The schools most in demand settle their lists long before entry, and that window does not reopen. What remains: schools with later intakes, time to strengthen English, or a different entry point.
 
 One boy, then in Year 6 of a British school, came to us with Year 9 entry to a well-known boarding school in mind. His ability was not in doubt, but his English and schoolwork needed time, so we suggested two further years at a co-educational boarding prep school. The applications to the most selective senior schools, which we backed while being frank about the odds, brought no offers. We then approached other selective schools, some after their usual deadlines. Each made an offer, and he now attends the school his family chose.
 

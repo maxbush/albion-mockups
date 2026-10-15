@@ -16,7 +16,7 @@ Our co-founder, Anfisa Bashkirova, took her MSc in Major Programme Management at
 
 ## What the committee is looking for
 
-Two risks run through our adult cases. One file reads as a company report with the person missing. Another carries an unusual career that nobody has explained, so it looks like a candidate who does not know what he wants. Both are problems of presentation, and both can be fixed before submission.
+Two risks run through our adult cases. One file reads as a company report with the person missing. Another carries an unusual career that nobody has explained, so it reads as if the candidate does not know what they want. Both are problems of presentation, and both can be fixed before submission.
 
 Anfisa's experience shapes how we judge the fit between a profile and a programme: management level, scale of responsibility and the purpose the degree is meant to serve. That judgement comes first, ahead of any drafting. Sometimes it ends with a recommendation to look at another school, and we would rather say so before the essays are written than after.
 
@@ -38,7 +38,7 @@ A typical file contains your education and management record, proof of English, 
 | GMAT or GRE | Required on some programmes only | Plan time with university-level mathematics and English teachers where a test is needed |
 | Interview | A worry about the file can surface in person | Rehearse the likely questions on the facts of your file |
 
-We also track deadlines and make sure the pack reads as a single argument. If several programmes are in play, each needs its own materials, and the [executive education](/executive-education/) page explains how they are counted. The method is the same for the MBA and for other Saïd programmes, and the [figures and stories](/about/results/) are set out separately.
+We also track deadlines and make sure the pack reads as a single argument. If several programmes are in play, each needs its own materials, and the [executive education](/executive-education/) page explains how they are counted. The method is the same for the MBA and for other Saïd programmes. [The stories of our families and candidates](/cases/) are collected separately.
 
 ## What we do not do
 

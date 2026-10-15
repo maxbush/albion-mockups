@@ -20,7 +20,7 @@ The people behind this are introduced on the [team page](/team/), and figures fo
 
 ## The four groups and the short formats
 
-**Masters.** Management master's degrees for specialists moving into management or changing field. Committees look at academic expectations and at how the personal statement is built. For the general picture, see [master's admissions](/university-admissions/masters/).
+**Masters.** Management master's degrees for specialists moving into management or changing field. Committees look at whether the applicant meets the programme's academic expectations and at how the personal statement is built. For the general picture, see [master's admissions](/university-admissions/masters/).
 
 **MBA.** Full-time or accelerated. The choice rests on whether you can take a career break and how much experience you already have. The formats are compared on our page about [MBA admissions](/executive-education/mba/).
 

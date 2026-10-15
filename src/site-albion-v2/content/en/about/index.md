@@ -14,7 +14,7 @@ ALBION is an Oxford consultancy that has advised families on British schools and
 
 ## Working from Oxford
 
-Oxford is a city where academic tradition is part of ordinary life and scientific breakthroughs sit alongside eccentric student customs. That setting shapes the firm's habits: decisions are considered, processes are systematic, and education is treated as a long project that deserves real investment. The team visits schools, boarding houses and universities across the UK, so what it says about a school comes from recent first-hand knowledge.
+Oxford is a city where academic tradition is part of ordinary life and scientific breakthroughs sit alongside eccentric student customs. That setting shapes the firm's habits: decisions are considered, and education is treated as a long project that deserves real investment. The team visits schools, boarding houses and universities across the UK, so what it says about a school comes from recent first-hand knowledge.
 
 ## A shared language
 

@@ -61,7 +61,7 @@ We worked out the offers and admissions for the rest of the world by subtracting
 
 ## The grades of those who are admitted
 
-Oxford states that its minimum standard offer for A-level candidates is three A grades, and that many courses, particularly in the sciences, require at least one A*. A*AA or better was achieved by 54.1% of applicants and 85.6% of admitted students, and 45.5% of those admitted had three A* grades or better. Grades are necessary but not sufficient: more than half of applicants already held A*AA, and roughly one in seven was admitted.
+Oxford states that its minimum standard offer for A-Level candidates is three A grades, and that many courses, particularly in the sciences, require at least one A*. A*AA or better was achieved by 54.1% of applicants and 85.6% of admitted students, and 45.5% of those admitted had three A* grades or better. Grades are necessary but not sufficient: more than half of applicants already held A*AA, and roughly one in seven was admitted.
 
 ## What the rate does not tell you
 
