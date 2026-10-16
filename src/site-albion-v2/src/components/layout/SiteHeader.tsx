@@ -127,7 +127,6 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
       <div className={styles.bar}>
         <Link href={homePath} className={styles.brand} aria-label={t.brandAria} onClick={closeAll}>
           <span className={styles.brandWord}>ALBION</span>
-          <span className={styles.brandSub}>Oxford</span>
         </Link>
 
         <nav

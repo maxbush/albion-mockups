@@ -49,14 +49,6 @@
   margin-right: -0.32em;
 }
 
-.brandSub {
-  margin-top: 6px;
-  font: 500 11px/1 var(--font-sans);
-  letter-spacing: 0.44em;
-  text-transform: uppercase;
-  color: rgba(240, 235, 221, 0.7);
-}
-
 /* ── Desktop navigation ── */
 .nav {
   display: none;
