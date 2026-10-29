@@ -233,5 +233,11 @@ for (const p of pages) {
 pages.sort((a, b) => a.url.localeCompare(b.url));
 mkdirSync(OUT, { recursive: true });
 writeFileSync(join(OUT, "pages.json"), JSON.stringify({ pages }, null, 0));
+// The language switch in the (client-side) header only needs "which page is the translation of this one".
+// It used to import the whole pages.json (about 1 MB of article text) into the browser bundle of every page.
+writeFileSync(
+  join(OUT, "pairs.json"),
+  JSON.stringify(Object.fromEntries(pages.map((p) => [p.url, [p.lang, p.pair]]))),
+);
 console.log(`content: ${pages.length} pages (${pages.filter((p) => p.lang === "ru").length} ru, ${pages.filter((p) => p.lang === "en").length} en)`);
 if (warnings.length) console.log("warnings:\n  " + warnings.join("\n  "));

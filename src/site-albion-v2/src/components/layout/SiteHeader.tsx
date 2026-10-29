@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState, type FocusEvent } from "react";
 import { getDictionary, locales, type Locale } from "@/lib/i18n";
 import { getNav, path } from "@/lib/site";
-import { pageByUrl } from "@/lib/content";
+import { pairOf } from "@/lib/pairs";
 import styles from "./SiteHeader.module.css";
 
 export default function SiteHeader({ lang }: { lang: Locale }) {
@@ -26,7 +26,7 @@ export default function SiteHeader({ lang }: { lang: Locale }) {
   const ctaHref = normalized === homePath.replace(/\/$/, "") ? "#consultation" : path(lang, "apply");
   const pairUrl = (l: Locale) => {
     const here = normalized + "/";
-    const page = pageByUrl(here);
+    const page = pairOf(here);
     if (page?.pair) return l === page.lang ? page.url : page.pair;
     return l === "ru" ? "/ru/" : "/";
   };
